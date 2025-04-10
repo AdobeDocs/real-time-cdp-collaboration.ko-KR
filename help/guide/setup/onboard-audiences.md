@@ -91,15 +91,15 @@ ht-degree: 2%
 
 마케팅 작업을 사용하여 Experience Platform에서 Real-Time CDP Collaboration으로 가져올 대상 데이터를 제어합니다. **데이터 Collaboration** 마케팅 액션은 C4, C5 및 C9 데이터 사용 레이블을 지원합니다. **데이터 과학** 마케팅 액션은 C9 데이터 사용 레이블을 지원합니다.
 
-[C4, C5 및 C9 데이터 사용 레이블](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract)에 대해 자세히 알아보십시오.
+[C4, C5 및 C9 데이터 사용 레이블](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}에 대해 자세히 알아보십시오.
 
 * 확인란 *enabled*&#x200B;을(를) 사용하면 Experience Platform에서 위에서 호출한 레이블로 표시된 데이터는 제외되며 *not* Real-Time CDP Collaboration으로 가져옵니다.
 * *사용 안 함* 확인란을 사용하면 Real-Time CDP Collaboration으로 가져올 수 있는 Experience Platform 데이터에 대한 제한이 없습니다.
 
 Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세히 알아보십시오.
 
-* [데이터 사용 레이블 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview)
-* [데이터 사용 레이블 용어집](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference)
+* [데이터 사용 레이블 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [데이터 사용 레이블 용어집](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![데이터 공동 작업에 필요한 마케팅 작업입니다.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -337,7 +337,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 >[!IMPORTANT]
 >
->액세스 상태(공개, 비공개 또는 사용자 지정)에 관계없이, 대상 검색 겹침 분석 보기에서 대상의 모집단은 **[!UICONTROL 모든 대상]** 모집단에 기여합니다. <br> ![대상 검색 중복 분석의 시스템 생성 **모든 대상** 대상에 모든 연결 액세스 상태(공용, 개인, 사용자 지정)의 대상이 포함됩니다.](/help/assets/setup/add-manage-audiences/all-audiences-view.png "**Audience Discovery** 중복 분석의 시스템 생성 **모든 대상** 대상에는 모든 연결 액세스 상태(공용, 개인, 사용자 지정)의 대상이 포함됩니다.")
+>액세스 상태(공개, 비공개 또는 사용자 지정)에 관계없이, 대상 검색 겹침 분석 보기에서 대상의 모집단은 **[!UICONTROL 모든 대상]** 모집단에 기여합니다. <br> ![대상 검색 중복 분석의 시스템 생성 **모든 대상** 대상에 모든 연결 액세스 상태(공용, 개인, 사용자 지정)의 대상이 포함됩니다.](/help/assets/setup/add-manage-audiences/all-audiences-view.png "**Audience Discovery** 중복 분석의 시스템 생성 **모든 대상** 대상에는 모든 연결 액세스 상태(공용, 개인, 사용자 지정)의 대상이 포함됩니다."){width="100" zoomable="yes"}
 
 공동 작업자가 있는 프로젝트에서 사용할 수 있는 대상 가용성은 연결 액세스 설정에 따라 다릅니다. 연결 액세스를 항상 비공개에서 공개로 변경할 수 있지만, 대상이 공동 작업자와 공유되면 해당 설정을 다시 변경할 수는 없습니다.
 

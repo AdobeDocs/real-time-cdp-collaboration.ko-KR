@@ -26,14 +26,14 @@ Real-Time CDP Collaboration의 사용 가능한 보고서에 대해 알아보고
 Real-Time CDP Collaboration에서 측정 보고서에 액세스하려면 먼저 다음을 수행해야 합니다.
 
 * **캠페인 측정** 사용 사례가 활성화된 원하는 광고주 또는 게시자와 [연결됨](/help/guide/connect/establishing-connections.md) 및 [프로젝트](/help/guide/collaborate/manage-projects.md)에 대한 공동 작업을 시작했습니다.
-* 캠페인을 [실행하고 측정 데이터를](/help/guide/setup/onboard-measurement-data.md) Real-Time CDP Collaboration에 업로드했습니다.
+* 캠페인을 실행하고 [업로드된 측정 데이터](/help/guide/setup/onboard-measurement-data.md)를 Real-Time CDP Collaboration으로 보내십시오.
 
 ## 보고서 보기
 
-측정 탭 에서 사용할 수 있는 보고서를 보려면:
+측정 탭에서 사용할 수 있는 보고서를 보려면 다음과 같이 하십시오.
 
-1. 내 프로젝트&#x200B;]**>**[!UICONTROL  Collaborate ]**로**[!UICONTROL &#x200B;이동합니다.
-2. 원하는 프로젝트에 대해 보기&#x200B;]**선택하십시오**[!UICONTROL .
+1. **[!UICONTROL 공동 작업]** > **[!UICONTROL 내 프로젝트]**(으)로 이동합니다.
+2. 원하는 프로젝트에 대해 **[!UICONTROL 보기]**&#x200B;를 선택하세요.
 3. 프로젝트에서 **[!UICONTROL 측정값]** 탭을 선택합니다.
 
 **[!UICONTROL 전체 보고서 보기]**&#x200B;를 선택하여 아래에서 자세히 설명하는 사용 가능한 다양한 보고서에 액세스합니다.
@@ -46,9 +46,9 @@ Real-Time CDP Collaboration에서 측정 보고서에 액세스하려면 먼저 
 
 **[!UICONTROL 노출 횟수]**: 크리에이티브가 표시된 총 횟수입니다.
 **[!UICONTROL 고유 도달 범위]**: 크리에이티브를 본 개별 ID의 수입니다.
-**[!UICONTROL 총 평균 빈도]**: 도달한 노출 횟수를 고유 ID로 나눈 값입니다. 이 그림은 모든 ID가 크리에이티브 표시되는 빈도를 나타냅니다.
+**[!UICONTROL 총 평균 빈도]**: 고유 ID로 나눈 노출 횟수에 도달했습니다. 이 수치는 모든 ID가 얼마나 자주 크리에이티브에 표시되었는지를 나타냅니다.
 
-![Campaign 요약 보기](/help/assets/collaborate/measure/campaign-summary.png)
+![캠페인 요약 보기](/help/assets/collaborate/measure/campaign-summary.png)
 
 ### 시간 경과에 따른 지표 {#metrics-over-time}
 
@@ -63,15 +63,15 @@ Real-Time CDP Collaboration에서 측정 보고서에 액세스하려면 먼저 
 
 ### 빈도 분포 {#frequency-distribution}
 
-빈도 분포 보기를 사용하여 각 고유 사용자에게 표시된 노출 횟수를 분류할 수 있습니다. 이 보기는 이후 캠페인에서 대상 억제를 시작할 지점을 결정하는 데 도움이 될 수 있습니다. 예를 들어 이미 크리에이티브를 세 번 본 프로필을 표시하지 않을 수 있습니다.
+빈도 분포 보기를 사용하여 각 고유 사용자에게 표시된 노출 횟수를 분류할 수 있습니다. 이 보기는 향후 캠페인에서 대상자 억제를 시작할 시점을 결정하는 데 도움이 될 수 있습니다. 예를 들어 이미 크리에이티브를 세 번 본 프로필을 표시하지 않을 수 있습니다.
 
 ![빈도 분포 보기.](/help/assets/collaborate/measure/frequency-distribution.gif)
 
 ### 차원별 지표 {#metric-by-dimension}
 
-좋아요 노출 횟수, 조회 가능 노출 횟수, 고유 도달 범위, 비용 등과 같은 다양한 지표를 배치 매체의 맥락에서 분석합니다. 어떤 미디어(예: 모바일 스트리밍, CTV 프로그래매틱 등)가 캠페인에 가장 적합한 결과를 도출하는지 분석합니다.
+배치 매체의 컨텍스트에서 노출 횟수, 볼 수 있는 노출 횟수, 고유한 도달 범위, 비용 등과 같은 다양한 지표를 분석합니다. 캠페인에 가장 적합한 결과를 도출하는 미디어(예: 모바일 스트리밍, CTV 프로그래밍 방식 또는 기타)를 분석합니다.
 
-![차원별 지표.](/help/assets/collaborate/measure/metric-by-dimension.png)
+차원별 ![지표.](/help/assets/collaborate/measure/metric-by-dimension.png)
 
 ### 누적 도달 곡선 {#cumulative-reach-curve}
 
@@ -81,12 +81,12 @@ Real-Time CDP Collaboration에서 측정 보고서에 액세스하려면 먼저 
 
 ### 배치별 노출 횟수 {#impressions-by-placement}
 
-크리에이티브 노출 횟수를 유도하는 매체를 파악합니다. 이를 통해 향후 캠페인에 광고 지출을 어디에 투자할지 결정하는 데 도움이 될 수 있습니다.
+어떤 매체가 창의적인 인상을 가져오는지 이해합니다. 이를 통해 향후 캠페인에 광고 지출을 어디에 투자할지 결정하는 데 도움이 될 수 있습니다.
 
-![배치(placement)별 노출 횟수.](/help/assets/collaborate/measure/impressions-by-placement.png)
+배치별 ![노출 횟수.](/help/assets/collaborate/measure/impressions-by-placement.png)
 
 ## 다음 단계
 
-![Discover, 활성화, 측정 광고주용입니다.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
+![광고주를 검색, 활성화, 측정합니다.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
-위 이미지의 순환 정신에 따라 보고서를 보고 얻은 인사이트를 다음 캠페인을 계획하는 데 사용하십시오. 광고주 입장에서는 다른 퍼블리셔를 찾기 위해 돌아가서 다음 캠페인에 대한 다른 잠재 고객을 발견하기 위해 중복을 실행합니다.
+위의 이미지에서 순환성 측면에서 다음 캠페인을 계획할 때 보고서를 보고 얻은 통찰력을 사용하십시오. 광고주는 필요한 경우 뒤로 돌아가서 다른 게시자를 찾고 를 실행하여 다음 캠페인에 대해 다른 대상자를 검색합니다.

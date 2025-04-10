@@ -1,6 +1,6 @@
 ---
 title: 캠페인 측정
-description: Measure the performance of your campaigns across different channels
+description: 다양한 채널에서 캠페인 성과 측정
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true

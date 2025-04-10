@@ -37,7 +37,7 @@ Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용하면 광고
 
 가져올 대상 데이터와 제품의 **[!UICONTROL 연결]** 영역에서 귀하와 연결하려는 광고주에게 검색 가능하고 볼 수 있도록 만들 대상을 결정합니다.
 
-대상을 Real-Time CDP Collaboration으로 가져올 때 대상에 태그를 지정하고 대상을 분류해야 합니다. Real-Time CDP Collaboration은 대상을 분류하는 데 설정된 [IAB 분류](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"}을(를) 따릅니다.
+대상을 Real-Time CDP Collaboration으로 가져올 때 대상에 태그를 지정하고 대상을 분류해야 합니다. Real-Time CDP Collaboration은 대상을 분류할 수 있도록 설정된 [IAB 분류](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"}을(를) 따릅니다.
 
 함께 작업할 광고주를 결정하고 제품 외부의 공동 작업 조건에 대해 논의하기 위해 광고주에게 문의하십시오. 약관에 동의하면 광고주가 귀하와 연결할 공식 연결 초대를 연장할 때까지 기다리십시오. 일반적으로 캠페인에서 귀하와 함께 작업하고자 하는 광고주 브랜드의 보류 중인 연결 요청도 모니터링해야 합니다. 잠재적 공동 작업자가 제안한 연결 설정을 검토하고, 공동 작업을 시작하기 전에 해당 설정에 동의하거나 수정합니다.
 

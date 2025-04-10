@@ -25,7 +25,7 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 소스
 
 >[!IMPORTANT]
 >
->데이터 연결 삭제는 현재 Real-Time CDP Collaboration 사용자 인터페이스에서 지원되지 않습니다. 데이터 연결을 삭제하려면 Adobe 담당자에게 연락하거나 [고객 지원 티켓을 만드십시오](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}.
+>데이터 연결 삭제는 현재 Real-Time CDP Collaboration 사용자 인터페이스에서 지원되지 않습니다. 데이터 연결을 삭제하려면 Adobe 담당자에게 연락하거나 [고객 지원 티켓을 만듭니다](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}.
 
 기존 데이터 연결을 보려면 **[!UICONTROL 설정]** > **[!UICONTROL 내 대상]**(으)로 이동한 다음 **[!UICONTROL 데이터 연결 관리]**&#x200B;를 선택하십시오.
 

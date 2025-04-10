@@ -5,7 +5,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration은 광고주와 게시
 source-git-commit: 56872a2cd91ae040aba51ed5784c86b055f88756
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 21%
 * 개요 {#overview}
    * [사용 사례 및 이점](./use-cases-benefits.md)
    * [전체 워크플로](./end-to-end-workflow.md)
-* 설정 {#setup}
+* {#setup} 설정
    * [설정 섹션 개요](./setup/setup-overview.md)
    * [조직 온보드 및 관리](./setup/onboard-organization.md)
    * [대상자 가져오기 및 관리](./setup/onboard-audiences.md)
@@ -25,11 +25,11 @@ ht-degree: 21%
    * [ID 크로스워크](./setup/identity-crosswalk.md)
    * [측정 데이터 추가 및 관리](./setup/onboard-measurement-data.md)
    * [감사 로그](./setup/audit-logs.md)
-* 게시자 또는 광고주와 연결 {#connect}
+* 게시자 또는 광고주 {#connect}과(와) 연결
    * [출판사 탐색](./connect/discover-publishers.md)
    * [광고주 검색](./connect/discover-advertisers.md)
    * [광고주 또는 게시자와 연결](./connect/establishing-connections.md)
-* 공동 작업 {#collaborate}
+* {#collaborate} 공동 작업
    * [프로젝트 관리](./collaborate/manage-projects.md)
    * [탐색](./collaborate/discover.md)
    * [공유](./collaborate/share.md)

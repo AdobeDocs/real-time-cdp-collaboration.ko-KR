@@ -21,21 +21,21 @@ ht-degree: 3%
 >
 >프로젝트는 일반적으로 단일 캠페인과 연결되어야 합니다.
 
-![모든 프로젝트 보기, 필터링되지 않음](/help/assets/collaborate/manage-view-projects/projects-overview-page.png)
+![모든 프로젝트 보기, 필터링되지 않음](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
 
 필터를 사용하여 아래와 같이 특정 공동 작업자로 시작한 프로젝트만 볼 수 있습니다.
 
-![단일 공동 작업자가 있는 프로젝트의 필터링된 보기입니다.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png)
+![단일 공동 작업자가 있는 프로젝트의 필터링된 보기입니다.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## 프로젝트 만들기 {#create-project}
 
 프로젝트를 만들려면 오른쪽 상단의 더하기 **+** 기호를 선택합니다. 또는 첫 번째 프로젝트인 경우 **[!UICONTROL 공동 작업]** > **[!UICONTROL 내 프로젝트]**(으)로 이동한 다음 **[!UICONTROL 프로젝트 만들기]**&#x200B;를 선택하십시오.
 
-![더하기 기호를 선택하거나 프로젝트를 만들어 새 프로젝트를 설정합니다.](/help/assets/collaborate/manage-view-projects/create-project.png)
+![더하기 기호를 선택하거나 프로젝트를 만들어 새 프로젝트를 설정합니다.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
 그런 다음 프로젝트를 만들 때 사용할 공동 작업자를 선택합니다. 프로젝트에 대해 **[!UICONTROL 프로젝트 이름]** 및 **[!UICONTROL 설명]**&#x200B;을 제공하고, 이미지 헤더를 선택하여 프로젝트를 쉽게 구분하고, 선택을 확인하십시오.
 
-![새 프로젝트를 설정하는 데 필요한 옵션](/help/assets/collaborate/manage-view-projects/create-project-required-info.png)
+![새 프로젝트를 설정하는 데 필요한 옵션](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 
 이제 새 프로젝트와 세부 정보를 볼 수 있습니다.
 
@@ -49,4 +49,4 @@ ht-degree: 3%
 | 대상자 탐색 | 이 사용 사례에서는 [검색](/help/guide/collaborate/discover.md) 섹션 및 사용 가능한 모든 기능에 대한 액세스 권한을 부여합니다. |
 | 대상자 공유 및 활성화 | 이 사용 사례에서는 [공유](/help/guide/collaborate/share.md) 및 [활성화](/help/guide/collaborate/activate.md)(게시자 전용) 섹션과 사용 가능한 모든 기능에 대한 액세스 권한을 부여합니다. |
 
-![사용 가능한 섹션이 강조 표시된 프로젝트 보기입니다.](/help/assets/collaborate/manage-view-projects/project-sections.png)
+![사용 가능한 섹션이 강조 표시된 프로젝트 보기입니다.](/help/assets/collaborate/manage-view-projects/project-sections.png){zoomable="yes"}

@@ -1,6 +1,6 @@
 ---
 title: 대상자 공유
-description: 광고 캠페인을 위해 공동 작업자와 잠재 고객을 공유하는 방법을 알아보십시오.
+description: 광고 캠페인을 위해 대상을 공동 작업자와 공유하는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0fdf0598-89c9-452d-a2e3-ce868df0b9d2
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->공유 **** 작업 영역 은 연결 프로세스](../connect/establishing-connections.md#connection-settings) 중에 대상 공유 및 활성화&#x200B;**사용 사례가 활성화[된 경우에만**&#x200B;사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 프로젝트](./manage-projects.md#project-use-cases) 관리 안내서 를 [참조하십시오.
+>**[!UICONTROL 공유]** 작업 영역은 연결 프로세스 동안 **대상 공유 및 활성화** 사용 사례를 [활성화한 경우](../connect/establishing-connections.md#connection-settings)에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
 
-광고주 입장에서 퍼블리셔가 캠페인을 운영할 수 있도록 퍼블리셔와 잠재고객을 공유하는 방법을 알아보세요. 공동 작업에서 Discover 대상&#x200B;**사용 사례를 활성화**&#x200B;한 경우 먼저 Discover 탭](/help/guide/collaborate/discover.md)에서 중복 보고서를 [실행하여 공유에 가장 적합한 대상을 식별합니다.
+광고주는 캠페인을 실행할 수 있도록 대상을 게시자와 공유하는 방법을 알아봅니다. 공동 작업을 통해 **대상 검색** 사용 사례를 활성화한 경우 [검색 탭](/help/guide/collaborate/discover.md)에서 중복 보고서를 실행하여 공유할 최상의 대상을 식별하십시오.
 
 ## 새 대상 공유
 
-대상 공유를 시작하려면 프로젝트 작업 영역 에서 공유&#x200B;]**탭 으로 이동합니다**[!UICONTROL . 광고주 조직&#x200B;**만**&#x200B;캠페인의 대상을 공유할 수 있습니다. 이 탭에서는 공유 대상을 검토하고 관리할 수 있습니다.
+대상자 공유를 시작하려면 프로젝트 작업 영역의 **[!UICONTROL 공유]** 탭으로 이동합니다. **광고주 조직**&#x200B;만 캠페인에 대한 대상을 공유할 수 있습니다. 이 탭에서는 공유 대상을 검토하고 관리할 수 있습니다.
 
 이전 대상이 공유되지 않은 경우 **더하기 기호(+)** 또는 **[!UICONTROL 대상 공유]** 옵션을 선택하여 대상 공유 프로세스를 시작합니다.
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 ![강조 표시된 일치 키 및 대상 또는 선택기 제외](/help/assets/collaborate/share/match-keys-and-targeting.png)
 
-일치 키&#x200B;]**편집을 선택하여**[!UICONTROL &#x200B;대상자의 ID에 사용해야 하는 일치 키를 나타냅니다. 이러한 옵션은 공동 작업자 간의 연결을 처음 설정할 때 선택한 설정에서 상속됩니다. 이 특정 캠페인에 적용되지 않는 경우 해당 시점에서 선택된 일치 키를 삭제할 수 있지만 이 시점에서 새 일치 키를 추가할 수는 없습니다.
+대상의 ID에 사용할 일치 키를 나타내려면 **[!UICONTROL 일치 키 편집]**&#x200B;을 선택하십시오. 이러한 옵션은 공동 작업자 간의 연결을 처음 설정할 때 선택한 설정에서 상속됩니다. 이 특정 캠페인에 적용되지 않는 경우 해당 시점에서 선택한 일치 키를 제거할 수 있지만, 이 시점에서 새 일치 키를 추가할 수는 없습니다.
 
 ![일치 키를 편집합니다.](/help/assets/collaborate/share/update-match-keys.png)
 
@@ -53,13 +53,13 @@ ht-degree: 1%
 
 ### 대상 새로 고침 빈도 및 간격 설정
 
-마지막으로 대상자 새로 고침을 위해 원하는 빈도 및 날짜 범위를 설정합니다. 현재 지원되는 대상자 새로 고침 **[!UICONTROL 모드는 한 번]** 및 **[!UICONTROL 매일입니다]**.
+마지막으로 대상을 새로 고침할 빈도와 날짜 범위를 설정합니다. 대상 새로 고침에 현재 지원되는 모드는 **[!UICONTROL 한 번]** 및 **[!UICONTROL 일별]**&#x200B;입니다.
 
-한 번&#x200B;]**을 선택하면**[!UICONTROL &#x200B;캠페인 기간 동안 대상자 멤버십 자격이 새로 고쳐지지 않습니다. [일별&#x200B;]**]을 선택하면**[!UICONTROL &#x200B;대상자 멤버십 멤버십이 캠페인 기간 동안 하루에 한 번 새로 고쳐집니다.
+**[!UICONTROL 한 번]**&#x200B;을 선택하면 캠페인 기간 동안 대상 멤버십이 새로 고쳐지지 않습니다. **[!UICONTROL 매일]**&#x200B;을(를) 선택하면 캠페인 기간 동안 대상 멤버십이 하루에 한 번 새로 고쳐집니다.
 
-![빈도 옵션이 강조 표시됩니다.](/help/assets/collaborate/share/audience-refresh-frequency.png)
+![빈도 옵션이 강조 표시되었습니다.](/help/assets/collaborate/share/audience-refresh-frequency.png)
 
-선택 내용이 만족스러우면 공유&#x200B;]**를 선택하여**[!UICONTROL &#x200B;작업 과정 작업을 완료합니다.
+선택 항목이 만족스러우면 **[!UICONTROL 공유]**&#x200B;를 선택하여 워크플로우를 완료합니다.
 
 >[!SUCCESS]
 >
@@ -92,9 +92,9 @@ The banner at the top of the page shows figures across all audience sharing acti
 | 지표 | 설명 |
 |---------|----------|
 | **[!UICONTROL ID 개수]** | 최신 ID 수 평가에 따라 이 대상자에 연결된 모든 ID의 프로필 수를 나타냅니다. 이 숫자는 24시간마다 새로 고쳐집니다. |
-| **[!UICONTROL 중복 ID]** | 이 대상자 구성원 간의 겹치는 ID 수와 공동 작업자의 인벤토리에서 프로필의 총 채우기 수를 나타냅니다. |
-| **[!UICONTROL 일치 키 분류]** | 대상자에 사용된 각 ID의 ID 수를 표시합니다. 예를 들어, 500k 사용자의 총 ID 수는 해시된 이메일 ID에서 키잉된 400k명의 사용자와 모바일 ID ID에서 키잉된 100k명의 사용자로 구성될 수 있습니다. 여기에 설명된 예에서는 동일한 사람이 이메일 및 모바일 ID ID를 사용하여 대상자 목록에 두 번 있을 수 있습니다. |
-| **[!UICONTROL 목표]** | **[!UICONTROL 억제]** 또는 **[!UICONTROL 타겟]**. 대상자 구성원을 캠페인에서 타깃팅할지 제외할지를 나타냅니다. |
+| **[!UICONTROL 중복 ID]** | 이 대상자의 멤버와 공동 작업자 인벤토리에서 프로필의 총 인구 간에 겹치는 ID 수를 나타냅니다. |
+| **[!UICONTROL 키 분류 일치]** | 대상에 사용된 각 ID의 ID 수를 표시합니다. 예를 들어 총 50만 명의 사용자 ID는 해시된 이메일 ID를 키로 사용하는 사용자 40만 명과 모바일 ID를 키로 사용하는 사용자 10만 명으로 구성될 수 있습니다. 여기에 설명된 예에서 동일한 사람은 이메일 및 모바일 ID와 함께 대상에 두 번 표시될 수 있습니다. |
+| **[!UICONTROL 목표]** | **[!UICONTROL 억제]** 또는 **[!UICONTROL 타겟]**. 대상의 구성원을 타겟팅해야 하는지 또는 캠페인에서 제외해야 하는지를 나타냅니다. |
 
 또한 페이지는 **[!UICONTROL 공유 일시 중지]** 및 **[!UICONTROL 대상자 편집]**&#x200B;을 제어할 수 있는 컨트롤을 제공합니다.
 
