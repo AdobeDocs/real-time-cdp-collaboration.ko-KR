@@ -4,9 +4,9 @@ description: Real-Time CDP Collaboration에서 조직의 다양한 측면을 온
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: a93ba1bc2aa043fcc1519ec2e1cc79435175d71c
+source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ Real-Time CDP Collaboration에 조직을 온보딩하고 회사의 다양한 측
 
 ![키 일치 선택 단계입니다.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
-사용할 일치 키를 최대 5개까지 선택하십시오. 나중에 연결을 설정할 때 원하지 않는 일치 키를 제거할 수 있지만 새 일치 키를 추가할 수는 없습니다. 선택한 각 일치 키에 대한 ID 수 임계값(최소 수)을 설정합니다. 최소 개수보다 적은 수의 일치 키는 일부 사용 사례에 대한 ID 분류에 표시되지 않습니다.
+사용할 일치 키를 최대 5개까지 선택하십시오. 나중에 연결을 설정할 때 원하지 않는 일치 키를 제거할 수 있지만 새 일치 키를 추가할 수는 없습니다.
 
 Real-Time CDP Collaboration에서 사용할 수 있는 일치 키는 다음 세 가지 유형일 수 있습니다.
 
