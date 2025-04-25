@@ -318,7 +318,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
 >title="카테고리"
->abstract="대상자에 태그를 지정하면 쉽게 구성, 필터링 및 검색할 수 있습니다. 여러 개의 카테고리로 대상자에 태그를 지정한 다음, 이 카테고리 태그를 사용하여 제품의 다른 영역에서 원하는 대상자를 필터링할 수 있습니다."
+>abstract="대상자에 태그를 지정하면 쉽게 구성, 필터링 및 검색할 수 있습니다. 여러 개의 카테고리로 대상자에 태그를 지정한 다음 이 카테고리 태그를 사용하여 제품의 다른 영역에서 원하는 대상자를 필터링할 수 있습니다."
 
 대상자를 쉽게 구성하고, 필터링하고, 검색할 수 있도록 대상자에 태그를 지정할 수 있습니다. 대상 중복 보고서를 실행할 때 여러 범주가 있는 대상에 태그를 지정한 다음 이러한 범주 태그를 사용하여 [discover](/help/guide/collaborate/discover.md) 제품 영역에서 원하는 대상을 필터링할 수 있습니다.
 
@@ -327,7 +327,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="연결 액세스"
->abstract="<p>대상자는 공개, 비공개, 사용자 정의 등 세 가지 유형으로 나눌 수 있습니다.</p><p> 공동 작업자가 있는 프로젝트에서 사용 가능한지 여부는 연결 액세스 설정에 따라 다릅니다. 연결 액세스를 비공개에서 공개로 언제든지 변경할 수 있지만, 공동 작업자와 대상자를 공유한 후에는 기존 설정을 다시 변경할 수 없습니다.</p>"
+>abstract="<p>대상자는 공개, 비공개, 사용자 정의 등 세 가지 유형으로 나눌 수 있습니다.</p><p> 공동 작업자가 있는 프로젝트에서 사용 가능한지 여부는 연결 액세스 설정에 따라 다릅니다. 연결 액세스를 비공개에서 공개로 언제든지 변경할 수 있지만 공동 작업자와 대상자를 공유한 후에는 기존 설정을 다시 변경할 수 없습니다.</p>"
 
 대상이 귀하에게 비공개여야 하는지 또는 연결에서 사용 가능하고 검색 가능한지 여부를 선택합니다. 사용 가능한 세 가지 옵션은 다음과 같습니다.
 
@@ -339,7 +339,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >
 >액세스 상태(공개, 비공개 또는 사용자 지정)에 관계없이, 대상 검색 겹침 분석 보기에서 대상의 모집단은 **[!UICONTROL 모든 대상]** 모집단에 기여합니다. <br> ![대상 검색 중복 분석의 시스템 생성 **모든 대상** 대상에 모든 연결 액세스 상태(공용, 개인, 사용자 지정)의 대상이 포함됩니다.](/help/assets/setup/add-manage-audiences/all-audiences-view.png "**Audience Discovery** 중복 분석의 시스템 생성 **모든 대상** 대상에는 모든 연결 액세스 상태(공용, 개인, 사용자 지정)의 대상이 포함됩니다."){width="100" zoomable="yes"}
 
-공동 작업자가 있는 프로젝트에서 사용할 수 있는 대상 가용성은 연결 액세스 설정에 따라 다릅니다. 연결 액세스를 비공개에서 공개로 언제든지 변경할 수 있지만, 공동 작업자와 대상자를 공유한 후에는 기존 설정을 다시 변경할 수 없습니다.
+공동 작업자가 있는 프로젝트에서 사용할 수 있는 대상 가용성은 연결 액세스 설정에 따라 다릅니다. 연결 액세스를 비공개에서 공개로 언제든지 변경할 수 있지만 공동 작업자와 대상자를 공유한 후에는 기존 설정을 다시 변경할 수 없습니다.
 
 ### 메타데이터 가시성 {#metadata-visibility}
 
