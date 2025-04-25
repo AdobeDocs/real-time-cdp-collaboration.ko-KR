@@ -7,7 +7,7 @@ exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 1%
+ht-degree: 24%
 
 ---
 
@@ -41,32 +41,32 @@ ht-degree: 1%
 
 위에 언급된 전제 조건이 충족되면 공동 작업자의 대상자와 대상 간의 겹침 탐색 및 비교를 시작할 수 있습니다.
 
-## 대상자 비교 {#compare-audiences}
+## 대상 비교 {#compare-audiences}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_compare_audiences"
->title="대상자 비교"
->abstract="와 공동 작업자의 대상 간에 겹치는 부분을 살펴봅니다. 드롭다운 선택기에서 설정을 조정하여 하나 이상의 대상과 하나 이상의 공동 작업자 대상 간의 중복을 발견할 수 있습니다."
+>title="대상 비교"
+>abstract="본인과 공동 작업자의 대상자 간에 중복되는 대상자를 찾습니다. 드롭다운 선택기에서 설정을 조정하여 본인의 대상자 중 하나 이상과 공동 작업자의 대상자 중 하나 이상 간에 중복되는 대상자를 확인할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
->title="내 ID 수"
->abstract="선택한 대상자에 속하는 선택한 ID를 가진 프로필 수입니다"
+>title="ID의 중요성"
+>abstract="선택한 대상자에 속하며 선택한 ID가 있는 프로필의 수"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="공동 작업자 ID 수"
->abstract="공동 작업자가 선택한 대상자에 속하는 선택한 ID를 가진 프로필 수입니다"
+>abstract="공동 작업자가 선택한 대상자에 속하며 선택한 ID가 있는 프로필의 수"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
->title="중복 ID 수"
->abstract="선택한 ID가 있고 사용자와 공동 작업자의 대상 모두에 있는 프로필 수입니다"
+>title="ID 중복 수"
+>abstract="본인과 공동 작업자의 대상자 모두에 존재하며 선택된 해당 ID가 있는 프로필의 수"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
->title="겹치는 ID 백분율"
->abstract="와 공동 작업자가 선택한 대상 간에 겹치는 프로필의 비율입니다."
+>title="중복되는 ID 비율"
+>abstract="본인과 공동 작업자가 선택한 대상자 간에 중복되는 프로필의 비율입니다."
 
 대상 비교 카드를 사용하여 와 공동 작업자의 대상 간 겹침에 대한 다양한 정보를 얻을 수 있습니다. 다음 대상 조합 중 하나를 비교하도록 선택할 수 있습니다.
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 | **[!UICONTROL ID 개수]**(본인) | 선택한 대상자에 속하는 선택한 ID를 가진 프로필의 수입니다. |
 | **[!UICONTROL ID 개수]**(공동 작업자) | 공동 작업자가 선택한 대상에 속하는 선택된 ID를 가진 프로필의 수입니다. |
 | **[!UICONTROL 중복 ID]** | 및 공동 작업자 대상에 모두 있는 선택된 ID를 가진 프로필의 수입니다. |
-| **[!UICONTROL 겹치기 비율]** | 와 공동 작업자가 선택한 대상 간에 겹치는 프로필의 비율입니다. |
+| **[!UICONTROL 겹치기 비율]** | 본인과 공동 작업자가 선택한 대상자 간에 중복되는 프로필의 비율입니다. |
 | **[!UICONTROL 일치 키별 ID 분류]** | 귀하와 공동 작업자가 프로젝트에 대해 합의한 일치 키를 기반으로 개별 일치 키별 중복 계산에서 ID의 구성을 봅니다. |
 
 {style="table-layout:auto"}
@@ -96,7 +96,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="관련 대상자"
->abstract="오버랩 비율에 따라 이러한 게시자 대상자는 캠페인에 적합할 수 있습니다. <br><br> <b>ID 개수</b>는 게시자의 대상 크기입니다. <br><br> <b>ID가 겹침</b>은(는) 권장 게시자 대상과 모든 광고주 대상자 간의 겹침을 나타냅니다. <br><br> <b>중복 %</b>은(는) 겹치는 ID의 수를 <i>모두</i> 광고주 대상의 크기로 나눈 값을 나타냅니다."
+>abstract="중복 비율을 기준으로 할 때, 이러한 게시자 대상자는 캠페인에 적합할 수 있습니다. <br><br><b>ID 수</b>는 게시자 대상자의 크기입니다. <br><br> <b>중복 ID</b>는 권장 게시자 대상자 및 모든 광고주 대상자 간의 중복을 나타냅니다. <br><br>  <b>중복 비율</b>은 중복되는 ID의 수를 <i>모든</i> 광고주 대상자 크기로 나눈 값을 나타냅니다."
 
 **[!UICONTROL Discover]** 모듈의 **[!UICONTROL 관련 대상]** 보기는 겹침 비율에 따라 상위 5개 대상의 선별된 목록을 제공합니다. 이 기능을 사용하면 현재 데이터와 가장 많이 겹치는 대상을 신속하게 식별할 수 있으므로 캠페인을 보다 효과적으로 타기팅할 수 있습니다.
 
@@ -106,12 +106,12 @@ ht-degree: 1%
 
 ![관련 대상 보기](/help/assets/collaborate/discover-overlaps/relevant-audiences-highlighted.png)
 
-## 중복 검색 {#discover-overlaps}
+## 중복 항목 탐색 {#discover-overlaps}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
->title="개별 대상과 겹침 발견"
->abstract="이 대상자의 모집단과 이것이 공동 작업자의 정체성 세계와 겹치는 부분에 대한 통찰력을 얻으십시오."
+>title="개별 대상자와의 중복 항목 확인"
+>abstract="이 대상자의 모집단과 해당 모집단 및 공동 작업자의 ID 간 중복 항목에 대한 인사이트를 제공합니다."
 
 ![다른 대상 보기와 겹침 발견](/help/assets/collaborate/discover-overlaps/discover-overlaps-cards-view.png)
 

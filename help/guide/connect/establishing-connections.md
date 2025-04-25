@@ -7,7 +7,7 @@ exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -57,22 +57,22 @@ Real-Time CDP Collaboration에서 캠페인을 함께 작업하는 회사에 대
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="일치 키"
->abstract="일치 키는 조직 수준에서 선택한 키로 미리 채워집니다. 이 연결에 사용하지 않을 일치 키를 끌 수 있습니다."
+>abstract="일치 키는 조직 수준에서 선택한 키로 미리 채워집니다. 이 연결에서 사용하지 않으려는 일치 키를 끌 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="크레딧 분할"
->abstract="이 섹션에서는 Real-Time CDP Collaboration 내에서 해당 활동에 대해 지불하는 사용자를 결정합니다. 현재는 대상 공유 사용 사례만 구성할 수 있습니다."
+>abstract="이 섹션에서는 Real-Time CDP Collaboration 내 해당 활동에 대한 비용을 누가 지불하는지 확인합니다. 현재는 대상자 공유 사용 사례만 구성할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="대상자 공유"
->abstract="대상 공유는 상대가 일치하는 데이터를 공동 작업 파트너가 활성화하도록 요청할 때 수행하는 활동입니다."
+>abstract="대상자 공유는 당사자가 공동 작업 파트너에게 일치하는 데이터를 활성화해 달라고 요청할 때 하는 활동입니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
->title="법적 합의"
->abstract="두 당사자 간의 데이터 공유 계약이 있는지 확인합니다."
+>title="법적 계약"
+>abstract="두 당사자 간에 데이터 공유 계약이 있는지 확인합니다."
 
 초대가 전송되면 연결 설정을 미리 볼 수 있습니다. 연결 설정을 완료하려면 먼저 초대를 수락해야 합니다.
 

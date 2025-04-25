@@ -7,7 +7,7 @@ exl-id: 0fdf0598-89c9-452d-a2e3-ce868df0b9d2
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -102,8 +102,8 @@ The banner at the top of the page shows figures across all audience sharing acti
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_share_edit_audiences_usecases"
->title="사용 사례 타기팅 또는 제외"
->abstract="<p>대상자의 프로필에 캠페인에서 광고를 표시하려면 **Target**&#x200B;을(를) 선택하십시오.</p> <p>대상에 있는 프로필을 캠페인 메시지에서 제외하려면 **제외**&#x200B;를 선택합니다.</p>"
+>title="타깃 또는 사용 사례 제외"
+>abstract="<p>캠페인에서 대항자의 프로필에 광고를 표시하려면 **타깃**&#x200B;을 선택합니다.</p> <p>캠페인 메시지에서 대상자의 프로필을 제외하려면 **제외**&#x200B;를 선택합니다.</p>"
 
 대상 공유 모듈에서 공유되는 대상을 변경하거나 대상 공유 방법과 관련된 여러 구성을 변경하려면 **[!UICONTROL 대상 편집]**&#x200B;을 선택하십시오.
 

@@ -7,7 +7,7 @@ exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -55,9 +55,9 @@ Real-Time CDP Collaboration에서 측정 보고서에 액세스하려면 먼저 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measure_metricsovertime"
 >title="시간 경과에 따른 지표"
->abstract="시간 경과에 따른 지표 보기를 사용하여 캠페인 기간 동안 크리에이티브에 대해 표시되는 총 노출 횟수를 이해할 수 있습니다. 보고서에 표시할 차원을 최대 2개까지 선택할 수 있습니다."
+>abstract="시간 경과에 따른 지표 보기를 사용하면 캠페인 기간 동안 광고에 대해 표시된 총 노출 수를 파악할 수 있습니다. 보고서에 표시할 차원을 최대 두 개까지 선택할 수 있습니다."
 
-시간 경과에 따른 지표 보기를 사용하여 캠페인 기간 동안 크리에이티브에 대해 표시되는 총 노출 횟수를 이해할 수 있습니다. 보고서에 표시하고 분석할 지표를 최대 2개까지 선택할 수 있습니다.
+시간 경과에 따른 지표 보기를 사용하면 캠페인 기간 동안 광고에 대해 표시된 총 노출 수를 파악할 수 있습니다. 보고서에 표시하고 분석할 지표를 최대 2개까지 선택할 수 있습니다.
 
 ![시간 경과에 따른 지표 보기.](/help/assets/collaborate/measure/metrics-over-time.png)
 

@@ -7,7 +7,7 @@ exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
 workflow-type: tm+mt
 source-wordcount: '2642'
-ht-degree: 2%
+ht-degree: 23%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="마케팅 액션"
->abstract="<p>마케팅 작업을 사용하여 Experience Platform에서 Real-Time CDP Collaboration으로 가져올 대상 데이터를 제어합니다. <strong>데이터 Collaboration</strong> 마케팅 액션은 C4, C5 및 C9 데이터 사용 레이블을 지원합니다. <strong>데이터 과학</strong> 마케팅 액션은 C9 데이터 사용 레이블을 지원합니다.</p> <p> <ul><li> 확인란 <em>enabled</em>을(를) 사용하면 Experience Platform에서 위에서 호출한 레이블로 표시된 데이터는 제외되며 <strong>not</strong> Real-Time CDP Collaboration으로 가져옵니다.</li><li> <em>사용 안 함</em> 확인란을 사용하면 Real-Time CDP Collaboration으로 가져올 수 있는 Experience Platform 데이터에 대한 제한이 없습니다.</li></ul></p>"
+>abstract="<p>마케팅 액션을 사용하여 Experience Platform에서 Real-Time CDP Collaboration으로 가져올 대상자 고객 데이터를 제어합니다. <strong>데이터 협업</strong> 마케팅 액션은 C4, C5, C9 데이터 사용 레이블을 지원합니다. <strong>데이터 과학</strong> 마케팅 액션은 C9 데이터 사용 레이블을 지원합니다.</p> <p> <ul><li> 확인란이 <em>표시</em>되어 있는 경우, Experience Platform에서 위에 언급된 레이블로 표시된 모든 데이터는 제외되며 Real-Time CDP Collaboration으로 이동되지 <strong>않습니다</strong>.</li><li> 확인란이 <em>표시되어 있지 않은</em> 경우, Experience Platform에서 Real-Time CDP Collaboration으로 가져올 수 있는 데이터에 제한이 없습니다.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ko" text="데이터 사용 레이블 개요"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="데이터 사용 레이블 용어"
 
@@ -89,12 +89,12 @@ ht-degree: 2%
 
 그런 다음 가져온 데이터에 올바른 마케팅 작업이 설정되어 있는지 확인해야 합니다. 또한 Real-Time CDP에서 가져온 데이터가 데이터 공동 작업에 사용되도록 동의해야 합니다.
 
-마케팅 작업을 사용하여 Experience Platform에서 Real-Time CDP Collaboration으로 가져올 대상 데이터를 제어합니다. **데이터 Collaboration** 마케팅 액션은 C4, C5 및 C9 데이터 사용 레이블을 지원합니다. **데이터 과학** 마케팅 액션은 C9 데이터 사용 레이블을 지원합니다.
+마케팅 액션을 사용하여 Experience Platform에서 Real-Time CDP Collaboration으로 가져올 대상자 고객 데이터를 제어합니다. **데이터 협업** 마케팅 액션은 C4, C5, C9 데이터 사용 레이블을 지원합니다. **데이터 과학** 마케팅 액션은 C9 데이터 사용 레이블을 지원합니다.
 
 [C4, C5 및 C9 데이터 사용 레이블](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}에 대해 자세히 알아보십시오.
 
-* 확인란 *enabled*&#x200B;을(를) 사용하면 Experience Platform에서 위에서 호출한 레이블로 표시된 데이터는 제외되며 *not* Real-Time CDP Collaboration으로 가져옵니다.
-* *사용 안 함* 확인란을 사용하면 Real-Time CDP Collaboration으로 가져올 수 있는 Experience Platform 데이터에 대한 제한이 없습니다.
+* 확인란이 *표시*&#x200B;되어 있는 경우, Experience Platform에서 위에 언급된 레이블로 표시된 모든 데이터는 제외되며 Real-Time CDP Collaboration으로 이동되지 *않습니다*.
+* 확인란이 *표시되어 있지 않은* 경우, Experience Platform에서 Real-Time CDP Collaboration으로 가져올 수 있는 데이터에 제한이 없습니다.
 
 Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세히 알아보십시오.
 
@@ -120,17 +120,17 @@ Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="소스 필드"
->abstract="Source 필드는 Real-Time CDP의 기존 구현에서 가져온 id 네임스페이스 및 속성입니다. 이러한 매개 변수를 Real-Time CDP Collaboration에 정의된 타겟 필드에 매핑할 수 있습니다."
+>abstract="소스 필드는 기존 실시간 CDP 구현의 ID 네임스페이스와 속성입니다. 이를 Real-Time CDP Collaboration에 정의된 대상 필드에 매핑할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="대상 필드"
->abstract="대상 필드는 회사 온보딩 시 선택한 일치 키에 해당합니다. 현재 지원되는 일치 키는 해시된 이메일뿐입니다."
+>abstract="대상 필드는 회사에서 온보딩을 진행할 때 선택한 일치 키에 해당합니다. 현재 유일하게 지원되는 일치 키는 해시된 이메일입니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
 >title="변환 적용"
->abstract="소스에서 *해시되지 않은* 필드를 가져올 때 이 옵션을 사용하여 Real-Time CDP Collaboration에서 해시를 적용하고 일반 필드를 해시된 필드로 변환합니다."
+>abstract="소스에서 *해시되지 않은* 필드를 가져오는 경우, 이 옵션을 사용하면 Real-Time CDP Collaboration에서 해싱을 적용하고 일반 필드를 해시된 필드로 변환합니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
@@ -141,8 +141,8 @@ Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="프로필 속성"
->abstract="Experience Platform의 Profile 클래스에 대한 Union Schema에서 속성을 선택합니다. 이 보기에는 유니온 스키마에 있고 XDM 개별 프로필 클래스에 속하는 속성이 표시됩니다."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform의 유니온 스키마"
+>abstract="Experience Platform의 프로필 클래스에 대한 공용 구조체 스키마에서 속성을 선택합니다. 이 보기는 공용 구조체 스키마에 존재하고 XDM 개별 프로필 클래스에 속하는 속성을 표시합니다."
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform의 공용 구조체 스키마"
 
 ![대상 필드에 매핑된 원본 필드를 표시하는 필드 매핑 화면.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
@@ -245,8 +245,8 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
->title="ID 누락"
->abstract="대상을 Real-Time CDP Collaboration으로 가져온 후 약 첫 24시간 동안 ID 수에 `-`이(가) 표시됩니다. 이 일정 후 ID 카운트는 대상자에 있는 프로필 수로 업데이트됩니다."
+>title="누락된 ID"
+>abstract="ID 수는 대상자를 Real-Time CDP Collaboration에 가져온 후 약 24시간 동안 `-`를 표시합니다. 이 시간이 지나면 대상자에 있는 프로필의 수에 따라 ID 수가 업데이트됩니다."
 
 대상을 Real-Time CDP Collaboration으로 가져온 다음에는 대시보드 보기에서 해당 대상에 대한 정보를 얻을 수 있습니다. **[!UICONTROL 내 대상]** 페이지의 기본 보기에는 조직에서 현재 Real-Time CDP Collaboration으로 가져온 모든 대상이 표시됩니다.
 
@@ -309,7 +309,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="ID"
->abstract="해당 ID가 있는 프로필의 총 개수와 이 대상자를 구성하는 ID의 분류 보기를 얻습니다."
+>abstract="이 대상자를 구성하는 ID에 대한 분류 보기와 해당 ID가 있는 프로필의 총 개수를 확인합니다."
 
 이 섹션은 대상자를 가져올 때 지정한 ID와 함께 대상자에 있는 프로필 수를 나타냅니다. 또한 섹션에는 ID 분류가 포함되어 있으므로 대상자 모집단의 대부분을 구성하는 ID를 파악할 수 있습니다.
 
@@ -318,7 +318,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
 >title="카테고리"
->abstract="대상자에 태그를 지정하여 손쉽게 구성, 필터링 및 검색할 수 있습니다. 여러 카테고리가 있는 대상에 태그를 지정한 다음, 이러한 카테고리 태그를 사용하여 제품의 다른 영역에서 원하는 대상을 필터링할 수 있습니다."
+>abstract="대상자에 태그를 지정하면 쉽게 구성, 필터링 및 검색할 수 있습니다. 여러 개의 카테고리로 대상자에 태그를 지정한 다음, 이 카테고리 태그를 사용하여 제품의 다른 영역에서 원하는 대상자를 필터링할 수 있습니다."
 
 대상자를 쉽게 구성하고, 필터링하고, 검색할 수 있도록 대상자에 태그를 지정할 수 있습니다. 대상 중복 보고서를 실행할 때 여러 범주가 있는 대상에 태그를 지정한 다음 이러한 범주 태그를 사용하여 [discover](/help/guide/collaborate/discover.md) 제품 영역에서 원하는 대상을 필터링할 수 있습니다.
 
@@ -327,7 +327,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="연결 액세스"
->abstract="<p>대상자는 public, private 및 custom 의 세 가지 유형일 수 있습니다.</p><p> 공동 작업자가 있는 프로젝트에서의 사용 가능 여부는 연결 액세스 설정에 따라 다릅니다. 연결 액세스를 항상 비공개에서 공개로 변경할 수 있지만, 대상이 공동 작업자와 공유되면 해당 설정을 다시 변경할 수는 없습니다.</p>"
+>abstract="<p>대상자는 공개, 비공개, 사용자 정의 등 세 가지 유형으로 나눌 수 있습니다.</p><p> 공동 작업자가 있는 프로젝트에서 사용 가능한지 여부는 연결 액세스 설정에 따라 다릅니다. 연결 액세스를 비공개에서 공개로 언제든지 변경할 수 있지만, 공동 작업자와 대상자를 공유한 후에는 기존 설정을 다시 변경할 수 없습니다.</p>"
 
 대상이 귀하에게 비공개여야 하는지 또는 연결에서 사용 가능하고 검색 가능한지 여부를 선택합니다. 사용 가능한 세 가지 옵션은 다음과 같습니다.
 
@@ -339,14 +339,14 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >
 >액세스 상태(공개, 비공개 또는 사용자 지정)에 관계없이, 대상 검색 겹침 분석 보기에서 대상의 모집단은 **[!UICONTROL 모든 대상]** 모집단에 기여합니다. <br> ![대상 검색 중복 분석의 시스템 생성 **모든 대상** 대상에 모든 연결 액세스 상태(공용, 개인, 사용자 지정)의 대상이 포함됩니다.](/help/assets/setup/add-manage-audiences/all-audiences-view.png "**Audience Discovery** 중복 분석의 시스템 생성 **모든 대상** 대상에는 모든 연결 액세스 상태(공용, 개인, 사용자 지정)의 대상이 포함됩니다."){width="100" zoomable="yes"}
 
-공동 작업자가 있는 프로젝트에서 사용할 수 있는 대상 가용성은 연결 액세스 설정에 따라 다릅니다. 연결 액세스를 항상 비공개에서 공개로 변경할 수 있지만, 대상이 공동 작업자와 공유되면 해당 설정을 다시 변경할 수는 없습니다.
+공동 작업자가 있는 프로젝트에서 사용할 수 있는 대상 가용성은 연결 액세스 설정에 따라 다릅니다. 연결 액세스를 비공개에서 공개로 언제든지 변경할 수 있지만, 공동 작업자와 대상자를 공유한 후에는 기존 설정을 다시 변경할 수 없습니다.
 
 ### 메타데이터 가시성 {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="메타데이터 가시성"
->abstract="<p>대상 메타데이터 정보 중 조직과 연결하기 전에 다른 조직에 표시되는 정보를 나타냅니다. </p> <p> **ID 개수**&#x200B;는 검색 탭에서 중복 보고서를 볼 때 파트너가 대상에 대한 ID 개수를 볼 수 있는지 여부를 제어합니다. **대상 겹치기 %**&#x200B;은(는) 공동 작업자가 대상 및 사용자 대상 간의 겹치기 백분율을 검색할 수 있는지 여부를 제어합니다."
+>abstract="<p>귀하의 조직에 연결하기 전에 다른 조직에서 볼 수 있는 대상자 메타데이터 정보를 나타냅니다. </p> <p> **ID 수**&#x200B;는 검색 탭에서 중복 보고서를 볼 때 파트너가 대상자의 ID 수를 볼 수 있는지 여부를 제어합니다. **대상자 중복 비율**&#x200B;은 공동 작업자가 자신의 대상자와 귀하의 대상자 간의 중복 비율을 확인할 수 있는지 여부를 제어합니다."
 
 >[!NOTE]
 >
