@@ -4,7 +4,7 @@ description: Adobe Real-Time CDP Collaboration의 주요 이점 및 사용 사�
 audience: admin, publisher, advertiser, decision-maker
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
-source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
+source-git-commit: 89a966d6487c309fd29f3183513fc48518b85089
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time CDP Collaboration은 대상을 효과적으로 검색, 활성화 및 측정할 수 있는 필수 기능을 제공하여 마케팅 전략이 강력하고 데이터 중심적으로 유지되도록 하며, 이러한 모든 것을 개인 정보 우선 공간에서 제공합니다.
+Adobe Real-Time CDP Collaboration은 대상을 효과적으로 검색, 활성화 및 측정할 수 있는 필수 기능을 제공하여 개인 정보 보호 중심 공간에서 마케팅 전략이 강력하고 데이터 중심적으로 유지되도록 합니다.
 
 ![Real-Time CDP Collaboration의 이점 및 사용 사례](/help/assets/benefits-use-cases/discover-activate-measure.png)
 

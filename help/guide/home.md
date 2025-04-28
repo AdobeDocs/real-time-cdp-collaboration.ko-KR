@@ -4,9 +4,9 @@ description: Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '393'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 ## 개요
 
-Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용하면 서드파티 쿠키에 의존하지 않고 가치가 높은 대상을 검색, 활성화 및 측정할 수 있습니다. 이 솔루션을 사용하면 광고주와 게시자 간의 고급 데이터 공동 작업이 가능하므로 개인 정보가 안전한 중앙 집중식 환경에서 개인화되고 영향력 있는 고객 경험을 만들 수 있습니다.
+Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용하면 서드파티 쿠키에 의존하지 않고 가치가 높은 대상을 검색, 활성화 및 측정할 수 있습니다. 이 솔루션을 사용하면 광고주와 게시자 간의 고급 데이터 공동 작업이 가능하므로 개인정보 보호 중심의 중앙 집중식 환경에서 개인화되고 영향력 있는 고객 경험을 만들 수 있습니다.
 
 ![Real-Time CDP Collaboration 홈 페이지](/help/assets/overview/homepage.png){zoomable="yes"}
 
 ## 신뢰할 수 있는 파트너를 통해 대상 식별
 
-게시자와 광고주는 개인 정보가 안전한 환경에서 협력하여 대상자를 일치시키고, 잠재적 신규 고객을 발견하고, 사용 가능한 인벤토리에 대한 광고 수익을 극대화할 수 있습니다. 사용하기 쉬운 인터페이스를 통해 코드 없는 환경에서 이러한 대상을 노출하여 데이터 공동 작업 기회를 위해 프리미엄 게시자와 광고주를 연결할 수 있습니다.
+게시자와 광고주는 개인 정보 중심 환경에서 공동 작업을 수행하여 대상자를 일치시키고, 잠재적인 신규 고객을 발견하며, 사용 가능한 인벤토리에 대한 광고 수익을 극대화할 수 있습니다. 사용하기 쉬운 인터페이스를 통해 코드 없는 환경에서 이러한 대상을 노출하여 데이터 공동 작업 기회를 위해 프리미엄 게시자와 광고주를 연결할 수 있습니다.
 
 ## 도달 범위 확대 및 크로스채널 캠페인 제공
 
@@ -31,7 +31,7 @@ Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용하면 서드
 
 ## 캠페인 성과 집계 이해
 
-공동 작업 측정 도구를 사용하여 캠페인의 영향을 추적합니다. 게시자는 캠페인 성과를 브랜드에 보고하여 현재 및 향후 광고를 개선하고 광고 지출을 조정할 수 있습니다. 광고주는 개인 정보 보호 차원의 참여 및 전환 통찰력을 공유하고, 노출, 채널 및 전환 데이터를 통합하고, 완벽한 통찰력을 얻기 위해 선호하는 측정 파트너를 사용할 수 있습니다. 일부 측정 자동화는 첫 번째 릴리스에서 사용할 수 없습니다.
+공동 작업 측정 도구를 사용하여 캠페인의 영향을 추적합니다. 게시자는 캠페인 성과를 브랜드에 보고하여 현재 및 향후 광고를 개선하고 광고 지출을 조정할 수 있습니다. 광고주는 개인정보 보호 중심의 참여 및 전환 통찰력을 공유하고, 노출, 채널 및 전환 데이터를 통합하고, 완벽한 통찰력을 얻기 위해 선호하는 측정 파트너를 사용할 수 있습니다. 일부 측정 자동화는 첫 번째 릴리스에서 사용할 수 없습니다.
 
 ## 개인 정보 중심
 
@@ -53,7 +53,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## 시작하기 {#get-started}
 
-Real-Time CDP Collaboration 사용을 시작하려면 시스템 관리자는 자신, 제품 관리자 및 최종 사용자에게 액세스 권한을 부여해야 합니다. 필요한 사용자 및 액세스 수준에 따라 여러 필수 단계가 있습니다. 시작하려면 [액세스 제어 개요](/help/guide/permissions/overview.md){target=_"blank"} 안내서를 참조하세요.
+Real-Time CDP Collaboration 사용을 시작하려면 시스템 관리자는 자신, 제품 관리자 및 최종 사용자에게 액세스 권한을 부여해야 합니다. 필요한 사용자 및 액세스 수준에 따라 여러 필수 단계가 있습니다. 시작하려면 [액세스 제어 개요](/help/guide/permissions/overview.md){target=_&quot;blank&quot;} 안내서를 참조하십시오.
 
 액세스 권한이 있으면 조직을 설정하고 데이터 소스를 Adobe Real-Time CDP Collaboration에 연결하여 대상자를 가져올 수 있습니다. 시작하려면 [광고주 및 게시자 전체 워크플로](/help/guide/end-to-end-workflow.md)를 읽어 보십시오.
 

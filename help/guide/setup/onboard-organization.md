@@ -4,7 +4,7 @@ description: Real-Time CDP Collaboration에서 조직의 다양한 측면을 온
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: b9aa8851799ddb492daeb13842a2cad39e84899e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 14%
@@ -81,7 +81,7 @@ Real-Time CDP Collaboration에 조직을 온보딩하고 회사의 다양한 측
 >title="지원되는 파트너 ID"
 >abstract="프로필과 연결된 파트너 ID는 특정 프로필에 대한 도달 범위를 확장합니다."
 
-이메일 주소, 장치 ID 또는 고객 ID와 같은 일치 키를 사용하면 광고주와 게시자가 정확하고 개인 정보 보호 규정을 준수하는 데이터 동기화를 활성화하여 보다 정확한 대상 타기팅 및 측정을 허용함으로써 함께 작업할 수 있습니다.
+이메일 주소, 장치 ID 또는 고객 ID와 같은 일치 키는 광고주와 게시자가 정확하고 개인정보 보호 중심의 데이터 동기화를 활성화하여 보다 정확한 대상 타기팅 및 측정을 허용함으로써 함께 작업하는 데 도움이 됩니다.
 
 ![Real-Time CDP Collaboration의 첫 번째 릴리스에 대해 사용 가능한 식별자를 보여 주는 슬라이드.](/help/assets/setup/manage-organization/available-identifiers.png)
 

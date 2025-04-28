@@ -4,7 +4,7 @@ description: 광고주 또는 게시자로 Real-Time CDP Collaboration을 사용
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용하면 광고주와 게시자가 먼저 개인 정보 보호 방식으로 캠페인에 공동 작업할 수 있습니다. 광고주 또는 게시자로서 제품을 최대한 활용할 수 있는 워크플로를 이해하려면 이 페이지를 참조하십시오.
+Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용하면 광고주와 게시자가 개인 정보 중심 방식으로 캠페인에 대해 공동 작업을 수행할 수 있습니다. 광고주 또는 게시자로서 제품을 최대한 활용할 수 있는 워크플로를 이해하려면 이 페이지를 참조하십시오.
 
 ## 광고주 전체 워크플로 {#advertiser}
 
@@ -37,7 +37,7 @@ Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용하면 광고
 
 가져올 대상 데이터와 제품의 **[!UICONTROL 연결]** 영역에서 귀하와 연결하려는 광고주에게 검색 가능하고 볼 수 있도록 만들 대상을 결정합니다.
 
-대상을 Real-Time CDP Collaboration으로 가져올 때 대상에 태그를 지정하고 대상을 분류해야 합니다. Real-Time CDP Collaboration은 대상을 분류할 수 있도록 설정된 [IAB 분류](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"}을(를) 따릅니다.
+대상을 Real-Time CDP Collaboration으로 가져올 때 대상에 태그를 지정하고 대상을 분류해야 합니다. Real-Time CDP Collaboration은 대상을 분류하는 데 설정된 [IAB 분류](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"}을(를) 따릅니다.
 
 함께 작업할 광고주를 결정하고 제품 외부의 공동 작업 조건에 대해 논의하기 위해 광고주에게 문의하십시오. 약관에 동의하면 광고주가 귀하와 연결할 공식 연결 초대를 연장할 때까지 기다리십시오. 일반적으로 캠페인에서 귀하와 함께 작업하고자 하는 광고주 브랜드의 보류 중인 연결 요청도 모니터링해야 합니다. 잠재적 공동 작업자가 제안한 연결 설정을 검토하고, 공동 작업을 시작하기 전에 해당 설정에 동의하거나 수정합니다.
 
