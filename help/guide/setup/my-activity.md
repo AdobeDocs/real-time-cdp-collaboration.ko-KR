@@ -4,9 +4,9 @@ description: Real-Time CDP Collaboration에서 조직의 신용 사용 활동을
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: a69d4405c47824c8afabc84782dc9f8a9d70763a
+source-git-commit: 3aec9806d2ea920d656bb0981f22ba31fd8ae3ee
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 | **[!UICONTROL 연결 ID]** | 신용 소비 활동과 연관된 각 연결에 대한 고유 식별자로, 영숫자 문자열로 표시됩니다. |
 | **[!UICONTROL 연결 이름]** | 연결 및 신용 소비 활동과 연관된 공동 작업자의 이름입니다. |
 | **[!UICONTROL 활동]** | **활성화 - 공유**, **활성화 - 이그레스** 또는 **대상자 관리**&#x200B;와 같이 수행되는 활동 유형입니다. |
-| **[!UICONTROL 처리된 입력]** | 활동에 대해 처리된 총 입력 수(예: ID 또는 행)로, 백만 단위로 측정됩니다. 이를 통해 활동 비용을 CPM(1,000명당 비용)와 상관 관계를 파악하여 대략적인 비용을 계산할 수 있습니다. |
+| **[!UICONTROL 처리된 입력]** | 활동에 대해 처리된 총 입력(예: ID 또는 행) 수입니다. |
 | **[!UICONTROL 사용된 총 크레딧]** | 활동에서 소비한 총 크레딧 수입니다. |
 | **[!UICONTROL 내 크레딧 공유]** | 활동에 사용된 크레딧의 조직 부분입니다. |
 

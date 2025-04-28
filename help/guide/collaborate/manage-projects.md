@@ -4,9 +4,9 @@ description: Adobe Real-Time CDP Collaboration에서 프로젝트를 만들고 �
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: 55835f1e37975793f3a96c79e7c3a5bfeabfc88e
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '398'
 ht-degree: 3%
 
 ---
@@ -28,6 +28,11 @@ ht-degree: 3%
 ![단일 공동 작업자가 있는 프로젝트의 필터링된 보기입니다.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## 프로젝트 만들기 {#create-project}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_manage_projects_advertiser_name"
+>title="광고주 이름"
+>abstract="드롭다운 메뉴에서 광고주 이름을 선택합니다. 이 옵션은 게시자가 연결 설정에서 해당 시스템과의 호환성을 위해 미리 구성합니다."
 
 프로젝트를 만들려면 오른쪽 상단의 더하기 **+** 기호를 선택합니다. 또는 첫 번째 프로젝트인 경우 **[!UICONTROL 공동 작업]** > **[!UICONTROL 내 프로젝트]**(으)로 이동한 다음 **[!UICONTROL 프로젝트 만들기]**&#x200B;를 선택하십시오.
 
