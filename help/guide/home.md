@@ -4,9 +4,9 @@ description: Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
+source-git-commit: 6b4409bede04e9f4c94060ce98bc7680cdcdfc58
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## 시작하기 {#get-started}
 
-Real-Time CDP Collaboration 사용을 시작하려면 시스템 관리자는 자신, 제품 관리자 및 최종 사용자에게 액세스 권한을 부여해야 합니다. 필요한 사용자 및 액세스 수준에 따라 여러 필수 단계가 있습니다. 시작하려면 [액세스 제어 개요](/help/guide/permissions/overview.md){target=_&quot;blank&quot;} 안내서를 참조하십시오.
+Real-Time CDP Collaboration 사용을 시작하려면 시스템 관리자는 자신, 제품 관리자 및 최종 사용자에게 액세스 권한을 부여해야 합니다. 필요한 사용자 및 액세스 수준에 따라 여러 필수 단계가 있습니다. 시작하려면 [액세스 제어 개요](/help/guide/permissions/overview.md){target="_blank"} 안내서를 참조하세요.
 
 액세스 권한이 있으면 조직을 설정하고 데이터 소스를 Adobe Real-Time CDP Collaboration에 연결하여 대상자를 가져올 수 있습니다. 시작하려면 [광고주 및 게시자 전체 워크플로](/help/guide/end-to-end-workflow.md)를 읽어 보십시오.
 
