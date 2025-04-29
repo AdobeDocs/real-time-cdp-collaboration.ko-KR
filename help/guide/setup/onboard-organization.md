@@ -4,9 +4,9 @@ description: Real-Time CDP Collaboration에서 조직의 다양한 측면을 온
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
+source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '853'
 ht-degree: 14%
 
 ---
@@ -52,10 +52,11 @@ Real-Time CDP Collaboration에 조직을 온보딩하고 회사의 다양한 측
 3. **[!UICONTROL 회사 역할]**&#x200B;을 선택하세요. **[!UICONTROL Advertiser]**&#x200B;에서 **[!UICONTROL Publisher]** 중 하나를 선택할 수 있습니다. [통합 워크플로 문서](/help/guide/end-to-end-workflow.md)를 읽고 두 조직 역할 유형 간의 워크플로에서 유사점과 약간의 차이점을 확인하십시오.
 4. 조직의 **[!UICONTROL 업종]**&#x200B;을 선택하세요. 일부 예로는 **[!UICONTROL 소매]**, **[!UICONTROL 통신]** 또는 **[!UICONTROL 금융 서비스]**&#x200B;가 있습니다.
 5. 조직의 **[!UICONTROL 지역]**&#x200B;을 선택하세요. 현재 버전의 제품에서 **[!UICONTROL 북미]**&#x200B;은(는) 사전 설정된 기본 선택입니다.
-6. <span class="preview"> 게시자 전용</span>: 게시자 조직을 설정할 때 게시자 카탈로그에서 광고주가 검색할 수 있음을 읽고 확인해야 합니다.
+6. 조직의 **[!UICONTROL 연락처 전자 메일]**&#x200B;을(를) 추가합니다. 팀 또는 역할 기반 이메일 주소여야 합니다. 개인 이메일 주소를 제공해서는 안 됩니다.
+7. <span class="preview"> 게시자 전용</span>: 게시자 조직을 설정할 때 게시자 카탈로그에서 광고주가 검색할 수 있음을 읽고 확인해야 합니다.
    ![게시자별 옵트인 메시지.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
-7. 회사에 대한 **[!UICONTROL 로고]**&#x200B;를 업로드하십시오. 현재 SVG 유형의 이미지가 지원됩니다.
-8. 회사 머리글 사진에 대한 이미지를 선택합니다.
+8. 회사에 대한 **[!UICONTROL 로고]**&#x200B;를 업로드하십시오. 현재 SVG 유형의 이미지가 지원됩니다.
+9. 회사 머리글 사진에 대한 이미지를 선택합니다.
 
 선택에 만족하면 **[!UICONTROL 다음]**&#x200B;을 사용하여 다음 페이지로 이동하고 조직에서 사용해야 하는 일치 키를 선택하십시오.
 
