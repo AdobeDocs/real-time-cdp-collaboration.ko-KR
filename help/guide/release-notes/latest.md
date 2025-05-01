@@ -4,9 +4,9 @@ description: Real-Time CDP Collaboration의 최신 릴리스를 따르십시오.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: 5b331e2de1c91dd566f1139e57d44a47dd01dba5
+source-git-commit: fd19bb0fb0f09f5d704ce05ae719119287cbdc30
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '411'
 ht-degree: 5%
 
 ---
@@ -15,19 +15,14 @@ ht-degree: 5%
 
 {{limited-availability-release-note}}
 
-**마지막 업데이트**: 2025년 3월.
-
-<!--**Last update**: April, 2025. uncomment when ready to release and delete line above-->
+**마지막 업데이트**: 2025년 4월.
 
 이러한 릴리스 노트는 Real-Time Customer Data Platform Collaboration에 릴리스된 기능을 다룹니다. Real-Time CDP Collaboration 릴리스는 연속 게재 모델에서 작동하므로 대략적인 월별 릴리스 케이던스를 사용할 수 있습니다. 이러한 릴리스 노트는 자주 업데이트되므로 정기적으로 확인하십시오.
 
-<!--
+## 2025년 4월 {#april-2025}
 
-## April 2025 {#april-2025}
-
-* A new **Inputs Processed** column has been added to the credit consumption activity table. This column displays the total number of inputs (for example, IDs or rows) processed for each activity. [Read more](/help/guide/setup/my-activity.md#inputs-processed). <br> ![Inputs processed column highighted in My activity view.](/help/assets/release-notes/2025/inputs-processed-column.png "Inputs processed column highighted in My activity view."){width="250" align="center" zoomable="yes"}
-
--->
+* 새 **입력 처리됨** 열이 신용 소비 활동 테이블에 추가되었습니다. 이 열에는 각 활동에 대해 처리된 총 입력 수(예: ID 또는 행)가 표시됩니다. [자세히 보기](/help/guide/setup/my-activity.md#inputs-processed). <br> ![내 활동 보기에서 처리된 입력 열이 강조 표시되었습니다.](/help/assets/release-notes/2025/inputs-processed-column.png "내 활동 보기에서 처리된 입력 열이 강조 표시되었습니다."){width="250" align="center" zoomable="yes"}
+* 새 연락처 이메일 옵션이 계정 만들기에 추가되었습니다. 이렇게 하면 파트너 공동 작업자가 연결 프로세스 중에 필요에 따라 연락할 수 있습니다. [자세히 보기](../setup/onboard-organization.md).
 
 ## 2025년 3월 {#march-2025}
 
