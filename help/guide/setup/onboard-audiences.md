@@ -2,12 +2,12 @@
 title: 대상자 가져오기 및 관리
 description: Adobe Real-Time CDP Collaboration에서 대상을 가져오고 관리하는 방법 알아보기
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
+source-git-commit: 2c835ce72f09c450aa3467dc72980c9c627a0ab8
 workflow-type: tm+mt
-source-wordcount: '2642'
-ht-degree: 23%
+source-wordcount: '2666'
+ht-degree: 22%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 23%
 >title="마케팅 액션"
 >abstract="<p>마케팅 액션을 사용하여 Experience Platform에서 Real-Time CDP Collaboration으로 가져올 대상자 고객 데이터를 제어합니다. <strong>데이터 협업</strong> 마케팅 액션은 C4, C5, C9 데이터 사용 레이블을 지원합니다. <strong>데이터 과학</strong> 마케팅 액션은 C9 데이터 사용 레이블을 지원합니다.</p> <p> <ul><li> 확인란이 <em>표시</em>되어 있는 경우, Experience Platform에서 위에 언급된 레이블로 표시된 모든 데이터는 제외되며 Real-Time CDP Collaboration으로 이동되지 <strong>않습니다</strong>.</li><li> 확인란이 <em>표시되어 있지 않은</em> 경우, Experience Platform에서 Real-Time CDP Collaboration으로 가져올 수 있는 데이터에 제한이 없습니다.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ko" text="데이터 사용 레이블 개요"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ko" text="데이터 사용 레이블 용어"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="데이터 사용 레이블 용어"
 
 >[!IMPORTANT]
 >
@@ -91,15 +91,15 @@ ht-degree: 23%
 
 마케팅 액션을 사용하여 Experience Platform에서 Real-Time CDP Collaboration으로 가져올 대상자 고객 데이터를 제어합니다. **데이터 협업** 마케팅 액션은 C4, C5, C9 데이터 사용 레이블을 지원합니다. **데이터 과학** 마케팅 액션은 C9 데이터 사용 레이블을 지원합니다.
 
-[C4, C5 및 C9 데이터 사용 레이블](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}에 대해 자세히 알아보십시오.
+[C4, C5 및 C9 데이터 사용 레이블](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}에 대해 자세히 알아보십시오.
 
 * 확인란이 *표시*&#x200B;되어 있는 경우, Experience Platform에서 위에 언급된 레이블로 표시된 모든 데이터는 제외되며 Real-Time CDP Collaboration으로 이동되지 *않습니다*.
 * 확인란이 *표시되어 있지 않은* 경우, Experience Platform에서 Real-Time CDP Collaboration으로 가져올 수 있는 데이터에 제한이 없습니다.
 
 Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세히 알아보십시오.
 
-* [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [데이터 사용 레이블 용어집](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [데이터 사용 레이블 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [데이터 사용 레이블 용어집](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![데이터 공동 작업에 필요한 마케팅 작업입니다.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -136,13 +136,13 @@ Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세�
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="ID 네임스페이스"
 >abstract="Experience Platform 조직에서 사용할 수 있는 표준 및 사용자 정의 ID 네임스페이스에서 ID 네임스페이스를 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ko#standard" text="Experience Platform의 표준 및 ID 네임스페이스"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform의 표준 및 ID 네임스페이스"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="프로필 속성"
 >abstract="Experience Platform의 프로필 클래스에 대한 공용 구조체 스키마에서 속성을 선택합니다. 이 보기는 공용 구조체 스키마에 존재하고 XDM 개별 프로필 클래스에 속하는 속성을 표시합니다."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ko" text="Experience Platform의 공용 구조체 스키마"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform의 공용 구조체 스키마"
 
 ![대상 필드에 매핑된 원본 필드를 표시하는 필드 매핑 화면.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
@@ -211,7 +211,7 @@ Note that this control is disabled in the initial release of Real-Time CDP Colla
 
 After selecting the desired use cases for each identity, proceed to the next step. 
 
--->
+-->›
 
 ### 예약 {#schedule}
 
@@ -246,7 +246,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
 >title="누락된 ID"
->abstract="ID 수는 대상자를 Real-Time CDP Collaboration에 가져온 후 약 24시간 동안 `-`를 표시합니다. 이 시간이 지나면 대상자에 있는 프로필의 수에 따라 ID 수가 업데이트됩니다."
+>abstract="ID 카운트는 구성된 일정에 따라 다음 데이터 연결을 새로 고친 후 사용할 수 있습니다. 초기 새로 고침은 일반적으로 데이터 연결이 설정된 후 24시간 이내에 수행됩니다. 진행 중인 새로 고침은 구성된 일정을 따릅니다. "
 
 대상을 Real-Time CDP Collaboration으로 가져온 다음에는 대시보드 보기에서 해당 대상에 대한 정보를 얻을 수 있습니다. **[!UICONTROL 내 대상]** 페이지의 기본 보기에는 조직에서 현재 Real-Time CDP Collaboration으로 가져온 모든 대상이 표시됩니다.
 
@@ -257,15 +257,15 @@ After selecting the desired use cases for each identity, proceed to the next ste
 | 항목 | 설명 |
 |----------|---------|
 | **[!UICONTROL ID]** | 이 대상에 있는 ID의 수를 나타냅니다. 동일한 프로필에 두 개 이상의 ID가 있고 이러한 ID가 프로젝트에서 일치 키로 사용되는 경우 프로필이 카운트에 두 번 표시됩니다. |
-| **[!UICONTROL 상태]** | 대상이 활성 상태이고 프로젝트에서 사용할 수 있는지 여부를 나타냅니다. 보류 중 상태는 대상자를 최근에 가져왔으며 대상자 멤버가 아직 채워지지 않았음을 나타냅니다. 가져온 대상자는 일반적으로 24시간 내에 프로필로 채워집니다. |
+| **[!UICONTROL 상태]** | 대상이 활성 상태이고 프로젝트에서 사용할 수 있는지 여부를 나타냅니다. 보류 중 상태는 대상자를 최근에 가져왔으며 대상자 멤버가 아직 채워지지 않았음을 나타냅니다. 가져온 대상자는 구성된 일정에 따라 다음 데이터 연결을 새로 고치면 프로필로 채워집니다. 초기 새로 고침은 일반적으로 데이터 연결이 설정된 후 24시간 이내에 수행됩니다                                         . |
 | **[!UICONTROL Source]** | 이 대상자를 가져온 소스를 나타냅니다. 현재 Real-Time CDP Collaboration 릴리스에서는 Adobe Experience Platform이 유일한 지원 소스입니다. |
 | **[!UICONTROL 데이터 연결]** | 이 대상자를 가져온 위치에 대한 추가 드릴다운 정보입니다. 예를 들어 Experience Platform 소스에서 대상을 가져올 때 조직에서 액세스할 수 있는 개별 샌드박스가 데이터 연결로 간주됩니다. |
 | **[!UICONTROL 연결 액세스]** | 이 대상이 비공개인지 아니면 공용인지 정의합니다. 공용 대상은 중복 보고서에서 검색할 수 있으며 공동 작업자와 공유할 수 있습니다. |
 | **[!UICONTROL 생성일]** | 이 대상자를 Real-Time CDP Collaboration으로 가져온 시기를 나타냅니다. |
 | **[!UICONTROL 마지막으로 업데이트됨]** | 이 대상자의 모든 측면이 업데이트된 마지막 날짜 및 시간을 나타냅니다. |
 
-설정한 모든 데이터 연결을 보고 편집하려면 **[!UICONTROL 데이터 연결 관리]**&#x200B;를 선택하십시오.
-대상자를 제거하려면 생략과 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
+설정한 모든 데이터 연결을 보고 편집하려면 **[!UICONTROL 데이터 연결 관리]**를 선택하십시오.
+대상자를 제거하려면 생략과 **[!UICONTROL 삭제]**를 선택하십시오.
 대상에 다른 범주 태그를 추가하려면 엘리피스와 **[!UICONTROL 범주 편집]**&#x200B;을 선택하십시오. 아래의 [범주](/#categories) 섹션에서 자세한 내용을 확인하세요.
 개별 대상을 검사하거나 편집하려면 대상 이름을 선택합니다.
 
