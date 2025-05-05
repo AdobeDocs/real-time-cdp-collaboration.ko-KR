@@ -2,7 +2,7 @@
 title: 데이터 연결 관리
 description: Real-Time CDP Collaboration의 일치 키, 예약, 사용 사례 및 대상 필터링을 포함하여 데이터 연결을 관리하는 방법을 알아봅니다
 audience: administrator, data engineer
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
@@ -25,7 +25,7 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 소스
 
 >[!IMPORTANT]
 >
->데이터 연결 삭제는 현재 Real-Time CDP Collaboration 사용자 인터페이스에서 지원되지 않습니다. 데이터 연결을 삭제하려면 Adobe 담당자에게 연락하거나 [고객 지원 티켓을 만드십시오](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}.
+>데이터 연결 삭제는 현재 Real-Time CDP Collaboration 사용자 인터페이스에서 지원되지 않습니다. 데이터 연결을 삭제하려면 Adobe 담당자에게 연락하거나 [고객 지원 티켓을 만드십시오](https://experienceleague.adobe.com/home?lang=ko&amp;support-tab=open-ticket#support){target="_blank"}.
 
 기존 데이터 연결을 보려면 **[!UICONTROL 설정]** > **[!UICONTROL 내 대상]**(으)로 이동한 다음 **[!UICONTROL 데이터 연결 관리]**&#x200B;를 선택하십시오.
 

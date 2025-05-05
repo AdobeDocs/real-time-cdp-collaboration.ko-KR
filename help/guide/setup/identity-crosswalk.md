@@ -2,7 +2,7 @@
 title: ID 크로스워크
 description: 다양한 소스에서 ID 횡단보도를 가져오는 방법 및 ID 횡단보도를 관리하는 방법을 포함하여 Real-Time CDP Collaboration의 ID 횡단보도에 대해 모두 알아봅니다
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1

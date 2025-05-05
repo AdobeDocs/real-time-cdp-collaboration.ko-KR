@@ -2,7 +2,7 @@
 title: 액세스 제어 개요
 description: Adobe Real-Time Customer Data Platform(CDP) Collaboration에 대한 액세스 권한을 얻는 방법에 대해 알아봅니다.
 audience: admin
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
 source-git-commit: 56872a2cd91ae040aba51ed5784c86b055f88756
 workflow-type: tm+mt
@@ -35,7 +35,7 @@ Real-Time CDP Collaboration에 대한 액세스 제어를 구성하려면 **반�
 
 {style="table-layout:auto"}
 
-관리 역할에 대한 자세한 내용은 [Adobe 도움말 센터](https://helpx.adobe.com/enterprise/using/admin-roles.html)를 참조하십시오.
+관리 역할에 대한 자세한 내용은 [Adobe 도움말 센터](https://helpx.adobe.com/kr/enterprise/using/admin-roles.html)를 참조하십시오.
 
 >[!TIP]
 >
