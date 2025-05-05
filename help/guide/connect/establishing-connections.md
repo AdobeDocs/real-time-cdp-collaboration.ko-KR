@@ -4,9 +4,9 @@ description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
+source-git-commit: ee434f1bb8119e2a378580a02ffa0b9efb93cf28
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '938'
 ht-degree: 13%
 
 ---
@@ -68,6 +68,11 @@ Real-Time CDP Collaboration에서 캠페인을 함께 작업하는 회사에 대
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="대상자 공유"
 >abstract="대상자 공유는 당사자가 공동 작업 파트너에게 일치하는 데이터를 활성화해 달라고 요청할 때 하는 활동입니다."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
+>title="측정"
+>abstract="이 사용 사례를 사용하면 Real-Time CDP Collaboration에서 활동을 실행하여 캠페인 성과 보고서와 통찰력을 생성할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
