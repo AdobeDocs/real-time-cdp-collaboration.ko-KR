@@ -269,8 +269,8 @@ After selecting the desired use cases for each identity, proceed to the next ste
 | **[!UICONTROL 생성일]** | 이 대상자를 Real-Time CDP Collaboration으로 가져온 시기를 나타냅니다. |
 | **[!UICONTROL 마지막으로 업데이트됨]** | 이 대상자의 모든 측면이 업데이트된 마지막 날짜 및 시간을 나타냅니다. |
 
-설정한 모든 데이터 연결을 보고 편집하려면 **[!UICONTROL 데이터 연결 관리]**를 선택하십시오.
-대상자를 제거하려면 생략과 **[!UICONTROL 삭제]**를 선택하십시오.
+설정한 모든 데이터 연결을 보고 편집하려면 **[!UICONTROL 데이터 연결 관리]**&#x200B;를 선택하십시오.
+대상자를 제거하려면 생략과 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
 대상에 다른 범주 태그를 추가하려면 엘리피스와 **[!UICONTROL 범주 편집]**&#x200B;을 선택하십시오. 아래의 [범주](/#categories) 섹션에서 자세한 내용을 확인하세요.
 개별 대상을 검사하거나 편집하려면 대상 이름을 선택합니다.
 
