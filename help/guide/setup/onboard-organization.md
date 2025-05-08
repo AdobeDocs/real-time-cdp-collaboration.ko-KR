@@ -2,11 +2,11 @@
 title: 조직 온보드 및 관리
 description: Real-Time CDP Collaboration에서 조직의 다양한 측면을 온보딩하고 관리하는 방법을 알아봅니다
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 27faef284a07be114ea0a9a7beeae75ec6265d53
+source-git-commit: 12e73a9bf64f5746748d1a8c81827c50000a6428
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '842'
 ht-degree: 17%
 
 ---
@@ -79,6 +79,11 @@ Real-Time CDP Collaboration에 조직을 온보딩하고 회사의 다양한 측
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="지원되는 파트너 ID"
 >abstract="프로필과 연결된 파트너 ID는 특정 프로필에 대한 도달 범위를 확장합니다."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_activation_matchkeys"
+>title="활성화 일치 키"
+>abstract="활성화 일치 키는 조직에서 선택한 일치 키를 기반으로 표시됩니다."
 
 이메일 주소, 장치 ID 또는 고객 ID와 같은 일치 키는 광고주와 게시자가 정확하고 개인정보 보호 중심의 데이터 동기화를 활성화하여 보다 정확한 대상 타기팅 및 측정을 허용함으로써 함께 작업하는 데 도움이 됩니다.
 
