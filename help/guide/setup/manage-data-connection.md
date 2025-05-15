@@ -2,12 +2,12 @@
 title: 데이터 연결 관리
 description: Real-Time CDP Collaboration의 일치 키, 예약, 사용 사례 및 대상 필터링을 포함하여 데이터 연결을 관리하는 방법을 알아봅니다
 audience: administrator, data engineer
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: 8d620828bb0fb0bf116396f884b1bbd35d7c5d69
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 17%
+source-wordcount: '439'
+ht-degree: 16%
 
 ---
 
@@ -19,21 +19,11 @@ ht-degree: 17%
 
 Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 소스에서 대상을 가져옵니다. 기존 데이터 연결에 대해 일치 키를 관리하고 데이터 가져오기를 예약하는 방법을 알아봅니다. 또한 다양한 속성으로 대상자를 필터링하여 보다 세부적인 통찰력을 얻을 수 있습니다.
 
-여기에서 데이터 연결을 관리하려면 먼저 [대상자 온보딩 워크플로](./onboard-audiences.md) 동안 데이터 연결을 설정해야 합니다. 이렇게 하면 Real-Time CDP Collaboration에서 사용할 수 있도록 올바른 데이터 소스가 연결됩니다.
-
 ## 데이터 연결 보기
 
->[!IMPORTANT]
->
->데이터 연결 삭제는 현재 Real-Time CDP Collaboration 사용자 인터페이스에서 지원되지 않습니다. 데이터 연결을 삭제하려면 Adobe 담당자에게 연락하거나 [고객 지원 티켓을 만드십시오](https://experienceleague.adobe.com/home?lang=ko&amp;support-tab=open-ticket#support){target="_blank"}.
+기존 데이터 연결을 보려면 **[!UICONTROL 설정]**(으)로 이동한 다음 **[!UICONTROL 내 데이터 연결]** 탭을 선택하십시오. 모든 현재 데이터 연결이 표시되어 각 연결에 대한 간략한 개요를 보여 줍니다. 일치 키, 예약 세부 정보 및 대상을 포함하여 데이터 연결 정보를 모두 보려면 해당 연결에서 **[!UICONTROL 데이터 연결 보기]**&#x200B;를 선택하십시오.
 
-기존 데이터 연결을 보려면 **[!UICONTROL 설정]** > **[!UICONTROL 내 대상]**(으)로 이동한 다음 **[!UICONTROL 데이터 연결 관리]**&#x200B;를 선택하십시오.
-
-![데이터 연결 관리가 강조 표시된 작업 영역을 설정합니다.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png){zoomable="yes"}
-
-이렇게 하면 각 대상자 수, 데이터 연결 소스 등에 대한 정보가 포함된 현재 설정된 모든 데이터 연결 보기가 표시됩니다. 이 데이터 연결에 포함된 일치 키, 일정 및 대상에 대한 정보를 보려면 **[!UICONTROL 데이터 연결 보기]**&#x200B;를 선택하십시오.
-
-![연결을 사용하여 데이터 연결 작업 영역 관리 ](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png){zoomable="yes"}
+![내 데이터 연결 탭 보기가 표시되고 강조 표시된 작업 영역을 설정합니다.](/help/assets/setup/manage-data-connection/my-data-connections.png){zoomable="yes"}
 
 ### 일치 키 {#match-keys}
 
@@ -42,11 +32,11 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 소스
 >title="일치 키"
 >abstract="일치 키는 다양한 소스의 데이터를 어떻게 일치시킬지 결정합니다. 본인의 사용 사례와 개인 정보 지침에 가장 적합한 일치 키를 선택합니다."
 
-일치 키는 서로 다른 데이터 소스의 대상자 간에 멤버를 조정하는 데 사용되는 식별자입니다. 사용 가능한 일치 키는 다음과 같습니다.
+일치 키는 서로 다른 데이터 소스의 대상자 간에 멤버를 조정하는 데 사용되는 식별자입니다. 데이터 연결을 위해 처음에 선택한 일치 키는 편집할 수 없습니다.
+
+사용 가능한 일치 키는 다음과 같습니다.
 
 - **해시된 이메일**
-
-이 데이터 연결에 사용된 일치 키는 편집할 수 없습니다.
 
 ![일치 키 섹션이 강조 표시된 데이터 연결 작업 영역입니다.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -61,9 +51,21 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 소스
 
 ![일정 섹션이 강조 표시된 데이터 연결 작업 영역입니다.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
+## 데이터 연결 삭제
+
+데이터 연결을 삭제하면 플랫폼에서 모든 기본 대상, 관련 설정 및 사용이 제거됩니다. 이 작업은 취소할 수 없습니다.
+
+기존 데이터 연결을 삭제하려면 개별 데이터 연결의 작업 영역에서 삭제 아이콘(![삭제 아이콘](/help/assets/common/delete.svg))을 선택하십시오.
+
+![삭제 옵션이 강조 표시된 데이터 연결 작업 영역입니다.](/help/assets/setup/manage-data-connection/delete-data-connection.png){zoomable="yes"}
+
+확인 대화 상자가 나타납니다. 데이터 연결 삭제를 완료하려면 **[!UICONTROL 삭제]**&#x200B;을(를) 선택하십시오.
+
+![삭제 옵션이 강조 표시된 데이터 연결 삭제 대화 상자입니다.](/help/assets/setup/manage-data-connection/delete-data-connection-confirm.png){zoomable="yes"}
+
 ## 대상자 관리 {#manage-audiences}
 
-데이터 연결에서 대상자 목록을 볼 때 대상자를 보고, 해당 범주를 편집하거나, 데이터 연결에서 대상자를 제거하도록 선택할 수 있습니다.
+데이터 연결에 첨부된 대상자 목록이 작업 영역 하단에 표시됩니다. 이 목록에는 상태, 소스 및 연결 액세스를 포함하여 각 대상에 대한 간략한 개요가 표시됩니다. 대상자의 카테고리, 연결 액세스 또는 메타데이터 가시성을 편집하려면 대상자의 이름을 선택합니다. 대상자 관리에 대한 전체 안내서는 [개별 대상자 보기](./onboard-audiences.md#view-individual-audiences) 안내서를 참조하십시오.
 
 ![대상이 강조 표시된 데이터 연결 작업 영역입니다.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
