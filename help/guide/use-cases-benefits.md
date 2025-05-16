@@ -2,9 +2,9 @@
 title: Adobe Real-Time CDP Collaboration의 주요 이점 및 사용 사례
 description: Adobe Real-Time CDP Collaboration의 주요 이점 및 사용 사례 이해
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
-source-git-commit: 89a966d6487c309fd29f3183513fc48518b85089
+source-git-commit: c2a20aad386314f654d5451126390da4228f5572
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 2%
@@ -33,15 +33,3 @@ Real-Time CDP Collaboration을 사용하는 광고주로서 액세스 및 이해
 
 웹 노출 횟수 등과 같은 다양한 소스에서 알려진 고객 참여를 결합하고 탐색할 수 있습니다.
 간소화된 사용자 정의 가능한 보고서에서 캠페인 성과를 확인합니다.
-
-<!--
-
-## Sample use cases
-
-Some use cases that you can explore are:
-
-* [Prospecting](/help/guide/use-cases/prospecting.md)
-* [Retargeting](/help/guide/use-cases/retargeting.md)
-* [Suppression](/help/guide/use-cases/suppression.md)
-
--->
