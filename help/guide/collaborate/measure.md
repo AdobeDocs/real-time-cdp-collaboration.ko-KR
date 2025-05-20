@@ -2,11 +2,11 @@
 title: 성능 측정
 description: 다양한 채널에서 캠페인의 성과를 측정합니다. 다양한 보고서를 사용하고 해석하는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: b69d204149f203d1950fd0e28b0858ffca2c1225
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '636'
 ht-degree: 13%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Measure]** 작업 영역은 연결 프로세스 [&#128279;](../connect/establishing-connections.md#connection-settings) 동안 **Campaign 측정** 사용 사례를 사용하도록 설정한 경우에만 사용할 수 있습니다.  사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
+>**[!UICONTROL Measure]** 작업 영역은 연결 프로세스 ](../connect/establishing-connections.md#connection-settings) 동안 **Campaign 측정** 사용 사례를 사용하도록 설정한 경우에만 사용할 수 있습니다. [ 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
 
 Real-Time CDP Collaboration의 사용 가능한 보고서에 대해 알아보고 다양한 채널에서 마케팅 캠페인의 성과를 측정하고 분석하는 방법을 이해합니다.
 
@@ -28,7 +28,27 @@ Real-Time CDP Collaboration에서 측정 보고서에 액세스하려면 먼저 
 * **캠페인 측정** 사용 사례가 활성화된 원하는 광고주 또는 게시자와 [연결됨](/help/guide/connect/establishing-connections.md) 및 [프로젝트](/help/guide/collaborate/manage-projects.md)에 대한 공동 작업을 시작했습니다.
 * 캠페인을 실행하고 [업로드된 측정 데이터](/help/guide/setup/onboard-measurement-data.md)를 Real-Time CDP Collaboration으로 보내십시오.
 
-## 보고서 보기
+<!--
+
+## Create a report {#create-report}
+
+Hidden until functionality is live. At that point, move the contextualhelp from below into this section. 
+
+The syntax rtcdp_collaboration_measurement_create_report is currently implemented in the UI. However, a preference would be to imlement the other contextualhelp ID from below instead, since that explicitly includes campaignID in the syntax. Need to sync up with UI team. More details in CORE-116991.
+
+-->
+
+## 보고서 보기 {#view-reports}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_measurement_create_report_campaignID"
+>title="캠페인 ID"
+>abstract="Campaign ID에 대한 UI의 관련 정보를 추가하는 자리 표시자"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_measurement_create_report"
+>title="캠페인 ID"
+>abstract="Campaign ID에 대한 UI의 관련 정보를 추가하는 자리 표시자"
 
 측정 탭에서 사용할 수 있는 보고서를 보려면 다음과 같이 하십시오.
 
