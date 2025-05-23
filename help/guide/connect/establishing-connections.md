@@ -2,12 +2,12 @@
 title: 광고주 또는 게시자와 연결
 description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 프로젝트에 대한 공동 작업을 시작하는 방법에 대해 알아보십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
+source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 13%
+source-wordcount: '1191'
+ht-degree: 12%
 
 ---
 
@@ -82,7 +82,8 @@ Real-Time CDP Collaboration에서 캠페인을 함께 작업하는 회사에 대
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="광고주 이름"
->abstract="광고주가 게시자에게 알려진 별칭을 나타냅니다. "
+>abstract="<p>선택적 설정입니다. 광고주가 게시자에게 알려진 이름 및 ID를 나타냅니다.</p><p>여기에 추가하는 광고주 이름은 프로젝트 만들기 단계에서 미리 채워집니다.</p><ul><li>게시자가 여러 이름을 구성한 경우 목록에서 하나를 선택합니다.</li><li>이름이 하나만 구성된 경우 자동으로 미리 선택됩니다.</li><li>구성된 이름이 없으면 필드에 Real-Time CDP Collaboration의 광고주 계정 이름이 미리 채워집니다.</li></ul>"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="프로젝트 만들기"
 
 초대가 전송되면 연결 설정을 미리 볼 수 있습니다. 연결 설정을 완료하려면 먼저 초대를 수락해야 합니다.
 
@@ -130,6 +131,22 @@ Real-Time CDP Collaboration에서 캠페인을 함께 작업하는 회사에 대
 
 +++
 
++++광고주 이름
+
+연결 설정을 작업 중인 게시자는 시스템에서 광고주가 알고 있는 광고주 이름을 추가하도록 선택할 수 있습니다. 게시자는 함께 일하는 광고주가 여러 지역에 있는 경우 등 여러 광고주 이름을 연결에 추가할 수 있습니다. 나중에 [공동 작업할 프로젝트를 만들기](/help/guide/collaborate/manage-projects.md#create-project)하면 귀하 또는 공동 작업자가 프로젝트와 연결할 광고주 이름을 선택할 수 있습니다.
+
+![광고주 이름 추가 모달](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
+
+다음은 프로젝트를 만들 때 광고주 이름 선택이 작동하는 방식입니다.
+
+1. **광고주 이름이 설정되지 않음**: 광고주 이름이 추가되지 않으면 Real-Time CDP Collaboration에서 광고주 이름으로 광고주 이름을 사용하는 것으로 기본 설정됩니다.
+2. **광고주 이름 집합 하나**: 단일 광고주 이름이 추가되면 Real-Time CDP Collaboration은 자동으로 해당 이름을 프로젝트의 광고주 이름으로 사용합니다.
+3. **여러 광고주 이름 집합**: 둘 이상의 광고주 이름이 추가되면 프로젝트를 만들 때 사용자 또는 공동 작업자가 제공된 이름을 선택할 수 있습니다.
+
+![광고주 이름](/help/assets/connect/establish-connection/advertiser-names.png)
+
++++
+
 선택을 마치면 **[!UICONTROL 제출]**&#x200B;을 선택하여 제안된 설정을 공동 작업자에게 보내 검토하도록 합니다.
 
 공동 작업자로부터 제안된 연결 설정을 받는 경우 해당 설정을 **[!UICONTROL 수락]**&#x200B;하거나 **[!UICONTROL 거부]**&#x200B;할 수 있습니다. 연결 설정을 수락하기 전에 귀하와 공동 작업자 간에 법적 계약이 적용되었는지 확인하고 승인해야 합니다. 연결 설정을 거부하는 경우 제품 외부에 있는 공동 작업자에게 연락하여 연결 설정을 어떻게 수정해야 수락할 수 있는지 논의하십시오.
@@ -142,7 +159,7 @@ Real-Time CDP Collaboration에서 캠페인을 함께 작업하는 회사에 대
 2. 삭제할 연결에 액세스하려면 연결 카드에서 **[!UICONTROL 연결 보기]**&#x200B;를 선택하십시오.
 3. 삭제 아이콘 ![삭제 아이콘](/help/assets/common/delete.svg)을 선택하여 연결 삭제 확인 대화 상자를 표시합니다.
    ![연결 삭제 아이콘이 강조 표시되어 있습니다.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
-4. **[!UICONTROL 삭제]**&#x200B;를 선택하여 삭제를 확인합니다.
+4. **[!UICONTROL 삭제]**를 선택하여 삭제를 확인합니다.
    ![연결 삭제를 확인하는 대화 상자. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]

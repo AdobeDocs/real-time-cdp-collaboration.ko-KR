@@ -2,12 +2,12 @@
 title: 프로젝트 만들기 및 관리
 description: Adobe Real-Time CDP Collaboration에서 프로젝트를 만들고 관리하는 방법 알아보기
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
+source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 10%
+source-wordcount: '452'
+ht-degree: 5%
 
 ---
 
@@ -32,13 +32,18 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
 >title="광고주 이름"
->abstract="드롭다운 메뉴에서 광고주 이름을 선택하십시오. 이들 옵션은 게시자 시스템과의 호환성을 보장하기 위해 광고주가 연결 설정에서 미리 구성합니다."
+>abstract="드롭다운 메뉴에서 광고주 이름을 선택하십시오. 이 옵션은 게시자가 연결 설정에서 해당 시스템과의 호환성을 위해 미리 구성합니다."
 
 프로젝트를 만들려면 오른쪽 상단의 더하기 **+** 기호를 선택합니다. 또는 첫 번째 프로젝트인 경우 **[!UICONTROL 공동 작업]** > **[!UICONTROL 내 프로젝트]**(으)로 이동한 다음 **[!UICONTROL 프로젝트 만들기]**&#x200B;를 선택하십시오.
 
 ![더하기 기호를 선택하거나 프로젝트를 만들어 새 프로젝트를 설정합니다.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
-그런 다음 프로젝트를 만들 때 사용할 공동 작업자를 선택합니다. 프로젝트에 대해 **[!UICONTROL 프로젝트 이름]** 및 **[!UICONTROL 설명]**&#x200B;을 제공하고, 이미지 헤더를 선택하여 프로젝트를 쉽게 구분하고, 선택을 확인하십시오.
+그런 다음 다음 다음 설정을 선택합니다.
+
+* 프로젝트를 만들 때 사용할 공동 작업자
+* 게시자가 연결 설정에서 여러 광고주 이름을 구성한 경우 광고주 이름을 선택합니다. 그렇지 않으면 광고주의 이름이 광고주 이름으로 미리 선택됩니다. 또는 게시자가 연결 설정에서 단일 광고주 이름을 구성한 경우 이 선택 항목에 해당 이름이 미리 채워집니다. 광고주 이름에 대해 [자세히 읽어보세요](/help/guide/connect/establishing-connections.md#connection-settings).
+* 프로젝트에 대해 **[!UICONTROL 프로젝트 이름]** 및 **[!UICONTROL 설명]**&#x200B;을 제공하십시오.
+* 이미지 헤더를 선택하여 프로젝트를 쉽게 구분하고 선택 내용을 확인합니다.
 
 ![새 프로젝트를 설정하는 데 필요한 옵션](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 
