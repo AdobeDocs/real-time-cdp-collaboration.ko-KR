@@ -2,11 +2,11 @@
 title: 신용 소비 활동 추적
 description: Real-Time CDP Collaboration에서 조직의 신용 사용 활동을 추적하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: 3aec9806d2ea920d656bb0981f22ba31fd8ae3ee
+source-git-commit: 7e9e6ae51d9741891e916c0dfd5ec0047a995c21
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -53,27 +53,16 @@ ht-degree: 0%
 
 **[!UICONTROL Activity]** 열에는 크레딧을 사용하는 다양한 작업 유형이 표시됩니다.
 
-* **[!UICONTROL 대상 관리]**: 대상을 Real-Time CDP Collaboration으로 가져올 때 크레딧이 사용됩니다. 크레딧은 모든 대상에 대해 Real-Time CDP Collaboration 내에서 인덱싱된 ID 수(백만 단위)와 청구 기간 동안 해당 인덱싱의 빈도(매일, 3일마다 또는 매주)의 함수로 사용됩니다. [대상자 가져오기 및 관리](/help/guide/setup/onboard-audiences.md)에 대해 자세히 알아보십시오.
-* **[!UICONTROL 활성화 - 공유]** - 청구 기간 동안 Real-Time CDP Collaboration에서 활성화된 ID 수의 함수로 크레딧이 사용됩니다. Real-Time CDP Collaboration의 [공유](/help/guide/collaborate/share.md) 및 [대상자 활성화](/help/guide/collaborate/activate.md)에 대해 자세히 알아보세요.
-* **[!UICONTROL 활성화 - 이그레스]** - 청구 기간 동안 Real-Time CDP Collaboration에서 활성화된 ID 수의 함수로 크레딧이 사용됩니다. Real-Time CDP Collaboration의 [공유](/help/guide/collaborate/share.md) 및 [대상자 활성화](/help/guide/collaborate/activate.md)에 대해 자세히 알아보세요.
-* **[!UICONTROL 대상 중복]** - 데이터 스케치를 사용하여 대상 중복을 분석할 때 크레딧이 사용됩니다. 데이터 스케치는 데이터 개인 정보를 유지하면서 두 대상이 얼마나 유사한지 판별하는 데 도움이 되는 대상 데이터에 대한 간단한 요약입니다. 검색 탭에서 [대상이 겹칩니다](/help/guide/collaborate/discover.md).
+* **[!UICONTROL 대상 관리]**: 대상을 Real-Time CDP Collaboration으로 가져올 때 크레딧이 사용됩니다. 크레딧은 모든 대상에 대해 Real-Time CDP Collaboration 내에서 인덱싱된 ID 수(백만 단위)와 해당 인덱싱의 빈도(매일, 3일마다 또는 매주)의 함수로 사용됩니다. 자세한 내용은 [대상자 가져오기 및 관리](/help/guide/setup/onboard-audiences.md) 안내서를 참조하십시오.
+* **[!UICONTROL 활성화 - 일치]** - 크레딧은 일치하고 활성화를 위해 준비된 ID 수의 함수로 사용됩니다. 자세한 내용은 [대상자 활성화](/help/guide/collaborate/activate.md) 안내서를 참조하십시오.
+* **[!UICONTROL 활성화 - 이그레스]** - 대상으로 전송된 ID 수에 따라 크레딧이 사용됩니다. 이는 항상 대상자를 받는 공동 작업자에게 청구됩니다. 자세한 내용은 [대상자 활성화](/help/guide/collaborate/activate.md) 안내서를 참조하십시오.
 * **[!UICONTROL 대상 측정]** - Real-Time CDP Collaboration에서 활동을 실행하여 캠페인 성과 보고서와 통찰력을 생성합니다. 크레딧은 모든 캠페인의 캠페인 보고서 행 수 및 보고 빈도를 기반으로 사용됩니다(매일, 3일마다 또는 매주).
-
-
-<!--
-
-**[!UICONTROL Audience Overlaps]** – Credits are consumed as a function of the number of matched IDs across 2 or more shared audiences throughout the billing period. Read more about [audience overlaps in the discover tab](/help/guide/collaborate/discover.md).
-
-Collaboration Measurement – Credits are consumed as a function of the number of rows existing in campaign reports across all campaigns, and the frequency of that reporting (daily, every three days, or weekly).
-
--->
-
 
 ## 신용 소비 관리 {#manage-credit-consumption}
 
 신용 소비를 효과적으로 관리하려면
 
-1. 각 활동과 관련된 신용 소비를 **이해**&#x200B;합니다. 활동당 사용된 공동 작업 크레딧 표에 대해서는 [Real-Time CDP Collaboration 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}을 확인하십시오.
+1. 각 활동과 관련된 신용 소비를 **이해**&#x200B;합니다. 활동당 사용된 공동 작업 크레딧 표에 대해서는 [Real-Time CDP Collaboration 제품 설명](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}을 확인하십시오.
 2. **정기적으로 모니터링**: 사용 패턴을 이해하려면 활동 대시보드를 자주 확인하십시오.
 3. **연결별 추적**: 연결 이름을 사용하여 크레딧을 가장 많이 사용하는 파트너 관계를 식별합니다.
 
