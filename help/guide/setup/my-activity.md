@@ -2,11 +2,11 @@
 title: 신용 소비 활동 추적
 description: Real-Time CDP Collaboration에서 조직의 신용 사용 활동을 추적하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: 7e9e6ae51d9741891e916c0dfd5ec0047a995c21
+source-git-commit: b253588d8960757ed2023031bc95a7e3e0a0f65b
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,11 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-**[!UICONTROL 내 활동]** 탭을 사용하여 모든 공동 작업 활동에서 조직의 예상 크레딧 소비를 모니터링하고 추적합니다. 이 기능은 다양한 연결 및 활동에서 크레딧이 사용되는 방법에 대한 자세한 통찰력을 제공하여 리소스를 효과적으로 관리하는 데 도움이 됩니다.
+>[!BEGINSHADEBOX]
+
+**90일 초과 사용 금지 기간**: 적격 지역의 고객은 해당 지역의 사용 가능한 날로부터 시작되는 90일 초과 사용 금지 기간을 이용할 수 있습니다. 이 기간 동안 고객은 크레딧 이용 한도를 초과한 과다 수수료를 부담하지 않습니다.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -62,7 +66,7 @@ ht-degree: 0%
 
 신용 소비를 효과적으로 관리하려면
 
-1. 각 활동과 관련된 신용 소비를 **이해**&#x200B;합니다. 활동당 사용된 공동 작업 크레딧 표에 대해서는 [Real-Time CDP Collaboration 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}을 확인하십시오.
+1. 각 활동과 관련된 신용 소비를 **이해**&#x200B;합니다. 활동당 사용된 공동 작업 크레딧 표에 대해서는 [Real-Time CDP Collaboration 제품 설명](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}을 확인하십시오.
 2. **정기적으로 모니터링**: 사용 패턴을 이해하려면 활동 대시보드를 자주 확인하십시오.
 3. **연결별 추적**: 연결 이름을 사용하여 크레딧을 가장 많이 사용하는 파트너 관계를 식별합니다.
 
