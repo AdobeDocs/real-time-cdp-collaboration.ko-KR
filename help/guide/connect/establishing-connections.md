@@ -162,7 +162,7 @@ Real-Time CDP Collaboration에서 캠페인을 함께 작업하는 회사에 대
 2. 삭제할 연결에 액세스하려면 연결 카드에서 **[!UICONTROL 연결 보기]**&#x200B;를 선택하십시오.
 3. 삭제 아이콘 ![삭제 아이콘](/help/assets/common/delete.svg)을 선택하여 연결 삭제 확인 대화 상자를 표시합니다.
    ![연결 삭제 아이콘이 강조 표시되어 있습니다.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
-4. **[!UICONTROL 삭제]**를 선택하여 삭제를 확인합니다.
+4. **[!UICONTROL 삭제]**&#x200B;를 선택하여 삭제를 확인합니다.
    ![연결 삭제를 확인하는 대화 상자. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]
