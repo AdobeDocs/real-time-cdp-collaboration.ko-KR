@@ -2,7 +2,7 @@
 title: 개요
 description: Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용하여 서드파티 쿠키에 의존하지 않고 고부가가치 대상을 검색, 활성화 및 측정하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
@@ -61,7 +61,7 @@ Real-Time CDP Collaboration 사용을 시작하려면 시스템 관리자는 자
 
 ## 리소스
 
-제품에 사용되는 용어에 대한 자세한 내용은 [용어집](/help/guide/glossary.md)을 살펴보십시오. 지원이 필요하면 Adobe [고객 지원](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"} 페이지에 액세스하십시오.
+제품에 사용되는 용어에 대한 자세한 내용은 [용어집](/help/guide/glossary.md)을 살펴보십시오. 지원이 필요하면 Adobe [고객 지원](https://experienceleague.adobe.com/home?lang=ko&amp;support-tab=open-ticket#support){target="_blank"} 페이지에 액세스하십시오.
 
 ## 연락처
 
