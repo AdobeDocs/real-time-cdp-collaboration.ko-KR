@@ -2,9 +2,9 @@
 title: 권한을 통해 역할 관리
 description: Real-Time CDP Collaboration UI 내의 다양한 구성 요소에 대한 액세스를 제공하는 사용 가능한 모든 역할 리소스를 이해합니다.
 audience: admin
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 59cf5bf2-421b-4ebc-beab-30eafb098649
-source-git-commit: 56872a2cd91ae040aba51ed5784c86b055f88756
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Real-Time CDP Collaboration UI의 다양한 구성 요소에 대한 사용자 액세스를 관리하기 위해 [관리자](./manage-user-access.md#system-admin-gain-access)는 역할을 정의하고 할당할 수 있습니다. 역할은 관리자 또는 사용자가 조직의 [리소스](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#permissions){target="_blank"}에 대한 액세스 권한을 정의합니다. 이 안내서에서는 Real-Time CDP Collaboration에서 제공하는 표준 역할과 사용자 지정 역할에 할당할 수 있는 개별 권한에 대한 정보를 제공합니다.
+Real-Time CDP Collaboration UI의 다양한 구성 요소에 대한 사용자 액세스를 관리하기 위해 [관리자](./manage-user-access.md#system-admin-gain-access)는 역할을 정의하고 할당할 수 있습니다. 역할은 관리자 또는 사용자가 조직의 [리소스](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions){target="_blank"}에 대한 액세스 권한을 정의합니다. 이 안내서에서는 Real-Time CDP Collaboration에서 제공하는 표준 역할과 사용자 지정 역할에 할당할 수 있는 개별 권한에 대한 정보를 제공합니다.
 
 역할 관리를 시작하려면 관리자가 Experience Platform 제품에 액세스해야 합니다. 관리 액세스 권한 획득 또는 Experience Platform 액세스 권한에 대한 자세한 내용은 [사용자 액세스 관리](./manage-user-access.md#manage-user-access-through-permissions) 안내서를 참조하십시오.
 
@@ -32,7 +32,7 @@ Real-Time CDP Collaboration UI의 다양한 구성 요소에 대한 사용자 �
 
 ## 특정 액세스 역할 만들기 {#specific-access-roles}
 
-다양한 사용자에게 다양한 수준의 액세스 권한을 제공하기 위해 추가 역할을 만들 수 있습니다. 역할을 만들 때 **[!UICONTROL 공동 작업]** 리소스 내에서 특정 권한을 선택하여 다양한 액세스 수준을 관리할 수 있습니다. 역할을 만들고 관리하는 방법은 [역할](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"} 안내서를 참조하세요.
+다양한 사용자에게 다양한 수준의 액세스 권한을 제공하기 위해 추가 역할을 만들 수 있습니다. 역할을 만들 때 **[!UICONTROL 공동 작업]** 리소스 내에서 특정 권한을 선택하여 다양한 액세스 수준을 관리할 수 있습니다. 역할을 만들고 관리하는 방법은 [역할](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"} 안내서를 참조하세요.
 
 >[!NOTE]
 > Real-Time CDP Collaboration에 액세스하려면 사용자가 Experience Platform의 **[!UICONTROL Prod]** 샌드박스에 액세스할 수 있어야 합니다. 사용자에게 이 샌드박스에 대한 액세스 권한을 부여하려면 **[!UICONTROL Sandboxes]** 리소스에서 **[!UICONTROL Prod]** 권한이 포함된 역할에 할당되어야 합니다.
@@ -61,4 +61,4 @@ Real-Time CDP Collaboration UI의 다양한 구성 요소에 대한 사용자 �
 
 ## 다음 단계
 
-Real-Time CDP 공동 작업에 대한 액세스 권한을 정의하는 역할을 만든 후 관리자 및 사용자에게 [역할을 할당](./manage-user-access.md#assign-a-role)해야 합니다. 역할 관리에 대한 전체 개요는 [역할에 대한 권한 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions) 안내서를 참조하십시오.
+Real-Time CDP 공동 작업에 대한 액세스 권한을 정의하는 역할을 만든 후 관리자 및 사용자에게 [역할을 할당](./manage-user-access.md#assign-a-role)해야 합니다. 역할 관리에 대한 전체 개요는 [역할에 대한 권한 관리](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) 안내서를 참조하십시오.

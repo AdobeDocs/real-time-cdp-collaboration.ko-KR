@@ -2,9 +2,9 @@
 title: 최신 Real-Time CDP Collaboration 릴리스 노트
 description: Real-Time CDP Collaboration의 최신 릴리스를 따르십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: fd19bb0fb0f09f5d704ce05ae719119287cbdc30
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 5%
@@ -38,7 +38,7 @@ ht-degree: 5%
 
 광고주와 게시자가 서드파티 쿠키 없이 고부가가치 대상을 검색, 활성화 및 측정할 수 있도록 특별히 제작된 Real-Time CDP Collaboration은 현재 미국에서 일반적으로 사용할 수 있습니다.
 
-### 시작하기
+### 시작
 
 1. **액세스 설정**: 시스템 관리자는 사용자에 대한 액세스 권한을 구성합니다. [자세히 보기](/help/guide/permissions/manage-user-access.md#RTCDP-collaboration-access).
 2. **데이터 원본 연결**: Real-Time CDP Collaboration에서 사용할 대상을 가져옵니다. [자세히 보기](/help/guide/setup/onboard-audiences.md).

@@ -2,9 +2,9 @@
 title: 광고주 또는 게시자와 연결
 description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 프로젝트에 대한 공동 작업을 시작하는 방법에 대해 알아보십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: e4826c777d9d1df1dac7cd894536b7fd51be8a39
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 11%
@@ -83,7 +83,7 @@ Real-Time CDP Collaboration에서 캠페인을 함께 작업하는 회사에 대
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="광고주 이름"
 >abstract="<p>선택적 설정입니다. 광고주가 게시자에게 알려진 이름 및 ID를 나타냅니다.</p><p>여기에 추가하는 광고주 이름은 프로젝트 만들기 단계에서 미리 채워집니다.</p><ul><li>게시자가 여러 이름을 구성한 경우 목록에서 하나를 선택합니다.</li><li>이름이 하나만 구성된 경우 자동으로 미리 선택됩니다.</li><li>구성된 이름이 없으면 필드에 Real-Time CDP Collaboration의 광고주 계정 이름이 미리 채워집니다.</li></ul>"
->additional-url="https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="프로젝트 만들기"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="프로젝트 만들기"
 
 초대가 전송되면 연결 설정을 미리 볼 수 있습니다. 연결 설정을 완료하려면 먼저 초대를 수락해야 합니다.
 
@@ -162,7 +162,7 @@ Real-Time CDP Collaboration에서 캠페인을 함께 작업하는 회사에 대
 2. 삭제할 연결에 액세스하려면 연결 카드에서 **[!UICONTROL 연결 보기]**&#x200B;를 선택하십시오.
 3. 삭제 아이콘 ![삭제 아이콘](/help/assets/common/delete.svg)을 선택하여 연결 삭제 확인 대화 상자를 표시합니다.
    ![연결 삭제 아이콘이 강조 표시되어 있습니다.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
-4. **[!UICONTROL 삭제]**&#x200B;를 선택하여 삭제를 확인합니다.
+4. **[!UICONTROL 삭제]**를 선택하여 삭제를 확인합니다.
    ![연결 삭제를 확인하는 대화 상자. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]
