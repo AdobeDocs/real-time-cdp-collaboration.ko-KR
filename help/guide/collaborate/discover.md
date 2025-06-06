@@ -2,7 +2,7 @@
 title: 중복 검색 및 대상 비교
 description: 와 공동 작업자의 대상 간에 겹치는 부분을 살펴봅니다. 캠페인에 사용할 최상의 대상을 찾는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
@@ -96,7 +96,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="관련 대상자"
->abstract="중복 비율을 기준으로 할 때, 이러한 게시자 대상자는 캠페인에 적합할 수 있습니다. <br><br><b>ID 수</b>는 게시자 대상자의 크기입니다. <br><br> <b>중복 ID</b>는 권장 게시자 대상자 및 모든 광고주 대상자 간의 중복을 나타냅니다. <br><br>  <b>중복 비율</b>은 중복되는 ID의 수를 <i>모든</i> 광고주 대상자 크기로 나눈 값을 나타냅니다."
+>abstract="중복 비율을 기준으로 할 때, 이러한 게시자 대상자는 캠페인에 적합할 수 있습니다. <br><br><b>ID 수</b>는 게시자 대상자의 크기입니다. <br><br> <b>중복 ID</b>는 권장 게시자 대상자 및 모든 광고주 대상자 간의 중복을 나타냅니다. <br><br> <b>중복 비율</b>은 중복되는 ID의 수를 <i>모든</i> 광고주 대상자 크기로 나눈 값을 나타냅니다."
 
 **[!UICONTROL Discover]** 모듈의 **[!UICONTROL 관련 대상]** 보기는 겹침 비율에 따라 상위 5개 대상의 선별된 목록을 제공합니다. 이 기능을 사용하면 현재 데이터와 가장 많이 겹치는 대상을 신속하게 식별할 수 있으므로 캠페인을 보다 효과적으로 타기팅할 수 있습니다.
 
