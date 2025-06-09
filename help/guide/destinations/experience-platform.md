@@ -2,7 +2,7 @@
 title: Adobe Experience Platform을 대상으로 구성
 description: Real-Time CDP Collaboration에서 대상으로 Adobe Experience Platform을 구성하고 관리하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
 workflow-type: tm+mt
 source-wordcount: '766'
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-프로젝트에서 Adobe Experience Platform으로 대상을 활성화하도록 이 대상을 구성합니다. 대상을 Adobe Experience Platform으로 활성화하면 다양한 마케팅 채널에서 대상 세분화, 분석 및 활성화를 위해 플랫폼의 기능을 활용할 수 있습니다. Adobe Experience Platform에 대한 자세한 내용은 [Experience Platform 개요](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}를 참조하세요.
+프로젝트에서 Adobe Experience Platform으로 대상을 활성화하도록 이 대상을 구성합니다. 대상을 Adobe Experience Platform으로 활성화하면 다양한 마케팅 채널에서 대상 세분화, 분석 및 활성화를 위해 플랫폼의 기능을 활용할 수 있습니다. Adobe Experience Platform에 대한 자세한 내용은 [Experience Platform 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Adobe Experience Platform을 대상으로 구성하려면 **[!UICONTROL 설정]*
 >title="대상 네임스페이스"
 >abstract="대상 네임스페이스는 Adobe Experience Platform에서 일치 키가 매핑될 ID 네임스페이스를 지정합니다. 해시된 일치 키는 해시된 값을 지원하는 대상 네임스페이스에 매핑되어야 합니다."
 
-다음으로, 대상자 데이터가 Adobe Experience Platform으로 전송되는 방법을 정의하기 위해 활성화 매핑을 만들어야 합니다. 조직을 만드는 동안 선택한 각 [일치 키](../setup/onboard-organization.md#set-up-match-keys)를 대상 네임스페이스에 매핑할 수 있습니다. 대상 네임스페이스는 Adobe Experience Platform에서 일치 키가 매핑될 [ID 네임스페이스](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}를 지정합니다.
+다음으로, 대상자 데이터가 Adobe Experience Platform으로 전송되는 방법을 정의하기 위해 활성화 매핑을 만들어야 합니다. 조직을 만드는 동안 선택한 각 [일치 키](../setup/onboard-organization.md#set-up-match-keys)를 대상 네임스페이스에 매핑할 수 있습니다. 대상 네임스페이스는 Adobe Experience Platform에서 일치 키가 매핑될 [ID 네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}를 지정합니다.
 
 >
 >
