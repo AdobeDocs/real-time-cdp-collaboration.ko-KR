@@ -2,7 +2,7 @@
 title: 설정 개요
 description: Adobe Real-Time CDP Collaboration의 설정 섹션에서 사용 가능한 모든 옵션 및 워크플로 이해
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 title: 게시자 탐색
 description: 광고주로서 Adobe Real-Time CDP Collaboration을 사용하여 공동 작업을 수행할 수 있는 잠재적 게시자를 발견하는 방법에 대해 알아보십시오
 audience: admin, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
