@@ -2,11 +2,11 @@
 title: 개요
 description: Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용하여 서드파티 쿠키에 의존하지 않고 고부가가치 대상을 검색, 활성화 및 측정하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '397'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용하면 서드파티 쿠키에 의존하지 않고 가치가 높은 대상을 검색, 활성화 및 측정할 수 있습니다. 이 솔루션을 사용하면 광고주와 게시자 간의 고급 데이터 공동 작업이 가능하므로 개인정보 보호 중심의 중앙 집중식 환경에서 개인화되고 영향력 있는 고객 경험을 만들 수 있습니다.
 
-![Real-Time CDP Collaboration 홈 페이지](/help/assets/overview/homepage.png){zoomable="yes"}
+![Real-Time CDP Collaboration 설정 페이지로 조직을 표시합니다.](/help/assets/overview/set-up.png){zoomable="yes"}
 
 ## 신뢰할 수 있는 파트너를 통해 대상 식별
 
@@ -37,20 +37,6 @@ Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용하면 서드
 
 포함된 컨트롤은 거버넌스 및 개인 정보 보호 요구 사항을 충족하도록 보장하므로 워크플로우의 모든 단계에서 대상 데이터의 책임 있는 사용을 안내합니다.
 
-<!--
-
-## Additional benefits
-
-### Agnostic and interoperable
-
-Bring in audiences from various sources such as Real-Time CDP, data warehouses (available in an upcoming release), and other partners, efficiently connecting your data collaboration application to other Adobe Experience Platform tools.
-
-### Built-in reputation
-
-Trusted by leading global brands, Adobe brings a strong foundation in identity, audience collaboration, and activation, offering closed-loop and marketer-friendly workflows for data collaboration.
-
--->
-
 ## 시작 {#get-started}
 
 Real-Time CDP Collaboration 사용을 시작하려면 시스템 관리자는 자신, 제품 관리자 및 최종 사용자에게 액세스 권한을 부여해야 합니다. 필요한 사용자 및 액세스 수준에 따라 여러 필수 단계가 있습니다. 시작하려면 [액세스 제어 개요](/help/guide/permissions/overview.md){target="_blank"} 안내서를 참조하세요.
@@ -61,7 +47,7 @@ Real-Time CDP Collaboration 사용을 시작하려면 시스템 관리자는 자
 
 ## 리소스
 
-제품에 사용되는 용어에 대한 자세한 내용은 [용어집](/help/guide/glossary.md)을 살펴보십시오. 지원이 필요하면 Adobe [고객 지원](https://experienceleague.adobe.com/home?lang=ko&amp;support-tab=open-ticket#support){target="_blank"} 페이지에 액세스하십시오.
+제품에 사용되는 용어에 대한 자세한 내용은 [용어집](/help/guide/glossary.md)을 살펴보십시오. 지원이 필요하면 Adobe [고객 지원](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"} 페이지에 액세스하십시오.
 
 ## 연락처
 

@@ -2,9 +2,9 @@
 title: Adobe Real-Time CDP Collaboration의 주요 이점 및 사용 사례
 description: Adobe Real-Time CDP Collaboration의 주요 이점 및 사용 사례 이해
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 2%
@@ -21,8 +21,7 @@ Adobe Real-Time CDP Collaboration은 대상을 효과적으로 검색, 활성화
 
 ## 탐색 {#discover}
 
-대시보드 및 보고서를 사용하여 브랜드 간 공동 작업을 위한 대상자를 검색할 수 있습니다.
-Real-Time CDP Collaboration을 사용하는 광고주로서 액세스 및 이해 대상은 중복되어 리타겟팅, 억제 및 광범위한 게시자 인벤토리에서 가능한 잠재 기회 기회를 잠금 해제합니다.
+대시보드 및 보고서를 사용하여 브랜드 간 공동 작업을 위한 대상자를 검색할 수 있습니다. Real-Time CDP Collaboration을 사용하는 광고주로서 액세스 및 이해 대상은 중복되어 리타겟팅, 억제 및 광범위한 게시자 인벤토리에서 가능한 잠재 기회 기회를 잠금 해제합니다.
 
 ## 활성화 {#activate}
 
@@ -31,5 +30,4 @@ Real-Time CDP Collaboration을 사용하는 광고주로서 액세스 및 이해
 
 ## 측정 {#measure}
 
-웹 노출 횟수 등과 같은 다양한 소스에서 알려진 고객 참여를 결합하고 탐색할 수 있습니다.
-간소화된 사용자 정의 가능한 보고서에서 캠페인 성과를 확인합니다.
+웹 노출 횟수 등과 같은 다양한 소스에서 알려진 고객 참여를 결합하고 탐색할 수 있습니다. 간소화된 사용자 정의 가능한 보고서에서 캠페인 성과를 확인합니다.

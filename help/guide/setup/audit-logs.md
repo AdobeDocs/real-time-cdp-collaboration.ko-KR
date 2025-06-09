@@ -2,9 +2,9 @@
 title: 감사 로그
 description: Real-Time CDP Collaboration에서 감사 로그 기능을 사용하여 사용자 활동 및 변경 사항을 추적하는 방법에 대해 알아봅니다.
 audience: admin
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Real-Time CDP Collaboration의 감사 로그 기능을 사용하여 플랫폼 �
 
 ![감사 로그 기능의 높은 수준 개요 화면](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-감사 로그에 대한 자세한 내용은 [Adobe Experience Platform 감사 로그 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}를 참조하세요.
+감사 로그에 대한 자세한 내용은 [Adobe Experience Platform 감사 로그 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}를 참조하세요.
 
 ## 감사 로그 액세스
 
@@ -61,7 +61,7 @@ Real-Time CDP Collaboration의 감사 로그 기능을 사용하여 플랫폼 �
 * **리소스**: 수정되거나 만들어진 리소스입니다.
 * **타임스탬프**: 작업이 수행된 시간입니다.
 
-이러한 로그는 Real-Time CDP Collaboration 인스턴스 내의 모든 활동에 대한 포괄적인 추적을 생성하므로 데이터 거버넌스 및 규제 준수에 유용합니다. [UI에서 감사 로그 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui)에 대해 자세히 알아보십시오.
+이러한 로그는 Real-Time CDP Collaboration 인스턴스 내의 모든 활동에 대한 포괄적인 추적을 생성하므로 데이터 거버넌스 및 규제 준수에 유용합니다. [UI에서 감사 로그 관리](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui)에 대해 자세히 알아보십시오.
 
 ### 감사 로그 필터링
 
@@ -74,7 +74,7 @@ Real-Time CDP Collaboration의 감사 로그 기능을 사용하여 플랫폼 �
 * **상태**: 작업의 상태(예: 허용, 거부)입니다.
 * **날짜 범위**: 로그를 보려는 날짜 범위입니다.
 
-[감사 로그 필터링](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs)에 대해 자세히 알아보세요.
+[감사 로그 필터링](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs)에 대해 자세히 알아보세요.
 
 ### 사용 예
 
@@ -104,7 +104,7 @@ Real-Time CDP Collaboration의 감사 로그 기능을 사용하여 플랫폼 �
 | **[!UICONTROL Collaboration 데이터 연결]** | 만들기, 업데이트, 삭제 | 데이터 연결 만들기, 업데이트 및 삭제를 포함하여 대상을 가져오고 관리하기 위해 공동 작업을 위한 데이터 연결을 관리합니다. [데이터 연결 관리](/help/guide/setup/manage-data-connection.md)에 대해 자세히 알아보세요. |
 | **[!UICONTROL Collaboration 데이터 엔터티]** | 만들기, 업데이트, 삭제 | 데이터 엔티티 만들기, 업데이트 및 삭제를 포함하여 공동 작업을 위한 데이터 엔티티를 관리합니다. 이 컨텍스트의 데이터 엔티티는 대상자를 참조합니다. [대상자 가져오기 및 관리](/help/guide/setup/onboard-audiences.md)에 대해 자세히 알아보십시오. |
 | **[!UICONTROL Collaboration 프로젝트]** | 만들기, 업데이트, 삭제 | 프로젝트 만들기, 업데이트 및 삭제를 포함하여 공동 작업 내에서 프로젝트를 관리합니다. [프로젝트 관리](/help/guide/collaborate/manage-projects.md)에 대해 자세히 알아보세요. |
-| **[!UICONTROL Collaboration 모듈]** | 만들기, 업데이트, 삭제 | UI에서 다양한 모듈 생성, 업데이트 및 삭제를 포함하여 공동 작업 프로젝트 내에서 다양한 모듈을 관리합니다. 예를 들어, [대상을 공유](/help/guide/collaborate/share.md)하는 기능입니다. |
+| **[!UICONTROL Collaboration 모듈]** | 만들기, 업데이트, 삭제 | UI에서 다양한 모듈 생성, 업데이트 및 삭제를 포함하여 공동 작업 프로젝트 내에서 다양한 모듈을 관리합니다. 예를 들어, [대상을 활성화](/help/guide/collaborate/activate.md)하는 기능입니다. |
 
 {style="table-layout:auto"}
 

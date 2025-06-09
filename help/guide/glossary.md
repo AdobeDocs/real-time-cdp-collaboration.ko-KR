@@ -2,9 +2,11 @@
 title: 용어집
 description: Real-Time CDP Collaboration의 주요 용어 이해
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+hidefromtoc: true
+hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 2%

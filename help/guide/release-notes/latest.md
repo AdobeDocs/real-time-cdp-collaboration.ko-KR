@@ -2,11 +2,11 @@
 title: 최신 Real-Time CDP Collaboration 릴리스 노트
 description: Real-Time CDP Collaboration의 최신 릴리스를 따르십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '392'
 ht-degree: 5%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 5%
 
 ## 2025년 3월 {#march-2025}
 
-* 이제 [대상을 Real-Time CDP Collaboration으로 가져오기](/help/guide/setup/onboard-audiences.md)할 때 **1일에서 6일마다**&#x200B;대상 새로 고침 빈도를 설정하여 [대상 관리 크레딧 활동](/help/guide/setup/my-activity.md#types-of-activities)을 보다 효율적으로 관리할 수 있습니다. [자세히 보기](/help/guide/setup/onboard-audiences.md#schedule). <br> ![대상자 멤버십을 업데이트하기 위한 다른 빈도 간격을 보여 주는 예약 화면입니다.](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png "대상자 멤버십을 업데이트하기 위한 다른 빈도 간격을 보여 주는 예약 화면"){width="250" align="center" zoomable="yes"}
+* 이제 [대상을 Real-Time CDP Collaboration으로 가져오기](/help/guide/setup/onboard-audiences.md)할 때 **1일에서 6일마다**&#x200B;의 대상 새로 고침 빈도를 설정하여 [대상 관리 크레딧 활동](/help/guide/setup/my-activity.md#types-of-activities)을 보다 효율적으로 관리할 수 있습니다. [자세히 보기](/help/guide/setup/onboard-audiences.md#schedule). <br> ![대상자 멤버십을 업데이트하기 위한 다른 빈도 간격을 보여 주는 예약 화면입니다.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "대상자 멤버십을 업데이트하기 위한 다른 빈도 간격을 보여 주는 예약 화면"){width="250" align="center" zoomable="yes"}
 * 이제 공동 작업자와 연결을 설정할 때 사전 정의된 **사용 사례**&#x200B;에서 선택할 수 있습니다. 선택한 사용 사례에 따라 사용 가능한 프로젝트 섹션과 제품 기능이 결정됩니다. [자세히 보기](/help/guide/collaborate/manage-projects.md#project-use-cases).
    * *Campaign 측정*&#x200B;은(는) **측정** 프로젝트 섹션을 사용하도록 설정합니다.
    * *대상 검색*&#x200B;에서 **검색** 프로젝트 섹션을 사용하도록 설정합니다.
-   * *대상 공유 및 활성화*&#x200B;를 사용하면 **공유** 및 **활성화** *(게시자 전용)* 프로젝트 섹션이 활성화됩니다. <br> ![연결 보기에서 강조 표시된 사용 사례입니다.](/help/assets/release-notes/2025/use-cases.png "연결 보기에서 강조 표시된 사용 사례입니다."){width="250" align="center" zoomable="yes"}
+   * *대상 활성화*&#x200B;를 통해 **활성화** 프로젝트 섹션 <br>을(를) 사용할 수 있습니다.
 * 이제 더 이상 함께 작업하지 않으려는 공동 작업자와의 연결을 삭제할 수 있습니다. [자세히 보기](/help/guide/connect/establishing-connections.md#delete-connections).
 
 

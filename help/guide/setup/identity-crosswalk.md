@@ -2,13 +2,13 @@
 title: ID 크로스워크
 description: 다양한 소스에서 ID 횡단보도를 가져오는 방법 및 ID 횡단보도를 관리하는 방법을 포함하여 Real-Time CDP Collaboration의 ID 횡단보도에 대해 모두 알아봅니다
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 22%
 
 ---
@@ -34,7 +34,7 @@ In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences
 
 ## ID 횡단보도를 Real-Time CDP Collaboration으로 가져오기 {#import-crosswalk}
 
-**[!UICONTROL 설정]** > **[!UICONTROL ID 횡단보도]** 탭으로 이동하고 더하기 **+** 기호를 선택한 다음 **[!UICONTROL ID 횡단보도]**&#x200B;를 선택합니다.
+**[!UICONTROL 설정]** > **[!UICONTROL ID 횡단보도]** 탭으로 이동하여 추가 아이콘(![추가 아이콘)을 선택합니다.](/help/assets/icons/plus.png)) 님, **[!UICONTROL ID 횡단보도 선택]**
 
 ![ID 횡단보도를 추가하기 위해 화면으로 이동하는 방법에 대한 기록](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 

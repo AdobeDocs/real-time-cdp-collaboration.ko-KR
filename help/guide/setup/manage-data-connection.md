@@ -2,9 +2,9 @@
 title: 데이터 연결 관리
 description: Real-Time CDP Collaboration의 일치 키, 예약, 사용 사례 및 대상 필터링을 포함하여 데이터 연결을 관리하는 방법을 알아봅니다
 audience: administrator, data engineer
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 16%
@@ -65,7 +65,7 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 소스
 
 ## 대상자 관리 {#manage-audiences}
 
-데이터 연결에 첨부된 대상자 목록이 작업 영역 하단에 표시됩니다. 이 목록에는 상태, 소스 및 연결 액세스를 포함하여 각 대상에 대한 간략한 개요가 표시됩니다. 대상자의 카테고리, 연결 액세스 또는 메타데이터 가시성을 편집하려면 대상자의 이름을 선택합니다. 대상자 관리에 대한 전체 안내서는 [개별 대상자 보기](./onboard-audiences.md#view-individual-audiences) 안내서를 참조하십시오.
+데이터 연결에 첨부된 대상자 목록이 작업 영역 하단에 표시됩니다. 목록에는 상태, 소스 및 연결 액세스를 포함하여 각 대상에 대한 간략한 개요가 표시됩니다. 대상자의 카테고리, 연결 액세스 또는 메타데이터 가시성을 편집하려면 대상자의 이름을 선택합니다. 대상자 관리에 대한 전체 안내서는 [개별 대상자 보기](./onboard-audiences.md#view-individual-audiences) 안내서를 참조하십시오.
 
 ![대상이 강조 표시된 데이터 연결 작업 영역입니다.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 

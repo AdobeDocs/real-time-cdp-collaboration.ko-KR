@@ -1,17 +1,17 @@
 ---
-title: 출판사 탐색
+title: 게시자 탐색
 description: 광고주로서 Adobe Real-Time CDP Collaboration을 사용하여 공동 작업을 수행할 수 있는 잠재적 게시자를 발견하는 방법에 대해 알아보십시오
 audience: admin, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
 
-# 출판사 탐색
+# 게시자 탐색
 
 {{limited-availability-release-note}}
 
@@ -21,7 +21,7 @@ Adobe Real-Time CDP Collaboration을 사용하여 공동 작업을 수행할 수
 
 ![게시자 페이지 검색](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
 
-게시자에 대한 자세한 내용을 보려면 **[!UICONTROL 게시자 보기]**&#x200B;를 선택하십시오. 게시자가 공유하기로 한 모든 공개 대상을 보고 검사할 수도 있습니다.
+게시자에 대한 자세한 내용을 보려면 **[!UICONTROL 게시자 보기]**&#x200B;를 선택하십시오. 게시자 [공개](/help/guide/setup/onboard-audiences.md#metadata-visibility)로 설정된 대상자를 보고 검사할 수도 있습니다.
 
 ![게시자 프로필 보기](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
 

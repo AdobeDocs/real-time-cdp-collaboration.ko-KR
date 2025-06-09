@@ -2,9 +2,9 @@
 title: 신용 소비 활동 추적
 description: Real-Time CDP Collaboration에서 조직의 신용 사용 활동을 추적하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 | **[!UICONTROL 날짜]** | 활동이 발생한 날짜로서 YYYY/MM/DD 형식으로 표시됩니다. |
 | **[!UICONTROL 연결 ID]** | 신용 소비 활동과 연관된 각 연결에 대한 고유 식별자로, 영숫자 문자열로 표시됩니다. |
 | **[!UICONTROL 연결 이름]** | 연결 및 신용 소비 활동과 연관된 공동 작업자의 이름입니다. |
-| **[!UICONTROL 활동]** | **활성화 - 공유**, **활성화 - 이그레스** 또는 **대상자 관리**&#x200B;와 같이 수행되는 활동 유형입니다. |
+| **[!UICONTROL 활동]** | **활성화 - 일치**, **활성화 - 이그레스** 또는 **고객 관리**&#x200B;와 같이 수행되는 활동 유형입니다. |
 | **[!UICONTROL 처리된 입력]** | 활동에 대해 처리된 총 입력(예: ID 또는 행) 수입니다. |
 | **[!UICONTROL 사용된 총 크레딧]** | 활동에서 소비한 총 크레딧 수입니다. |
 | **[!UICONTROL 내 크레딧 공유]** | 활동에 사용된 크레딧의 조직 부분입니다. |
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 신용 소비를 효과적으로 관리하려면
 
-1. 각 활동과 관련된 신용 소비를 **이해**&#x200B;합니다. 활동당 사용된 공동 작업 크레딧 표에 대해서는 [Real-Time CDP Collaboration 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}을 확인하십시오.
+1. 각 활동과 관련된 신용 소비를 **이해**&#x200B;합니다. 활동당 사용된 공동 작업 크레딧 표에 대해서는 [Real-Time CDP Collaboration 제품 설명](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}을 확인하십시오.
 2. **정기적으로 모니터링**: 사용 패턴을 이해하려면 활동 대시보드를 자주 확인하십시오.
 3. **연결별 추적**: 연결 이름을 사용하여 크레딧을 가장 많이 사용하는 파트너 관계를 식별합니다.
 

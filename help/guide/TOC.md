@@ -2,10 +2,10 @@
 user-guide-title: Real-Time Customer Data Platform Collaboration
 breadcrumb-title: Real-Time Customer Data Platform Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration은 광고주와 게시자 간의 원활하고 안전한 데이터 공유 및 공동 작업을 지원하여 실시간 대상 통찰력과 개인화된 마케팅 전략을 촉진합니다.
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 19%
+source-wordcount: '130'
+ht-degree: 21%
 
 ---
 
@@ -21,20 +21,23 @@ ht-degree: 19%
    * [조직 온보드 및 관리](./setup/onboard-organization.md)
    * [대상자 가져오기 및 관리](./setup/onboard-audiences.md)
    * [데이터 연결 관리](./setup/manage-data-connection.md)
+   * [대상 구성 및 관리](./setup/manage-destinations.md)
    * [신용 소비 활동 추적](/help/guide/setup/my-activity.md)
    * [ID 크로스워크](./setup/identity-crosswalk.md)
    * [측정 데이터 추가 및 관리](./setup/onboard-measurement-data.md)
    * [감사 로그](./setup/audit-logs.md)
 * 게시자 또는 광고주와 연결 {#connect}
-   * [출판사 탐색](./connect/discover-publishers.md)
+   * [게시자 탐색](./connect/discover-publishers.md)
    * [광고주 검색](./connect/discover-advertisers.md)
    * [광고주 또는 게시자와 연결](./connect/establishing-connections.md)
 * 공동 작업 {#collaborate}
    * [프로젝트 관리](./collaborate/manage-projects.md)
    * [탐색](./collaborate/discover.md)
-   * [공유](./collaborate/share.md)
    * [활성화](./collaborate/activate.md)
    * [측정](./collaborate/measure.md)
+* 대상 {#destinations}
+   * [개요](./destinations/overview.md)
+   * [Adobe Experience Platform](./destinations/experience-platform.md)
 * 권한 {#permissions}
    * [개요](/help/guide/permissions/overview.md)
    * [사용자 액세스 관리](/help/guide/permissions/manage-user-access.md)
