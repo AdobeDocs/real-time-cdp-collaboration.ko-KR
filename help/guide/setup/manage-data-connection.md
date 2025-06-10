@@ -2,12 +2,12 @@
 title: 데이터 연결 관리
 description: Real-Time CDP Collaboration의 일치 키, 예약, 사용 사례 및 대상 필터링을 포함하여 데이터 연결을 관리하는 방법을 알아봅니다
 audience: administrator, data engineer
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 16%
+source-wordcount: '598'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +34,10 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 소스
 
 일치 키는 서로 다른 데이터 소스의 대상자 간에 멤버를 조정하는 데 사용되는 식별자입니다. 데이터 연결을 위해 처음에 선택한 일치 키는 편집할 수 없습니다.
 
+>[!IMPORTANT]
+> 
+>데이터 연결을 만든 후에는 일치 키를 편집할 수 없습니다. 일치 키를 업데이트하려면 새 데이터 연결을 만들어야 합니다.
+
 사용 가능한 일치 키는 다음과 같습니다.
 
 - **해시된 이메일**
@@ -45,11 +49,27 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 소스
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="예약"
->abstract="이 보기에는 데이터 연결에 대해 처음 선택한 일정 옵션이 표시됩니다."
+>abstract="데이터 연결에 대한 예약 세부 사항을 보고 필요한 경우 새로 고침 빈도를 편집합니다."
 
-데이터 연결을 위해 처음에 선택한 예약 옵션은 편집할 수 없습니다. 예약 옵션에 대한 자세한 내용은 대상 가져오기 워크플로 문서에서 [예약 섹션](/help/guide/setup/onboard-audiences.md#schedule)을(를) 참조하십시오.
+데이터 연결에 대한 예약 설정을 보고 관리합니다. 예약은 대상을 새로 고치는 빈도를 결정합니다.
 
-![일정 섹션이 강조 표시된 데이터 연결 작업 영역입니다.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+데이터 연결이 만들어지면 데이터 연결 작업 영역의 **[!UICONTROL 예약]** 섹션에서 바로 새로 고침 빈도를 업데이트할 수 있습니다.
+
+>[!NOTE]
+>
+>Adobe Experience Platform에서 대상을 소싱할 때 데이터 연결이 설정된 후 24시간 내에 대상을 사용할 수 있습니다. 초기 가져오기 후 대상 데이터는 정의된 빈도에 따라 새로 고쳐집니다.
+
+예약에 대한 자세한 내용은 대상자 온보딩 가이드의 [예약 섹션](/help/guide/setup/onboard-audiences.md#schedule)을 참조하십시오.
+
+![일정 섹션이 강조 표시된 데이터 연결의 작업 영역입니다.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+
+#### 예약 편집 {#edit-scheduling}
+
+기존 데이터 연결의 빈도를 편집하여 대상을 새로 고치는 빈도를 더 잘 제어할 수 있습니다. 일정을 편집하려면 일정 카드의 데이터 연결에서 **[!UICONTROL 편집]**&#x200B;을 선택하세요.
+
+**[!UICONTROL 예약]** 대화 상자에서 드롭다운 메뉴를 선택하여 **[!UICONTROL 빈도]**&#x200B;를 업데이트합니다. 새로 고침 빈도를 매일 또는 2~6일마다 실행되도록 설정합니다. 완료되면 **[!UICONTROL 저장]**&#x200B;을 선택하여 변경 내용을 적용합니다.
+
+![예약 대화 상자, 빈도 및 날짜 범위를 설정하는 옵션을 표시합니다.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
 
 ## 데이터 연결 삭제
 
