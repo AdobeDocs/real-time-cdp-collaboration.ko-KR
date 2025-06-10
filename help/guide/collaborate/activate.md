@@ -2,9 +2,9 @@
 title: 대상자 활성화
 description: Adobe Real-Time CDP Collaboration에서 대상을 활성화하는 방법을 알아봅니다.
 audience: admin, publisher
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+source-git-commit: 691161cdc1f9338a470373988fbc0dee9a5be6db
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 활성화]** 작업 영역은 연결 프로세스 [&#128279;](../connect/establishing-connections.md#connection-settings)에서 **대상 활성화** 사용 사례를 사용하도록 설정한 경우 에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
+>**[!UICONTROL 활성화]** 작업 영역은 연결 프로세스 ](../connect/establishing-connections.md#connection-settings)에서 **대상 활성화** 사용 사례를 사용하도록 설정한 경우 [에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
 
 대상자 활성화를 사용하면 캠페인에서 대상자를 활성화할 수 있습니다. 활동 프로세스는 광고주와 게시자 간의 협업입니다. [캠페인에 가장 적합한 대상을 발견](./discover.md)한 후 대상자는 타겟팅된 대상을 활성화할 수 있습니다. 활성화된 대상은 캠페인에 사용할 수 있도록 게시자의 사전 구성된 대상(예: Adobe Experience Platform)으로 전송됩니다. 지정 설정에 대한 자세한 내용은 [대상 개요](../destinations/overview.md) 안내서를 참조하세요.
 

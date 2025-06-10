@@ -2,9 +2,9 @@
 title: 최신 Real-Time CDP Collaboration 릴리스 노트
 description: Real-Time CDP Collaboration의 최신 릴리스를 따르십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: 92e347e3258817a983d8eaed9cf2b962b3443cbc
+source-git-commit: 691161cdc1f9338a470373988fbc0dee9a5be6db
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 3%
@@ -22,9 +22,9 @@ ht-degree: 3%
 ## 2025년 5월 {#may-2025}
 
 * 이제 **호주** 및 **뉴질랜드**&#x200B;의 고객이 Real-Time CDP Collaboration을 사용할 수 있습니다. 이러한 지역의 Real-Time CDP Prime 및 Ultimate 고객이 자동으로 사용할 수 있습니다.
-* 이제 Real-Time CDP Collaboration은 설정 섹션의 내 지정 탭을 통해 [셀프 서비스 지정](../setup/manage-destinations.md)을 제공합니다. 대상을 사용하면 광고 네트워크 또는 데이터 관리 플랫폼과 같은 서드파티 플랫폼에서 대상을 활성화하여 다양한 채널에서 고객에게 도달할 수 있습니다. 현재 Adobe Experience Platform 대상만 지원됩니다. 다른 대상을 구성하는 데 관심이 있는 경우 Adobe 담당자에게 문의하십시오. 대상에 대한 자세한 내용은 [대상 개요](../destinations/overview.md) 안내서를 참조하십시오.
+* 이제 Real-Time CDP Collaboration에서 **[!UICONTROL 설정]** 섹션의 **[!UICONTROL 내 대상]** 탭을 통해 [셀프 서비스 대상](../setup/manage-destinations.md)을 제공합니다. 대상을 사용하면 광고 네트워크 또는 데이터 관리 플랫폼과 같은 서드파티 플랫폼에서 대상을 활성화하여 다양한 채널에서 고객에게 도달할 수 있습니다. 현재 Adobe Experience Platform 대상만 지원됩니다. 다른 대상을 구성하는 데 관심이 있는 경우 Adobe 담당자에게 문의하십시오. 대상에 대한 자세한 내용은 [대상 개요](../destinations/overview.md) 안내서를 참조하십시오.
 
-   * 대상에는 [Real-Time CDP Collaboration 대상 포털](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences.)에서 Adobe Experience Platform 대상을 볼 수 있는 지원도 추가됩니다.
+   * 대상에는 [Real-Time CDP Collaboration 대상 포털](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences.)에서 Adobe Experience Platform 대상을 볼 수 있는 지원도 추가됩니다.
 
 * 이제 Real-Time CDP Collaboration에서 기존 데이터 연결의 대상 새로 고침 빈도를 편집할 수 있습니다. 현재 대상자를 매일 또는 2~6일마다 새로 고치도록 선택할 수 있습니다. 대상 새로 고침 빈도를 편집하는 방법에 대한 자세한 내용은 [데이터 연결 관리](../setup/manage-data-connection.md#scheduling) 안내서를 참조하십시오.
 * 이제 연결 내에서 선택한 각 사용 사례에 대해 공동 작업자 간의 크레딧 분할이 설정됩니다. 각 사용 사례에 대해 서로 다른 크레딧 소비 규칙을 설정하여 크레딧이 사용되는 방식을 보다 효과적으로 제어할 수 있습니다. 크레딧 분할 기능에 대해 자세히 알아보려면 [연결 설정](../connect/establishing-connections.md#connection-settings) 안내서를 읽어 보십시오. 크레딧 사용 방법에 대한 자세한 내용은 [크레딧 활동 유형](../setup/my-activity.md#types-of-activities) 안내서를 참조하십시오. <br> ![크레딧 분할 기능을 표시하는 연결 설정 화면입니다.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
