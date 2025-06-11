@@ -2,12 +2,12 @@
 title: 프로젝트 만들기 및 관리
 description: Adobe Real-Time CDP Collaboration에서 프로젝트를 만들고 관리하는 방법 알아보기
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
 >title="광고주 이름"
->abstract="드롭다운 메뉴에서 광고주 이름을 선택하십시오. 이 옵션은 게시자가 연결 설정에서 해당 시스템과의 호환성을 위해 미리 구성합니다."
+>abstract="드롭다운 메뉴에서 광고주 이름을 선택하십시오. 이들 옵션은 시스템과의 호환성을 보장하기 위해 게시자가 연결 설정에서 미리 구성합니다."
 
 **[!UICONTROL 공동 작업]**(으)로 이동한 다음 **[!UICONTROL 내 프로젝트]**(으)로 이동합니다. 첫 번째 프로젝트인 경우 **[!UICONTROL 프로젝트 만들기]**&#x200B;를 선택할 수 있습니다. 그렇지 않으면 추가 아이콘(![추가 아이콘)을 선택할 수 있습니다.](/help/assets/icons/plus.png)) 언제든지 새 프로젝트를 만들 수 있습니다.
 
@@ -58,7 +58,7 @@ ht-degree: 5%
 
 프로젝트 개요에는 연결 설정 중에 선택한 사용 사례가 표시됩니다. 이러한 사용 사례는 프로젝트에서 사용할 수 있는 기능을 정의합니다. 사용 사례는 다음과 같습니다.
 
-| 활용 사례 | 프로젝트 섹션 |
+| 사용 사례 | 프로젝트 섹션 |
 | --- | --- |
 | 캠페인 측정 | 이 사용 사례에서는 [측정값](/help/guide/collaborate/measure.md) 섹션 및 사용 가능한 모든 기능에 대한 액세스 권한을 부여합니다. |
 | 대상자 탐색 | 이 사용 사례에서는 [검색](/help/guide/collaborate/discover.md) 섹션 및 사용 가능한 모든 기능에 대한 액세스 권한을 부여합니다. |
