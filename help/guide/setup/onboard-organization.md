@@ -2,11 +2,11 @@
 title: 조직 온보드 및 관리
 description: Real-Time CDP Collaboration에서 조직의 다양한 측면을 온보딩하고 관리하는 방법을 알아봅니다
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 860138b95abc4d6af94bbbf722cf498463570c1b
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '886'
 ht-degree: 16%
 
 ---
@@ -33,6 +33,13 @@ Real-Time CDP Collaboration에 조직을 온보딩하고 회사의 다양한 측
 >id="rtcdp_collaboration_setup_contact_email"
 >title="연락처 이메일"
 >abstract="팀 또는 역할 기반의 이메일(예: `collaboration@yourcompany.com`)을 입력해 주십시오. 개인 또는 개별 이메일 주소는 사용할 수 없습니다."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_setup_connect_code"
+>title="연결 코드"
+>abstract="연결 코드는 조직의 고유 식별자입니다. Real-Time CDP Collaboration의 다른 조직과의 연결을 설정하는 데 사용됩니다."
+
+<!-- Move the above to new section for invite on this page when its created -->
 
 조직에 온보딩을 시작하려면 먼저 조직 세부 사항을 설정해야 합니다. 이 경우 다음 정보를 추가해야 합니다.
 
