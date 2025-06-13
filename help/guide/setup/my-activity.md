@@ -2,11 +2,11 @@
 title: 신용 소비 활동 추적
 description: Real-Time CDP Collaboration에서 조직의 신용 사용 활동을 추적하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -60,13 +60,13 @@ ht-degree: 0%
 * **[!UICONTROL 대상 관리]**: 대상을 Real-Time CDP Collaboration으로 가져올 때 크레딧이 사용됩니다. 크레딧은 모든 대상에 대해 Real-Time CDP Collaboration 내에서 인덱싱된 ID 수(백만 단위)와 해당 인덱싱의 빈도(매일, 3일마다 또는 매주)의 함수로 사용됩니다. 자세한 내용은 [대상자 가져오기 및 관리](/help/guide/setup/onboard-audiences.md) 안내서를 참조하십시오.
 * **[!UICONTROL 활성화 - 일치]** - 크레딧은 일치하고 활성화를 위해 준비된 ID 수의 함수로 사용됩니다. 자세한 내용은 [대상자 활성화](/help/guide/collaborate/activate.md) 안내서를 참조하십시오.
 * **[!UICONTROL 활성화 - 이그레스]** - 대상으로 전송된 ID 수에 따라 크레딧이 사용됩니다. 이는 항상 대상자를 받는 공동 작업자에게 청구됩니다. 자세한 내용은 [대상자 활성화](/help/guide/collaborate/activate.md) 안내서를 참조하십시오.
-* **[!UICONTROL 대상 측정]** - Real-Time CDP Collaboration에서 활동을 실행하여 캠페인 성과 보고서와 통찰력을 생성합니다. 크레딧은 모든 캠페인의 캠페인 보고서 행 수 및 보고 빈도를 기반으로 사용됩니다(매일, 3일마다 또는 매주).
+* **[!UICONTROL 측정]** - Real-Time CDP Collaboration에서 활동을 실행하여 캠페인 성과 보고서와 통찰력을 생성합니다. 크레딧은 모든 캠페인의 캠페인 보고서 행 수 및 보고 빈도를 기반으로 사용됩니다(매일, 3일마다 또는 매주).
 
 ## 신용 소비 관리 {#manage-credit-consumption}
 
 신용 소비를 효과적으로 관리하려면
 
-1. 각 활동과 관련된 신용 소비를 **이해**&#x200B;합니다. 활동당 사용된 공동 작업 크레딧 표에 대해서는 [Real-Time CDP Collaboration 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}을 확인하십시오.
+1. 각 활동과 관련된 신용 소비를 **이해**&#x200B;합니다. 활동당 사용된 공동 작업 크레딧 표에 대해서는 [Real-Time CDP Collaboration 제품 설명](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}을 확인하십시오.
 2. **정기적으로 모니터링**: 사용 패턴을 이해하려면 활동 대시보드를 자주 확인하십시오.
 3. **연결별 추적**: 연결 이름을 사용하여 크레딧을 가장 많이 사용하는 파트너 관계를 식별합니다.
 

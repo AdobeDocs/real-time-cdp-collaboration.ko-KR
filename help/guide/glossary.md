@@ -2,13 +2,13 @@
 title: 용어집
 description: Real-Time CDP Collaboration의 주요 용어 이해
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 2%
 
 ---
@@ -126,6 +126,6 @@ Adobe Real-Time CDP Collaboration에서 데이터 스케치:
 
 ## U
 
-### 활용 사례
+### 사용 사례
 
-사용 사례는 Adobe Real-Time CDP Collaboration을 사용하여 해결할 수 있는 특정 비즈니스 시나리오 또는 문제를 정의합니다. Real-Time CDP Collaboration 내에서는 대상 검색 또는 캠페인 측정과 같은 샘플 사용 사례를 사용하여 특정 목표를 달성할 수 있습니다.
+사용 사례는 Adobe Real-Time CDP Collaboration을 사용하여 해결할 수 있는 특정 비즈니스 시나리오 또는 문제를 정의합니다. Real-Time CDP Collaboration 내에서는 대상 검색 또는 측정과 같은 샘플 사용 사례를 사용하여 특정 목표를 달성할 수 있습니다.
