@@ -2,12 +2,12 @@
 title: 중복 검색 및 대상 비교
 description: 와 공동 작업자의 대상 간에 겹치는 부분을 살펴봅니다. 캠페인에 사용할 최상의 대상을 찾는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 11%
 >
 >업데이트되지 않았거나 새로 고침되지 않은 [데이터 스케치](/help/guide/glossary.md#sketches)는 7일 후에 삭제됩니다. 이런 경우 이 페이지의 여러 겹치기 보고서에 표시된 수치가 0으로 변경되고 만료된 이러한 대상자는 대상 공유를 사용할 수 없게 됩니다. [활성 새로 고침 일정](/help/guide/setup/onboard-audiences.md#schedule)을 사용하는 대상에 대해 데이터 스케치가 자동으로 새로 고쳐집니다.
 
-대상을 검색하고 비교하는 데 사용되는 일치 키가 연결 프로세스[&#128279;](/help/guide/connect/establishing-connections.md#connection-settings)에서 설정됩니다. 일치 키는 대상자 간의 겹침을 계산하는 데 사용되며 켜거나 끌 수 있습니다. 일치 키를 편집하려면 **[!UICONTROL 일치 키 편집]** 옵션을 선택하십시오. 이
+대상을 검색하고 비교하는 데 사용되는 일치 키가 연결 프로세스](/help/guide/connect/establishing-connections.md#connection-settings)에서 [설정됩니다. 일치 키는 대상자 간의 겹침을 계산하는 데 사용되며 켜거나 끌 수 있습니다. 일치 키를 편집하려면 **[!UICONTROL 일치 키 편집]** 옵션을 선택하십시오. 이
 
 ![대상 인사이트를 보여주는 Dicover 탭 작업 영역입니다.](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -53,22 +53,22 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
 >title="ID의 중요성"
->abstract="사용자와 공동 작업자가 프로젝트에 동의한 일치 키를 기반으로 한, 선택한 대상자 내의 고유 ID 수입니다."
->
+>abstract="프로젝트에 대해 귀하와 공동 작업자가 합의한 일치 키를 기반으로 하는 선택한 대상자 내의 고유 ID 수입니다."
+
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="공동 작업자 ID 수"
->abstract="사용자와 공동 작업자가 프로젝트에 동의한 일치 키를 기반으로 한 공동 작업자 대상 내의 고유 ID 수입니다."
+>abstract="프로젝트에 대해 귀하와 공동 작업자가 합의한 일치 키를 기반으로 하는 공동 작업자의 대상자 내 고유 ID 수입니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
 >title="ID 중복 수"
->abstract="귀하와 공동 작업자가 프로젝트에 동의한 일치 키를 기반으로 귀하와 공동 작업자의 대상 모두에 존재하는 고유 ID의 수입니다."
+>abstract="프로젝트에 대해 귀하와 공동 작업자가 합의한 일치 키를 기반으로 하는 귀하와 공동 작업자의 대상자 모두에 존재하는 고유 ID 수입니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
 >title="중복되는 ID 비율"
->abstract="귀하와 공동 작업자가 선택한 대상 간의 중복 ID의 비율입니다."
+>abstract="본인과 공동 작업자가 선택한 대상자 간에 중복되는 ID의 비율입니다."
 
 대상 비교 섹션을 사용하여 와 공동 작업자 대상 간의 겹침에 대한 다양한 정보를 얻을 수 있습니다. 대상 선택을 변경하려면 **[!UICONTROL 대상 비교]** 섹션 맨 위에 있는 드롭다운 선택기를 사용하십시오. 한 명 또는 모든 대상과 한 명 또는 모든 공동 작업자 대상을 선택하여 서로 비교할 수 있습니다.
 
@@ -126,7 +126,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
 >title="개별 대상자와의 중복 항목 확인"
->abstract="대상과 공동 작업자의 대상 간의 중복에 대한 통찰력을 얻으십시오."
+>abstract="본인과 공동 작업자의 대상자 간에 중복되는 대상자에 대한 인사이트를 얻을 수 있습니다."
 
 중복을 발견하여 대상이 공동 작업자의 대상과 어떻게 비교되는지에 대한 통찰력을 얻으십시오. 기본적으로 이 섹션에서는 모든 대상을 각 공동 작업자의 대상과 비교합니다. 섹션 하단에 있는 페이지 매김 컨트롤을 사용하여 사용 가능한 대상을 탐색합니다.
 
