@@ -2,7 +2,7 @@
 title: 중복 검색 및 대상 비교
 description: 와 공동 작업자의 대상 간에 겹치는 부분을 살펴봅니다. 캠페인에 사용할 최상의 대상을 찾는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
 workflow-type: tm+mt
@@ -25,7 +25,7 @@ ht-degree: 19%
 >
 >업데이트되지 않았거나 새로 고침되지 않은 [데이터 스케치](/help/guide/glossary.md#sketches)는 7일 후에 삭제됩니다. 이런 경우 이 페이지의 여러 겹치기 보고서에 표시된 수치가 0으로 변경되고 만료된 이러한 대상자는 대상 공유를 사용할 수 없게 됩니다. [활성 새로 고침 일정](/help/guide/setup/onboard-audiences.md#schedule)을 사용하는 대상에 대해 데이터 스케치가 자동으로 새로 고쳐집니다.
 
-대상을 검색하고 비교하는 데 사용되는 일치 키가 연결 프로세스[&#128279;](/help/guide/connect/establishing-connections.md#connection-settings)에서 설정됩니다. 일치 키는 대상자 간의 겹침을 계산하는 데 사용되며 켜거나 끌 수 있습니다. 일치 키를 편집하려면 **[!UICONTROL 일치 키 편집]** 옵션을 선택하십시오. 이
+대상을 검색하고 비교하는 데 사용되는 일치 키가 연결 프로세스](/help/guide/connect/establishing-connections.md#connection-settings)에서 [설정됩니다. 일치 키는 대상자 간의 겹침을 계산하는 데 사용되며 켜거나 끌 수 있습니다. 일치 키를 편집하려면 **[!UICONTROL 일치 키 편집]** 옵션을 선택하십시오. 이
 
 ![대상 인사이트를 보여주는 Dicover 탭 작업 영역입니다.](/help/assets/collaborate/discover/discover-overview.png)
 

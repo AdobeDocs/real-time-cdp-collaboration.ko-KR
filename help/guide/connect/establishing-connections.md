@@ -2,12 +2,12 @@
 title: 광고주 또는 게시자와 연결
 description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 프로젝트에 대한 공동 작업을 시작하는 방법에 대해 알아보십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -62,17 +62,17 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="크레딧 분할"
->abstract="이 섹션에서는 Real-Time CDP Collaboration 내에서 해당 활동에 대해 지불하는 사용자를 결정합니다."
+>abstract="이 섹션에서는 Real-Time CDP Collaboration 내 해당 활동에 대한 비용을 누가 지불하는지 확인합니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="대상자 공유"
->abstract="대상자 활성화 크레딧은 활성화를 위해 준비된 일치하는 ID 수에 따라 사용됩니다."
+>abstract="대상자 활성화 크레딧은 활성화를 위해 준비된 일치 ID 수에 따라 소모됩니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="측정"
->abstract="활동을 실행하여 캠페인 성과 보고서와 통찰력을 생성합니다. 크레딧은 모든 캠페인의 캠페인 보고서 행 수 및 보고 빈도를 기반으로 사용됩니다(매일, 3일마다 또는 매주)."
+>abstract="캠페인 성능 보고서와 인사이트를 생성하기 위한 활동을 실행합니다. 모든 캠페인의 보고서 행 수와 보고 빈도(매일, 3일마다, 매주)를 기준으로 크레딧이 소모됩니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -88,7 +88,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"
 >title="대상자 활성화"
->abstract="대상 활성화를 사용하면 대상 활성화를 시작할 수 있는 공동 작업자를 선택할 수 있습니다."
+>abstract="대상자 활성화 기능을 통해 대상자 활성화를 시작할 수 있는 공동 작업자를 선택할 수 있습니다."
 
 <!-- Move and update the above popover when bidirectional is active. -->
 

@@ -2,12 +2,12 @@
 title: 데이터 연결 관리
 description: Real-Time CDP Collaboration의 일치 키, 예약, 사용 사례 및 대상 필터링을 포함하여 데이터 연결을 관리하는 방법을 알아봅니다
 audience: administrator, data engineer
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -49,7 +49,7 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 소스
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="예약"
->abstract="데이터 연결에 대한 예약 세부 사항을 보고 필요한 경우 새로 고침 빈도를 편집합니다."
+>abstract="데이터 연결에 대한 일정 세부 정보를 보고, 필요한 경우 새로 고침 빈도를 편집합니다."
 
 데이터 연결에 대한 예약 설정을 보고 관리합니다. 예약은 대상을 새로 고치는 빈도를 결정합니다.
 
