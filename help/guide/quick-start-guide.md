@@ -1,17 +1,18 @@
 ---
 title: Real-Time CDP Collaboration 온보딩 빠른 시작
-description: 역할 및 조직 설정, 대상 프로비저닝, 활성화 및 측정을 포함하여 Real-Time CDP Collaboration에서 조직을 온보딩하는 방법에 대해 알아봅니다. 이 안내서는 광고주와 게시자가 공동 작업 설정을 구성하고 공유 대상을 안전하고 효율적으로 사용할 수 있도록 지원합니다.
+description: 역할 및 조직 설정, 대상 소싱, 활성화 및 측정을 포함하여 Real-Time CDP Collaboration에서 조직을 온보딩하는 방법을 알아봅니다. 이 안내서는 광고주와 게시자가 공동 작업 설정을 구성하고 공유 대상을 안전하고 효율적으로 사용할 수 있도록 지원합니다.
 audience: admin, publisher, advertiser
-source-git-commit: 4435788917dd82cb127525e054f7f09803e1dcdf
+exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
+source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
 
 # Real-Time CDP Collaboration 온보딩 빠른 시작
 
-조직을 구성하고, 대상을 프로비저닝하고, 개인 정보에 초점을 맞춘 활성화 및 측정을 활성화하여 Real-Time Customer Data Platform(CDP) Collaboration을 시작하십시오.
+조직을 구성하고, 대상을 소싱하고, 개인 정보 중심의 활성화 및 측정을 활성화하여 Real-Time CDP Collaboration을 시작하십시오.
 
 ## 전제 조건
 
@@ -41,7 +42,7 @@ ht-degree: 0%
 
 이 비디오를 통해 Admin Console 및 Experience Platform UI를 사용하여 Collaboration에 대한 제품 액세스 및 권한을 할당하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452237/?learn=on&enablevpops&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 2단계: Real-Time CDP Collaboration 조직 설정 {#set-up-your-organization}
 
@@ -73,7 +74,7 @@ Collaboration에서 조직의 역할을 정의하고, 브랜딩 자산을 제공
 
 - **일치 키 구성** - 대상 일치에 사용되는 식별자를 선택합니다(현재 해시된 이메일만 지원되는 일치 키).
 
-조직이 만들어지고 브랜딩 및 일치 키가 구성되면 조직은 대상자 프로비저닝과 데이터 활성화를 시작할 수 있습니다.
+조직이 만들어지고 브랜딩 및 일치 키가 구성되면 조직에서 대상을 소싱하고 데이터를 활성화할 수 있습니다.
 
 역할을 정의하고, 브랜딩 자산을 업로드하고, 일치 키를 구성하는 방법을 포함하여 초기 조직 설정에 대한 자세한 내용은 [초기 조직 설정 문서](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}를 참조하십시오.
 
@@ -83,7 +84,7 @@ Collaboration에서 조직의 역할을 정의하고, 브랜딩 자산을 제공
 
 ## 3단계: Source 대상(Experience Platform 또는 클라우드 소스) {#source-audiences}
 
-소스 대상에 대해 다음 데이터 저장소 중 하나 또는 모두를 선택합니다. Collaboration UI를 사용하거나 Adobe과 협력하여 개인 정보 보호 형식으로 대상자를 프로비저닝합니다.
+소스 대상에 대해 다음 데이터 저장소 중 하나 또는 모두를 선택합니다. Collaboration UI를 사용하거나 Adobe과 협력하여 개인 정보 보호 형식으로 대상자를 소스화합니다.
 
 ### 옵션 A: Experience Platform의 Source
 
@@ -99,7 +100,7 @@ Collaboration에서 조직의 역할을 정의하고, 브랜딩 자산을 제공
 >
 >업로드된 파일의 모든 대상은 이 단계에서 완전히 소싱됩니다. 특정 파트너 조직에 대한 액세스는 Collaboration UI를 통해 별도로 제공됩니다.
 
-### 대상자 프로비저닝
+### 대상자 구성
 
 연결에서 사용할 대상을 준비, 일치 및 제어하는 방법을 구성합니다.
 
@@ -117,8 +118,8 @@ Collaboration에서 조직의 역할을 정의하고, 브랜딩 자산을 제공
 >
 >**공동 작업자 역할당 최대 대상 수:**
 >
->- **광고주**&#x200B;는 최대 25개의 대상을 제공할 수 있습니다.
->- **게시자**&#x200B;는 최대 250개의 대상(각각 최소 5,000개의 ID를 가짐)을 프로비저닝할 수 있습니다.
+>- **광고주**&#x200B;는 최대 25개의 대상을 소싱할 수 있습니다.
+>- **게시자**&#x200B;는 최대 250개의 대상(각각 최소 5,000개의 ID를 가짐)을 검색할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -134,7 +135,7 @@ Collaboration UI를 사용하여 대상을 참조하는 방법에 대한 전체 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-또는 [Real-Time CDP Collaboration에서 대상을 사용할 수 있도록 설정](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)에 대한 문서를 참조하십시오.
+또는 [Real-Time CDP Collaboration에서 대상을 사용할 수 있도록 설정](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)에 대한 문서를 참조하십시오.
 
 ## 4단계: 대상자 활성화 (Experience Platform 또는 클라우드 대상) {#activate-audiences}
 
@@ -146,7 +147,7 @@ Collaboration UI를 사용하여 Experience Platform 인스턴스 또는 클라�
 
 ### 옵션 A: Experience Platform에 활성화
 
-[대상으로 Adobe Experience Platform 구성](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/destinations/experience-platform) 안내서에 설명된 다음 단계를 완료하십시오.
+[대상으로 Adobe Experience Platform 구성](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform) 안내서에 설명된 다음 단계를 완료하십시오.
 
 - **대상 만들기** - UI를 사용하여 Experience Platform 대상(샌드박스 수준)을 설정합니다.
 - **일치 키 매핑** - 식별자를 선택합니다(예: `hashedEmail`).
@@ -174,7 +175,7 @@ Collaboration UI를 사용하여 Experience Platform 인스턴스 또는 클라�
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 측정]** 작업 영역은 연결 프로세스 [&#128279;](./connect/establishing-connections.md#connection-settings)에서 **[!UICONTROL 측정]** 사용 사례를 사용하도록 설정한 경우 에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./collaborate/manage-projects.md#project-use-cases) 안내서를 참조하세요.
+>**[!UICONTROL 측정]** 작업 영역은 연결 프로세스 **[!UICONTROL 에서]**&#x200B;측정[ 사용 사례를 사용하도록 설정한 경우 ](./connect/establishing-connections.md#connection-settings)에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./collaborate/manage-projects.md#project-use-cases) 안내서를 참조하세요.
 
 Collaboration은 캠페인 도달 범위, 빈도 및 효과를 분석하는 다양한 보고서를 제공합니다. UI에서 **[!UICONTROL 측정]** 작업 영역을 사용할 수 있지만 전체 보고 기능을 사용하려면 백 엔드를 활성화해야 할 수 있습니다.
 
@@ -237,11 +238,17 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 설정 및 데이터 프로비저닝이 완료되면 이제 조직에서 초대를 보내거나 수락하고 승인을 위해 프로젝트 설정을 제출하여 공동 작업자와 연결할 준비가 되었습니다. 이 연결 프로세스에는 초대장 보내기 또는 받기, 연결 설정(예: 사용 사례 및 신용 소비) 검토 및 제출, 관계 확인이 포함됩니다.
 
-Collaboration UI의 왼쪽 탐색 메뉴에서 **[!UICONTROL 연결]** 작업 영역을 사용하여 사용 가능한 게시자를 찾아봅니다(광고주는 현재 검색할 수 없음). 이 흐름에 대한 개요는 [광고주 또는 게시자와 연결 가이드](./connect/establishing-connections.md){target="_blank"}를 참조하십시오. 공동 작업자 탐색 및 연결 설정 관리를 포함한 연결 프로세스에 대한 시각적 설명은 [advertiser 계정 설정 비디오](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}를 시청하십시오.
+광고주는 Collaboration UI의 왼쪽 탐색 메뉴에서 **[!UICONTROL 연결]** 작업 영역을 사용하여 사용 가능한 게시자를 찾아봅니다.
+
+>[!NOTE]
+>
+>현재는 광고주만 게시자를 검색할 수 있습니다. 게시자는 광고주를 찾아보거나 광고주와의 연결을 시작할 수 없습니다.
+
+이 흐름에 대한 개요는 [광고주 또는 게시자와 연결 가이드](./connect/establishing-connections.md){target="_blank"}를 참조하십시오. 공동 작업자 탐색 및 연결 설정 관리를 포함한 연결 프로세스에 대한 시각적 설명은 [advertiser 계정 설정 비디오](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}를 시청하십시오.
 
 ## 다음 단계
 
-이제 온보딩을 완료하고 보안 공동 작업을 위해 조직을 구성했습니다. 다음으로 다음 리소스를 탐색하여 활성화, 측정 및 데이터 거버넌스에 대해 깊이 있게 이해합니다.
+이제 초기 설정을 완료하고 보안 공동 작업을 위해 조직을 구성했습니다. 다음으로 다음 리소스를 탐색하여 활성화, 측정 및 데이터 거버넌스에 대해 깊이 있게 이해합니다.
 
 - [대상자 활성화 워크플로 설명서](./collaborate/activate.md)
 - [측정 사용 사례](./collaborate/measure.md)
