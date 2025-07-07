@@ -135,7 +135,7 @@ Collaboration UI를 사용하여 대상을 참조하는 방법에 대한 전체 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-또는 [Real-Time CDP Collaboration에서 대상을 사용할 수 있도록 설정](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)에 대한 문서를 참조하십시오.
+또는 [Real-Time CDP Collaboration에서 대상을 사용할 수 있도록 설정](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)에 대한 문서를 참조하십시오.
 
 ## 4단계: 대상자 활성화 (Experience Platform 또는 클라우드 대상) {#activate-audiences}
 
@@ -147,7 +147,7 @@ Collaboration UI를 사용하여 Experience Platform 인스턴스 또는 클라�
 
 ### 옵션 A: Experience Platform에 활성화
 
-[대상으로 Adobe Experience Platform 구성](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform) 안내서에 설명된 다음 단계를 완료하십시오.
+[대상으로 Adobe Experience Platform 구성](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/destinations/experience-platform) 안내서에 설명된 다음 단계를 완료하십시오.
 
 - **대상 만들기** - UI를 사용하여 Experience Platform 대상(샌드박스 수준)을 설정합니다.
 - **일치 키 매핑** - 식별자를 선택합니다(예: `hashedEmail`).
