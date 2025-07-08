@@ -3,9 +3,9 @@ title: Real-Time CDP Collaboration 온보딩 빠른 시작
 description: 역할 및 조직 설정, 대상 소싱, 활성화 및 측정을 포함하여 Real-Time CDP Collaboration에서 조직을 온보딩하는 방법을 알아봅니다. 이 안내서는 광고주와 게시자가 공동 작업 설정을 구성하고 공유 대상을 안전하고 효율적으로 사용할 수 있도록 지원합니다.
 audience: admin, publisher, advertiser
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
+source-git-commit: b5f76b1001f97304332f731490613a8597a182c1
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 - [조직에 대해 만들어지고 사용자에게 할당된 역할](./permissions/manage-roles.md).
 - 조직의 이름, 로고 및 배너와 같은 브랜딩 자산에 대한 액세스 권한.
 - [정의된 일치 키 전략](./setup/onboard-organization.md#set-up-match-keys)(현재 해시된 이메일만 지원되는 일치 키).
-- (선택 사항) Experience Platform을 대상으로 사용하지 않는 경우 지원되는 클라우드 소스(Amazon S3 또는 Snowflake)에 액세스합니다.
+- (선택 사항) 대상 관리에 Experience Platform을 사용하지 않는 경우 지원되는 클라우드 소스(Amazon S3 또는 Snowflake)에 액세스합니다.
 
 ## 1단계: 역할 기반 설정 완료 {#complete-role-based-setup}
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 이 비디오를 통해 Admin Console 및 Experience Platform UI를 사용하여 Collaboration에 대한 제품 액세스 및 권한을 할당하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452237/?learn=on&enablevpops&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 2단계: Real-Time CDP Collaboration 조직 설정 {#set-up-your-organization}
 
@@ -52,29 +52,26 @@ ht-degree: 0%
 
 대상을 추가하려면 먼저 Collaboration에서 조직을 구성해야 합니다. 이는 조직이 인터페이스에서 나타나고 행동하는 방식을 제어합니다.
 
-Experience Platform에 대한 관리자 액세스 권한이 없는 경우 조직의 관리자에게 문의하여 이 설정을 완료하십시오.
+필요한 액세스 권한이 없는 경우 1단계로 돌아가거나 조직의 관리자에게 문의하여 이 설정을 완료하십시오.
 
-Collaboration에서 조직의 역할을 정의하고, 브랜딩 자산을 제공하고, 연결 간에 대상자를 정렬하도록 일치 키를 구성합니다. 그런 다음 아래 단계를 완료하여 설정을 완료하고 조직이 연결에 참여할 수 있도록 준비하십시오.
+Collaboration에서 조직의 역할을 정의하고, 브랜딩 자산을 제공하고, 연결 간에 대상자를 정렬하도록 일치 키를 구성합니다.
 
 >[!NOTE]
 >
->설치하는 동안 한 명 이상의 공동 작업자(예: 광고주 또는 게시자 프로필)를 만들 수 있습니다. 브랜딩 자산 및 연락처 전자 메일과 같은 특정 필드는 나중에 **[!UICONTROL 설정]** 작업 영역에서 업데이트할 수 있습니다. 일치 키는 프로젝트 수준에서 제거할 수 있지만 추가되지는 않으므로 신중하게 계획하십시오.
+>설치하는 동안 한 명 이상의 공동 작업자(예: 광고주 또는 게시자 프로필)를 만들 수 있습니다. 브랜딩 자산 및 연락처 전자 메일과 같은 특정 필드는 나중에 **[!UICONTROL 설정]** 작업 영역에서 업데이트할 수 있습니다.
 
 - **역할 할당** - 조직이 광고주, 게시자 또는 둘 다 역할을 하는지 여부를 결정합니다. 역할은 대상자 공유 시작(광고주) 또는 대상자 사용 가능(게시자)과 같은 협업 기능을 정의합니다. 역할이 공동 작업 워크플로에 미치는 영향에 대해 자세히 알아보려면 [전체 워크플로 안내서](./end-to-end-workflow.md)를 참조하세요.
 - **브랜딩 자산** - 계정에 다음 내용을 추가하십시오.
    - 브랜드 이름(최대 100자)
    - 브랜드 설명(최대 1,000자)
    - 브랜드 로고 (SVG &lt;20KB, 이상적인 사각형)
-   - 브랜드 배너(JPG 2688x1536 또는 유사)
-- **연락처 전자 메일** - 연결이 설정된 후 공동 작업자가 사용할 비즈니스 전자 메일을 제공합니다.
 
   >[!NOTE]
   >
   >게시자 계정을 만들 때 Collaboration의 연결 카탈로그에 공개적으로 표시되도록 하려면 Adobe 계정 담당자에게 문의하십시오. 게시자 계정에는 사용자 지정 브랜드 배너(JPG 2688x1536)가 필요합니다. 이 파일은 담당자에게 직접 공유할 수 있습니다.
 
+- **연락처 전자 메일** - 연결이 설정된 후 공동 작업자가 사용할 비즈니스 전자 메일을 제공합니다.
 - **일치 키 구성** - 대상 일치에 사용되는 식별자를 선택합니다(현재 해시된 이메일만 지원되는 일치 키).
-
-조직이 만들어지고 브랜딩 및 일치 키가 구성되면 조직에서 대상을 소싱하고 데이터를 활성화할 수 있습니다.
 
 역할을 정의하고, 브랜딩 자산을 업로드하고, 일치 키를 구성하는 방법을 포함하여 초기 조직 설정에 대한 자세한 내용은 [초기 조직 설정 문서](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}를 참조하십시오.
 
@@ -84,23 +81,13 @@ Collaboration에서 조직의 역할을 정의하고, 브랜딩 자산을 제공
 
 ## 3단계: Source 대상(Experience Platform 또는 클라우드 소스) {#source-audiences}
 
-소스 대상에 대해 다음 데이터 저장소 중 하나 또는 모두를 선택합니다. Collaboration UI를 사용하거나 Adobe과 협력하여 개인 정보 보호 형식으로 대상자를 소스화합니다.
+조직이 만들어지고 브랜딩 및 일치 키가 구성되면 대상자 소싱을 시작할 수 있습니다. 데이터 저장소 및 비즈니스 요구 사항에 따라 다음 소싱 방법 중 하나를 선택합니다.
 
 ### 옵션 A: Experience Platform의 Source
 
-[Collaboration 대상 UI를 사용하여 대상이 포함된 샌드박스를 연결합니다](./setup/onboard-audiences.md). 이 셀프서비스 메서드를 사용하여 Experience Platform 인스턴스 내에서 기존 대상 세그먼트를 참조합니다.
+[Collaboration UI를 사용하여 대상이 포함된 샌드박스를 연결합니다](./setup/onboard-audiences.md). 이 셀프서비스 메서드를 사용하여 Experience Platform 인스턴스 내에서 기존 대상 세그먼트를 참조합니다.
 
-### 옵션 B: Snowflake 또는 Amazon S3의 Source
-
-클라우드 소스(예: [!DNL AWS S3] 또는 [!DNL Snowflake])를 구성하려면 다음 [대상 사양 PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf)을 사용하여 대상 데이터를 준비하십시오. 완료되면 또는 질문이 있는 경우 Adobe 계정 담당자에게 문의하여 설정을 완료합니다. 이 방법은 셀프서비스가 아니며 Adobe 지원이 필요합니다.
-
->[!IMPORTANT]
->
->클라우드 기반 대상 파일은 대상 사양 PDF에 요약된 필수 스키마를 따라야 합니다. 파일에는 해시된 식별자(소문자화된 SHA256), 필수 메타데이터 필드(예: `segment_name` 및 `activation_id`)가 포함되어야 하며 지원되는 형식(예: CSV 또는 Parquet)을 사용해야 합니다. Adobe은 활성화 전에 데이터를 정규화하지 않습니다. TTL은 대상자의 수명에 따라 강제 적용됩니다.
->
->업로드된 파일의 모든 대상은 이 단계에서 완전히 소싱됩니다. 특정 파트너 조직에 대한 액세스는 Collaboration UI를 통해 별도로 제공됩니다.
-
-### 대상자 구성
+#### 대상자 구성
 
 연결에서 사용할 대상을 준비, 일치 및 제어하는 방법을 구성합니다.
 
@@ -135,7 +122,17 @@ Collaboration UI를 사용하여 대상을 참조하는 방법에 대한 전체 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-또는 [Real-Time CDP Collaboration에서 대상을 사용할 수 있도록 설정](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)에 대한 문서를 참조하십시오.
+또는 [Real-Time CDP Collaboration에서 대상을 사용할 수 있도록 설정](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)에 대한 문서를 참조하십시오.
+
+### 옵션 B: Snowflake 또는 Amazon S3의 Source
+
+클라우드 소스(예: [!DNL AWS S3] 또는 [!DNL Snowflake])를 구성하려면 다음 [대상 사양 PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf)을 사용하여 대상 데이터를 준비하십시오. 완료되면 또는 질문이 있는 경우 Adobe 계정 담당자에게 문의하여 설정을 완료합니다. 이 방법은 셀프서비스가 아니며 Adobe 지원이 필요합니다.
+
+>[!IMPORTANT]
+>
+>클라우드 기반 대상 파일은 대상 사양 PDF에 요약된 필수 스키마를 따라야 합니다. 파일에는 해시된 식별자(소문자화된 SHA256), 필수 메타데이터 필드(예: `segment_name` 및 `activation_id`)가 포함되어야 하며 지원되는 형식(예: CSV 또는 Parquet)을 사용해야 합니다. Adobe은 활성화 전에 데이터를 정규화하지 않습니다. TTL은 대상자의 수명에 따라 강제 적용됩니다.
+>
+>업로드된 파일의 모든 대상은 이 단계에서 완전히 소싱됩니다. 특정 파트너 조직에 대한 액세스는 Collaboration UI를 통해 별도로 제공됩니다.
 
 ## 4단계: 대상자 활성화 (Experience Platform 또는 클라우드 대상) {#activate-audiences}
 
@@ -147,7 +144,7 @@ Collaboration UI를 사용하여 Experience Platform 인스턴스 또는 클라�
 
 ### 옵션 A: Experience Platform에 활성화
 
-[대상으로 Adobe Experience Platform 구성](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/destinations/experience-platform) 안내서에 설명된 다음 단계를 완료하십시오.
+[대상으로 Adobe Experience Platform 구성](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform) 안내서에 설명된 다음 단계를 완료하십시오.
 
 - **대상 만들기** - UI를 사용하여 Experience Platform 대상(샌드박스 수준)을 설정합니다.
 - **일치 키 매핑** - 식별자를 선택합니다(예: `hashedEmail`).
@@ -156,16 +153,9 @@ Collaboration UI를 사용하여 Experience Platform 인스턴스 또는 클라�
 
 ### 옵션 B: 클라우드에 활성화
 
-대상을 클라우드 대상(예: [!DNL AWS S3] 또는 [!DNL Snowflake])으로 활성화하려면 Adobe 계정 담당자에게 문의하여 설정 프로세스를 시작하십시오. 파일 경로, 자격 증명 및 예상 파일 형식 등 대상 세부 정보를 제공해야 합니다. 설정하는 동안 일치 키(예: `hashedEmail`)도 지정하고 원하는 TTL 및 새로 고침 케이던스를 정의해야 합니다. 구성이 완료되면 Adobe은 대상을 프로비저닝하고 데이터가 올바르게 전달되는지 확인합니다.
+클라우드 대상(예: [!DNL AWS S3] 또는 [!DNL Snowflake])을 구성하려면 Adobe 계정 담당자에게 문의하여 설정 프로세스를 시작하십시오. 클라우드 대상에 따라 파일 경로, 자격 증명, 계정 로케이터 등 클라우드 대상 세부 정보를 제공해야 합니다. 필요한 정보가 제공되면 Adobe에서 클라우드 대상 설정을 구성합니다.
 
 클라우드 대상으로 전송된 대상 데이터는 사전 정의된 스키마를 따릅니다. 필수 필드 및 형식에 대한 자세한 설명은 [Collaboration Audience Activation 안내서](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf)를 다운로드하십시오.
-
-### 주요 차이점
-
-다음 목록에서는 Experience Platform과 클라우드 활성화 옵션 간의 차이점을 조명합니다.
-
-- Experience Platform 활성화는 완전히 셀프서비스되며 Audience Portal에 표시됩니다.
-- 클라우드 대상은 Adobe 조정이 필요하며 UI에 표시되지 않습니다.
 
 ## 5단계: 측정 설정(선택 사항) {#set-up-measurement}
 
@@ -226,13 +216,6 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
    - Input the report name, date range, and report run date.
    - Select **[!UICONTROL Campaign summary]** as the report type.
    - Submit the report. It will run on the selected date and populate within 24 hours. -->
-
-## 확인
-
-활성화 후에 대상이 성공적으로 전달되었는지 또는 적절한 대상에서 사용할 수 있게 되었는지 확인합니다.
-
-- 대상이 Audience Portal에 표시되는지 확인합니다(Experience Platform 활성화의 경우).
-- 외부 대상 로그 또는 확인을 통해 성공적인 클라우드 게재를 확인합니다.
 
 ## 6단계: 공동 작업자와 연결 {#connect-with-collaborators}
 
