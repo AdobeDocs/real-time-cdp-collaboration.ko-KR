@@ -2,11 +2,12 @@
 title: 표시 개요
 description: Real-Time CDP Collaboration의 대상에 대해 알아봅니다.
 audience: admin, publisher
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 5%
+source-wordcount: '349'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 5%
 
 대상은 타깃팅된 대상을 외부 플랫폼으로 전송하는 데 사용되는 통합입니다. 이러한 통합을 통해 다양한 마케팅 채널 및 플랫폼에서 캠페인 및 고객 참여에 사용할 대상을 활성화할 수 있습니다.
 
-현재 대상은 Real-Time CDP Collaboration의 게시자만 사용할 수 있습니다. 게시자는 캠페인에서 사용할 대상을 외부 플랫폼(예: Adobe Experience Platform)으로 보내도록 대상을 구성할 수 있습니다. 그러면 광고주는 [프로젝트 내의 대상을 활성화](../collaborate/activate.md)할 수 있으며 게시자의 구성된 대상으로 전송됩니다.
+현재 대상은 Adobe Real-Time CDP Collaboration의 게시자만 사용할 수 있습니다. 게시자는 캠페인에서 사용할 대상을 외부 플랫폼(예: Adobe Experience Platform)으로 보내도록 대상을 구성할 수 있습니다. 그러면 광고주는 [프로젝트 내의 대상을 활성화](../collaborate/activate.md)할 수 있으며 게시자의 구성된 대상으로 전송됩니다.
 
 >[!IMPORTANT]
 >
@@ -28,7 +29,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
-> 현재 Adobe Experience Platform만 Real-Time CDP Collaboration 내에서 셀프서비스 대상으로 사용할 수 있습니다. Amazon S3 또는 Snowflake과 같은 대상을 구성하는 데 관심이 있는 경우 Adobe 담당자에게 문의하십시오.
+> 현재 Adobe Experience Platform만 Collaboration 내에서 셀프서비스 대상으로 사용할 수 있습니다. Amazon S3 또는 Snowflake과 같은 대상을 구성하는 데 관심이 있는 경우 Adobe 담당자에게 문의하십시오.
 
 ![사용 가능한 대상을 표시하는 설정 작업 영역의 내 대상 탭입니다.](/help/assets/destinations/overview/my-destinations-overview.png)
 
@@ -38,7 +39,7 @@ ht-degree: 5%
 
 ### 사용 가능한 대상 {#available-destinations}
 
-Real-Time CDP Collaboration에서 구성할 수 있는 대상은 다음과 같습니다. 해당 대상에 대한 구성 가이드를 보려면 아래 표에서 대상 이름을 선택하십시오. 현재 사용할 수 없는 대상을 구성하는 데 관심이 있는 경우 Adobe 담당자에게 문의하십시오.
+Collaboration에서 구성할 수 있는 대상은 다음과 같습니다. 해당 대상에 대한 구성 가이드를 보려면 아래 표에서 대상 이름을 선택하십시오. 현재 사용할 수 없는 대상을 구성하는 데 관심이 있는 경우 Adobe 담당자에게 문의하십시오.
 
 | 대상 | 가용성 |
 | --- | --- |

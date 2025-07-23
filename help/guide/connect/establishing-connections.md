@@ -2,12 +2,12 @@
 title: 광고주 또는 게시자와 연결
 description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 프로젝트에 대한 공동 작업을 시작하는 방법에 대해 알아보십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 16%
+source-wordcount: '1400'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 {{limited-availability-release-note}}
 
-공동 작업자(일반적으로 광고주와 게시자)가 캠페인에 대해 함께 작업하려면 먼저 연결을 설정해야 합니다. 이 연결을 통해 대상자를 활성화하고, 프로젝트를 만들고, 캠페인 성과에 대한 보고서를 실행할 수 있습니다.
+공동 작업자가 캠페인에 대해 함께 작업하려면 먼저 연결을 설정해야 합니다. 이 연결을 통해 대상자를 활성화하고, 프로젝트를 만들고, 캠페인 성과에 대한 보고서를 실행할 수 있습니다.
 
 ## 높은 수준 워크플로
 
@@ -33,15 +33,15 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->두 공동 작업자 간의 연결이 설정되면 연결 설정을 더 이상 수정할 수 없습니다.
+>두 공동 작업자 간의 연결이 설정되면 연결 설정을 수정할 수 없습니다.
 
 ## 초대 보내기 {#send-invite}
 
-연결을 설정하려면 게시자 검색 화면에서 게시자 인벤토리를 검색할 때 **[!UICONTROL 연결]**&#x200B;을 선택하십시오.
+연결을 설정하려면 **[!UICONTROL 게시자 검색]** 작업 영역에서 게시자 인벤토리를 검색할 때 **[!UICONTROL 연결]**&#x200B;을 선택하십시오.
 
 ![특정 게시자에서 연결 옵션이 강조 표시된 연결 대시보드입니다.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
-초대가 전송되면 연결 설정을 미리 볼 수 있지만 편집할 수는 없습니다. **[!UICONTROL 내 연결]** 탭에서 보류 중인 초대를 봅니다. 연결 상태가 **[!UICONTROL 초대가 전송됨]**(으)로 표시됩니다.
+초대가 전송되면 연결 설정을 미리 볼 수 있지만 편집할 수는 없습니다. **[!UICONTROL 내 연결]** 탭에 보류 중인 초대 보기가 표시됩니다. 연결 상태가 **[!UICONTROL 초대가 전송됨]**(으)로 표시됩니다.
 
 ![게시자에게 보낸 보류 중인 초대가 내 연결 보기에 표시됩니다.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
@@ -62,7 +62,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="크레딧 분할"
->abstract="이 섹션에서는 Real-Time CDP Collaboration 내 해당 활동에 대한 비용을 누가 지불하는지 확인합니다."
+>abstract="이 섹션에서는 Collaboration 내에서 해당 활동에 대해 지불하는 사용자를 결정합니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
@@ -82,7 +82,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="광고주 이름"
->abstract="<p>옵션 설정. 게시자에게 알려진 광고주의 이름 및 ID를 나타냅니다.</p><p>여기에 추가하는 광고주 이름은 프로젝트 생성 단계에서 미리 채워집니다.</p><ul><li>게시자가 여러 개의 이름을 구성했다면 목록에서 하나를 선택하십시오.</li><li>이름이 하나만 구성된 경우에는 자동으로 미리 선택됩니다.</li><li>구성된 이름이 없는 경우 해당 필드에는 Real-Time CDP Collaboration의 광고주 계정 이름이 미리 채워집니다.</li></ul>"
+>abstract="<p>옵션 설정. 게시자에게 알려진 광고주의 이름 및 ID를 나타냅니다.</p><p>여기에 추가하는 광고주 이름은 프로젝트 생성 단계에서 미리 채워집니다.</p><ul><li>게시자가 여러 개의 이름을 구성했다면 목록에서 하나를 선택하십시오.</li><li>이름이 하나만 구성된 경우에는 자동으로 미리 선택됩니다.</li><li>구성된 이름이 없으면 필드에 Collaboration의 광고주 계정 이름이 미리 채워집니다.</li></ul>"
 >additional-url="https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="프로젝트 만들기"
 
 >[!CONTEXTUALHELP]
@@ -95,6 +95,8 @@ ht-degree: 16%
 초대가 전송되면 연결 설정을 미리 볼 수 있습니다. 연결 설정을 완료하려면 먼저 초대를 수락해야 합니다.
 
 ![미리 보기 상태의 연결 설정 보기입니다.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
+
+<!-- The sections below will be updated in B2B and have not been addressed yet. -->
 
 ### 광고주 연결 설정 {#advertiser-connection-settings}
 
@@ -118,7 +120,7 @@ ht-degree: 16%
 
 +++키 일치
 
-일치 키는 [조직을 설정하는 동안](/help/guide/setup/onboard-organization.md#set-up-match-keys)선택한 키로 미리 채워집니다. 사용하지 않을 일치 키를 전환할 수 있지만 조직 설정 중에 선택되지 않은 일치 키는 추가할 수 없습니다.
+일치 키는 [조직을 설정하는 동안](/help/guide/setup/onboard-account.md#set-up-match-keys)선택한 키로 미리 채워집니다. 사용하지 않을 일치 키를 전환할 수 있지만 조직 설정 중에 선택되지 않은 일치 키는 추가할 수 없습니다.
 
 ![연결 설정 작업 영역의 일치 키 설정입니다.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
@@ -177,9 +179,13 @@ ht-degree: 16%
 
 제안된 연결 설정에 만족하면 **[!UICONTROL 수락]**&#x200B;을 선택하여 연결을 설정하십시오. 연결 설정 변경을 요청하려면 **[!UICONTROL 거부]**&#x200B;를 선택합니다. 그런 다음 공동 작업자가 연결 설정을 수정하고 다시 보내어 검토할 수 있습니다.
 
+<!-- The end of the sections needing updates still. -->
+
 ## 연결 삭제 {#delete-connections}
 
-계속 작업하지 않으려는 공동 작업자와의 연결을 삭제할 수 있습니다. 기존 연결을 삭제하려면 **[!UICONTROL 연결]**(으)로 이동합니다. 그러면 광고주가 **[!UICONTROL 내 연결]**(으)로 이동해야 합니다. 삭제할 연결을 열려면 연결 카드에서 **[!UICONTROL 연결 보기]**&#x200B;를 선택하십시오.
+계속 작업하지 않으려는 공동 작업자와의 연결을 삭제할 수 있습니다. 기존 연결을 삭제하려면 **[!UICONTROL 연결]**(으)로 이동합니다. 게시자는 기존 연결을 표시합니다. 광고주는 **[!UICONTROL 내 연결]**(으)로 이동해야 합니다.
+
+삭제할 연결 카드에서 **[!UICONTROL 연결 보기]**&#x200B;를 선택합니다.
 
 ![내 연결 보기에서 강조 표시된 연결 보기 옵션입니다.](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
 

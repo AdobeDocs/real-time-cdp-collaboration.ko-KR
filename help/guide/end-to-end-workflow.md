@@ -2,9 +2,9 @@
 title: 전체 워크플로
 description: 광고주 또는 게시자로 Real-Time CDP Collaboration을 사용하는 전체적인 워크플로 이해
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용하면 광고
 
 ## 광고주 전체 워크플로 {#advertiser}
 
-광고주는 Real-Time CDP Collaboration에 [회사 온보딩](/help/guide/setup/onboard-organization.md)부터 시작합니다. [설정 페이지](/help/guide/setup/setup-overview.md)를 사용하여 회사 설정을 제출한 다음 편집하고, 작업할 기본 일치 키를 추가하고, 가져올 데이터를 결정하십시오. 첫 번째 릴리스에서는 제품을 통해 Adobe Experience Platform에서만 [대상자를 가져오기](/help/guide/setup/onboard-audiences.md)할 수 있습니다.
+광고주는 Real-Time CDP Collaboration에 [회사 온보딩](/help/guide/setup/onboard-account.md)부터 시작합니다. [설정 페이지](/help/guide/setup/setup-overview.md)를 사용하여 회사 설정을 제출한 다음 편집하고, 작업할 기본 일치 키를 추가하고, 가져올 데이터를 결정하십시오. 첫 번째 릴리스에서는 제품을 통해 Adobe Experience Platform에서만 [대상자를 가져오기](/help/guide/setup/onboard-audiences.md)할 수 있습니다.
 
 ![광고주를 검색, 활성화, 측정합니다.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
@@ -33,7 +33,7 @@ Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용하면 광고
 
 ## 게시자 전체 워크플로 {#publisher}
 
-게시자는 Real-Time CDP Collaboration에 [회사 온보딩](/help/guide/setup/onboard-organization.md)부터 시작합니다. [설정 페이지](/help/guide/setup/setup-overview.md)를 사용하여 다양한 회사 설정을 편집합니다.
+게시자는 Real-Time CDP Collaboration에 [회사 온보딩](/help/guide/setup/onboard-account.md)부터 시작합니다. [설정 페이지](/help/guide/setup/setup-overview.md)를 사용하여 다양한 회사 설정을 편집합니다.
 
 가져올 대상 데이터와 제품의 **[!UICONTROL 연결]** 영역에서 귀하와 연결하려는 광고주에게 검색 가능하고 볼 수 있도록 만들 대상을 결정합니다.
 

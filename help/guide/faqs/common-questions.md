@@ -2,9 +2,9 @@
 title: 일반적인 질문
 description: Adobe Real-Time CDP Collaboration에 대해 가장 자주 묻는 질문에 대한 답변 찾기
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 07fa043a-ce42-494d-a262-fa1d5cad7476
-source-git-commit: c61af18aafe1bcf7f59159cff6d765349e1ac7f9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 4%
@@ -25,8 +25,8 @@ Real-Time CDP Collaboration에 액세스할 때 ![사용 권한을 사용할 수
 
 +++답변을 보려면 선택
 
-최종 사용자인 경우 회사의 시스템 또는 제품 관리자에게 문의해야 합니다.
+최종 사용자인 경우 조직의 시스템 또는 제품 관리자에게 문의해야 합니다.
 
-시스템 또는 제품 관리자인 경우 권한 안내서를 읽고 자신과 동료에게 Real-Time CDP Collaboration을 사용할 수 있는 올바른 권한을 부여하는 방법을 이해하십시오. [액세스 제어 개요](/help/guide/permissions/overview.md)(으)로 시작합니다.
+시스템 또는 제품 관리자인 경우 권한 안내서를 읽고 자신과 동료에게 Collaboration을 사용할 수 있는 올바른 권한을 부여하는 방법을 이해하십시오. 자세한 내용은 [액세스 제어 개요](/help/guide/permissions/overview.md)를 참조하세요.
 
 +++

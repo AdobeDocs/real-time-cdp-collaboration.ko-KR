@@ -2,11 +2,11 @@
 title: 성능 측정
 description: 다양한 채널에서 캠페인의 성과를 측정합니다. 다양한 보고서를 사용하고 해석하는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '631'
 ht-degree: 18%
 
 ---
@@ -17,16 +17,16 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Measure]** 작업 영역은 연결 프로세스 [&#128279;](../connect/establishing-connections.md#connection-settings) 동안 **Measurement** 사용 사례를 사용하도록 설정한 경우에만 사용할 수 있습니다.  사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
+>**[!UICONTROL Measure]** 작업 영역은 연결 프로세스 **동안** Measurement[ 사용 사례를 사용하도록 설정한 경우에만 사용할 수 있습니다. ](../connect/establishing-connections.md#connection-settings) 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
 
-Real-Time CDP Collaboration의 사용 가능한 보고서에 대해 알아보고 다양한 채널에서 마케팅 캠페인의 성과를 측정하고 분석하는 방법을 이해합니다.
+Adobe Real-Time CDP Collaboration의 사용 가능한 보고서에 대해 알아보고 다양한 채널에서 마케팅 캠페인의 성과를 측정하고 분석하는 방법을 이해합니다.
 
 ## 전제 조건
 
-Real-Time CDP Collaboration에서 측정 보고서에 액세스하려면 먼저 다음을 수행해야 합니다.
+Collaboration에서 측정 보고서에 액세스하려면 먼저 다음을 수행해야 합니다.
 
-* **Measurement** 사용 사례가 활성화된 원하는 광고주 또는 게시자와 [연결됨](/help/guide/connect/establishing-connections.md) 및 [프로젝트](/help/guide/collaborate/manage-projects.md)에서 공동 작업을 시작했습니다.
-* 캠페인을 실행하고 [업로드된 측정 데이터](/help/guide/setup/onboard-measurement-data.md)를 Real-Time CDP Collaboration으로 보내십시오.
+* [Measurement](/help/guide/connect/establishing-connections.md) 사용 사례가 활성화된 원하는 광고주 또는 게시자와 **연결됨** 및 [프로젝트](/help/guide/collaborate/manage-projects.md)에서 공동 작업을 시작했습니다.
+* 캠페인을 실행하고 [업로드된 측정 데이터](/help/guide/setup/onboard-measurement-data.md)를 Collaboration으로 보내십시오.
 
 <!--
 

@@ -2,12 +2,12 @@
 title: 중복 검색 및 대상 비교
 description: 와 공동 작업자의 대상 간에 겹치는 부분을 살펴봅니다. 캠페인에 사용할 최상의 대상을 찾는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 19%
+source-wordcount: '1167'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 19%
 >
 >업데이트되지 않았거나 새로 고침되지 않은 [데이터 스케치](/help/guide/glossary.md#sketches)는 7일 후에 삭제됩니다. 이런 경우 이 페이지의 여러 겹치기 보고서에 표시된 수치가 0으로 변경되고 만료된 이러한 대상자는 대상 공유를 사용할 수 없게 됩니다. [활성 새로 고침 일정](/help/guide/setup/onboard-audiences.md#schedule)을 사용하는 대상에 대해 데이터 스케치가 자동으로 새로 고쳐집니다.
 
-대상을 검색하고 비교하는 데 사용되는 일치 키가 연결 프로세스[&#128279;](/help/guide/connect/establishing-connections.md#connection-settings)에서 설정됩니다. 일치 키는 대상자 간의 겹침을 계산하는 데 사용되며 켜거나 끌 수 있습니다. 일치 키를 편집하려면 **[!UICONTROL 일치 키 편집]** 옵션을 선택하십시오. 이
+대상을 검색하고 비교하는 데 사용되는 일치 키가 연결 프로세스[에서 ](/help/guide/connect/establishing-connections.md#connection-settings)설정됩니다. 일치 키는 대상자 간의 겹침을 계산하는 데 사용되며 켜거나 끌 수 있습니다. 일치 키를 편집하려면 **[!UICONTROL 일치 키 편집]** 옵션을 선택하십시오.
 
 ![대상 인사이트를 보여주는 Dicover 탭 작업 영역입니다.](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -37,11 +37,11 @@ ht-degree: 19%
 
 프로젝트 내에서 **[!UICONTROL 검색]** 탭을 사용하려면 다음 작업을 수행해야 합니다.
 
-* 조직에 [가져온 대상자](/help/guide/setup/onboard-audiences.md)
-* **대상 검색** 사용 사례가 활성화된 공동 작업자가 있는 [연결됨](/help/guide/connect/establishing-connections.md)
+* 계정에 대한 [소스 대상](/help/guide/setup/onboard-audiences.md)
+* [대상 검색](/help/guide/connect/establishing-connections.md) 사용 사례가 활성화된 공동 작업자가 있는 **연결됨**
 * [사용자와 공동 작업자 간에 프로젝트를 만들었습니다](/help/guide/collaborate/manage-projects.md)
 
-이러한 전제 조건이 충족되면 공동 작업자의 대상자가 중첩되는지 살펴보고 비교하기 시작할 수 있습니다.
+이러한 사전 요구 사항이 충족되면 공동 작업자의 대상자를 통해 중복을 조사하고 비교할 수 있습니다.
 
 ## 대상자 비교 {#compare-audiences}
 
@@ -86,7 +86,7 @@ ht-degree: 19%
 
 {style="table-layout:auto"}
 
->[!TIP]
+>[!NOTE]
 >
 >겹치기 비율 수치가 모든 대상에 항상 제공되지는 않을 수 있습니다. 겹치기 비율 표시기의 표시 여부는 공동 작업자가 [메타데이터 표시 섹션](/help/guide/setup/onboard-audiences.md#metadata-visibility)에서 대상에 대해 선택한 설정에 따라 다릅니다.
 
@@ -95,7 +95,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="관련 대상자"
->abstract="중복 비율을 기준으로 할 때, 이러한 게시자 대상자는 캠페인에 적합할 수 있습니다. <br><br><b>ID 수</b>는 게시자 대상자의 크기입니다. <br><br> <b>중복 ID</b>는 권장 게시자 대상자 및 모든 광고주 대상자 간의 중복을 나타냅니다. <br><br> <b>중복 비율</b>은 중복되는 ID의 수를 <i>모든</i> 광고주 대상자 크기로 나눈 값을 나타냅니다."
+>abstract="오버랩 비율에 따라 이러한 대상은 캠페인에 적합할 수 있습니다. <br><br> <b>ID 개수</b>는 공동 작업자의 대상 크기입니다. <br><br> <b>ID가 겹침</b>은(는) 권장 대상자와 모든 대상자 간의 겹침을 나타냅니다. <br><br> <b>겹치기 %</b>은(는) 겹치는 ID의 수를 대상 <i>모두</i>의 크기로 나눈 값을 나타냅니다."
 
 **[!UICONTROL 검색]** 탭의 **[!UICONTROL 관련 대상]** 섹션은 공동 작업자의 대상과 모든 대상자 간의 겹침 비율을 기반으로 상위 5명의 대상자에 대해 선별된 목록을 제공합니다. 이 기능을 사용하면 겹치는 정도가 가장 높은 대상을 신속하게 식별할 수 있으므로 캠페인을 보다 효과적으로 타기팅할 수 있습니다. 섹션의 오른쪽 상단에 있는 페이지 선택기를 사용하여 관련 대상 간에 전환합니다.
 
@@ -117,10 +117,6 @@ ht-degree: 19%
 
 {style="table-layout:auto"}
 
->[!NOTE]
->
->공동 작업자 대상의 가시성은 공동 작업자가 [메타데이터 가시성 섹션](/help/guide/setup/onboard-audiences.md#metadata-visibility)에서 대상에 대해 선택한 설정에 따라 다릅니다. 공동 작업자가 모든 대상을 비공개로 설정한 경우 이 섹션에는 대상이 표시되지 않습니다.
-
 ## 중복 항목 탐색 {#discover-overlaps}
 
 >[!CONTEXTUALHELP]
@@ -140,7 +136,7 @@ ht-degree: 19%
 
 ![대상자 변경 옵션이 강조 표시된 검색 작업 영역입니다.](/help/assets/collaborate/discover/change-audience.png)
 
-특정 대상을 공동 작업자의 대상과 비교할 수 있는 **[!UICONTROL 대상 변경]** 대화 상자가 열립니다. 원하는 대상을 선택하거나 선택 내용을 지워 모든 대상을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+공동 작업자의 대상과 비교할 특정 대상을 선택할 수 있는 **[!UICONTROL 대상 변경]** 대화 상자가 열립니다. 원하는 대상을 선택하거나 선택 내용을 지워 모든 대상을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 ![검색 작업 영역의 대상자 변경 대화 상자입니다.](/help/assets/collaborate/discover/change-audience-selection.png)
 
@@ -148,7 +144,7 @@ ht-degree: 19%
 
 | 지표 | 설명 |
 |---------|----------|
-| **[!UICONTROL ID 개수]** | 대상 내의 이름 고유 ID. |
+| **[!UICONTROL ID 개수]** | 대상 내 고유 ID 수입니다. |
 | **[!UICONTROL 중복 ID]** | 권장 대상과 모든 대상자 간에 겹치는 고유 ID의 수입니다. |
 | **[!UICONTROL 겹치기 %]** | 권장 대상과 모든 대상자 간의 ID가 겹치는 비율입니다. |
 | **[!UICONTROL 대상 범주]** | 공동 작업자가 대상자에게 할당한 카테고리입니다. |

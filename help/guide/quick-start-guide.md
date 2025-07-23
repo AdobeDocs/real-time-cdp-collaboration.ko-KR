@@ -1,16 +1,19 @@
 ---
-title: Real-Time CDP Collaboration 온보딩 빠른 시작
+title: Real-Time CDP Collaboration 빠른 시작 안내서
 description: 역할 및 조직 설정, 대상 소싱, 활성화 및 측정을 포함하여 Real-Time CDP Collaboration에서 조직을 온보딩하는 방법을 알아봅니다. 이 안내서는 광고주와 게시자가 공동 작업 설정을 구성하고 공유 대상을 안전하고 효율적으로 사용할 수 있도록 지원합니다.
 audience: admin, publisher, advertiser
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: b5f76b1001f97304332f731490613a8597a182c1
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1428'
 ht-degree: 0%
 
 ---
 
-# Real-Time CDP Collaboration 온보딩 빠른 시작
+# Real-Time CDP Collaboration 빠른 시작 안내서
+
+
 
 조직을 구성하고, 대상을 소싱하고, 개인 정보 중심의 활성화 및 측정을 활성화하여 Real-Time CDP Collaboration을 시작하십시오.
 
@@ -19,11 +22,11 @@ ht-degree: 0%
 시작하기 전에 다음을 확인하십시오.
 
 - 활성 Real-Time CDP Collaboration 라이선스.
-- [Adobe Experience Platform에 대한 시스템 또는 제품 관리자 액세스](./permissions/overview.md#use-cases).
+- [Adobe Experience Platform에 대한 시스템 또는 제품 관리자 액세스](./permissions/overview.md).
 - [최종 사용자에 대해 프로비전된 액세스](./permissions/manage-user-access.md).
 - [조직에 대해 만들어지고 사용자에게 할당된 역할](./permissions/manage-roles.md).
 - 조직의 이름, 로고 및 배너와 같은 브랜딩 자산에 대한 액세스 권한.
-- [정의된 일치 키 전략](./setup/onboard-organization.md#set-up-match-keys)(현재 해시된 이메일만 지원되는 일치 키).
+- [정의된 일치 키 전략](./setup/onboard-account.md#set-up-match-keys)(현재 해시된 이메일만 지원되는 일치 키).
 - (선택 사항) 대상 관리에 Experience Platform을 사용하지 않는 경우 지원되는 클라우드 소스(Amazon S3 또는 Snowflake)에 액세스합니다.
 
 ## 1단계: 역할 기반 설정 완료 {#complete-role-based-setup}
@@ -32,7 +35,7 @@ ht-degree: 0%
 >
 >이 단계는 광고주와 게시자 모두에 적용됩니다.
 
-조직의 액세스 역할은 사용자가 Real-Time CDP Collaboration에서 보고 수행할 수 있는 작업을 결정합니다. 계속하기 전에 역할 기반 권한이 올바르게 설정되어 있는지 확인하여 플랫폼에서 적절한 액세스 및 가시성을 보장하십시오.
+조직의 액세스 역할은 사용자가 Collaboration에서 보고 수행할 수 있는 작업을 결정합니다. 계속하기 전에 역할 기반 권한이 올바르게 설정되어 있는지 확인하여 플랫폼에서 적절한 액세스 및 가시성을 보장하십시오.
 
 **리소스:**
 
@@ -40,52 +43,52 @@ ht-degree: 0%
 - [역할 설정 설명서](./permissions/manage-roles.md)
 
 
-이 비디오를 통해 Admin Console 및 Experience Platform UI를 사용하여 Collaboration에 대한 제품 액세스 및 권한을 할당하는 방법에 대해 알아보십시오.
+이 비디오를 통해 Admin Console 및 Experience Platform을 사용하여 Collaboration에 대한 제품 액세스 및 권한을 할당하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452237/?learn=on&enablevpops&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
-## 2단계: Real-Time CDP Collaboration 조직 설정 {#set-up-your-organization}
+## 2단계: Collaboration 계정 설정 {#set-up-your-account}
 
 >[!NOTE]
 >
 >이 단계는 광고주와 게시자 모두에 적용됩니다.
 
-대상을 추가하려면 먼저 Collaboration에서 조직을 구성해야 합니다. 이는 조직이 인터페이스에서 나타나고 행동하는 방식을 제어합니다.
+대상을 소스화하려면 먼저 Collaboration에서 계정을 구성해야 합니다. 이는 표시되는 방식과 인터페이스에서 액세스할 수 있는 내용을 제어합니다.
 
 필요한 액세스 권한이 없는 경우 1단계로 돌아가거나 조직의 관리자에게 문의하여 이 설정을 완료하십시오.
 
-Collaboration에서 조직의 역할을 정의하고, 브랜딩 자산을 제공하고, 연결 간에 대상자를 정렬하도록 일치 키를 구성합니다.
+Collaboration에서 계정의 역할을 정의하고, 브랜딩 자산을 제공하며, 연결 간에 대상자를 정렬하도록 일치 키를 구성합니다.
 
 >[!NOTE]
 >
->설치하는 동안 한 명 이상의 공동 작업자(예: 광고주 또는 게시자 프로필)를 만들 수 있습니다. 브랜딩 자산 및 연락처 전자 메일과 같은 특정 필드는 나중에 **[!UICONTROL 설정]** 작업 영역에서 업데이트할 수 있습니다.
+>설치하는 동안 하나 이상의 계정(예: 광고주 및 게시자)을 만들 수 있습니다. 브랜딩 자산 및 연락처 전자 메일과 같은 특정 필드는 나중에 **[!UICONTROL 설정]** 작업 영역에서 업데이트할 수 있습니다.
 
-- **역할 할당** - 조직이 광고주, 게시자 또는 둘 다 역할을 하는지 여부를 결정합니다. 역할은 대상자 공유 시작(광고주) 또는 대상자 사용 가능(게시자)과 같은 협업 기능을 정의합니다. 역할이 공동 작업 워크플로에 미치는 영향에 대해 자세히 알아보려면 [전체 워크플로 안내서](./end-to-end-workflow.md)를 참조하세요.
+- **역할 할당** - 계정이 광고주인지 게시자인지를 결정합니다. 귀하의 역할은 Collaboration에서 보유하고 있는 기능을 정의합니다. 역할이 공동 작업 워크플로에 미치는 영향에 대해 자세히 알아보려면 [전체 워크플로 안내서](./end-to-end-workflow.md)를 참조하세요.
 - **브랜딩 자산** - 계정에 다음 내용을 추가하십시오.
-   - 브랜드 이름(최대 100자)
-   - 브랜드 설명(최대 1,000자)
-   - 브랜드 로고 (SVG &lt;20KB, 이상적인 사각형)
+   - 계정 이름(최대 100자)
+   - 설명(최대 1,000자)
+   - 로고(SVG &lt;20KB, 이상적인 사각형)
 
-  >[!NOTE]
-  >
-  >게시자 계정을 만들 때 Collaboration의 연결 카탈로그에 공개적으로 표시되도록 하려면 Adobe 계정 담당자에게 문의하십시오. 게시자 계정에는 사용자 지정 브랜드 배너(JPG 2688x1536)가 필요합니다. 이 파일은 담당자에게 직접 공유할 수 있습니다.
+>[!NOTE]
+>
+>게시자 계정을 만들 때 Collaboration의 연결 카탈로그에 공개적으로 표시되도록 하려면 Adobe 계정 담당자에게 문의하십시오. 게시자 계정에는 사용자 지정 브랜드 배너(JPG 2688x1536)가 필요합니다. 이 파일은 담당자에게 직접 공유할 수 있습니다.
 
 - **연락처 전자 메일** - 연결이 설정된 후 공동 작업자가 사용할 비즈니스 전자 메일을 제공합니다.
 - **일치 키 구성** - 대상 일치에 사용되는 식별자를 선택합니다(현재 해시된 이메일만 지원되는 일치 키).
 
-역할을 정의하고, 브랜딩 자산을 업로드하고, 일치 키를 구성하는 방법을 포함하여 초기 조직 설정에 대한 자세한 내용은 [초기 조직 설정 문서](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}를 참조하십시오.
+역할을 정의하고, 브랜딩 자산을 업로드하고, 일치 키를 구성하는 방법을 포함하여 초기 계정 설정에 대한 자세한 내용은 [초기 계정 설정](./setup/onboard-account.md#initial-account-setup){target="_blank"} 안내서를 참조하십시오.
 
-계정 만들기, 브랜딩 및 일치 키 구성을 포함한 광고주 설정에 대한 단계별 설명을 살펴보십시오.
+이 비디오를 통해 계정 만들기, 브랜딩 및 일치 키 구성을 포함한 광고주 설정에 대한 단계별 설명을 살펴보십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452264/?learn=on&enablevpops)
 
 ## 3단계: Source 대상(Experience Platform 또는 클라우드 소스) {#source-audiences}
 
-조직이 만들어지고 브랜딩 및 일치 키가 구성되면 대상자 소싱을 시작할 수 있습니다. 데이터 저장소 및 비즈니스 요구 사항에 따라 다음 소싱 방법 중 하나를 선택합니다.
+계정이 만들어지고 브랜딩 및 일치 키가 구성되면 대상자 소싱을 시작할 수 있습니다. 데이터 저장소 및 비즈니스 요구 사항에 따라 다음 소싱 방법 중 하나를 선택합니다.
 
 ### 옵션 A: Experience Platform의 Source
 
-[Collaboration UI를 사용하여 대상이 포함된 샌드박스를 연결합니다](./setup/onboard-audiences.md). 이 셀프서비스 메서드를 사용하여 Experience Platform 인스턴스 내에서 기존 대상 세그먼트를 참조합니다.
+[Collaboration을 사용하여 대상이 포함된 샌드박스를 연결합니다](./setup/onboard-audiences.md). 이 셀프서비스 메서드를 사용하여 Experience Platform 인스턴스 내에서 기존 대상 세그먼트를 참조합니다.
 
 #### 대상자 구성
 
@@ -99,7 +102,7 @@ Collaboration에서 조직의 역할을 정의하고, 브랜딩 자산을 제공
 
 >[!NOTE]
 >
->Collaboration UI에서 대상을 추가하거나 제거하고 새로 고침 일정을 직접 업데이트할 수 있습니다. 일치 키 또는 동의 모드와 같은 다른 설정을 변경하려면 데이터 연결을 삭제하고 다시 만들어야 합니다.
+>Collaboration에서 대상을 추가하거나 제거하고 새로 고침 일정을 직접 업데이트할 수 있습니다. 일치 키 또는 동의 모드와 같은 다른 설정을 변경하려면 데이터 연결을 삭제하고 다시 만들어야 합니다.
 
 >[!IMPORTANT]
 >
@@ -114,15 +117,15 @@ Collaboration에서 조직의 역할을 정의하고, 브랜딩 자산을 제공
 >
 >모든 일치 키는 **트림됨**, **소문자화** 및 **SHA256-hashed**&#x200B;여야 합니다.\
 >대문자를 사용하는 해시된 값을 제공하면 Collaboration에서 자동으로 소문자로 변환합니다.\
->소스에 **일반 텍스트 식별자**&#x200B;이(가) 포함된 경우 UI의 **[!UICONTROL 변환 적용]** 옵션을 사용하여 해싱을 적용합니다. 이 옵션은 Experience Platform에서 대상을 소싱할 때만 사용할 수 있으며 클라우드 기반 소스에는 지원되지 않습니다.
+>소스에 **일반 텍스트 식별자**&#x200B;이(가) 포함된 경우 **[!UICONTROL 변환 적용]** 옵션을 사용하여 해싱을 적용하십시오. 이 옵션은 Experience Platform에서 대상을 소싱할 때만 사용할 수 있으며 클라우드 기반 소스에는 지원되지 않습니다.
 >
->자세한 내용은 대상자 가져오기 및 관리 안내서의 [필드 매핑](./setup/onboard-audiences.md#map-fields) 섹션을 참조하십시오.
+>자세한 내용은 소스 및 대상자 관리 안내서의 [필드 매핑](./setup/onboard-audiences.md#map-fields) 섹션을 참조하십시오.
 
-Collaboration UI를 사용하여 대상을 참조하는 방법에 대한 전체 연습을 보려면 아래 Collaboration 대상 참조 데모 비디오를 시청하십시오.
+Collaboration을 사용하여 대상을 소싱하는 방법에 대한 전체 연습을 보려면 아래 비디오를 시청하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-또는 [Real-Time CDP Collaboration에서 대상을 사용할 수 있도록 설정](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)에 대한 문서를 참조하십시오.
+또는 [Collaboration의 소싱 대상](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)에 대한 문서를 참조하십시오.
 
 ### 옵션 B: Snowflake 또는 Amazon S3의 Source
 
@@ -132,7 +135,7 @@ Collaboration UI를 사용하여 대상을 참조하는 방법에 대한 전체 
 >
 >클라우드 기반 대상 파일은 대상 사양 PDF에 요약된 필수 스키마를 따라야 합니다. 파일에는 해시된 식별자(소문자화된 SHA256), 필수 메타데이터 필드(예: `segment_name` 및 `activation_id`)가 포함되어야 하며 지원되는 형식(예: CSV 또는 Parquet)을 사용해야 합니다. Adobe은 활성화 전에 데이터를 정규화하지 않습니다. TTL은 대상자의 수명에 따라 강제 적용됩니다.
 >
->업로드된 파일의 모든 대상은 이 단계에서 완전히 소싱됩니다. 특정 파트너 조직에 대한 액세스는 Collaboration UI를 통해 별도로 제공됩니다.
+>업로드된 파일의 모든 대상은 이 단계에서 완전히 소싱됩니다. [대상 가시성 설정](/help/guide/setup/onboard-audiences.md#metadata-visibility)은 공동 작업자가 대상을 볼 수 있는지, 그리고 Collaboration UI를 통해 관리되는지 여부를 결정합니다.
 
 ## 4단계: 대상자 활성화 (Experience Platform 또는 클라우드 대상) {#activate-audiences}
 
@@ -140,11 +143,11 @@ Collaboration UI를 사용하여 대상을 참조하는 방법에 대한 전체 
 >
 >이 단계는 광고주와 게시자 모두에 적용됩니다.
 
-Collaboration UI를 사용하여 Experience Platform 인스턴스 또는 클라우드 대상에 대한 대상을 활성화합니다.
+그런 다음 Experience Platform 인스턴스 또는 클라우드 대상에 대상을 활성화합니다.
 
 ### 옵션 A: Experience Platform에 활성화
 
-[대상으로 Adobe Experience Platform 구성](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/destinations/experience-platform) 안내서에 설명된 다음 단계를 완료하십시오.
+[Adobe Experience Platform을 대상으로 구성](/help/guide/destinations/experience-platform.md) 안내서에 설명된 다음 단계를 완료합니다.
 
 - **대상 만들기** - UI를 사용하여 Experience Platform 대상(샌드박스 수준)을 설정합니다.
 - **일치 키 매핑** - 식별자를 선택합니다(예: `hashedEmail`).
@@ -219,9 +222,9 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 ## 6단계: 공동 작업자와 연결 {#connect-with-collaborators}
 
-설정 및 데이터 프로비저닝이 완료되면 이제 조직에서 초대를 보내거나 수락하고 승인을 위해 프로젝트 설정을 제출하여 공동 작업자와 연결할 준비가 되었습니다. 이 연결 프로세스에는 초대장 보내기 또는 받기, 연결 설정(예: 사용 사례 및 신용 소비) 검토 및 제출, 관계 확인이 포함됩니다.
+설정이 완료되면 이제 조직에서 초대를 보내거나 수락하고 승인을 위해 프로젝트 설정을 제출하여 공동 작업자와 연결할 준비가 되었습니다. 이 연결 프로세스에는 초대장 보내기 또는 받기, 연결 설정(사용 사례 및 신용 사용 등) 검토 및 제출, 연결 확인 등이 포함됩니다.
 
-광고주는 Collaboration UI의 왼쪽 탐색 메뉴에서 **[!UICONTROL 연결]** 작업 영역을 사용하여 사용 가능한 게시자를 찾아봅니다.
+광고주는 왼쪽 탐색 메뉴에서 **[!UICONTROL 연결]** 작업 영역을 사용하여 사용 가능한 게시자를 찾아봅니다.
 
 >[!NOTE]
 >

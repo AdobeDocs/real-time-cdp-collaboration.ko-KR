@@ -2,11 +2,11 @@
 title: 프로젝트 만들기 및 관리
 description: Adobe Real-Time CDP Collaboration에서 프로젝트를 만들고 관리하는 방법 알아보기
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '428'
 ht-degree: 9%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 {{limited-availability-release-note}}
 
-프로젝트는 Real-Time CDP Collaboration 워크플로의 중심입니다. 공동 작업자와 연결한 후 프로젝트를 만들어 대상 중복 계산을 실행하고 캠페인에 대한 관련 대상을 검색합니다.
+프로젝트는 Adobe Real-Time CDP Collaboration 워크플로의 중심입니다. 공동 작업자와 연결한 후 프로젝트를 만들어 대상 중복 계산을 실행하고 캠페인에 대한 관련 대상을 검색합니다.
 
 >[!TIP]
 >
@@ -28,6 +28,8 @@ ht-degree: 9%
 ![단일 공동 작업자가 있는 프로젝트의 필터링된 보기입니다.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## 프로젝트 만들기 {#create-project}
+
+프로젝트를 만들려면 먼저 공동 작업자와 [연결을 설정](/help/guide/connect/establishing-connections.md)해야 합니다. 연결이 설정되면 해당 공동 작업자와 함께 프로젝트를 만들 수 있습니다.
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"

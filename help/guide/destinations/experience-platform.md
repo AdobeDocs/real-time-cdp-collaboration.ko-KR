@@ -2,10 +2,11 @@
 title: Adobe Experience Platform을 대상으로 구성
 description: Real-Time CDP Collaboration에서 대상으로 Adobe Experience Platform을 구성하고 관리하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: c36814b8dc975b5ea243688981481de49a8219fd
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '877'
 ht-degree: 11%
 
 ---
@@ -14,11 +15,11 @@ ht-degree: 11%
 
 {{limited-availability-release-note}}
 
-프로젝트에서 Adobe Experience Platform으로 대상을 활성화하도록 이 대상을 구성합니다. 대상을 Adobe Experience Platform으로 활성화하면 다양한 마케팅 채널에서 대상 세분화, 분석 및 활성화를 위해 플랫폼의 기능을 활용할 수 있습니다. Adobe Experience Platform에 대한 자세한 내용은 [Experience Platform 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home){target="_blank"}를 참조하세요.
+프로젝트에서 Adobe Experience Platform으로 대상을 활성화하도록 이 대상을 구성합니다. 대상을 Adobe Experience Platform으로 활성화하면 다양한 마케팅 채널에서 대상 세분화, 분석 및 활성화를 위해 플랫폼의 기능을 활용할 수 있습니다. Adobe Experience Platform에 대한 자세한 내용은 [Experience Platform 개요](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
->현재는 게시자만 Real-Time CDP Collaboration에서 대상을 구성할 수 있습니다.
+>현재는 게시자만 Adobe Real-Time CDP Collaboration에서 대상을 구성할 수 있습니다.
 
 ## 대상 구성 {#configure-destination}
 
@@ -39,9 +40,9 @@ Adobe Experience Platform을 대상으로 구성하려면 **[!UICONTROL 설정]*
 
 먼저 대상 데이터를 전송할 샌드박스를 선택해야 합니다.
 
+>[!IMPORTANT]
 >
->
->사용자가 액세스할 수 있는 샌드박스만 선택할 수 있습니다. 기본적으로 모든 Real-Time CDP Collaboration 사용자는 **Prod** 샌드박스에 액세스할 수 있습니다. 추가 샌드박스에 대한 액세스 권한을 얻으려면 관리자가 사용자에게 할당된 역할에 추가 샌드박스를 추가해야 합니다. 역할 관리에 대한 자세한 내용은 [역할 관리](../permissions/manage-roles.md) 안내서를 참조하세요.
+>사용자가 액세스할 수 있는 샌드박스만 선택할 수 있습니다. 기본적으로 모든 Collaboration 사용자는 **Prod** 샌드박스에 액세스할 수 있습니다. 추가 샌드박스에 대한 액세스 권한을 얻으려면 관리자가 사용자에게 할당된 역할에 추가 샌드박스를 추가해야 합니다. 역할 관리에 대한 자세한 내용은 [역할 관리](../permissions/manage-roles.md) 안내서를 참조하세요.
 
 **[!UICONTROL 샌드박스 구성]** 섹션에서 **[!UICONTROL 샌드박스]** 드롭다운을 선택하거나 샌드박스 이름을 입력합니다.
 
@@ -65,9 +66,9 @@ Adobe Experience Platform을 대상으로 구성하려면 **[!UICONTROL 설정]*
 >title="대상 네임스페이스"
 >abstract="대상 네임스페이스는 Adobe Experience Platform에서 일치 키가 매핑될 ID 네임스페이스를 지정합니다. 해시 처리된 일치 키는 해시 값을 지원하는 대상 네임스페이스에 매핑되어야 합니다."
 
-다음으로, 대상자 데이터가 Adobe Experience Platform으로 전송되는 방법을 정의하기 위해 활성화 매핑을 만들어야 합니다. 조직을 만드는 동안 선택한 각 [일치 키](../setup/onboard-organization.md#set-up-match-keys)를 대상 네임스페이스에 매핑할 수 있습니다. 대상 네임스페이스는 Adobe Experience Platform에서 일치 키가 매핑될 [ID 네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}를 지정합니다.
+다음으로, 대상자 데이터가 Adobe Experience Platform으로 전송되는 방법을 정의하기 위해 활성화 매핑을 만들어야 합니다. 조직을 만드는 동안 선택한 각 [일치 키](../setup/onboard-account.md#set-up-match-keys)를 대상 네임스페이스에 매핑할 수 있습니다. 대상 네임스페이스는 Adobe Experience Platform에서 일치 키가 매핑될 [ID 네임스페이스](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}를 지정합니다.
 
->
+>[!IMPORTANT]
 >
 >해시된 일치 키는 해시된 값을 지원하는 대상 네임스페이스에 매핑되어야 합니다. 예를 들어 **[!UICONTROL 해시된 이메일]** 일치 키는 Adobe Experience Platform의 **[!UICONTROL 이메일(SHA256, 소문자)]** ID 네임스페이스에 매핑되어야 합니다. **[!UICONTROL 해시된 이메일]** 일치 키를 **[!UICONTROL 이메일]** ID 네임스페이스에 매핑할 수 없습니다. 이 네임스페이스는 해시된 값을 지원하지 않습니다.
 
@@ -97,4 +98,4 @@ Adobe Experience Platform을 대상으로 구성했으므로 이제 대상자 �
 
 ![필터 옵션에서 Real-Time CDP Collaboration을 원본으로 사용하는 대상 포털입니다.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Audience Portal에 대한 자세한 내용은 [Audience Portal 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} 안내서를 참조하십시오.
+Audience Portal에 대한 자세한 내용은 [Audience Portal 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} 안내서를 참조하십시오.

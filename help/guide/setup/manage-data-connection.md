@@ -2,11 +2,11 @@
 title: 데이터 연결 관리
 description: Real-Time CDP Collaboration의 일치 키, 예약, 사용 사례 및 대상 필터링을 포함하여 데이터 연결을 관리하는 방법을 알아봅니다
 audience: administrator, data engineer
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '597'
 ht-degree: 12%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 ## 개요
 
-Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 소스에서 대상을 가져옵니다. 기존 데이터 연결에 대해 일치 키를 관리하고 데이터 가져오기를 예약하는 방법을 알아봅니다. 또한 다양한 속성으로 대상자를 필터링하여 보다 세부적인 통찰력을 얻을 수 있습니다.
+Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫폼에서 대상을 소스화할 수 있습니다. 기존 데이터 연결에 대해 일치 키를 관리하고 데이터 새로 고침을 예약하는 방법에 대해 알아봅니다. 또한 다양한 속성으로 대상자를 필터링하여 보다 세부적인 통찰력을 얻을 수 있습니다.
 
 ## 데이터 연결 보기
 
@@ -59,7 +59,7 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 소스
 >
 >Adobe Experience Platform에서 대상을 소싱할 때 데이터 연결이 설정된 후 24시간 내에 대상을 사용할 수 있습니다. 초기 가져오기 후 대상 데이터는 정의된 빈도에 따라 새로 고쳐집니다.
 
-예약에 대한 자세한 내용은 대상자 온보딩 가이드의 [예약 섹션](/help/guide/setup/onboard-audiences.md#schedule)을 참조하십시오.
+예약에 대한 자세한 내용은 대상자 구성 안내서에서 [예약 섹션](/help/guide/setup/onboard-audiences.md#schedule)을 참조하십시오.
 
 ![일정 섹션이 강조 표시된 데이터 연결의 작업 영역입니다.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
@@ -69,11 +69,11 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 소스
 
 **[!UICONTROL 예약]** 대화 상자에서 드롭다운 메뉴를 선택하여 **[!UICONTROL 빈도]**&#x200B;를 업데이트합니다. 새로 고침 빈도를 매일 또는 2~6일마다 실행되도록 설정합니다. 완료되면 **[!UICONTROL 저장]**&#x200B;을 선택하여 변경 내용을 적용합니다.
 
-![예약 대화 상자, 빈도 및 날짜 범위를 설정하는 옵션을 표시합니다.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
+![예약 대화 상자, 빈도 및 날짜 범위를 설정하는 옵션을 표시합니다.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## 데이터 연결 삭제
 
-데이터 연결을 삭제하면 플랫폼에서 모든 기본 대상, 관련 설정 및 사용이 제거됩니다. 이 작업은 취소할 수 없습니다.
+데이터 연결을 삭제하면 Collaboration에서 모든 기본 대상, 관련 설정 및 사용이 제거됩니다. 이 작업은 취소할 수 없습니다.
 
 기존 데이터 연결을 삭제하려면 개별 데이터 연결의 작업 영역에서 삭제 아이콘(![삭제 아이콘](/help/assets/common/delete.svg))을 선택하십시오.
 
