@@ -111,7 +111,7 @@ Collaboration에 처음 액세스하면 계정을 설정하라는 메시지가 �
 
 ## 계정 편집 {#edit-account}
 
-계정을 설정한 후에는 언제든지 해당 계정의 특정 측면과 세부 사항을 편집할 수 있습니다. 계정을 편집하려면 **[!UICONTROL 설정]** 작업 영역&#x200B;**[!UICONTROL 의]**&#x200B;내 계정&#x200B;**[!UICONTROL 섹션에서 ]편집**&#x200B;을(를) 선택하십시오.
+계정을 설정한 후에는 언제든지 해당 계정의 특정 측면과 세부 사항을 편집할 수 있습니다. 계정을 편집하려면 **[!UICONTROL 설정]** 작업 영역&#x200B;**[!UICONTROL 의]**&#x200B;내 계정&#x200B;**[!UICONTROL 섹션에서 &#x200B;]편집**&#x200B;을(를) 선택하십시오.
 
 ![[내 계정] 탭과 [편집] 옵션이 강조 표시된 설치 작업 영역입니다.](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
