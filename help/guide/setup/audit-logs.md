@@ -2,7 +2,7 @@
 title: 감사 로그
 description: Real-Time CDP Collaboration에서 감사 로그 기능을 사용하여 사용자 활동 및 변경 사항을 추적하는 방법에 대해 알아봅니다.
 audience: admin
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
@@ -23,7 +23,7 @@ Collaboration의 감사 로그 기능을 사용하여 플랫폼 내에서 사용
 
 ![감사 로그 기능의 높은 수준 개요 화면](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-감사 로그에 대한 자세한 내용은 [Experience Platform 감사 로그 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}를 참조하세요.
+감사 로그에 대한 자세한 내용은 [Experience Platform 감사 로그 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}를 참조하세요.
 
 ## 감사 로그 액세스
 
@@ -62,7 +62,7 @@ Collaboration의 감사 로그 기능을 사용하여 플랫폼 내에서 사용
 * **작업**: 만들기 또는 삭제와 같이 수행된 특정 작업입니다.
 * **사용자**: 작업을 수행한 사용자의 전자 메일 주소입니다.
 
-이러한 로그는 Collaboration 인스턴스 내의 모든 활동에 대한 포괄적인 추적을 생성하므로 데이터 거버넌스 및 규제 준수에 유용합니다. [UI에서 감사 로그 관리](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui)에 대해 자세히 알아보십시오.
+이러한 로그는 Collaboration 인스턴스 내의 모든 활동에 대한 포괄적인 추적을 생성하므로 데이터 거버넌스 및 규제 준수에 유용합니다. [UI에서 감사 로그 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui)에 대해 자세히 알아보십시오.
 
 ### 감사 로그 필터링 {#filter-audit-logs}
 
@@ -75,7 +75,7 @@ Collaboration의 감사 로그 기능을 사용하여 플랫폼 내에서 사용
 * **상태**: 허용 또는 거부와 같은 작업 상태입니다.
 * **날짜 범위**: 로그를 보려는 날짜 범위입니다.
 
-[감사 로그 필터링](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs)에 대해 자세히 알아보세요.
+[감사 로그 필터링](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs)에 대해 자세히 알아보세요.
 
 ## 이점
 

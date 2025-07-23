@@ -2,7 +2,7 @@
 title: Real-Time CDP Collaboration 빠른 시작 안내서
 description: 역할 및 조직 설정, 대상 소싱, 활성화 및 측정을 포함하여 Real-Time CDP Collaboration에서 조직을 온보딩하는 방법을 알아봅니다. 이 안내서는 광고주와 게시자가 공동 작업 설정을 구성하고 공유 대상을 안전하고 효율적으로 사용할 수 있도록 지원합니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
@@ -125,7 +125,7 @@ Collaboration을 사용하여 대상을 소싱하는 방법에 대한 전체 연
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-또는 [Collaboration의 소싱 대상](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)에 대한 문서를 참조하십시오.
+또는 [Collaboration의 소싱 대상](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)에 대한 문서를 참조하십시오.
 
 ### 옵션 B: Snowflake 또는 Amazon S3의 Source
 

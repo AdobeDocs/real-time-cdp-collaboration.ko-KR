@@ -2,7 +2,7 @@
 title: 일반적인 질문
 description: Adobe Real-Time CDP Collaboration에 대해 가장 자주 묻는 질문에 대한 답변 찾기
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 07fa043a-ce42-494d-a262-fa1d5cad7476
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
