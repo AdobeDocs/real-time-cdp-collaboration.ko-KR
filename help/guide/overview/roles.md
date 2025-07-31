@@ -2,7 +2,7 @@
 title: Adobe Real-Time CDP Collaboration의 공동 작업자 역할.
 description: Adobe Real-Time CDP Collaboration의 두 계정 역할 이해
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
 source-wordcount: '287'

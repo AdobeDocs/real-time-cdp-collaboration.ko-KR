@@ -2,7 +2,7 @@
 title: 대상자 활성화
 description: Adobe Real-Time CDP Collaboration에서 대상을 활성화하는 방법을 알아봅니다.
 audience: admin, publisher
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt

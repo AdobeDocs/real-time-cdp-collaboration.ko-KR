@@ -2,7 +2,7 @@
 title: 표시 개요
 description: Real-Time CDP Collaboration의 대상에 대해 알아봅니다.
 audience: admin, publisher
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
 source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
 workflow-type: tm+mt
