@@ -1,19 +1,19 @@
 ---
 title: Real-Time CDP Collaboration 빠른 시작 안내서
-description: 역할 및 조직 설정, 대상 소싱, 활성화 및 측정을 포함하여 Real-Time CDP Collaboration에서 조직을 온보딩하는 방법을 알아봅니다. 이 안내서는 광고주와 게시자가 공동 작업 설정을 구성하고 공유 대상을 안전하고 효율적으로 사용할 수 있도록 지원합니다.
+description: 역할 및 조직 설정, 대상 소싱, 활성화 및 측정을 포함하여 Real-Time CDP Collaboration에서 조직을 온보딩하는 방법을 알아봅니다. 이 안내서는 공동 작업자가 대상자를 안전하고 효율적으로 사용하도록 연결 설정을 구성할 수 있도록 도와줍니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
 
 # Real-Time CDP Collaboration 빠른 시작 안내서
 
-
+{{limited-availability-release-note}}
 
 조직을 구성하고, 대상을 소싱하고, 개인 정보 중심의 활성화 및 측정을 활성화하여 Real-Time CDP Collaboration을 시작하십시오.
 
@@ -31,10 +31,6 @@ ht-degree: 0%
 
 ## 1단계: 역할 기반 설정 완료 {#complete-role-based-setup}
 
->[!NOTE]
->
->이 단계는 광고주와 게시자 모두에 적용됩니다.
-
 조직의 액세스 역할은 사용자가 Collaboration에서 보고 수행할 수 있는 작업을 결정합니다. 계속하기 전에 역할 기반 권한이 올바르게 설정되어 있는지 확인하여 플랫폼에서 적절한 액세스 및 가시성을 보장하십시오.
 
 **리소스:**
@@ -45,13 +41,9 @@ ht-degree: 0%
 
 이 비디오를 통해 Admin Console 및 Experience Platform을 사용하여 Collaboration에 대한 제품 액세스 및 권한을 할당하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452237/?learn=on&enablevpops&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 2단계: Collaboration 계정 설정 {#set-up-your-account}
-
->[!NOTE]
->
->이 단계는 광고주와 게시자 모두에 적용됩니다.
 
 대상을 소스화하려면 먼저 Collaboration에서 계정을 구성해야 합니다. 이는 표시되는 방식과 인터페이스에서 액세스할 수 있는 내용을 제어합니다.
 
@@ -63,7 +55,7 @@ Collaboration에서 계정의 역할을 정의하고, 브랜딩 자산을 제공
 >
 >설치하는 동안 하나 이상의 계정(예: 광고주 및 게시자)을 만들 수 있습니다. 브랜딩 자산 및 연락처 전자 메일과 같은 특정 필드는 나중에 **[!UICONTROL 설정]** 작업 영역에서 업데이트할 수 있습니다.
 
-- **역할 할당** - 계정이 광고주인지 게시자인지를 결정합니다. 귀하의 역할은 Collaboration에서 보유하고 있는 기능을 정의합니다. 역할이 공동 작업 워크플로에 미치는 영향에 대해 자세히 알아보려면 [전체 워크플로 안내서](./end-to-end-workflow.md)를 참조하세요.
+- **역할 할당** - 계정이 광고주인지 게시자인지를 결정합니다. 귀하의 역할은 Collaboration에서 보유하고 있는 기능을 정의합니다. 역할이 공동 작업 워크플로에 미치는 영향에 대한 자세한 내용은 [역할](./overview/roles.md) 안내서를 참조하세요.
 - **브랜딩 자산** - 계정에 다음 내용을 추가하십시오.
    - 계정 이름(최대 100자)
    - 설명(최대 1,000자)
@@ -125,7 +117,7 @@ Collaboration을 사용하여 대상을 소싱하는 방법에 대한 전체 연
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-또는 [Collaboration의 소싱 대상](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)에 대한 문서를 참조하십시오.
+또는 [Collaboration의 소싱 대상](./setup/onboard-audiences.md#source-and-manage-audiences)에 대한 문서를 참조하십시오.
 
 ### 옵션 B: Snowflake 또는 Amazon S3의 Source
 
@@ -138,10 +130,6 @@ Collaboration을 사용하여 대상을 소싱하는 방법에 대한 전체 연
 >업로드된 파일의 모든 대상은 이 단계에서 완전히 소싱됩니다. [대상 가시성 설정](/help/guide/setup/onboard-audiences.md#metadata-visibility)은 공동 작업자가 대상을 볼 수 있는지, 그리고 Collaboration UI를 통해 관리되는지 여부를 결정합니다.
 
 ## 4단계: 대상자 활성화 (Experience Platform 또는 클라우드 대상) {#activate-audiences}
-
->[!NOTE]
->
->이 단계는 광고주와 게시자 모두에 적용됩니다.
 
 그런 다음 Experience Platform 인스턴스 또는 클라우드 대상에 대상을 활성화합니다.
 
@@ -224,13 +212,13 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 설정이 완료되면 이제 조직에서 초대를 보내거나 수락하고 승인을 위해 프로젝트 설정을 제출하여 공동 작업자와 연결할 준비가 되었습니다. 이 연결 프로세스에는 초대장 보내기 또는 받기, 연결 설정(사용 사례 및 신용 사용 등) 검토 및 제출, 연결 확인 등이 포함됩니다.
 
-광고주는 왼쪽 탐색 메뉴에서 **[!UICONTROL 연결]** 작업 영역을 사용하여 사용 가능한 게시자를 찾아봅니다.
+광고주는 왼쪽 탐색 메뉴에서 **[!UICONTROL 연결]** 작업 영역을 사용하여 사용 가능한 게시자를 찾아봅니다. 또는 공동 작업자가 [개인 연결 초대](./connect/establishing-connections.md#private-connection-invite){target="_blank"}를 통해 서로 직접 연결할 수 있습니다.
 
 >[!NOTE]
 >
 >현재는 광고주만 게시자를 검색할 수 있습니다. 게시자는 광고주를 찾아보거나 광고주와의 연결을 시작할 수 없습니다.
 
-이 흐름에 대한 개요는 [광고주 또는 게시자와 연결 가이드](./connect/establishing-connections.md){target="_blank"}를 참조하십시오. 공동 작업자 탐색 및 연결 설정 관리를 포함한 연결 프로세스에 대한 시각적 설명은 [advertiser 계정 설정 비디오](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}를 시청하십시오.
+이 흐름에 대한 개요는 [연결 설정 안내서](./connect/establishing-connections.md){target="_blank"}를 참조하십시오. 공동 작업자 탐색 및 연결 설정 관리를 포함한 연결 프로세스에 대한 시각적 설명은 [advertiser 계정 설정 비디오](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}를 시청하십시오.
 
 ## 다음 단계
 

@@ -2,12 +2,12 @@
 title: 성능 측정
 description: 다양한 채널에서 캠페인의 성과를 측정합니다. 다양한 보고서를 사용하고 해석하는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 18%
+source-wordcount: '575'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Real-Time CDP Collaboration의 사용 가능한 보고서에 대해 알아
 
 Collaboration에서 측정 보고서에 액세스하려면 먼저 다음을 수행해야 합니다.
 
-* [Measurement](/help/guide/connect/establishing-connections.md) 사용 사례가 활성화된 원하는 광고주 또는 게시자와 **연결됨** 및 [프로젝트](/help/guide/collaborate/manage-projects.md)에서 공동 작업을 시작했습니다.
+* [Measurement](/help/guide/connect/establishing-connections.md) 사용 사례를 사용하는 공동 작업자가 있는 **연결됨** 및 [프로젝트](/help/guide/collaborate/manage-projects.md)에 대한 공동 작업을 시작했습니다.
 * 캠페인을 실행하고 [업로드된 측정 데이터](/help/guide/setup/onboard-measurement-data.md)를 Collaboration으로 보내십시오.
 
 <!--
@@ -104,9 +104,3 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 어떤 매체가 창의적인 인상을 가져오는지 이해합니다. 이를 통해 향후 캠페인에 광고 지출을 어디에 투자할지 결정하는 데 도움이 될 수 있습니다.
 
 배치별 ![노출 횟수.](/help/assets/collaborate/measure/impressions-by-placement.png)
-
-## 다음 단계
-
-![광고주를 검색, 활성화, 측정합니다.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
-
-위의 이미지에서 순환성 측면에서 다음 캠페인을 계획할 때 보고서를 보고 얻은 통찰력을 사용하십시오. 광고주는 필요한 경우 뒤로 돌아가서 다른 게시자를 찾고 를 실행하여 다음 캠페인에 대해 다른 대상자를 검색합니다.

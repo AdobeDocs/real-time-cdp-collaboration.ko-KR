@@ -2,11 +2,11 @@
 title: 표시 개요
 description: Real-Time CDP Collaboration의 대상에 대해 알아봅니다.
 audience: admin, publisher
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '328'
 ht-degree: 6%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 6%
 
 대상은 타깃팅된 대상을 외부 플랫폼으로 전송하는 데 사용되는 통합입니다. 이러한 통합을 통해 다양한 마케팅 채널 및 플랫폼에서 캠페인 및 고객 참여에 사용할 대상을 활성화할 수 있습니다.
 
-현재 대상은 Adobe Real-Time CDP Collaboration의 게시자만 사용할 수 있습니다. 게시자는 캠페인에서 사용할 대상을 외부 플랫폼(예: Adobe Experience Platform)으로 보내도록 대상을 구성할 수 있습니다. 그러면 광고주는 [프로젝트 내의 대상을 활성화](../collaborate/activate.md)할 수 있으며 게시자의 구성된 대상으로 전송됩니다.
+공동 작업자는 캠페인에서 사용할 대상을 Adobe Experience Platform과 같은 외부 플랫폼으로 보내도록 대상을 구성할 수 있습니다. 그런 다음 공동 작업자는 [프로젝트 내의 대상을 활성화](../collaborate/activate.md)할 수 있으며, 이러한 대상은 연결의 구성된 대상으로 전송됩니다. 연결에 구성된 대상 활성화 설정 [에 따라 공동 작업자가 활성화할 수 있습니다](/help/guide/connect/establishing-connections.md#configure-connection-settings).
 
 >[!IMPORTANT]
 >
->현재, 광고주가 프로젝트 내에서 대상을 활성화하면 자동으로 게시자의 구성된 대상으로 전송됩니다. 게시자는 **해야** 대상 *이전*&#x200B;을(를) 구성해야 합니다. 구성된 대상이 없으면 대상자가 사용자에게 전송되고 프로젝트 내의 **[!UICONTROL 활성화]** 탭에 표시되지만 활성화되지는 않습니다.
+>현재 공동 작업자가 프로젝트 내에서 대상을 활성화하면 연결의 구성된 대상으로 자동으로 전송됩니다. **반드시** 대상을 구성해야 공동 작업자가 프로젝트 내의 대상을 활성화할 수 있습니다.
 
 ## 대상 구성 {#configure-destinations}
 

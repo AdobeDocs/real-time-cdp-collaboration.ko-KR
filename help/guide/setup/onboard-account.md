@@ -2,12 +2,12 @@
 title: 계정 구성 및 관리
 description: Real-Time CDP Collaboration에서 계정의 다양한 측면을 구성하고 관리하는 방법에 대해 알아봅니다
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 13%
+source-wordcount: '936'
+ht-degree: 18%
 
 ---
 
@@ -32,20 +32,18 @@ Collaboration에 처음 액세스하면 계정을 설정하라는 메시지가 �
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
 >title="연락처 이메일"
->abstract="팀 또는 역할 기반 전자 메일을 제공하십시오(예: **collaboration@yourcompany.com**). 개인 또는 개별 이메일 주소는 사용할 수 없습니다."
+>abstract="팀 또는 역할 기반의 이메일(예: **collaboration@yourcompany.com**)을 입력해 주십시오. 개인 또는 개별 이메일 주소는 사용할 수 없습니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_connect_code"
 >title="연결 코드"
->abstract="연결 코드는 계정의 고유 식별자입니다. Real-Time CDP Collaboration의 다른 공동 작업자와 연결을 설정하는 데 사용됩니다."
-
-<!-- Move the above popover to new section for invite on this page when its created -->
+>abstract="연결 코드는 계정의 고유 식별자입니다. Real-Time CDP Collaboration에서 다른 공동 작업자와의 연결을 구축하는 데 사용됩니다."
 
 계정 구성을 시작하려면 먼저 계정 세부 사항을 설정해야 합니다. 이 경우 다음 정보를 추가해야 합니다.
 
 * 브랜드를 명확하게 나타내는 **[!UICONTROL 계정 이름]**&#x200B;을(를) 추가합니다.
 * 브랜드에 대한 **[!UICONTROL 설명]**&#x200B;을(를) 추가합니다. 이는 선택 사항이지만 다른 공동 작업자가 브랜드를 더 잘 이해하는 데 도움이 됩니다.
-* **[!UICONTROL 역할]**&#x200B;을(를) 선택하십시오. **[!UICONTROL Advertiser]**&#x200B;에서 **[!UICONTROL Publisher]** 중 하나를 선택할 수 있습니다. [통합 워크플로 문서](/help/guide/end-to-end-workflow.md)를 읽고 두 조직 역할 유형 간의 워크플로에서 유사점과 약간의 차이점을 확인하십시오.
+* **[!UICONTROL 역할]**&#x200B;을(를) 선택하십시오. **[!UICONTROL Advertiser]**&#x200B;에서 **[!UICONTROL Publisher]** 중 하나를 선택할 수 있습니다. 두 계정 역할 유형 간의 워크플로에서 유사점과 약간의 차이점을 확인하려면 [역할](/help/guide/overview/roles.md) 안내서를 읽어 보십시오.
 <!-- The above will need to be updated when I update things for B2B -->
 * 계정의 **[!UICONTROL 업종]**&#x200B;을 선택하세요. 일부 예로는 **[!UICONTROL 소매]**, **[!UICONTROL 통신]** 또는 **[!UICONTROL 금융 서비스]**&#x200B;가 있습니다.
 * **[!UICONTROL Region]**&#x200B;은(는) Adobe Experience Cloud 계정을 기반으로 자동으로 설정됩니다. 이는 언제든지 변경할 수 없습니다.
@@ -64,7 +62,7 @@ Collaboration에 처음 액세스하면 계정을 설정하라는 메시지가 �
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="일치 키"
->abstract="일치 키는 서로 다른 데이터 소스의 대상자 간에 멤버를 조정하는 데 사용되는 식별자입니다. 내 브랜드와 함께 사용할 수 있는 모든 일치 키를 포함합니다."
+>abstract="일치 키는 서로 다른 데이터 소스의 대상자 간에 멤버를 조정하는 데 사용되는 식별자입니다. 브랜드에서 사용할 수 있는 모든 일치 키를 포함합니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
@@ -111,7 +109,7 @@ Collaboration에 처음 액세스하면 계정을 설정하라는 메시지가 �
 
 ## 계정 편집 {#edit-account}
 
-계정을 설정한 후에는 언제든지 해당 계정의 특정 측면과 세부 사항을 편집할 수 있습니다. 계정을 편집하려면 **[!UICONTROL 설정]** 작업 영역&#x200B;**[!UICONTROL 의]**&#x200B;내 계정&#x200B;**[!UICONTROL 섹션에서 &#x200B;]편집**&#x200B;을(를) 선택하십시오.
+계정을 설정한 후에는 언제든지 해당 계정의 특정 측면과 세부 사항을 편집할 수 있습니다. 계정을 편집하려면 **[!UICONTROL 설정]** 작업 영역&#x200B;**[!UICONTROL 의]**&#x200B;내 계정&#x200B;**[!UICONTROL 섹션에서 ]편집**&#x200B;을(를) 선택하십시오.
 
 ![[내 계정] 탭과 [편집] 옵션이 강조 표시된 설치 작업 영역입니다.](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 

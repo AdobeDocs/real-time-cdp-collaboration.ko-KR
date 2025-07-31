@@ -2,12 +2,12 @@
 title: 중복 검색 및 대상 비교
 description: 와 공동 작업자의 대상 간에 겹치는 부분을 살펴봅니다. 캠페인에 사용할 최상의 대상을 찾는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 >
 >**[!UICONTROL Discover]** 작업 영역은 연결 프로세스 동안 **대상 검색** 사용 사례가 [활성화되었을 경우에만 사용할 수 있습니다](../connect/establishing-connections.md#connection-settings). 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
 
-[프로젝트를 만들고](/help/guide/collaborate/manage-projects.md) 나면 대상을 공동 작업자와 비교할 수 있습니다. 이렇게 하면 캠페인에 대한 관련 대상을 식별하고 활성화를 위해 게시자에게 전송할 대상을 결정하는 데 도움이 됩니다.
+[프로젝트를 만들고](/help/guide/collaborate/manage-projects.md) 나면 대상을 공동 작업자와 비교할 수 있습니다. 이렇게 하면 캠페인에 대한 관련 대상을 식별하고 활성화를 위해 공동 작업자에게 전송할 대상을 결정하는 데 도움이 됩니다.
 
 >[!IMPORTANT]
 >
@@ -95,7 +95,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="관련 대상자"
->abstract="오버랩 비율에 따라 이러한 대상은 캠페인에 적합할 수 있습니다. <br><br> <b>ID 개수</b>는 공동 작업자의 대상 크기입니다. <br><br> <b>ID가 겹침</b>은(는) 권장 대상자와 모든 대상자 간의 겹침을 나타냅니다. <br><br> <b>겹치기 %</b>은(는) 겹치는 ID의 수를 대상 <i>모두</i>의 크기로 나눈 값을 나타냅니다."
+>abstract="중복 비율을 기준으로 할 때, 이러한 대상자는 캠페인에 적합할 수 있습니다. <br><br><b>ID 수</b>는 공동작업자 대상자의 크기입니다. <br><br> <b>중복 ID</b>는 추천된 대상자와 모든 대상자 간의 중복을 나타냅니다. <br><br><b>중복 비율</b>은 중복되는 ID의 수를 <i>모든</i> 대상자 크기로 나눈 값을 나타냅니다."
 
 **[!UICONTROL 검색]** 탭의 **[!UICONTROL 관련 대상]** 섹션은 공동 작업자의 대상과 모든 대상자 간의 겹침 비율을 기반으로 상위 5명의 대상자에 대해 선별된 목록을 제공합니다. 이 기능을 사용하면 겹치는 정도가 가장 높은 대상을 신속하게 식별할 수 있으므로 캠페인을 보다 효과적으로 타기팅할 수 있습니다. 섹션의 오른쪽 상단에 있는 페이지 선택기를 사용하여 관련 대상 간에 전환합니다.
 

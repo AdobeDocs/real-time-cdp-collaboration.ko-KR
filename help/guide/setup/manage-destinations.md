@@ -2,11 +2,11 @@
 title: 대상 구성 및 관리
 description: Real-Time CDP Collaboration에서 대상을 구성하고 관리하는 방법을 알아봅니다.
 audience: admin, publisher
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b4b26761-46ac-420f-b9f7-6e829d67aec9
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 대상은 타깃팅된 대상을 외부 플랫폼으로 전송하는 데 사용되는 통합입니다. 이러한 통합을 통해 다양한 마케팅 채널 및 플랫폼에서 캠페인 및 고객 참여에 사용할 대상을 활성화할 수 있습니다.
 
-현재 대상은 Real-Time CDP Collaboration의 게시자만 사용할 수 있습니다. 게시자는 캠페인에서 사용할 대상을 Adobe Experience Platform과 같은 외부 플랫폼에 활성화하도록 구성할 수 있습니다. 그런 다음 광고주는 [프로젝트 내에 대상자를 보낼 수 있습니다](../collaborate/activate.md). 이러한 대상자는 게시자의 구성된 대상으로 전송됩니다.
+공동 작업자는 캠페인에서 사용할 대상을 Adobe Experience Platform과 같은 외부 플랫폼으로 보내도록 대상을 구성할 수 있습니다. 그런 다음 공동 작업자는 [프로젝트 내의 대상을 활성화](../collaborate/activate.md)할 수 있으며, 이러한 대상은 연결의 구성된 대상으로 전송됩니다. 연결에 구성된 대상 활성화 설정 [에 따라 공동 작업자가 활성화할 수 있습니다](/help/guide/connect/establishing-connections.md#configure-connection-settings).
 
 ![활성 Adobe Experience Platform 대상을 표시하는 설정 작업 영역의 내 대상 탭입니다.](/help/assets/setup/manage-destinations/my-destinations-overview.png)
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 ## 대상 삭제 {#delete-destinations}
 
-대상을 삭제하면 조직에서 대상을 제거하고 이전에 보낸 모든 대상을 대상에서 제거하며 이후 대상이 해당 대상으로 전송되지 않도록 합니다.
+대상을 삭제하면 계정에서 대상이 제거되고, 이전에 전송된 모든 대상이 대상에서 제거되며, 이후 대상이 해당 대상으로 전송되지 않습니다.
 
 대상을 삭제하려면 **[!UICONTROL 설정]** 섹션의 **[!UICONTROL 내 대상]** 탭으로 이동합니다. 제거할 대상에 대해 **[!UICONTROL 삭제]** 옵션을 선택하십시오.
 
@@ -53,4 +53,4 @@ ht-degree: 1%
 
 ## 다음 단계
 
-대상을 구성하고 나면 광고주와 공동 작업을 시작하여 프로젝트 내에서 [타깃팅된 대상을 활성화](../collaborate/activate.md)할 수 있습니다.
+대상을 구성하고 나면 연결 내에서 공동 작업을 시작하여 프로젝트 내의 [타깃팅된 대상을 활성화](../collaborate/activate.md)할 수 있습니다.

@@ -2,11 +2,11 @@
 title: ID 크로스워크
 description: 다양한 소스에서 ID 횡단보도를 가져오는 방법 및 ID 횡단보도를 관리하는 방법을 포함하여 Real-Time CDP Collaboration의 ID 횡단보도에 대해 모두 알아봅니다
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 22%
@@ -20,11 +20,6 @@ ht-degree: 22%
 다양한 소스에서 ID 횡단보도를 가져오는 방법 및 ID 횡단보도를 관리하는 방법을 포함하여 Real-Time CDP Collaboration의 ID 횡단보도에 대해 모두 알아봅니다.
 
 ID 횡단보기는 여러 데이터 세트 및 플랫폼에서 고객 ID를 안전하고 개인정보 보호 규정을 준수하는 방식으로 연결할 수 있습니다. Real-Time CDP Collaboration은 해시된 식별자를 활용하여 사용자가 개인 식별 정보(PII)를 노출하지 않고 ID를 동기화하고 조정할 수 있도록 합니다. 이를 통해 통합 뷰를 통해 더 나은 공동 작업 및 타겟팅 마케팅 노력을 위한 고객을 파악할 수 있습니다.
-
-<!--
-In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences by [TODO] insert material here. 
--->
-
 
 첫 번째 단계로 ID 횡단보도를 Real-Time CDP Collaboration으로 가져와야 합니다. ID 횡단보도를 Real-Time CDP Collaboration으로 가져오려면 아래 섹션을 참조하십시오.
 
