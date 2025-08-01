@@ -2,9 +2,9 @@
 title: Real-Time CDP Collaboration 빠른 시작 안내서
 description: 역할 및 조직 설정, 대상 소싱, 활성화 및 측정을 포함하여 Real-Time CDP Collaboration에서 조직을 온보딩하는 방법을 알아봅니다. 이 안내서는 공동 작업자가 대상자를 안전하고 효율적으로 사용하도록 연결 설정을 구성할 수 있도록 도와줍니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 이 비디오를 통해 Admin Console 및 Experience Platform을 사용하여 Collaboration에 대한 제품 액세스 및 권한을 할당하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452237/?learn=on&enablevpops&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 2단계: Collaboration 계정 설정 {#set-up-your-account}
 
@@ -162,7 +162,9 @@ Collaboration은 캠페인 도달 범위, 빈도 및 효과를 분석하는 다�
 
 측정 보고서를 보고 해석하는 방법은 [측정 가이드](./collaborate/measure.md)를 참조하세요. 여기에는 속성, 캠페인 요약 지표 및 도달 곡선 및 빈도 분포와 같은 대시보드가 포함됩니다.
 
-<!-- Commenting out the below information as this workflow is not yet in Beta but will be imminently. A guided measurement configuration workflow will be available in a future release."
+<!-- 
+Commenting out the below information as this workflow is not yet in Beta but will be imminently. A guided measurement configuration workflow will be available in a future release."
+
 ### Configure measurement workflow
 
 Collaboration supports two measurement workflows:
@@ -206,7 +208,8 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
    - Navigate to the **[!UICONTROL Measure]** workspace within the project.
    - Input the report name, date range, and report run date.
    - Select **[!UICONTROL Campaign summary]** as the report type.
-   - Submit the report. It will run on the selected date and populate within 24 hours. -->
+   - Submit the report. It will run on the selected date and populate within 24 hours. 
+-->
 
 ## 6단계: 공동 작업자와 연결 {#connect-with-collaborators}
 

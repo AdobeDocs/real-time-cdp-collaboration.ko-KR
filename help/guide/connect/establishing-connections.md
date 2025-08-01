@@ -2,9 +2,9 @@
 title: 연결 설정 중
 description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 프로젝트에 대한 공동 작업을 시작하는 방법에 대해 알아보십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c159bbcdc5f84abc4c591c5256192d117ec51102
+source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
 workflow-type: tm+mt
 source-wordcount: '3213'
 ht-degree: 7%
@@ -37,10 +37,10 @@ ht-degree: 7%
 광고주와 게시자 간에 연결을 설정하려면 다음 단계를 따르십시오.
 
 1. [게시자 검색](#discover-publishers): 광고주는 공동 작업할 수 있는 게시자를 식별합니다.
-2. [초대 보내기](#send-invite): 광고주가 선택한 게시자에게 연결 초대를 보냅니다.
-3. [초대 수락](#accept-invite): 게시자가 초대를 검토하고 수락합니다.
-4. [연결 설정 구성](#configure-connection-settings): 광고주가 연결 설정을 구성하고 검토할 수 있도록 게시자에게 보냅니다.
-5. [연결 설정 확인](#establish-connection): 게시자가 연결 설정을 검토하고 이를 수락 또는 거부합니다. 수락되면 연결이 설정됩니다. 거부된 경우 게시자는 제품 외부의 수정 사항에 대한 피드백을 제공할 수 있습니다. 그런 다음 광고주는 설정을 수정하고 다시 보내어 검토할 수 있습니다.
+1. [초대 보내기](#send-invite): 광고주가 선택한 게시자에게 연결 초대를 보냅니다.
+1. [초대 수락](#accept-invite): 게시자가 초대를 검토하고 수락합니다.
+1. [연결 설정 구성](#configure-connection-settings): 광고주가 연결 설정을 구성하고 검토할 수 있도록 게시자에게 보냅니다.
+1. [연결 설정 확인](#establish-connection): 게시자가 연결 설정을 검토하고 이를 수락 또는 거부합니다. 수락되면 연결이 설정됩니다. 거부된 경우 게시자는 제품 외부의 수정 사항에 대한 피드백을 제공할 수 있습니다. 그런 다음 광고주는 설정을 수정하고 다시 보내어 검토할 수 있습니다.
 
 연결 설정이 수락되면 연결이 설정되고 공동 작업자는 [프로젝트를 만들](/help/guide/collaborate/manage-projects.md#create-project) 준비가 되어 캠페인에 대한 공동 작업을 시작할 수 있습니다.
 
@@ -65,14 +65,14 @@ ht-degree: 7%
 두 브랜드 간의 연결 과정에는 몇 가지 단계가 포함됩니다. 연결 프로세스가 시작되기 전에 몇 가지 전제 조건을 충족해야 합니다.
 
 1. 두 브랜드가 제품 외부에서 소통하며 잠재적 연결에 대해 논의합니다.
-2. 브랜드가 아직 Collaboration에 [계정을 만듭니다](/help/guide/setup/onboard-account.md). 아직 만들지 않은 경우 적절한 역할 유형(광고주 또는 게시자)을 선택하십시오.
+1. 브랜드가 아직 Collaboration에 [계정을 만듭니다](/help/guide/setup/onboard-account.md). 아직 만들지 않은 경우 적절한 역할 유형(광고주 또는 게시자)을 선택하십시오.
 
-전제 조건이 충족되면 연결 프로세스를 시작할 수 있습니다. 다음 단계는 프로세스에 대해 간략히 설명합니다.
+   전제 조건이 충족되면 연결 프로세스를 시작할 수 있습니다. 다음 단계는 프로세스에 대해 간략히 설명합니다.
 
 1. [비공개 연결 초대 보내기](#send-private-connection-invite): 한 공동 작업자가 다른 공동 작업자에게 비공개 연결 초대를 보냅니다.
-2. [개인 연결 초대 수락](#accept-private-connection-invite): 받는 사람이 개인 연결 초대를 검토하고 수락합니다.
-3. [연결 설정 구성](#configure-connection-settings): 소유자가 연결 설정을 구성하고 검토 및 수락하기 위해 받는 사람에게 보냅니다.
-4. [연결 설정 확인](#establish-connection): 받는 사람이 연결 설정을 검토하고 이를 수락하거나 거부합니다.
+1. [개인 연결 초대 수락](#accept-private-connection-invite): 받는 사람이 개인 연결 초대를 검토하고 수락합니다.
+1. [연결 설정 구성](#configure-connection-settings): 소유자가 연결 설정을 구성하고 검토 및 수락하기 위해 받는 사람에게 보냅니다.
+1. [연결 설정 확인](#establish-connection): 받는 사람이 연결 설정을 검토하고 이를 수락하거나 거부합니다.
 
 연결 설정이 수락되면 연결이 설정되고 공동 작업자는 [프로젝트를 만들](/help/guide/collaborate/manage-projects.md#create-project) 준비가 되어 캠페인에 대한 공동 작업을 시작할 수 있습니다.
 
@@ -310,8 +310,8 @@ ht-degree: 7%
 프로젝트를 만들 때 연결 중에 설정된 다음 설정을 기반으로 광고주 이름이 미리 채워집니다    :
 
 1. **광고주 이름이 설정되지 않음**: 광고주 이름이 추가되지 않으면 Collaboration에서 광고주 이름으로 광고주 이름을 사용하는 것으로 기본 설정됩니다.
-2. **광고주 이름 집합 하나**: 단일 광고주 이름이 추가되면 Collaboration은 자동으로 해당 이름을 프로젝트의 광고주 이름으로 사용합니다.
-3. **여러 광고주 이름 집합**: 둘 이상의 광고주 이름이 추가되면 프로젝트를 만들 때 사용자 또는 공동 작업자가 제공된 이름을 선택할 수 있습니다.
+1. **광고주 이름 집합 하나**: 단일 광고주 이름이 추가되면 Collaboration은 자동으로 해당 이름을 프로젝트의 광고주 이름으로 사용합니다.
+1. **여러 광고주 이름 집합**: 둘 이상의 광고주 이름이 추가되면 프로젝트를 만들 때 사용자 또는 공동 작업자가 제공된 이름을 선택할 수 있습니다.
 
 >[!NOTE]
 >
