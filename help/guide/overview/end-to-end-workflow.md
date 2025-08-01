@@ -1,12 +1,12 @@
 ---
 title: 전체 워크플로
-description: 광고주 또는 게시자로 Real-Time CDP Collaboration을 사용하는 전체적인 워크플로 이해
+description: 공동 작업 패턴을 기반으로 Real-Time CDP Collaboration 사용에 대한 전체적인 워크플로를 이해합니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
+source-git-commit: 8745d6d8da389b552af3da6612bf693230dfb538
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -15,38 +15,48 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용하면 광고주와 게시자가 개인 정보 중심 방식으로 캠페인에 대해 공동 작업을 수행할 수 있습니다. 광고주 또는 게시자로서 제품을 최대한 활용할 수 있는 워크플로를 이해하려면 이 페이지를 참조하십시오.
+Adobe Real-Time CDP Collaboration에서 통합 워크플로우는 선택하는 공동 작업 패턴에 따라 다릅니다. 이 워크플로에서는 계정 및 소싱 대상 만들기에서 연결 형성 및 프로젝트 만들기에 이르기까지 공동 작업 프로젝트 설정 및 실행과 관련된 단계를 간략하게 설명합니다. 이 워크플로를 이해하는 것은 마케팅 목표를 달성하기 위해 플랫폼의 기능을 효과적으로 활용하는 데 필수적입니다.
 
-## 광고주 전체 워크플로 {#advertiser}
+## 시작
 
-광고주는 Real-Time CDP Collaboration에 [회사 온보딩](/help/guide/setup/onboard-account.md)부터 시작합니다. [설정 페이지](/help/guide/setup/setup-overview.md)를 사용하여 회사 설정을 제출한 다음 편집하고, 작업할 기본 일치 키를 추가하고, 가져올 데이터를 결정하십시오. 첫 번째 릴리스에서는 제품을 통해 Adobe Experience Platform에서만 [대상자를 가져오기](/help/guide/setup/onboard-audiences.md)할 수 있습니다.
+시작하기 전에 다음 주요 개념을 확실히 이해해야 합니다.
 
-![광고주를 검색, 활성화, 측정합니다.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
+- **Collaboration 패턴**: 이러한 패턴은 공동 작업자가 함께 작업하는 방법을 정의합니다. [광고주 대 게시자](./collaboration-patterns.md#advertiser-to-publisher) 및 [브랜드 대 브랜드](./collaboration-patterns.md#brand-to-brand)의 두 가지 패턴이 있습니다.
+- **계정 역할**: 계정 역할이 플랫폼 내의 기능을 결정합니다. 조직의 목표, 브랜드 및 목표에 부합해야 합니다. 두 개의 계정 역할이 있습니다. [광고주](./roles.md#advertiser) 및 [게시자](./roles.md#publisher).
+- **사용 사례**: 사용 사례는 Collaboration을 활용하여 마케팅 목표를 달성할 수 있는 방법을 정의합니다. 세 가지 공동 작업 사용 사례가 있습니다. [검색](./use-cases.md#discover), [활성화](./use-cases.md#activate) 및 [측정](./use-cases.md#measure).
 
-[검색 탭을 사용하여 캠페인에 사용할 게시자를 찾습니다](/help/guide/connect/discover-publishers.md). 게시자에게 연락하여 제품 외부의 공동 작업 용어에 대해 논의하십시오. 약관 세트에 동의하면 [연결 초대를 보내고](/help/guide/connect/establishing-connections.md) 게시자와 연결할 공동 작업 설정을 제안할 수 있습니다.
+이 안내서에서는 세 명의 모의 공동 작업자를 사용하여 전체적인 워크플로를 보여 줍니다.
 
-게시자가 연결 요청을 수락하면 조직과 조직의 겹치는 대상을 탐색할 수 있습니다. 공동 작업 사용 사례(타깃팅, 제외 등)에 따라 캠페인에 대한 프로젝트를 설정하고 [중복 보고서를 실행](/help/guide/collaborate/discover.md)하여 다음 광고 캠페인에 가장 적합한 대상을 찾습니다.
+- **[!UICONTROL Luma]**: 운동복 브랜드입니다. 타깃팅된 마케팅 캠페인을 통해 특정 대상에게 연결하고자 하는 광고주입니다.
+- **[!UICONTROL TV Tube]**: 디지털 스트리밍 공급자입니다. 광고주가 사용할 수 있도록 대상 데이터를 제공하는 게시자입니다.
+- **[!UICONTROL 의류 맞춤]**: 다른 운동복 브랜드. 또한 향상된 마케팅 활동을 위해 대상 데이터와 통찰력을 공유하기 위해 공동 작업을 원하는 두 번째 광고주입니다.
 
-이상적인 대상을 발견하면 [활성화](/help/guide/collaborate/activate.md)할 차례입니다.
+## 광고주-게시자 간 워크플로 {#advertiser-to-publisher-workflow}
 
-공동 작업 루프의 마지막 단계는 [측정](/help/guide/collaborate/measure.md)입니다. 비즈니스 결과를 측정하거나 확인하려면 광고 로그와 같은 측정 데이터를 업로드한 다음, 프로그램에 제공된 보고서를 실행하여 대상자가 어떻게 수행했는지 파악합니다.
+운동 소매 회사인 [!UICONTROL Luma]이(가) 타깃팅된 마케팅 캠페인을 통해 특정 대상자에게 도달하기 위해 디지털 스트리밍 공급자인 [!UICONTROL TV Tube]와(과) 연결을 만들려고 합니다.
 
-## 게시자 전체 워크플로 {#publisher}
+먼저 [!UICONTROL Luma]은(는) 광고주 역할로 [계정을 만들어야](../setup/onboard-account.md)하지만 [!UICONTROL TV Tube]은(는) 게시자 역할로 계정을 만듭니다.
 
-게시자는 Real-Time CDP Collaboration에 [회사 온보딩](/help/guide/setup/onboard-account.md)부터 시작합니다. [설정 페이지](/help/guide/setup/setup-overview.md)를 사용하여 다양한 회사 설정을 편집합니다.
+계정을 설정한 후에는 [!UICONTROL Luma] 및 [!UICONTROL TV Tube]에서 모두 [데이터 연결 및 소스 대상을 만들기](../setup/onboard-audiences.md)해야 합니다. [!UICONTROL TV Tube]만 마케팅 캠페인에 대한 대상을 활성화하므로 [대상을 구성](../setup/manage-destinations.md)해야 합니다.
 
-가져올 대상 데이터와 제품의 **[!UICONTROL 연결]** 영역에서 귀하와 연결하려는 광고주에게 검색 가능하고 볼 수 있도록 만들 대상을 결정합니다.
+두 공동 작업자가 계정을 설정한 후에는 플랫폼 내에서 [연결을 형성](../connect/establishing-connections.md)할 준비가 되었습니다. [!UICONTROL Luma]은(는) [게시자 검색](../connect/discover-publishers.md) 기능을 사용하여 [!UICONTROL TV Tube]를 찾아 연결 요청을 시작합니다. [!UICONTROL TV Tube]이(가) 연결 요청을 수락하면 [!UICONTROL Luma]이(가) 연결 설정을 구성하여 공동 작업 방법을 정의합니다. [!UICONTROL TV Tube]에서 두 브랜드 간의 보안 연결을 설정하기 위해 연결 요청을 수락합니다.
 
-대상을 Real-Time CDP Collaboration으로 가져올 때 대상에 태그를 지정하고 대상을 분류해야 합니다. Real-Time CDP Collaboration은 대상을 분류하는 데 설정된 [IAB 분류](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"}을(를) 따릅니다.
+연결이 설정되면 [!UICONTROL Luma] [프로젝트를 만들고](../collaborate/manage-projects.md) [!UICONTROL TV Tube]와(과) 공동 작업을 시작합니다. 프로젝트 설정 중에 목표에 가장 적합한 공동 작업 사용 사례를 선택합니다. [검색](../collaborate/discover.md), [활성화](../collaborate/activate.md) 및 [측정](../collaborate/measure.md).
 
-함께 작업할 광고주를 결정하고 제품 외부의 공동 작업 조건에 대해 논의하기 위해 광고주에게 문의하십시오. 약관에 동의하면 광고주가 귀하와 연결할 공식 연결 초대를 연장할 때까지 기다리십시오. 일반적으로 캠페인에서 귀하와 함께 작업하고자 하는 광고주 브랜드의 보류 중인 연결 요청도 모니터링해야 합니다. 잠재적 공동 작업자가 제안한 연결 설정을 검토하고, 공동 작업을 시작하기 전에 해당 설정에 동의하거나 수정합니다.
+[!UICONTROL Luma]은(는) [Discover](../collaborate/discover.md) 사용 사례를 활용하여 [!UICONTROL TV Tube]의 대상 데이터에 대한 통찰력을 얻습니다. [!UICONTROL Luma]이(가) 대상 대상 세그먼트를 식별하면 이 대상을 [활성화](../collaborate/activate.md)합니다.
 
-그들의 연결 요청을 수락한 후, 이제 나와 공동 작업자 사이에 겹치는 대상을 탐색할 차례입니다. 광고주는 캠페인을 위해 프로젝트를 설정하고, 원하는 목표(전망, 억제 등)에 따라 대상자와 사용자 간에 중복 보고서를 실행합니다.
+대상을 활성화한 후 [!UICONTROL TV Tube]에서 타깃팅된 마케팅 캠페인을 실행하고 [측정](../collaborate/measure.md)에 결과를 업로드하여 캠페인의 효과를 평가합니다.
 
-광고주가 캠페인을 타깃팅할 이상적인 대상을 발견하고 이러한 대상을 귀하에게 보내면 해당 대상을 활성화하고 캠페인을 시작할 수 있습니다.
+## 브랜드 간 워크플로우 {#brand-to-brand-workflow}
 
-공동 작업 루프의 마지막 단계는 측정입니다. 캠페인이 어떻게 수행되었는지 확인하려면 마지막 단계로 광고 로그와 같은 측정 데이터를 업로드한 다음, 프로그램에 제공된 보고서를 실행하여 대상자가 어떻게 수행했는지 파악합니다.
+스포츠 의류 브랜드인 [!UICONTROL Fit Apparel]은(는) 다른 스포츠 의류 브랜드인 [!UICONTROL Luma]과(와) 협력하여 향상된 마케팅 노력을 위한 대상 데이터 및 통찰력을 공유하려고 합니다.
 
-## 다음 단계
+계정을 설정한 후 [!UICONTROL Fit Apparel]과(와) [!UICONTROL Luma]을(를) 모두 [데이터 연결 및 소스 대상을 만들기](../setup/onboard-audiences.md)해야 합니다. [!UICONTROL 의류 맞춤]과(와) [!UICONTROL Luma] 모두 마케팅 캠페인에 대해 대상을 활성화하므로 둘 다 [대상을 구성](../setup/manage-destinations.md)해야 합니다.
 
-회사 역할을 기반으로 하는 높은 수준의 종단 간 워크플로를 이해하면 제품에서 지원되는 [샘플 사용 사례](/help/guide/overview/use-cases.md)를 읽어 보십시오.
+대상을 소싱한 후 [!UICONTROL Apparel] 및 [!UICONTROL Luma] [연결을 형성하여](../connect/establishing-connections.md) 플랫폼 내에서 대상 데이터를 안전하게 공유합니다. 이렇게 하려면 [개인 연결 초대](../connect/establishing-connections.md#private-connection-invite) 기능을 사용해야 합니다. [!UICONTROL Luma]은(는) 연결 코드를 [!UICONTROL Fit Apparel]과(와) 공유하며, 사용자는 이를 사용하여 연결 요청을 시작합니다. [!UICONTROL Luma]이(가) 연결 요청을 수락하면 [!UICONTROL Fit Apparel]은(는) 공동 작업 방법을 정의하는 연결 설정을 구성합니다. 구성에서 [!UICONTROL 의류 맞춤]은 두 공동 작업자가 모두 마케팅 캠페인에 대한 대상을 활성화할 수 있도록 지정합니다. 연결을 완료하려면 [!UICONTROL Luma]이(가) 두 브랜드 간의 보안 링크 설정 요청을 수락합니다.
+
+연결이 설정되면 [!UICONTROL Apparel 맞춤] [프로젝트를 만들어](../collaborate/manage-projects.md) [!UICONTROL Luma]와(과) 공동 작업을 시작합니다. 프로젝트 설정 중에 목표에 가장 적합한 공동 작업 사용 사례를 선택합니다. [검색](../collaborate/discover.md), [활성화](../collaborate/activate.md) 및 [측정](../collaborate/measure.md).
+
+[!UICONTROL 의류 맞춤] 및 [!UICONTROL Luma] 모두 [검색](../collaborate/discover.md) 사용 사례를 사용하여 서로의 대상 데이터에 대한 통찰력을 얻을 수 있습니다. 중요한 대상 세그먼트를 식별한 후에는 마케팅 캠페인에 대해 선택한 대상을 [활성화](../collaborate/activate.md)합니다.
+
+마지막으로 두 브랜드는 캠페인을 실행한 후 결과를 [측정값](../collaborate/measure.md)에 데이터를 업로드하고 공동 작업의 효과를 평가합니다.
