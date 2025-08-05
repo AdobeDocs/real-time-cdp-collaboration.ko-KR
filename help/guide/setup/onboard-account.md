@@ -2,7 +2,7 @@
 title: 계정 구성 및 관리
 description: Real-Time CDP Collaboration에서 계정의 다양한 측면을 구성하고 관리하는 방법에 대해 알아봅니다
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
@@ -109,7 +109,7 @@ Collaboration에 처음 액세스하면 계정을 설정하라는 메시지가 �
 
 ## 계정 편집 {#edit-account}
 
-계정을 설정한 후에는 언제든지 해당 계정의 특정 측면과 세부 사항을 편집할 수 있습니다. 계정을 편집하려면 **[!UICONTROL 설정]** 작업 영역&#x200B;**[!UICONTROL 의]**&#x200B;내 계정&#x200B;**[!UICONTROL 섹션에서 &#x200B;]편집**&#x200B;을(를) 선택하십시오.
+계정을 설정한 후에는 언제든지 해당 계정의 특정 측면과 세부 사항을 편집할 수 있습니다. 계정을 편집하려면 **[!UICONTROL 설정]** 작업 영역&#x200B;**[!UICONTROL 의]**&#x200B;내 계정&#x200B;**[!UICONTROL 섹션에서 ]편집**&#x200B;을(를) 선택하십시오.
 
 ![[내 계정] 탭과 [편집] 옵션이 강조 표시된 설치 작업 영역입니다.](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
