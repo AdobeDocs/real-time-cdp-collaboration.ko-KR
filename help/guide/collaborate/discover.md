@@ -2,9 +2,9 @@
 title: 중복 검색 및 대상 비교
 description: 와 공동 작업자의 대상 간에 겹치는 부분을 살펴봅니다. 캠페인에 사용할 최상의 대상을 찾는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 76ad3357aa4cd02dbc0616e5d8bd03b03683b7fd
+source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 12%
@@ -188,6 +188,8 @@ ht-degree: 12%
 | 남성 25-34 | (700k / 1.3M) / (12M / 50M)) * 100 | 224 | 이 대상자를 타깃팅하면 기준선에 비해 SUV 차주에 도달할 확률이 124% 높아진다. |
 | 기술 애호가 | (500k / 1.3M) / (8M / 50M)) * 100 | 240 | 이 대상자를 타깃팅하면 기준선에 비해 SUV 차주에 도달할 확률이 140% 높아진다. |
 
+{style="table-layout:auto"}
+
 인덱스 점수가 캠페인에 미치는 영향을 더 잘 이해하기 위해, 관련성 밴드가 점수와 함께 제공됩니다.
 
 ### 관련성 밴드 {#audience-index-relevance-bands}
@@ -201,6 +203,8 @@ ht-degree: 12%
 | 80 &lt; i &lt; 120 | 보통 | 겹침은 대상 대상자에서도 대상 대상자에서와 마찬가지로 일반적이며, 이는 일반적인 관계를 나타냅니다. 이 대상을 사용하는 고객은 타겟 대상자에게 도달할 가능성이 평균적입니다. |
 | 120 &lt; i &lt; 140 | 높음 | 겹치는 부분이 청중과 비교하여 대상 청중에게 더 만연하여 강한 관계를 보인다. 이 대상을 사용하는 고객은 타겟 대상자에게 도달할 가능성이 더 높습니다. |
 | i > 140 | 매우 높음 | 겹치는 부분이 청중과 비교하여 타겟 청중에게 훨씬 더 만연하여 매우 강한 관계를 반영한다. 이 대상을 사용하는 고객은 타겟 대상자에게 도달할 가능성이 훨씬 높습니다. |
+
+{style="table-layout:auto"}
 
 중복 검색 섹션 내에서 대상 색인 점수는 점수와 함께 관련성 밴드를 표시합니다. 해당 점수는 연관성 대역을 나타내기 위해 컬러코딩되어 한눈에 관계의 강도를 쉽게 파악할 수 있다. 주황색은 매우 낮은 관련성, 검은색은 중간 관련성, 녹색은 높고 매우 높은 관련성 밴드를 표시한다.
 
