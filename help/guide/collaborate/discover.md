@@ -2,12 +2,12 @@
 title: 중복 검색 및 대상 비교
 description: 와 공동 작업자의 대상 간에 겹치는 부분을 살펴봅니다. 캠페인에 사용할 최상의 대상을 찾는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="관련 대상자"
->abstract="중복 비율을 기준으로 할 때, 이러한 대상자는 캠페인에 적합할 수 있습니다. <br><br><b>ID 수</b>는 공동작업자 대상자의 크기입니다. <br><br> <b>중복 ID</b>는 추천된 대상자와 모든 대상자 간의 중복을 나타냅니다. <br><br><b>중복 비율</b>은 중복되는 ID의 수를 <i>모든</i> 대상자 크기로 나눈 값을 나타냅니다."
+>abstract="중복 비율을 기준으로 할 때, 이러한 대상자는 캠페인에 적합할 수 있습니다. <br><br> <b>ID 수</b>는 공동 작업자의 대상자의 크기입니다. <br><br> <b>중복 ID</b>는 추천된 대상자와 모든 대상자 간의 중복을 나타냅니다. <br><br><b>중복 비율</b>은 중복되는 ID의 수를 <i>모든</i> 대상자 크기로 나눈 값을 나타냅니다."
 
 **[!UICONTROL 검색]** 탭의 **[!UICONTROL 관련 대상]** 섹션은 공동 작업자의 대상과 모든 대상자 간의 겹침 비율을 기반으로 상위 5명의 대상자에 대해 선별된 목록을 제공합니다. 이 기능을 사용하면 겹치는 정도가 가장 높은 대상을 신속하게 식별할 수 있으므로 캠페인을 보다 효과적으로 타기팅할 수 있습니다. 섹션의 오른쪽 상단에 있는 페이지 선택기를 사용하여 관련 대상 간에 전환합니다.
 
@@ -161,14 +161,14 @@ ht-degree: 12%
 
 {style="table-layout:auto"}
 
-## 대상 색인 스코어 {#audience-index-score}
+## 대상자 색인 점수 {#audience-index-score}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_audience_index_score"
->title="대상 색인 스코어"
->abstract="대상 인덱스 점수는 기본 대상 수 및 중복을 기준으로 한 대상이 다른 대상과 얼마나 강하게 관련되는지를 보여 주는 정밀한 지표입니다. 원시 색인 점수는 관련성 밴드로 번역되며, 이는 대상 색인 점수를 매우 낮은 점수에서 매우 높은 점수로 분류한다. 이를 통해 대상자와 공동 작업자 대상자 간의 관계의 강도를 빠르게 평가할 수 있습니다."
+>title="대상자 색인 점수"
+>abstract="대상자 색인 점수는 기본 대상자 수와 중복을 기준으로 한 대상자가 다른 대상자와 얼마나 강하게 관련되는지를 보여 주는 세밀한 지표입니다. 원시 색인 점수는 관련성 밴드로 변환되며, 이는 대상자 색인 점수를 매우 낮음에서 매우 높음까지 분류합니다. 이를 통해 귀하의 대상자와 공동 작업자 대상자의 대상자 간의 관계의 강도를 빠르게 평가할 수 있습니다."
 
-대상 인덱스 점수는 기본 대상 수 및 중복을 기준으로 한 대상이 다른 대상과 얼마나 강하게 관련되는지를 보여 주는 정밀한 지표입니다. 이를 통해 대상자 인사이트를 컨텍스트화하고 잠재 고객 및 캠페인 타겟팅을 위한 잠재 고객을 식별할 수 있습니다.
+대상자 색인 점수는 기본 대상자 수와 중복을 기준으로 한 대상자가 다른 대상자와 얼마나 강하게 관련되는지를 보여 주는 세밀한 지표입니다. 이를 통해 대상자 인사이트를 컨텍스트화하고 잠재 고객 및 캠페인 타겟팅을 위한 잠재 고객을 식별할 수 있습니다.
 
 색인 점수는 다음 공식을 사용하여 계산됩니다.
 
@@ -194,7 +194,7 @@ ht-degree: 12%
 
 ### 관련성 밴드 {#audience-index-relevance-bands}
 
-다양한 대상과 캠페인에서 쉽게 비교할 수 있도록 Collaboration은 색인 점수를 관련성 밴드(매우 낮음에서 매우 높음)로 변환합니다. 이를 통해 대상자와 공동 작업자 대상자 간의 관계의 강도를 빠르게 평가할 수 있습니다.
+다양한 대상과 캠페인에서 쉽게 비교할 수 있도록 Collaboration은 색인 점수를 관련성 밴드(매우 낮음에서 매우 높음)로 변환합니다. 이를 통해 귀하의 대상자와 공동 작업자 대상자의 대상자 간의 관계의 강도를 빠르게 평가할 수 있습니다.
 
 | 색인 스코어(i) | 관련성 밴드 | 설명 |
 |---------|----------|-----------|
