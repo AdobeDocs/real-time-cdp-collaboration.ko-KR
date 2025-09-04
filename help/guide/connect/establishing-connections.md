@@ -2,11 +2,11 @@
 title: 연결 설정 중
 description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 프로젝트에 대한 공동 작업을 시작하는 방법에 대해 알아보십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
+source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3112'
 ht-degree: 7%
 
 ---
@@ -184,8 +184,6 @@ ht-degree: 7%
 
 ![연결 설정 작업 영역입니다.](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
 
-<!-- FIX THE ABOVE SCREENSHOT TO INCLUDE ADV NAMES, AS WELL AS THE ONES BELOW -->
-
 #### 연결 설정 {#connection-settings}
 
 >[!CONTEXTUALHELP]
@@ -214,11 +212,6 @@ ht-degree: 7%
 >abstract="캠페인 성능 보고서와 인사이트를 생성하기 위한 활동을 실행합니다. 모든 캠페인의 보고서 행 수와 보고 빈도(매일, 3일마다, 매주)를 기준으로 크레딧이 소모됩니다."
 
 >[!CONTEXTUALHELP]
->id="rtcdp_collaboration_connection_settings_legalagreement"
->title="법적 계약"
->abstract="두 당사자 간에 데이터 공유 계약이 있는지 확인합니다."
-
->[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="광고주 이름"
 >abstract="<p>옵션 설정. 게시자에게 알려진 광고주의 이름 및 ID를 나타냅니다.</p><p>여기에 추가하는 광고주 이름은 프로젝트 생성 단계에서 미리 채워집니다.</p><ul><li>게시자가 여러 개의 이름을 구성했다면 목록에서 하나를 선택하십시오.</li><li>이름이 하나만 구성된 경우에는 자동으로 미리 선택됩니다.</li><li>구성된 이름이 없는 경우 해당 필드에는 Collaboration의 광고주 계정 이름이 미리 채워집니다.</li></ul>"
@@ -231,7 +224,7 @@ ht-degree: 7%
 
 다음 연결 설정을 구성할 수 있습니다.
 
-+++Audience 활성화
++++대상자 활성화
 
 >[!IMPORTANT]
 >
@@ -259,7 +252,7 @@ ht-degree: 7%
 
 +++
 
-+++키 일치
++++일치 키
 
 일치 키는 [계정을 설정](/help/guide/setup/onboard-account.md#set-up-match-keys)하는 동안 선택한 키로 자동으로 채워집니다. 사용하지 않을 일치 키를 전환할 수 있지만 계정 설정 중에 선택되지 않은 일치 키는 추가할 수 없습니다.
 
@@ -283,14 +276,6 @@ ht-degree: 7%
 
 +++
 
-+++계약
-
-귀하와 귀하의 공동 작업자 사이에 법적 합의가 있음을 인정해야 합니다. 본 계약에서는 데이터 공유 및 공동 작업 약관에 대해 간략히 설명합니다. **[!UICONTROL 승인 및 확인]** 확인란을 선택하여 해당 계약이 있는지 확인할 수 있습니다.
-
-![법률 계약 섹션이 연결 작업 영역에서 강조 표시되고 확인되었습니다.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
-
-+++
-
 +++광고주 이름
 
 >[!NOTE]
@@ -310,8 +295,8 @@ ht-degree: 7%
 프로젝트를 만들 때 연결 중에 설정된 다음 설정을 기반으로 광고주 이름이 미리 채워집니다    :
 
 1. **광고주 이름이 설정되지 않음**: 광고주 이름이 추가되지 않으면 Collaboration에서 광고주 이름으로 광고주 이름을 사용하는 것으로 기본 설정됩니다.
-1. **광고주 이름 집합 하나**: 단일 광고주 이름이 추가되면 Collaboration은 자동으로 해당 이름을 프로젝트의 광고주 이름으로 사용합니다.
-1. **여러 광고주 이름 집합**: 둘 이상의 광고주 이름이 추가되면 프로젝트를 만들 때 사용자 또는 공동 작업자가 제공된 이름을 선택할 수 있습니다.
+2. **광고주 이름 집합 하나**: 단일 광고주 이름이 추가되면 Collaboration은 자동으로 해당 이름을 프로젝트의 광고주 이름으로 사용합니다.
+3. **여러 광고주 이름 집합**: 둘 이상의 광고주 이름이 추가되면 프로젝트를 만들 때 사용자 또는 공동 작업자가 제공된 이름을 선택할 수 있습니다.
 
 >[!NOTE]
 >
@@ -331,9 +316,7 @@ ht-degree: 7%
 
 공동 작업자가 제안한 설정을 검토합니다. 연결 설정을 적용하거나 거부할 수 있습니다. 연결 설정을 거부하는 경우 제품 외부에서 변경한 사항에 대해 공동 작업자와 알려야 합니다. 공동 작업자의 연락처 정보가 연결 설정 작업 영역의 **[!UICONTROL 연락처]** 섹션에 표시됩니다. 그런 다음 소유자는 연결 설정을 수정하고 다시 보내어 검토할 수 있습니다.
 
-제안된 연결 설정이 만족스러우면 귀하와 공동 작업자 사이에 법적 계약이 있음을 인정해야 합니다. **[!UICONTROL 확인 및 확인]** 확인란을 선택하여 해당 계약이 있는지 확인합니다.
-
-![연결 설정 작업 영역에서 강조 표시된 사용권 계약 섹션입니다.](/help/assets/connect/establish-connection/legal-agreement-review.png){zoomable="yes"}
+![수락 및 거부 옵션이 강조 표시된 연결 설정 작업 영역입니다.](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
 또한 게시자가 광고주와 연결하는 경우 이제 연결 설정에 광고주 이름을 추가할 수 있습니다. 이 프로세스에 대한 자세한 내용은 [연결 설정](#connection-settings) 섹션을 참조하십시오.
 
