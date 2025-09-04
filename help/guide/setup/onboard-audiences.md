@@ -2,12 +2,12 @@
 title: Source 및 대상자 관리
 description: Adobe Real-Time CDP Collaboration에서 대상자를 소스 및 관리하는 방법 알아보기
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
+source-git-commit: 4f1582b489d99e9e8257c3808ec5863dbc74ef7a
 workflow-type: tm+mt
-source-wordcount: '2985'
-ht-degree: 19%
+source-wordcount: '3277'
+ht-degree: 15%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 19%
 {{limited-availability-release-note}}
 
 대상자는 다양한 속성에 따라 세그먼트화된 사용자 또는 고객의 특정 그룹입니다. 이를 통해 공동 작업자는 보다 효과적인 광고 캠페인을 위해 타기팅된 마케팅 및 개인화된 경험에 대해 공동 작업을 수행할 수 있습니다. 이 안내서에서는 대상을 Real-Time CDP Collaboration에 소스, 대상 대시보드 보기 및 개별 대상을 관리하는 방법을 다룹니다.
-
->[!BEGINSHADEBOX]
-
-이 설명서 페이지에 표시되는 내용:
-
-* [Source 대상자를 Collaboration으로](#source-audiences)
-* [대상자 대시보드 보기](#view-audiences-dashboard)
-* [개별 대상자 보기](#view-individual-audiences)
-
->[!ENDSHADEBOX]
 
 ## Source 대상자를 Collaboration으로 {#source-audiences}
 
@@ -46,7 +36,7 @@ ht-degree: 19%
 >title="마케팅 액션"
 >abstract="<p>마케팅 액션을 사용하여 Experience Platform에서 Real-Time CDP Collaboration으로 가져올 대상자 고객 데이터를 제어합니다. <strong>데이터 협업</strong> 마케팅 액션은 C4, C5, C9 데이터 사용 레이블을 지원합니다. <strong>데이터 과학</strong> 마케팅 액션은 C9 데이터 사용 레이블을 지원합니다.</p> <p> <ul><li> 확인란이 <em>표시</em>되어 있는 경우, Experience Platform에서 위에 언급된 레이블로 표시된 모든 데이터는 제외되며 Real-Time CDP Collaboration으로 이동되지 <strong>않습니다</strong>.</li><li> 확인란이 <em>표시되어 있지 않은</em> 경우, Experience Platform에서 Real-Time CDP Collaboration으로 가져올 수 있는 데이터에 제한이 없습니다.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ko" text="데이터 사용 레이블 개요"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ko" text="데이터 사용 레이블 용어"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="데이터 사용 레이블 용어"
 
 >[!IMPORTANT]
 >
@@ -90,7 +80,7 @@ ht-degree: 19%
 
 마케팅 작업을 사용하여 Experience Platform에서 Collaboration으로 가져올 대상 데이터를 제어합니다. **[!UICONTROL 데이터 협업]** 마케팅 액션은 C4, C5, C9 데이터 사용 레이블을 지원합니다. **[!UICONTROL 데이터 과학]** 마케팅 액션은 C9 데이터 사용 레이블을 지원합니다.
 
-[C4, C5 및 C9 데이터 사용 레이블](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}에 대해 자세히 알아보십시오.
+[C4, C5 및 C9 데이터 사용 레이블](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}에 대해 자세히 알아보십시오.
 
 * 확인란이 ***enabled***&#x200B;이면 위에서 설명한 대로 Experience Platform에서 레이블이 지정된 데이터는 제외되며 **not**&#x200B;이(가) Collaboration으로 전송됩니다.
 * 확인란 ***비활성화됨***&#x200B;을 사용하면 Experience Platform에서 가져온 데이터에 제한이 없습니다.
@@ -135,13 +125,13 @@ Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세�
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="ID 네임스페이스"
 >abstract="Experience Platform 조직에서 사용할 수 있는 표준 및 사용자 정의 ID 네임스페이스에서 ID 네임스페이스를 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ko#standard" text="Experience Platform의 표준 및 ID 네임스페이스"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform의 표준 및 ID 네임스페이스"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="프로필 속성"
 >abstract="Experience Platform의 프로필 클래스에 대한 공용 구조체 스키마에서 속성을 선택합니다. 이 보기는 공용 구조체 스키마에 존재하고 XDM 개별 프로필 클래스에 속하는 속성을 표시합니다."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ko" text="Experience Platform의 공용 구조체 스키마"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform의 공용 구조체 스키마"
 
 다음으로 Collaboration의 대상 필드에 매핑할 소스 필드를 선택합니다.
 
@@ -214,10 +204,13 @@ Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세�
 
 대상을 소싱하면 **[!UICONTROL 내 대상]** 작업 영역에 Collaboration에 현재 소싱되어 있는 모든 대상이 표시됩니다.
 
+![모든 대상이 소스로 제공되는 내 대상 작업 영역입니다.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
+
 각 대상에는 다음 정보에 대한 개요가 포함되어 있습니다.
 
 | 항목 | 설명 |
 |----------|---------|
+| **[!UICONTROL 이름]** | 대상자의 이름입니다. |
 | **[!UICONTROL ID]** | 이 대상에 있는 ID의 수를 나타냅니다. 동일한 프로필에 두 개 이상의 ID가 있고 이러한 ID가 프로젝트에서 일치 키로 사용되는 경우 프로필이 카운트에 두 번 표시됩니다. |
 | **[!UICONTROL 상태]** | 대상이 활성 상태이고 프로젝트에서 사용할 수 있는지 여부를 나타냅니다. **[!UICONTROL 보류 중]** 상태는 대상이 최근에 소싱되었으며 ID가 아직 채워지지 않았음을 나타냅니다. 소스 대상은 초기 새로 고침 후 프로필로 채워집니다. 이 프로필은 일반적으로 데이터 연결이 설정된 후 24시간 이내에 발생합니다. |
 | **[!UICONTROL Source]** | 대상자를 가져온 위치를 나타냅니다. 현재 Collaboration 릴리스에서는 Experience Platform이 유일한 지원 소스입니다. |
@@ -225,8 +218,6 @@ Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세�
 | **[!UICONTROL 연결 액세스]** | 대상자가 비공개인지 아니면 공용인지 정의합니다. 공개 대상은 중복 보고서에서 검색할 수 있으며 프로젝트 내에서 활성화할 수 있습니다. |
 | **[!UICONTROL 생성일]** | 대상이 처음에 Collaboration으로 소싱되었을 때를 나타냅니다. |
 | **[!UICONTROL 마지막으로 업데이트됨]** | Collaboration에서 대상이 마지막으로 업데이트된 날짜 및 시간을 나타냅니다. 이는 대상을 마지막으로 새로 고친 때가 아니라 대상의 구성 또는 메타데이터가 마지막으로 변경된 때를 나타냅니다. |
-
-![모든 대상이 소스로 제공되는 내 대상 작업 영역입니다.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
 
 대상자에 대해 빠른 작업을 수행하려면 대상자 이름 옆에 있는 생략 부호 **..**&#x200B;을(를) 선택하십시오. 다음 옵션을 사용할 수 있습니다.
 
@@ -237,7 +228,7 @@ Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세�
 
 ## 개별 대상자 보기 {#view-individual-audiences}
 
-개별 대상에 대한 자세한 정보를 보고 구성을 편집하려면 **[!UICONTROL 내 대상]** 작업 영역에서 대상을 선택하십시오. 대상 작업 공간에는 세부 사항, ID, 카테고리, 연결 액세스 및 메타데이터 시각화 설정을 포함하여 선택한 대상에 대한 자세한 정보가 표시됩니다.
+개별 대상에 대한 정보를 보고 업데이트하려면 **[!UICONTROL 내 대상]** 작업 영역에서 대상을 선택하십시오. 대상 작업 공간에는 세부 사항, ID, 카테고리, 연결 액세스 및 메타데이터 가시성 설정을 포함하여 선택한 대상에 대한 자세한 정보가 표시됩니다.
 
 ### 대상자 세부 정보
 
@@ -255,32 +246,22 @@ Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세�
 
 ![개별 대상자의 작업 영역입니다.](/help/assets/setup/add-manage-audiences/audience-details.png)
 
-또한 대상 작업 영역에서는 다음 컨트롤을 사용할 수 있습니다.
-
-* **[!UICONTROL 삭제]**: 데이터 연결에서 대상을 제거합니다.
-* **[!UICONTROL 편집]**: 대상자의 이름 또는 설명을 편집합니다.
-
-![편집 및 삭제 옵션이 강조 표시된 개별 대상자의 작업 영역입니다.](/help/assets/setup/add-manage-audiences/audience-details-edit-delete.png)
-
-다음으로 대상자의 작업 영역에서 다음 섹션을 업데이트할 수 있습니다.
-
-* [ID](#identities)
-* [카테고리](#categories)
-* [연결 액세스](#connection-access)
-* [메타데이터 가시성](#metadata-visibility)
-
-### ID {#identities}
+#### ID {#identities}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="ID"
->abstract="이 대상자를 구성하는 ID에 대한 분류 보기와 해당 ID가 있는 프로필의 총 개수를 보여 줍니다."
+>abstract="일치 키로 구분된 이 대상을 구성하는 ID의 분류 보기입니다."
 
-**[!UICONTROL ID]** 섹션은 대상을 소싱할 때 선택한 ID와 함께 대상에 있는 프로필 수를 나타냅니다. 또한 섹션에는 ID 분류가 포함되어 있으므로 대상자 모집단의 대부분을 구성하는 ID를 파악할 수 있습니다.
+**[!UICONTROL ID]** 섹션은 대상자에 있는 ID의 수를 나타냅니다. 또한 섹션에는 대상자의 구성을 이해하는 데 도움이 되는 일치 키별 ID 분류가 포함되어 있습니다.
 
 ![개별 대상자의 작업 영역에 있는 ID 섹션입니다.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
 
-### 카테고리 {#categories}
+일치 키 분류의 개별 섹션 위로 마우스를 가져가면 관련 키에 대한 정확한 ID 카운트가 제공됩니다.
+
+![일치 키 분류와 함께 개별 대상자의 작업 영역에 있는 ID 섹션입니다.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+
+#### 카테고리 {#categories}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
@@ -297,14 +278,14 @@ Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세�
 
 ![사용 가능한 범주가 표시된 범주 대화 상자입니다.](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
 
-### 연결 액세스 {#connection-access}
+#### 연결 액세스 {#connection-access}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="연결 액세스"
->abstract="<p>대상자는 공개, 비공개, 사용자 정의 등 세 가지 유형으로 나눌 수 있습니다.</p><p> 공동 작업자가 있는 프로젝트에서 사용 가능한지 여부는 연결 액세스 설정에 따라 다릅니다. 연결 액세스를 비공개에서 공개로 언제든지 변경할 수 있지만 공동 작업자와 대상자를 활성화한 후에는 기존 설정을 다시 변경할 수 없습니다.</p>"
+>abstract="<p>대상자는 공개, 비공개, 사용자 정의 등 세 가지 유형으로 나눌 수 있습니다.</p><p> 공동 작업자가 있는 프로젝트에서의 사용 가능 여부는 연결 액세스 설정에 따라 다릅니다.</p>"
 
-공동 작업자가 있는 프로젝트에서 대상을 사용할 수 있는지는 연결 액세스 설정에 따라 다릅니다. **[!UICONTROL 연결 액세스]** 섹션에서 대상자가 개인 대상인지 공용 대상인지를 선택할 수 있습니다. 공용 대상은 연결에서 사용 가능하고 검색 가능합니다.
+공동 작업자가 있는 프로젝트에서 대상을 사용할 수 있는지는 연결 액세스 설정에 따라 다릅니다. **[!UICONTROL 연결 액세스]** 섹션에서 대상자가 개인 대상인지, 공용 대상인지 또는 특정 연결에만 사용할 수 있는지 선택할 수 있습니다. 공용 대상은 연결에서 사용 가능하고 검색 가능합니다.
 
 대상자의 연결 액세스를 업데이트하려면 **[!UICONTROL 연결 액세스]** 섹션 내에서 **[!UICONTROL 편집]** 옵션을 선택하십시오.
 
@@ -324,9 +305,9 @@ Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세�
 >
 >액세스 상태(공개, 비공개 또는 사용자 지정)에 관계없이 모든 대상의 모집단은 프로젝트 내의 **[!UICONTROL 대상 비교]** 섹션에서 **[!UICONTROL 모든 대상]** 모집단에 기여합니다.
 
-공동 작업자가 있는 프로젝트에서 사용할 수 있는 대상 가용성은 연결 액세스 설정에 따라 다릅니다. 연결 액세스를 항상 비공개에서 공개로 변경할 수 있지만 대상이 활성화되면 해당 설정을 다시 변경할 수는 없습니다.
+공동 작업자가 있는 프로젝트에서 사용할 수 있는 대상 가용성은 연결 액세스 설정에 따라 다릅니다.
 
-### 메타데이터 가시성 {#metadata-visibility}
+#### 메타데이터 가시성 {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
@@ -339,7 +320,7 @@ Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세�
 
 메타데이터 가시성은 대상자가 사용자와 연결되기 전 또는 다른 프로젝트 보기 내에서 대상자의 메타데이터를 다른 공동 작업자에게 가시적으로 보여 줍니다. 대상자의 메타데이터 가시성을 업데이트하려면 **[!UICONTROL 메타데이터 가시성]** 섹션 내에서 **[!UICONTROL 편집]** 옵션을 선택하십시오.
 
-![개별 대상자의 작업 영역에 있는 메타데이터 가시성 섹션입니다.](/help/assets/setup/add-manage-audiences/audience-details-metadata.png)
+![개별 대상자의 작업 영역에 있는 메타데이터 가시성 섹션입니다.](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png)
 
 대상에 대한 가시성 설정을 구성할 수 있는 **[!UICONTROL 메타데이터 가시성]** 대화 상자가 나타납니다. 각 대상에 대해 구성할 수 있는 두 가지 메타데이터 가시성 설정이 있습니다.
 
@@ -354,6 +335,52 @@ Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세�
 >메타데이터 가시성 설정을 적용하려면 대상을 공개 또는 사용자 지정으로 설정해야 합니다.
 
 ![사용 가능한 옵션이 표시된 메타데이터 가시성 대화 상자입니다.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+## 여러 대상 편집 {#edit-audiences}
+
+대상 대시보드에서 여러 대상을 한 번에 편집할 수 있습니다. 이렇게 하려면 이름 옆에 있는 상자를 선택하여 편집할 대상을 선택합니다. 대상자를 선택하면 편집 메뉴에 있는 옵션을 사용하여 작업을 수행할 수 있습니다.
+
+![두 대상이 선택되어 있고 편집 메뉴가 강조 표시된 내 대상 작업 영역입니다.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
+
+### 메타데이터 가시성 일괄 편집 {#bulk-edit-metadata-visibility}
+
+대상자 대시보드에서 대상자를 선택한 상태에서 편집 메뉴에서 **[!UICONTROL 메타데이터 가시성 편집]**&#x200B;을 선택합니다.
+
+![메타데이터 가시성 편집 옵션이 강조 표시된 내 대상 작업 영역입니다.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
+
+선택한 대상에 대한 가시성 설정을 구성할 수 있는 **[!UICONTROL 메타데이터 가시성]** 대화 상자가 나타납니다. 기본적으로 옵션이 선택되지 않습니다. 선택한 모든 대상에 적용할 옵션을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+
+![사용 가능한 옵션이 표시된 메타데이터 가시성 대화 상자입니다.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+### 연결 액세스 일괄 편집 {#bulk-edit-connection-access}
+
+대상자 대시보드에서 대상자를 선택한 상태에서 편집 메뉴에서 **[!UICONTROL 연결 액세스 편집]**&#x200B;을 선택합니다.
+
+![연결 액세스 편집 옵션이 강조 표시된 내 대상 작업 영역입니다.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
+
+선택한 대상에 대한 액세스 설정을 구성할 수 있는 **[!UICONTROL 연결 액세스]** 대화 상자가 나타납니다. 기본적으로 **[!UICONTROL 개인 대상]** 옵션이 선택됩니다. 선택한 모든 대상에 적용할 옵션을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+
+![사용 가능한 옵션이 표시된 연결 액세스 대화 상자입니다.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+
+### 대상자 이름 및 설명 벌크 편집 {#bulk-edit-audience-names-descriptions}
+
+대상자 대시보드에서 대상자를 선택한 상태에서 편집 메뉴에서 **[!UICONTROL 이름 및 설명 편집]**&#x200B;을(를) 선택하십시오.
+
+![이름 및 설명 편집 옵션이 강조 표시된 내 대상 작업 영역입니다.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
+
+선택한 각 대상자의 이름과 설명을 구성할 수 있는 **[!UICONTROL 이름 및 설명]** 대화 상자가 나타납니다. 기본적으로 각 대상에 대해 현재 이름과 설명이 표시됩니다. 변경한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+
+![사용 가능한 옵션이 표시된 이름 및 설명 대화 상자입니다.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+
+### 범주 일괄 편집 {#bulk-edit-categories}
+
+대상자 대시보드에서 대상자를 선택한 상태에서 편집 메뉴에서 **[!UICONTROL 범주 편집]**&#x200B;을 선택합니다.
+
+![범주 편집 옵션이 강조 표시된 내 대상 작업 영역입니다.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+
+선택한 각 대상에 대해 범주를 구성할 수 있는 **[!UICONTROL 범주]** 대화 상자가 나타납니다. 기본적으로 범주가 선택되지 않습니다. 범주를 선택하려면 먼저 기본 범주를 선택한 다음 포함할 하위 범주를 선택합니다. 변경한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+
+![사용 가능한 옵션이 표시된 범주 대화 상자입니다.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
 ## 다음 단계
 
