@@ -2,11 +2,11 @@
 title: 연결 설정 중
 description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 프로젝트에 대한 공동 작업을 시작하는 방법에 대해 알아보십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '3230'
+source-wordcount: '3280'
 ht-degree: 6%
 
 ---
@@ -195,7 +195,7 @@ ht-degree: 6%
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="일치 키"
 >abstract="일치 키는 사용자와 공동 작업자가 계정 수준에서 선택한 일반적인 일치 키로 미리 채워집니다. 이 연결에서 사용하지 않으려는 일치 키를 끌 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="계정 일치 키"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="계정 일치 키"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -250,6 +250,10 @@ ht-degree: 6%
 ![연결 설정 작업 영역의 사용 사례 설정입니다.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 ##### 일치 키 {#match-keys}
+
+>[!IMPORTANT]
+>
+>여러 일치 키가 사용되는 대상을 활성화할 때 하나(또는 그 이상) 일치 키에 겹침이 없거나 대상 수가 없거나 임계값 미만이면 전체 활성화가 실패합니다. 활성화하기 전에 대상이 충분히 겹치고 모든 일치 키에서 최소 1000 ID 임계값을 충족하는지 확인하십시오.
 
 일치 키는 [계정을 설정](/help/guide/setup/onboard-account.md#set-up-match-keys)하는 동안 사용자와 공동 작업자가 선택한 공통 일치 키로 자동으로 채워집니다. 귀하와 공동 작업자가 선택한 **과(와)**&#x200B;에 공통으로 있는 일치하는 키만 표시됩니다.
 

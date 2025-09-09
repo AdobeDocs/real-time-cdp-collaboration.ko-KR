@@ -2,11 +2,11 @@
 title: 대상자 활성화
 description: Adobe Real-Time CDP Collaboration에서 대상을 활성화하는 방법을 알아봅니다.
 audience: admin, publisher
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '1003'
 ht-degree: 2%
 
 ---
@@ -42,6 +42,10 @@ ht-degree: 2%
 **[!UICONTROL 대상자 찾아보기]**&#x200B;에서 각 대상자에 대해 **[!UICONTROL ID 개수]**, **[!UICONTROL 중복 ID]** 및 **[!UICONTROL 중복 %]**&#x200B;을(를) 볼 수 있습니다.
 
 ![사용 가능한 대상을 표시하는 대상 찾아보기 대화 상자입니다.](/help/assets/collaborate/activate/browse-audiences.png)
+
+>[!IMPORTANT]
+>
+>여러 일치 키가 사용되는 대상을 활성화할 때 하나(또는 그 이상) 일치 키에 겹침이 없거나 대상 수가 없거나 임계값 미만이면 전체 활성화가 실패합니다. 활성화하기 전에 대상이 충분히 겹치고 모든 일치 키에서 최소 1000 ID 임계값을 충족하는지 확인하십시오.
 
 캠페인에서 활성화할 대상을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다. 이제 대상이 표시되고, 선택한 대상의 **[!UICONTROL ID 개수]**, **[!UICONTROL 중복 ID]** 및 **[!UICONTROL 중복 %]**&#x200B;을(를) 볼 수 있습니다.
 
