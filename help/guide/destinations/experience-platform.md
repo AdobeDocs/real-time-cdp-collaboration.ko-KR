@@ -2,7 +2,7 @@
 title: Adobe Experience Platform을 대상으로 구성
 description: Real-Time CDP Collaboration에서 대상으로 Adobe Experience Platform을 구성하고 관리하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 source-git-commit: 6acf936f50b412147578a70e2369b06c53260f06
 workflow-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 {{limited-availability-release-note}}
 
-프로젝트에서 Adobe Experience Platform으로 대상을 활성화하도록 이 대상을 구성합니다. 대상을 Adobe Experience Platform으로 활성화하면 다양한 마케팅 채널에서 대상 세분화, 분석 및 활성화를 위해 플랫폼의 기능을 활용할 수 있습니다. Adobe Experience Platform에 대한 자세한 내용은 [Experience Platform 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home){target="_blank"}를 참조하세요.
+프로젝트에서 Adobe Experience Platform으로 대상을 활성화하도록 이 대상을 구성합니다. 대상을 Adobe Experience Platform으로 활성화하면 다양한 마케팅 채널에서 대상 세분화, 분석 및 활성화를 위해 플랫폼의 기능을 활용할 수 있습니다. Adobe Experience Platform에 대한 자세한 내용은 [Experience Platform 개요](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}를 참조하세요.
 
 >[!WARNING]
 >
@@ -145,4 +145,4 @@ Adobe Experience Platform을 대상으로 구성했으므로 이제 대상자 �
 
 ![필터 옵션에서 Real-Time CDP Collaboration을 원본으로 사용하는 대상 포털입니다.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Audience Portal에 대한 자세한 내용은 [Audience Portal 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} 안내서를 참조하십시오.
+Audience Portal에 대한 자세한 내용은 [Audience Portal 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} 안내서를 참조하십시오.
