@@ -2,11 +2,11 @@
 title: Real-Time CDP Collaboration 빠른 시작 안내서
 description: 역할 및 조직 설정, 대상 소싱, 활성화 및 측정을 포함하여 Real-Time CDP Collaboration에서 조직을 온보딩하는 방법을 알아봅니다. 이 안내서는 공동 작업자가 대상자를 안전하고 효율적으로 사용하도록 연결 설정을 구성할 수 있도록 도와줍니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: ac8db9f5a3879d548d8dc3818ad20fc602b31e7c
+source-git-commit: 849bae30b4e617a6c49f68b2baedc0ab8a822854
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 - [최종 사용자에 대해 프로비전된 액세스](./permissions/manage-user-access.md).
 - [조직에 대해 만들어지고 사용자에게 할당된 역할](./permissions/manage-roles.md).
 - 조직의 이름, 로고 및 배너와 같은 브랜딩 자산에 대한 액세스 권한.
-- [정의된 일치 키 전략](./setup/onboard-account.md#set-up-match-keys)(현재 해시된 이메일만 지원되는 일치 키).
+- [정의된 일치 키 전략](./setup/onboard-account.md#set-up-match-keys)
 - (선택 사항) 대상 관리에 Experience Platform을 사용하지 않는 경우 지원되는 클라우드 소스(Amazon S3 또는 Snowflake)에 액세스합니다.
 
 ## 1단계: 역할 기반 설정 완료 {#complete-role-based-setup}
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 이 비디오를 통해 Admin Console 및 Experience Platform을 사용하여 Collaboration에 대한 제품 액세스 및 권한을 할당하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452237/?learn=on&enablevpops&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 2단계: Collaboration 계정 설정 {#set-up-your-account}
 
@@ -66,7 +66,7 @@ Collaboration에서 계정의 역할을 정의하고, 브랜딩 자산을 제공
 >게시자 계정을 만들 때 Collaboration의 연결 카탈로그에 공개적으로 표시되도록 하려면 Adobe 계정 담당자에게 문의하십시오. 게시자 계정에는 사용자 지정 브랜드 배너(JPG 2688x1536)가 필요합니다. 이 파일은 담당자에게 직접 공유할 수 있습니다.
 
 - **연락처 전자 메일** - 연결이 설정된 후 공동 작업자가 사용할 비즈니스 전자 메일을 제공합니다.
-- **일치 키 구성** - 대상 일치에 사용되는 식별자를 선택합니다(현재 해시된 이메일만 지원되는 일치 키).
+- **일치 키 구성** - 대상 일치에 사용되는 식별자를 선택합니다.
 
 역할을 정의하고, 브랜딩 자산을 업로드하고, 일치 키를 구성하는 방법을 포함하여 초기 계정 설정에 대한 자세한 내용은 [초기 계정 설정](./setup/onboard-account.md#initial-account-setup){target="_blank"} 안내서를 참조하십시오.
 
@@ -107,7 +107,8 @@ Collaboration에서 계정의 역할을 정의하고, 브랜딩 자산을 제공
 >
 >**주요 요구 사항 일치:**
 >
->모든 일치 키는 **트림됨**, **소문자화** 및 **SHA256-hashed**&#x200B;여야 합니다.\
+>모든 일치 키는 **트리밍**, **소문자화**여야 합니다.
+>>해시된 일치 키는 **SHA256-hashed**&#x200B;여야 합니다.\
 >대문자를 사용하는 해시된 값을 제공하면 Collaboration에서 자동으로 소문자로 변환합니다.\
 >소스에 **일반 텍스트 식별자**&#x200B;이(가) 포함된 경우 **[!UICONTROL 변환 적용]** 옵션을 사용하여 해싱을 적용하십시오. 이 옵션은 Experience Platform에서 대상을 소싱할 때만 사용할 수 있으며 클라우드 기반 소스에는 지원되지 않습니다.
 >

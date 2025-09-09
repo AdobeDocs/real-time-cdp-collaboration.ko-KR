@@ -2,12 +2,12 @@
 title: 연결 설정 중
 description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 프로젝트에 대한 공동 작업을 시작하는 방법에 대해 알아보십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
+source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
 workflow-type: tm+mt
-source-wordcount: '3112'
-ht-degree: 7%
+source-wordcount: '3230'
+ht-degree: 6%
 
 ---
 
@@ -194,7 +194,8 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="일치 키"
->abstract="일치 키는 조직 수준에서 선택한 키로 미리 채워집니다. 이 연결에서 사용하지 않으려는 일치 키를 끌 수 있습니다."
+>abstract="일치 키는 사용자와 공동 작업자가 계정 수준에서 선택한 일반적인 일치 키로 미리 채워집니다. 이 연결에서 사용하지 않으려는 일치 키를 끌 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="계정 일치 키"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -224,7 +225,7 @@ ht-degree: 7%
 
 다음 연결 설정을 구성할 수 있습니다.
 
-+++대상자 활성화
+##### 대상자 활성화 {#audience-activation}
 
 >[!IMPORTANT]
 >
@@ -240,9 +241,7 @@ ht-degree: 7%
 
 ![연결 설정 작업 영역에 저장 옵션이 있는 대상 활성화 대화 상자입니다.](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
 
-+++
-
-+++사용 사례
+##### 사용 사례 {#use-cases}
 
 사용 사례는 사용 가능한 모든 옵션으로 자동으로 채워집니다. 선택한 사용 사례에 따라 프로젝트 내에서 사용할 수 있는 보기 및 옵션이 결정됩니다. 자세한 내용은 [프로젝트 사용 사례](/help/guide/collaborate/manage-projects.md#project-use-cases) 안내서를 참조하십시오.
 
@@ -250,19 +249,23 @@ ht-degree: 7%
 
 ![연결 설정 작업 영역의 사용 사례 설정입니다.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
-+++
+##### 일치 키 {#match-keys}
 
-+++일치 키
+일치 키는 [계정을 설정](/help/guide/setup/onboard-account.md#set-up-match-keys)하는 동안 사용자와 공동 작업자가 선택한 공통 일치 키로 자동으로 채워집니다. 귀하와 공동 작업자가 선택한 **과(와)**&#x200B;에 공통으로 있는 일치하는 키만 표시됩니다.
 
-일치 키는 [계정을 설정](/help/guide/setup/onboard-account.md#set-up-match-keys)하는 동안 선택한 키로 자동으로 채워집니다. 사용하지 않을 일치 키를 전환할 수 있지만 계정 설정 중에 선택되지 않은 일치 키는 추가할 수 없습니다.
+![일치 키 섹션이 강조 표시된 연결 설정 작업 영역에서 공통 일치 키를 표시합니다.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+
+연결 소유자가 연결 설정을 설정할 때 추가 일치 키를 포함하도록 [계정 일치 키를 편집](../setup/onboard-account.md#edit-match-keys)할 수 있습니다. 계정 설정에서 일치하는 키를 더 많이 켜면, 공동 작업자가 해당 키를 선택한 경우 해당 일치 키를 연결 설정에서 켜도록 설정할 수 있습니다. 연결 프로세스가 시작되면 추가된 일치 키는 자동으로 채워지지 않으며 수동으로 전환해야 합니다.
 
 일치 키를 사용자 지정하려면 **[!UICONTROL 일치 키]** 섹션에서 **[!UICONTROL 편집]**&#x200B;을 선택하고 이 연결에 사용하지 않을 일치 키를 끄세요. 완료되면 **[!UICONTROL 저장]**&#x200B;을 선택하여 변경 내용을 저장합니다.
 
-![연결 설정 작업 영역의 일치 키 설정입니다.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
+![일치 키 섹션 대화 상자가 열려 있는 연결 설정 작업 영역에 일치 키를 해제한 상태로 표시됩니다.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
-+++
+>[!IMPORTANT]
+>
+>공동 작업자가 연결 설정을 수락하면 일치 키가 잠기고 변경할 수 없습니다.
 
-+++크레딧 분할
+##### 크레딧 분할 {#credit-split}
 
 신용 분할 섹션을 사용하여 두 협업 당사자 중 어느 쪽이 활동 비용을 부담할지 결정합니다. 신용 분할 옵션은 연결에 대해 선택한 사용 사례에 따라 결정됩니다. **[!UICONTROL Measurement]** 사용 사례에서는 한 당사자가 비용을 부담해야 하지만 **[!UICONTROL 활성화 - 일치]** 사용 사례에서는 각 당사자가 자신의 비용을 부담하도록 하는 추가 옵션을 제공합니다. 비용 분류에 대한 자세한 내용은 [신용 활동 유형](/help/guide/setup/my-activity.md#types-of-activities) 안내서를 참조하십시오.
 
@@ -274,9 +277,7 @@ ht-degree: 7%
 
 ![연결 설정 작업 영역의 옵션이 있는 신용 분할 대화 상자입니다.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
-+++
-
-+++광고주 이름
+##### 광고주 이름 {#advertiser-names}
 
 >[!NOTE]
 >
@@ -303,8 +304,6 @@ ht-degree: 7%
 > 연결 설정을 전송하면 더 이상 광고주 이름을 추가하거나 편집할 수 없습니다.
 
 ![광고주 이름 섹션이 채워진 연결 설정 작업 영역입니다.](/help/assets/connect/establish-connection/add-advertiser-names.png)
-
-+++
 
 선택을 마치면 **[!UICONTROL 제출]**&#x200B;을 선택하여 제안된 설정을 검토하도록 받는 사람에게 보냅니다.
 

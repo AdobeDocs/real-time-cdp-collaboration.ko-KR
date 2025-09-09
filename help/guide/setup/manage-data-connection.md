@@ -2,12 +2,12 @@
 title: 데이터 연결 관리
 description: Real-Time CDP Collaboration의 일치 키, 예약, 사용 사례 및 대상 필터링을 포함하여 데이터 연결을 관리하는 방법을 알아봅니다
 audience: administrator, data engineer
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 12%
+source-wordcount: '602'
+ht-degree: 7%
 
 ---
 
@@ -30,17 +30,9 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="일치 키"
->abstract="일치 키는 다양한 소스의 데이터를 어떻게 일치시킬지 결정합니다. 본인의 사용 사례와 개인 정보 지침에 가장 적합한 일치 키를 선택합니다."
+>abstract="일치 키는 다양한 소스의 데이터를 어떻게 일치시킬지 결정합니다. 아래 표시된 일치 키는 소스 필드를 매핑한 대상 필드입니다."
 
-일치 키는 서로 다른 데이터 소스의 대상자 간에 멤버를 조정하는 데 사용되는 식별자입니다. 데이터 연결을 위해 처음에 선택한 일치 키는 편집할 수 없습니다.
-
->[!IMPORTANT]
-> 
->데이터 연결을 만든 후에는 일치 키를 편집할 수 없습니다. 일치 키를 업데이트하려면 새 데이터 연결을 만들어야 합니다.
-
-사용 가능한 일치 키는 다음과 같습니다.
-
-- **해시된 이메일**
+일치 키는 [소스 필드를 ](./onboard-audiences.md#map-fields)에 매핑한 대상 필드입니다. 데이터 연결을 위해 처음에 선택한 일치 키는 편집할 수 없습니다. 일치 키를 업데이트하려면 새 데이터 연결을 만들어야 합니다. 일치 키가 작동하는 방법에 대한 자세한 내용은 [일치 키](./onboard-account.md#set-up-match-keys) 안내서를 참조하세요.
 
 ![일치 키 섹션이 강조 표시된 데이터 연결 작업 영역입니다.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -57,7 +49,7 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 
 >[!NOTE]
 >
->Adobe Experience Platform에서 대상을 소싱할 때 데이터 연결이 설정된 후 24시간 내에 대상을 사용할 수 있습니다. 초기 가져오기 후 대상 데이터는 정의된 빈도에 따라 새로 고쳐집니다.
+>Adobe Experience Platform에서 대상을 소싱할 때 데이터 연결이 설정된 후 24시간 내에 대상을 사용할 수 있습니다. 초기 소싱 후 대상 데이터는 정의된 빈도에 따라 새로 고쳐집니다.
 
 예약에 대한 자세한 내용은 대상자 구성 안내서에서 [예약 섹션](/help/guide/setup/onboard-audiences.md#schedule)을 참조하십시오.
 
@@ -66,6 +58,8 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 #### 예약 편집 {#edit-scheduling}
 
 기존 데이터 연결의 빈도를 편집하여 대상을 새로 고치는 빈도를 더 잘 제어할 수 있습니다. 일정을 편집하려면 일정 카드의 데이터 연결에서 **[!UICONTROL 편집]**&#x200B;을 선택하세요.
+
+예약은 데이터 연결에서 가져온 모든 대상에 영향을 줍니다.
 
 **[!UICONTROL 예약]** 대화 상자에서 드롭다운 메뉴를 선택하여 **[!UICONTROL 빈도]**&#x200B;를 업데이트합니다. 새로 고침 빈도를 매일 또는 2~6일마다 실행되도록 설정합니다. 완료되면 **[!UICONTROL 저장]**&#x200B;을 선택하여 변경 내용을 적용합니다.
 

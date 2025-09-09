@@ -2,9 +2,9 @@
 title: 중복 검색 및 대상 비교
 description: 와 공동 작업자의 대상 간에 겹치는 부분을 살펴봅니다. 캠페인에 사용할 최상의 대상을 찾는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
+source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 17%
@@ -197,7 +197,7 @@ ht-degree: 17%
 다양한 대상과 캠페인에서 쉽게 비교할 수 있도록 Collaboration은 색인 점수를 관련성 밴드(매우 낮음에서 매우 높음)로 변환합니다. 이를 통해 귀하의 대상자와 공동 작업자 대상자의 대상자 간의 관계의 강도를 빠르게 평가할 수 있습니다.
 
 | 색인 스코어(i) | 관련성 밴드 | 설명 |
-|---------|----------|-----------|
+|---------------|----------|-----------|
 | i &lt; 60 | 매우 낮음 | 겹치는 부분이 대상자에 비해 대상 대상자에서 훨씬 덜 만연하여 매우 약한 관계를 나타냅니다. 이 대상을 사용하는 고객은 타겟 대상자에게 도달할 가능성이 훨씬 적습니다. |
 | 60 &lt; i &lt; 80 | 낮음 | 대상에 대한 대상자가 대상자에 비해 겹치는 부분이 다소 덜 만연하여 약한 관계를 시사한다. 이 대상을 사용하는 고객은 타겟 대상자에게 도달할 가능성이 적습니다. |
 | 80 &lt; i &lt; 120 | 보통 | 겹침은 대상 대상자에서도 대상 대상자에서와 마찬가지로 일반적이며, 이는 일반적인 관계를 나타냅니다. 이 대상을 사용하는 고객은 타겟 대상자에게 도달할 가능성이 평균적입니다. |

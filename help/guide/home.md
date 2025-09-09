@@ -2,9 +2,9 @@
 title: 개요
 description: Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용하여 서드파티 쿠키에 의존하지 않고 고부가가치 대상을 검색, 활성화 및 측정하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: fa58c5396011e6d3e7cbc5bd65844f69a9cc3f97
+source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Adobe Real-Time CDP Collaboration을 사용하면 서드파티 쿠키에 의존하지 않고 고가치 대상을 검색, 활성화 및 측정할 수 있습니다. 이 솔루션은 고급 데이터 공동 작업을 지원하므로 개인 정보 중심의 중앙 집중식 환경에서 개인화되고 영향력이 큰 고객 경험을 만들 수 있습니다.
 
-![Real-Time CDP Collaboration 설정 페이지로 조직을 표시합니다.](/help/assets/overview/set-up.png){zoomable="yes"}
+![Real-Time CDP Collaboration 설정 페이지로 조직을 표시합니다.](/help/assets/overview/home.png){zoomable="yes"}
 
 ## 신뢰할 수 있는 파트너를 통해 대상 식별
 
@@ -45,7 +45,7 @@ Collaboration 사용을 시작하려면 시스템 관리자는 자신, 제품 �
 
 ## 리소스
 
-제품에 사용되는 용어에 대한 자세한 내용은 [용어집](/help/guide/glossary.md)을 살펴보십시오. 지원이 필요하면 Adobe [고객 지원](https://experienceleague.adobe.com/home?lang=ko&support-tab=open-ticket#support){target="_blank"} 페이지에 액세스하십시오.
+제품에 사용되는 용어에 대한 자세한 내용은 [용어집](/help/guide/glossary.md)을 살펴보십시오. 지원이 필요하면 Adobe [고객 지원](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"} 페이지에 액세스하십시오.
 
 ## 연락처
 
