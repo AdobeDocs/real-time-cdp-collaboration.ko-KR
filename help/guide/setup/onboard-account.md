@@ -2,12 +2,12 @@
 title: 계정 구성 및 관리
 description: Real-Time CDP Collaboration에서 계정의 다양한 측면을 구성하고 관리하는 방법에 대해 알아봅니다
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -61,22 +61,22 @@ Collaboration에 처음 액세스하면 계정을 설정하라는 메시지가 �
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="일치 키"
->abstract="일치 키는 서로 다른 데이터 소스의 대상 프로필을 조정하는 데 사용되는 식별자입니다. 브랜드에서 사용할 수 있는 모든 일치 키를 포함합니다."
+>abstract="일치 키는 서로 다른 데이터 소스의 대상자 프로필을 조정하는 데 사용되는 식별자입니다. 브랜드에서 사용할 수 있는 모든 일치 키를 포함합니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="자사 사람 ID"
+>title="자사 사용자 ID"
 >abstract="해시된 이메일 주소, 해시된 전화번호 또는 CRM ID와 같은 자사 사용자 ID는 개별 프로필에 직접 연결됩니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="자사 디바이스 ID"
->abstract="ECID 또는 IP 주소와 같은 자사 디바이스 ID는 여러 개인 간에 공유할 수 있는 디바이스에 직접 연결됩니다. IPv4는 현재 지원되는 유일한 자사 디바이스 ID입니다."
+>abstract="ECID나 IP 주소와 같은 자사 디바이스 ID는 여러 개인이 공유할 수 있는 디바이스에 직접 연결됩니다. IPv4는 현재 지원되는 유일한 자사 디바이스 ID입니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="지원되는 파트너 ID"
->abstract="파트너 ID는 외부 파트너가 대상 조정을 위해 제공하는 식별자입니다. 파트너 ID는 개별 프로필에 직접 연결되지 않습니다."
+>abstract="파트너 ID는 대상자 조정을 위해 외부 파트너가 제공하는 식별자입니다. 파트너 ID는 개별 프로필에 직접 연결되지 않습니다."
 
 ![지원되는 일치 키.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
 
@@ -97,7 +97,7 @@ Collaboration은 자사 사용자 ID, 자사 디바이스 ID 및 파트너 ID의
 * 대문자를 사용하는 해시된 값을 제공하면 Collaboration에서 자동으로 소문자로 변환합니다.
 * 소스에 **일반 텍스트 식별자**&#x200B;이(가) 포함된 경우 **[!UICONTROL 데이터 연결 설정]**&#x200B;에서 [변환 적용](./manage-data-connection.md#match-keys) 옵션을 사용하여 해시를 적용하세요. 이 옵션은 Experience Platform에서 대상을 소싱할 때만 사용할 수 있으며 클라우드 기반 소스에는 지원되지 않습니다.
 
-##### 자사 사람 ID
+##### 자사 사용자 ID
 
 자사 사용자 ID는 개별 프로필에 직접 연결됩니다. 현재 지원되는 ID:
 
@@ -115,7 +115,7 @@ Collaboration은 자사 사용자 ID, 자사 디바이스 ID 및 파트너 ID의
 
 ##### 파트너 ID
 
-파트너 ID는 외부 파트너가 대상 조정을 위해 제공하는 식별자입니다. 현재 지원되는 ID:
+파트너 ID는 대상자 조정을 위해 외부 파트너가 제공하는 식별자입니다. 현재 지원되는 ID:
 
 * **[!UICONTROL Adfixus ID]**
 

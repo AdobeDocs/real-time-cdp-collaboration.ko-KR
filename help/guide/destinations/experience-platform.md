@@ -2,12 +2,12 @@
 title: Adobe Experience Platform을 대상으로 구성
 description: Real-Time CDP Collaboration에서 대상으로 Adobe Experience Platform을 구성하고 관리하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 source-git-commit: 6acf936f50b412147578a70e2369b06c53260f06
 workflow-type: tm+mt
 source-wordcount: '1487'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 {{limited-availability-release-note}}
 
-프로젝트에서 Adobe Experience Platform으로 대상을 활성화하도록 이 대상을 구성합니다. 대상을 Adobe Experience Platform으로 활성화하면 다양한 마케팅 채널에서 대상 세분화, 분석 및 활성화를 위해 플랫폼의 기능을 활용할 수 있습니다. Adobe Experience Platform에 대한 자세한 내용은 [Experience Platform 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home){target="_blank"}를 참조하세요.
+프로젝트에서 Adobe Experience Platform으로 대상을 활성화하도록 이 대상을 구성합니다. 대상을 Adobe Experience Platform으로 활성화하면 다양한 마케팅 채널에서 대상 세분화, 분석 및 활성화를 위해 플랫폼의 기능을 활용할 수 있습니다. Adobe Experience Platform에 대한 자세한 내용은 [Experience Platform 개요](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}를 참조하세요.
 
 >[!WARNING]
 >
@@ -80,14 +80,14 @@ Adobe Experience Platform을 대상으로 구성하려면 **[!UICONTROL 설정]*
 
 활성화 매핑에 포함할 각 일치 키에 대해 이 프로세스를 반복합니다. 일치 키를 포함하지 않으려는 경우 해당 키를 제거하거나 연결된 키 옵션을 사용하여 다른 일치 키로 바꿀 수 있습니다.
 
-#### 연결된 키 {#linked-keys}
+#### 링크된 키 {#linked-keys}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_linked_key"
 >title="링크된 키"
->abstract="연결된 키를 사용하면 활성화 중에 원래 일치 키 대신 다른 일치 키를 사용하도록 지정할 수 있습니다. 프로필이 활성화되려면 원래 일치 키와 연결된 일치 키 모두에 대한 값이 있어야 합니다."
+>abstract="링크된 키를 사용하면 활성화 중에 원래 일치 키 대신 다른 일치 키를 사용하도록 지정할 수 있습니다. 프로필을 활성화하려면 원래 일치 키와 링크된 키 모두에 대한 값이 있어야 합니다."
 
-연결된 키를 사용하면 활성화 중에 원래 일치 키 대신 다른 일치 키를 사용하도록 지정할 수 있습니다. 연결된 키가 작동하는 방식을 더 잘 이해하려면 다음 예를 고려하십시오.
+링크된 키를 사용하면 활성화 중에 원래 일치 키 대신 다른 일치 키를 사용하도록 지정할 수 있습니다. 연결된 키가 작동하는 방식을 더 잘 이해하려면 다음 예를 고려하십시오.
 
 retailer은 활성화된 데이터를 Experience Platform에서 해당 CRM 시스템으로 보내려고 합니다. retailer은 해시된 IP를 계정의 일치 키로 활성화하여 대상을 활성화할 때 일치율을 높였습니다. 그러나 retailer의 CRM 시스템은 해시된 IP를 ID 네임스페이스로 지원하지 않으므로 Experience Platform에 대상을 활성화할 때 대신 CRM ID 일치 키를 사용하려고 합니다. retailer은 연결된 키 옵션을 사용하여 해시된 IP 대신 CRM ID를 사용하여 Experience Platform에 대상을 활성화할 수 있습니다.
 
@@ -145,4 +145,4 @@ Adobe Experience Platform을 대상으로 구성했으므로 이제 대상자 �
 
 ![필터 옵션에서 Real-Time CDP Collaboration을 원본으로 사용하는 대상 포털입니다.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Audience Portal에 대한 자세한 내용은 [Audience Portal 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} 안내서를 참조하십시오.
+Audience Portal에 대한 자세한 내용은 [Audience Portal 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} 안내서를 참조하십시오.
