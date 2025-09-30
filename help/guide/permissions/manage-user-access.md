@@ -2,11 +2,11 @@
 title: 권한을 통한 사용자 액세스 관리
 description: Real-Time CDP Collaboration UI의 다양한 구성 요소에 대한 권한 및 사용자 액세스를 관리합니다.
 audience: admin
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Experience Cloud [권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} 인터페이스를 통해 Adobe Real-Time CDP Collaboration 내의 개별 구성 요소에 대한 권한 및 사용자 액세스를 관리합니다. 시스템 및 제품 관리자는 권한을 사용하여 [역할](./manage-roles.md)을 정의하여 특정 기능 및 리소스에 대한 사용자 액세스를 관리할 수 있습니다.
+Experience Cloud [권한](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} 인터페이스를 통해 Adobe Real-Time CDP Collaboration 내의 개별 구성 요소에 대한 권한 및 사용자 액세스를 관리합니다. 시스템 및 제품 관리자는 권한을 사용하여 [역할](./manage-roles.md)을 정의하여 특정 기능 및 리소스에 대한 사용자 액세스를 관리할 수 있습니다.
 
 ## 권한에 대한 액세스 구성 {#permissions-access}
 
@@ -53,7 +53,7 @@ Adobe Experience Platform 대시보드가 표시됩니다. **[!UICONTROL 관리�
 
 ### 관리자: Experience Platform에 대한 사용자 액세스 권한 구성 {#user-access}
 
-사용자 제품 관리자 액세스 권한을 부여했으므로 이제 Experience Platform 제품에 대한 사용자 액세스 권한을 제공해야 합니다. 액세스 구성의 일부로 사용자별 [제품 프로필](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)을(를) 할당합니다.
+사용자 제품 관리자 액세스 권한을 부여했으므로 이제 Experience Platform 제품에 대한 사용자 액세스 권한을 제공해야 합니다. 액세스 구성의 일부로 사용자별 [제품 프로필](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)을(를) 할당합니다.
 
 >[!TIP]
 >
@@ -83,7 +83,7 @@ Adobe Experience Platform 대시보드가 표시됩니다. **[!UICONTROL 관리�
 
 ### 관리자: Experience Platform UI 액세스 권한 구성 {#product-access}
 
-Real-Time CDP Collaboration에서 관리자 및 최종 사용자는 대상 및 감사 로그와 같은 Experience Platform의 데이터로 작업하게 됩니다. 이 데이터는 샌드박스라는 Experience Platform 인스턴스 내에 보관됩니다. 사용자가 이 데이터와 상호 작용할 수 있도록 하려면 사용자에게 [기본 역할](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#default-roles){target="_blank"}을 할당해야 합니다.
+Real-Time CDP Collaboration에서 관리자 및 최종 사용자는 대상 및 감사 로그와 같은 Experience Platform의 데이터로 작업하게 됩니다. 이 데이터는 샌드박스라는 Experience Platform 인스턴스 내에 보관됩니다. 사용자가 이 데이터와 상호 작용할 수 있도록 하려면 사용자에게 [기본 역할](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles){target="_blank"}을 할당해야 합니다.
 
 시작하려면 [Adobe Experience Cloud](https://experience.adobe.com/)&#x200B;(으)로 이동합니다. 이제 **[!UICONTROL 빠른 액세스]** 내부에 **[!UICONTROL Experience Platform]** 및 **[!UICONTROL 권한]**&#x200B;이 표시됩니다.
 
@@ -113,7 +113,12 @@ Real-Time CDP Collaboration에서 관리자 및 최종 사용자는 대상 및 �
 
 ### 관리자: Real-Time CDP Collaboration 액세스 구성 {#RTCDP-collaboration-access}
 
-사용자에게 Collaboration에 대한 액세스 권한을 부여하려면 역할이라는 액세스 제어 개념을 사용합니다. 역할은 관리자 또는 사용자가 조직의 [리소스](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#permissions)에 액세스할 수 있는 수준을 정의합니다.
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_permissions"
+>title="사용자 액세스 관리 안내서"
+>abstract=""
+
+사용자에게 Collaboration에 대한 액세스 권한을 부여하려면 역할이라는 액세스 제어 개념을 사용합니다. 역할은 관리자 또는 사용자가 조직의 [리소스](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions)에 액세스할 수 있는 수준을 정의합니다.
 
 Collaboration에 대한 개별 액세스를 구성할 때 공동 작업 리소스의 권한이 포함된 사용자 역할을 할당합니다. [역할 관리](./manage-roles.md) 안내서를 사용하여 다음에 대한 정보를 찾을 수 있습니다.
 

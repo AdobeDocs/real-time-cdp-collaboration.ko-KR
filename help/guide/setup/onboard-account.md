@@ -2,12 +2,12 @@
 title: 계정 구성 및 관리
 description: Real-Time CDP Collaboration에서 계정의 다양한 측면을 구성하고 관리하는 방법에 대해 알아봅니다
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
+source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 13%
+source-wordcount: '1363'
+ht-degree: 14%
 
 ---
 
@@ -62,6 +62,11 @@ Collaboration에 처음 액세스하면 계정을 설정하라는 메시지가 �
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="일치 키"
 >abstract="일치 키는 서로 다른 데이터 소스의 대상자 프로필을 조정하는 데 사용되는 식별자입니다. 브랜드에서 사용할 수 있는 모든 일치 키를 포함합니다."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_setup_match_keys"
+>title="일치 키"
+>abstract=""
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
