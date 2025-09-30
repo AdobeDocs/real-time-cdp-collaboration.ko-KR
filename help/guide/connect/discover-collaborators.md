@@ -2,7 +2,7 @@
 title: 공동 작업자 탐색
 description: 광고주로서 Adobe Real-Time CDP Collaboration을 사용하여 작업할 잠재적 공동 작업자를 발굴하는 방법을 알아봅니다
 audience: admin, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
 source-git-commit: ae35f62580ff3d0485dcf99f3638f68d21cc38a2
 workflow-type: tm+mt
