@@ -2,9 +2,9 @@
 title: 연결 설정 중
 description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 프로젝트에 대한 공동 작업을 시작하는 방법에 대해 알아보십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
+source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
 workflow-type: tm+mt
 source-wordcount: '3400'
 ht-degree: 7%
@@ -58,13 +58,13 @@ ht-degree: 7%
 
 ![광고주-게시자 연결 프로세스의 높은 수준 다이어그램입니다.](/help/assets/connect/establish-connection/advertiser-publisher-flow.png){zoomable="yes"}
 
-광고주 대 게시자 패턴에서 광고주는 **[!UICONTROL 게시자 검색]** 작업 영역을 통해 작업할 게시자를 검색하고 연결 초대를 보냅니다. 그러면 게시자가 초대를 검토하고 수락하여 광고주가 연결 설정을 제안할 수 있습니다. 게시자가 연결 설정을 수락하면 연결이 설정되고 두 공동 작업자가 프로젝트에서 함께 작업을 시작할 수 있습니다.
+광고주 대 게시자 패턴에서 광고주는 **[!UICONTROL 공동 작업자 검색]** 작업 영역을 통해 작업할 게시자를 검색하고 연결 초대를 보냅니다. 그러면 게시자가 초대를 검토하고 수락하여 광고주가 연결 설정을 제안할 수 있습니다. 게시자가 연결 설정을 수락하면 연결이 설정되고 두 공동 작업자가 프로젝트에서 함께 작업을 시작할 수 있습니다.
 
 ### 높은 수준 개요
 
 광고주와 게시자 간에 연결을 설정하려면 다음 단계를 따르십시오.
 
-1. [게시자 검색](#discover-publishers): 광고주는 공동 작업할 수 있는 게시자를 식별합니다.
+1. [게시자 검색](#discover-collaborators): 광고주가 함께 작업할 잠재적 공동 작업자를 식별합니다.
 1. [초대 보내기](#send-invite): 광고주가 선택한 게시자에게 연결 초대를 보냅니다.
 1. [초대 수락](#accept-invite): 게시자가 초대를 검토하고 수락합니다.
 1. [연결 설정 구성](#configure-connection-settings): 광고주가 연결 설정을 구성하고 검토할 수 있도록 게시자에게 보냅니다.
@@ -108,25 +108,25 @@ ht-degree: 7%
 
 **[!UICONTROL 연결]** 작업 영역에서는 공동 작업자와의 연결을 관리하고, 연결 초대를 보내고, 광고주가 게시자 디렉터리를 검색할 수 있습니다. 작업공간은 두 개의 기본 탭으로 나뉩니다.
 
-### 게시자 탐색 {#discover-publishers}
+### 공동 작업자 탐색 {#discover-collaborators}
 
 >[!IMPORTANT]
 >
->광고주만 **[!UICONTROL 게시자 검색]** 작업 영역을 사용하여 게시자를 검색할 수 있습니다. 역할에 관계없이 공동 작업자와 연결하는 방법에 대해 알아보려면 [브랜드 간 연결](#brand-to-brand-connection) 섹션을 읽어 보십시오.
+>광고주만 **[!UICONTROL 공동 작업자 검색]** 작업 영역을 사용하여 게시자를 검색할 수 있습니다. 역할에 관계없이 공동 작업자와 연결하는 방법에 대해 알아보려면 [브랜드 간 연결](#brand-to-brand-connection) 섹션을 읽어 보십시오.
 
-게시자를 검색하려면 **[!UICONTROL 연결]** 탭의 **[!UICONTROL 게시자 검색]** 작업 영역으로 이동합니다. 여기서는 작업 영역 하단에 있는 페이지 매김 컨트롤을 사용하여 사용 가능한 게시자 목록을 검색할 수 있습니다. **[!UICONTROL 게시자 검색]** 작업 영역에 대한 자세한 내용은 [게시자 검색](/help/guide/connect/discover-publishers.md) 안내서를 참조하십시오.
+게시자를 검색하려면 **[!UICONTROL 연결]** 탭의 **[!UICONTROL 공동 작업자 검색]** 작업 영역으로 이동합니다. 여기서는 작업 영역 하단에 있는 페이지 매김 컨트롤을 사용하여 사용 가능한 게시자 목록을 검색할 수 있습니다. **[!UICONTROL 공동 작업자 검색]** 작업 영역에 대한 자세한 내용은 [공동 작업자 검색](/help/guide/connect/discover-collaborators.md) 안내서를 참조하세요.
 
-![사용 가능한 게시자 목록을 표시하는 게시자 검색 작업 영역입니다.](/help/assets/connect/establish-connection/discover-publishers.png){zoomable="yes"}
+![공동 작업자 검색 작업 영역에 사용 가능한 게시자 목록이 표시됩니다.](/help/assets/connect/establish-connection/discover-collaborators.png){zoomable="yes"}
 
 ### 초대 보내기 {#send-invite}
 
 >[!IMPORTANT]
 >
->이 섹션에서는 광고주가 **[!UICONTROL 게시자 검색]** 작업 영역을 통해 게시자에게 연결 초대를 보내는 프로세스에 대해 설명합니다. 역할과 관계없이 브랜드 간의 연결을 형성하는 방법에 대해 알아보려면 [브랜드 간 연결](#brand-to-brand-connection) 섹션을 읽어보거나 [개인 연결 초대](#private-connection-invite) 섹션을 방문하십시오.
+>이 섹션에서는 광고주가 **[!UICONTROL 공동 작업자 검색]** 작업 영역을 통해 게시자에게 연결 초대를 보내는 프로세스에 대해 설명합니다. 역할과 관계없이 브랜드 간의 연결을 형성하는 방법에 대해 알아보려면 [브랜드 간 연결](#brand-to-brand-connection) 섹션을 읽어보거나 [개인 연결 초대](#private-connection-invite) 섹션을 방문하십시오.
 
 공동 작업하려는 게시자를 식별했으면 게시자 카드에서 **[!UICONTROL 연결]** 옵션을 선택합니다. 이 작업은 연결 프로세스를 시작합니다.
 
-![Discover publishers 작업 영역의 특정 게시자에 강조 표시된 연결 옵션입니다.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+![Discover collaborators 작업 영역의 특정 게시자에 강조 표시된 연결 옵션입니다.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 게시자에게 연결 초대를 보내라는 대화 상자가 나타납니다. 계속하려면 **[!UICONTROL 초대 보내기]**&#x200B;를 선택하십시오.
 

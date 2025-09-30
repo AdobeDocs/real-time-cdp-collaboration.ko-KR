@@ -2,9 +2,9 @@
 title: 전체 워크플로
 description: 공동 작업 패턴을 기반으로 Real-Time CDP Collaboration 사용에 대한 전체적인 워크플로를 이해합니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 8745d6d8da389b552af3da6612bf693230dfb538
+source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Adobe Real-Time CDP Collaboration에서 통합 워크플로우는 선택하는 �
 
 계정을 설정한 후에는 [!UICONTROL Luma] 및 [!UICONTROL TV Tube]에서 모두 [데이터 연결 및 소스 대상을 만들기](../setup/onboard-audiences.md)해야 합니다. [!UICONTROL TV Tube]만 마케팅 캠페인에 대한 대상을 활성화하므로 [대상을 구성](../setup/manage-destinations.md)해야 합니다.
 
-두 공동 작업자가 계정을 설정한 후에는 플랫폼 내에서 [연결을 형성](../connect/establishing-connections.md)할 준비가 되었습니다. [!UICONTROL Luma]은(는) [게시자 검색](../connect/discover-publishers.md) 기능을 사용하여 [!UICONTROL TV Tube]를 찾아 연결 요청을 시작합니다. [!UICONTROL TV Tube]이(가) 연결 요청을 수락하면 [!UICONTROL Luma]이(가) 연결 설정을 구성하여 공동 작업 방법을 정의합니다. [!UICONTROL TV Tube]에서 두 브랜드 간의 보안 연결을 설정하기 위해 연결 요청을 수락합니다.
+두 공동 작업자가 계정을 설정한 후에는 플랫폼 내에서 [연결을 형성](../connect/establishing-connections.md)할 준비가 되었습니다. [!UICONTROL Luma]은(는) [공동 작업자 검색](../connect/discover-collaborators.md) 기능을 사용하여 [!UICONTROL TV Tube]를 찾아 연결 요청을 시작합니다. [!UICONTROL TV Tube]이(가) 연결 요청을 수락하면 [!UICONTROL Luma]이(가) 연결 설정을 구성하여 공동 작업 방법을 정의합니다. [!UICONTROL TV Tube]에서 두 브랜드 간의 보안 연결을 설정하기 위해 연결 요청을 수락합니다.
 
 연결이 설정되면 [!UICONTROL Luma] [프로젝트를 만들고](../collaborate/manage-projects.md) [!UICONTROL TV Tube]와(과) 공동 작업을 시작합니다. 프로젝트 설정 중에 목표에 가장 적합한 공동 작업 사용 사례를 선택합니다. [검색](../collaborate/discover.md), [활성화](../collaborate/activate.md) 및 [측정](../collaborate/measure.md).
 

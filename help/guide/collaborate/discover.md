@@ -2,11 +2,11 @@
 title: 중복 검색 및 대상 비교
 description: 와 공동 작업자의 대상 간에 겹치는 부분을 살펴봅니다. 캠페인에 사용할 최상의 대상을 찾는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
+source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2069'
 ht-degree: 17%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 17%
 | **[!UICONTROL 중복 ID]** | 와 공동 작업자의 대상 모두에 있는 고유 ID 수입니다. |
 | **[!UICONTROL 겹치기 %]** | 본인과 공동 작업자가 선택한 대상자 간에 중복되는 프로필의 비율입니다. |
 | **[!UICONTROL 대상 인덱스]** | 기본 대상 카운트 및 겹침을 기반으로 한 한 대상자가 다른 대상자와 얼마나 강하게 관련되는지를 나타내는 점수입니다. 점수의 의미에 대해 자세히 알아보려면 [대상 색인 점수](#audience-index-score) 섹션을 읽어 보십시오. 공동 작업자의 기준선(모든 대상)과 비교할 때 대상 인덱스 점수를 사용할 수 없습니다. |
-| **[!UICONTROL 일치 키별 ID 분류]** | 각 공동 작업자에 대해 선택된 대상을 기반으로 프로젝트에서 선택한 각 일치 키에 대한 ID 분류. |
+| **[!UICONTROL 일치 키별 ID 분류]** | 각 공동 작업자에 대해 선택된 대상을 기반으로 프로젝트에서 선택한 각 일치 키에 일치하는 ID의 분류입니다. |
 
 {style="table-layout:auto"}
 
