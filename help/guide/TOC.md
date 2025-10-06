@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration은 광고주와 게시자 간의 원활하고 안전한 데이터 공유 및 공동 작업을 지원하여 실시간 대상 통찰력과 개인화된 마케팅 전략을 촉진합니다.
-source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
+source-git-commit: db2eb6d124fd05523ad65872bcd12078b9809ddc
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 35%
+source-wordcount: '139'
+ht-degree: 33%
 
 ---
 
@@ -30,13 +30,22 @@ ht-degree: 35%
    * [측정 데이터 추가 및 관리](./setup/onboard-measurement-data.md)
    * [감사 로그](./setup/audit-logs.md)
 * 연결 설정 중 {#connect}
+   * [Overview.md](./connect/overview.md)
    * [공동 작업자 탐색](./connect/discover-collaborators.md)
-   * [연결 설정 중](./connect/establishing-connections.md)
+   * [협력자 연결 설정](./connect/establishing-connections.md)
+   * [연결 관리](./connect/manage-connections.md)
+   * Advertising 플랫폼 연결 {#ad-platform-connections}
+      * [개요](./connect/advertising-platforms/overview.md)
+      * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * 공동 작업 {#collaborate}
+   * [개요](./collaborate/overview.md)
    * [프로젝트 관리](./collaborate/manage-projects.md)
-   * [탐색](./collaborate/discover.md)
-   * [활성화](./collaborate/activate.md)
-   * [측정](./collaborate/measure.md)
+   * 공동 작업자 연결 {#collaborator-connections}
+      * [탐색](./collaborate/discover.md)
+      * [활성화](./collaborate/activate.md)
+      * [측정](./collaborate/measure.md)
+   * Advertising 플랫폼 연결 {#ad-platform-connections}
+      * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
 * 대상 {#destinations}
    * [개요](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)

@@ -1,47 +1,17 @@
 ---
-title: 연결 설정 중
+title: 공동 작업자와의 연결 설정
 description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 프로젝트에 대한 공동 작업을 시작하는 방법에 대해 알아보십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
+source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '3400'
-ht-degree: 7%
+source-wordcount: '2812'
+ht-degree: 8%
 
 ---
 
-# 연결 설정 중 {#establishing-connections}
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_compare_audiences"
->title="대상자 비교"
->abstract="대상을 Amazon 광고가 제공하는 모든 소비자와 비교합니다."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_relevant_audiences"
->title="관련 대상자"
->abstract="Amazon DSP 노출 횟수만을 고려하여 대상자가 겹치는 정도가 가장 높은 세그먼트를 타겟팅합니다(이러한 세그먼트는 DSP에서만 타겟팅할 수 있음)."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_resolved_ids"
->title="해결된 ID"
->abstract="대상 데이터를 사용하여 Amazon의 ID 확인을 확인할 수 있는 ID 수입니다."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="중복 광고 노출 ID"
->abstract="업로드된 대상자 중 Amazon Ads를 통해 광고에도 노출된 &#39;해결된 ID&#39; 수를 나타냅니다."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_overlap_percentage"
->title="중복 %"
->abstract="Amazon 광고를 통해 광고에 노출된 &#39;해결된 ID&#39;의 비율입니다."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_amazon_breakdown"
->title="Amazon 광고 제품별 분류"
->abstract="Amazon Ads 후원 제품 및/또는 Amazon Ads DSP에 의해 도달된 &#39;겹치는 광고 노출 ID&#39; 분류입니다."
+# 공동 작업자와의 연결 설정 {#establishing-connections}
 
 {{limited-availability-release-note}}
 
@@ -78,31 +48,7 @@ ht-degree: 7%
 
 >[!TIP]
 >
->**brand** 용어는 Collaboration 외부의 회사 또는 브랜드를 가리키는 데 사용됩니다. **collaborator**&#x200B;이라는 용어는 광고주인지 게시자인지에 관계없이 Collaboration에서 연결을 구성할 수 있는 모든 계정을 의미합니다.
-
-브랜드 간 패턴에서는 제품 외부에서 통신한 두 브랜드가 [개인 연결 초대](#private-connection-invite)를 사용하여 Collaboration에서 직접 연결할 수 있습니다. 브랜드는 광고주 또는 게시자일 수 있습니다. 이 패턴은 두 개의 광고주 또는 두 개의 게시자와 같이 기존 광고주-게시자 모델에 적합하지 않을 수 있는 브랜드에 특히 유용합니다.
-
-먼저 공동 작업자가 다른 공동 작업자에게 개인 연결 초대를 보냅니다. 수신자가 초대를 검토하고 수락하여 소유자가 연결 설정을 제안할 수 있습니다. 수신자가 연결 설정을 수락하면 연결이 설정되고 두 공동 작업자가 프로젝트에서 함께 작업을 시작할 수 있습니다.
-
-### 높은 수준 개요
-
->[!TIP]
->
->연결 프로세스에 대해 논의할 때 **소유자**&#x200B;와(과) **수신자** 사이에 차이가 있습니다. 소유자는 초대를 전송하여 연결을 시작하는 공동 작업자이고, 수신자는 초대를 받고 검토하는 공동 작업자입니다.
-
-두 브랜드 간의 연결 과정에는 몇 가지 단계가 포함됩니다. 연결 프로세스가 시작되기 전에 몇 가지 전제 조건을 충족해야 합니다.
-
-1. 두 브랜드가 제품 외부에서 소통하며 잠재적 연결에 대해 논의합니다.
-1. 브랜드가 아직 Collaboration에 [계정을 만듭니다](/help/guide/setup/onboard-account.md). 아직 만들지 않은 경우 적절한 역할 유형(광고주 또는 게시자)을 선택하십시오.
-
-   전제 조건이 충족되면 연결 프로세스를 시작할 수 있습니다. 다음 단계는 프로세스에 대해 간략히 설명합니다.
-
-1. [비공개 연결 초대 보내기](#send-private-connection-invite): 한 공동 작업자가 다른 공동 작업자에게 비공개 연결 초대를 보냅니다.
-1. [개인 연결 초대 수락](#accept-private-connection-invite): 받는 사람이 개인 연결 초대를 검토하고 수락합니다.
-1. [연결 설정 구성](#configure-connection-settings): 소유자가 연결 설정을 구성하고 검토 및 수락하기 위해 받는 사람에게 보냅니다.
-1. [연결 설정 확인](#establish-connection): 받는 사람이 연결 설정을 검토하고 이를 수락하거나 거부합니다.
-
-연결 설정이 수락되면 연결이 설정되고 공동 작업자는 [프로젝트를 만들](/help/guide/collaborate/manage-projects.md#create-project) 준비가 되어 캠페인에 대한 공동 작업을 시작할 수 있습니다.
+>이 안내서에서는 광고주와 게시자 간 및 브랜드 간 공동 작업 패턴의 연결 프로세스를 다룹니다. 광고 플랫폼과의 연결에 대한 자세한 내용은 [연결 개요](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) 안내서의 [광고주와 광고 플랫폼 연결](/help/guide/connect/overview.md) 섹션을 참조하십시오.
 
 ## 연결 {#connect}
 
@@ -356,26 +302,6 @@ ht-degree: 7%
 > 연결 설정을 수락하면 더 이상 광고주 이름을 추가하거나 편집할 수 없습니다.
 
 다음으로 **[!UICONTROL 수락]**&#x200B;을 선택하여 연결을 계속합니다. 연결 상태가 **[!UICONTROL 활성]**(으)로 변경되며 이제 프로젝트 공동 작업을 시작할 수 있습니다.
-
-## 연결 삭제 {#delete-connections}
-
-계속 작업하지 않으려는 공동 작업자와의 연결을 삭제할 수 있습니다. 기존 연결을 삭제하려면 **[!UICONTROL 연결]**(으)로 이동합니다. 게시자는 기존 연결을 표시합니다. 광고주는 **[!UICONTROL 내 연결]**(으)로 이동해야 합니다.
-
-삭제할 연결 카드에서 **[!UICONTROL 연결 보기]**&#x200B;를 선택합니다.
-
-![내 연결 보기에서 강조 표시된 연결 보기 옵션입니다.](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
-
-연결을 삭제하려면 연결 작업 영역에서 삭제 아이콘 ![삭제 아이콘](/help/assets/common/delete.svg)을(를) 선택하십시오.
-
-![연결 작업 영역에서 강조 표시된 삭제 아이콘입니다.](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
-
-연결 삭제를 확인하는 확인 대화 상자가 나타납니다. **[!UICONTROL 삭제]**&#x200B;를 선택하여 삭제를 확인합니다.
-
-![연결을 삭제하는 확인 대화 상자입니다.](/help/assets/connect/establish-connection/delete-confirmation-dialog.png){zoomable="yes"}
-
->[!WARNING]
->
->연결이 삭제되면 공동 작업의 기존 프로젝트가 모두 영구적으로 삭제되고 복구할 수 없습니다. 연결 요청은 보류 중인 상태로 유지되지만 연결 및 해당 구성은 더 이상 활성화되지 않습니다. 공동 작업자와 다시 연결하려면 연결을 다시 설정해야 합니다.
 
 ## 다음 단계
 

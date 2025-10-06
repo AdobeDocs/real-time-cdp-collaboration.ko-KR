@@ -2,11 +2,11 @@
 title: 전체 워크플로
 description: 공동 작업 패턴을 기반으로 Real-Time CDP Collaboration 사용에 대한 전체적인 워크플로를 이해합니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
+source-git-commit: 5c08738cdc8e1e208203ee1f9a1cf1891b5b07cb
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -60,3 +60,15 @@ Adobe Real-Time CDP Collaboration에서 통합 워크플로우는 선택하는 �
 [!UICONTROL 의류 맞춤] 및 [!UICONTROL Luma] 모두 [검색](../collaborate/discover.md) 사용 사례를 사용하여 서로의 대상 데이터에 대한 통찰력을 얻을 수 있습니다. 중요한 대상 세그먼트를 식별한 후에는 마케팅 캠페인에 대해 선택한 대상을 [활성화](../collaborate/activate.md)합니다.
 
 마지막으로 두 브랜드는 캠페인을 실행한 후 결과를 [측정값](../collaborate/measure.md)에 데이터를 업로드하고 공동 작업의 효과를 평가합니다.
+
+## 광고주-광고 플랫폼 워크플로 {#advertiser-to-advertising-platform-workflow}
+
+운동 소매 회사인 [!UICONTROL Luma]이(가) [!DNL Amazon Marketing Cloud]의 ID 확인 및 타깃팅 도구를 활용하여 마케팅 기능을 개선하기 위해 [!DNL AMC]&#x200B;([!DNL AMC])과(와) 연결하려고 합니다. Luma에 이미 활성 [!DNL Amazon Advertising] 계정이 있으며 [!DNL AMC]을(를) 사용하도록 승인되었습니다.
+
+시작하려면 [!UICONTROL Luma]에서 광고주 역할을 사용하여 [계정을 만들고](../setup/onboard-account.md)해야 합니다. 계정을 설정한 후 [!UICONTROL Luma]은(는) [데이터 연결 및 원본 대상을 만들어야](../setup/onboard-audiences.md)합니다. [!UICONTROL Luma]은(는) 마케팅 캠페인에 대한 대상을 활성화하므로 [대상을 구성](../setup/manage-destinations.md)해야 합니다.
+
+[!UICONTROL Luma]의 계정이 설정되면 플랫폼 내에서 [와(과) ](../connect/establishing-connections.md)연결을 구성[!DNL AMC]할 준비가 되었습니다. [!UICONTROL Luma]은(는) [공동 작업자 검색](../connect/discover-collaborators.md) 기능을 사용하여 [!UICONTROL Amazon Marketing Cloud] 및 [연결 요청을 시작](../connect/advertising-platforms/amc.md)합니다. [!DNL Amazon] 로그인 페이지를 통해 연결을 인증하고 인증하면 [!DNL AMC]에 연결됩니다.
+
+연결이 설정되면 [!UICONTROL Luma] [프로젝트를 만듭니다](../collaborate/manage-projects.md). [!DNL AMC]과의 공동 작업을 시작합니다. 사용 사례를 포함한 연결 설정은 광고 플랫폼에 따라 사전 구성됩니다. [!DNL AMC]의 사용 사례는 [검색](../collaborate/advertising-platforms/amc.md#discover)입니다.
+
+[!UICONTROL Luma]은(는) [Discover](../collaborate/advertising-platforms/amc.md#discover) 사용 사례를 활용하여 [!DNL AMC]에서 인사이트 및 대상 데이터를 얻습니다. 이러한 통찰력을 사용하여 [!UICONTROL Luma]은(는) 마케팅 전략을 최적화하고 캠페인 효과를 향상시킬 수 있습니다.

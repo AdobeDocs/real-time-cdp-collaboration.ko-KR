@@ -2,12 +2,12 @@
 title: 프로젝트 만들기 및 관리
 description: Adobe Real-Time CDP Collaboration에서 프로젝트를 만들고 관리하는 방법 알아보기
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: f12333adbe9d1fd18650d32c1b8b4e08c1410e5e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 9%
+source-wordcount: '350'
+ht-degree: 8%
 
 ---
 
@@ -55,13 +55,3 @@ ht-degree: 9%
 이제 연결 설정 중에 선택한 사용 사례에 따라 새 프로젝트, 세부 정보 및 사용 가능한 섹션을 볼 수 있습니다.
 
 ![프로젝트 개요 작업 영역입니다.](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
-
-## 프로젝트 사용 사례 {#project-use-cases}
-
-프로젝트 개요에는 연결 설정 중에 선택한 사용 사례가 표시됩니다. 이러한 사용 사례는 프로젝트에서 사용할 수 있는 기능을 정의합니다. 사용 사례는 다음과 같습니다.
-
-| 사용 사례 | 프로젝트 섹션 |
-| --- | --- |
-| 캠페인 측정 | 이 사용 사례에서는 [측정값](/help/guide/collaborate/measure.md) 섹션 및 사용 가능한 모든 기능에 대한 액세스 권한을 부여합니다. |
-| 대상자 탐색 | 이 사용 사례에서는 [검색](/help/guide/collaborate/discover.md) 섹션 및 사용 가능한 모든 기능에 대한 액세스 권한을 부여합니다. |
-| 대상자 활성화 | 이 사용 사례에서는 [활성화](/help/guide/collaborate/activate.md) 섹션 및 사용 가능한 모든 기능에 대한 액세스 권한을 부여합니다. |

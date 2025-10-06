@@ -2,11 +2,11 @@
 title: 중복 검색 및 대상 비교
 description: 와 공동 작업자의 대상 간에 겹치는 부분을 살펴봅니다. 캠페인에 사용할 최상의 대상을 찾는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
+source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2107'
 ht-degree: 17%
 
 ---
@@ -42,6 +42,10 @@ ht-degree: 17%
 * [사용자와 공동 작업자 간에 프로젝트를 만들었습니다](/help/guide/collaborate/manage-projects.md)
 
 이러한 사전 요구 사항이 충족되면 공동 작업자의 대상자를 통해 중복을 조사하고 비교할 수 있습니다.
+
+>[!NOTE]
+>
+>이 **[!UICONTROL Discover]** 작업 영역은 광고 플랫폼과의 협업과 관련이 없습니다. 현재 Amazon Marketing Cloud은 Real-Time CDP Collaboration에서 사용 가능한 유일한 광고 플랫폼입니다. [!DNL AMC] **[!UICONTROL 검색]** 작업 영역에 대한 자세한 내용은 [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md) 안내서를 참조하십시오.
 
 ## 대상자 비교 {#compare-audiences}
 
