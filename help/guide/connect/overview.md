@@ -2,7 +2,7 @@
 title: 연결 개요
 description: Real-Time CDP Collaboration의 연결에 대해 알아봅니다.
 audience: publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 5c08738cdc8e1e208203ee1f9a1cf1891b5b07cb
 workflow-type: tm+mt
 source-wordcount: '754'

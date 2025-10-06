@@ -2,7 +2,7 @@
 title: Amazon Marketing Cloud
 description: Real-Time CDP Collaboration에서  [!DNL Amazon Marketing Cloud] 을(를) 사용하는 방법에 대해 알아봅니다.
 audience: publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
 workflow-type: tm+mt
 source-wordcount: '243'

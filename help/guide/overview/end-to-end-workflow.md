@@ -2,7 +2,7 @@
 title: 전체 워크플로
 description: 공동 작업 패턴을 기반으로 Real-Time CDP Collaboration 사용에 대한 전체적인 워크플로를 이해합니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
 source-git-commit: 5c08738cdc8e1e208203ee1f9a1cf1891b5b07cb
 workflow-type: tm+mt

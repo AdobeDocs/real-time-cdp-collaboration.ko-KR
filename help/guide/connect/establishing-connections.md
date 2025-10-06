@@ -2,7 +2,7 @@
 title: 공동 작업자와의 연결 설정
 description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 프로젝트에 대한 공동 작업을 시작하는 방법에 대해 알아보십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
