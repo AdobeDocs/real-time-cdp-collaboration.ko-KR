@@ -2,7 +2,7 @@
 title: Amazon Marketing Cloud
 description: Real-Time CDP Collaboration에서 Amazon Marketing Cloud과의 공동 작업에 대해 알아봅니다.
 audience: publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 57b847c25edbf88f4708bda74be41fe6141472a7
 workflow-type: tm+mt
 source-wordcount: '644'
@@ -56,7 +56,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->대상 데이터는 [!DNL Amazon Ads] 계정에 업로드된 대상에서 처리됩니다. [보내기]에서 Experience Platform의 대상 기능을 사용하여 대상자를 [!DNL Amazon Ads] 계정으로 보내는 방법에 대해 알아보려면 [Amazon 광고 연결](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads) 안내서를 참조하십시오.
+>대상 데이터는 [!DNL Amazon Ads] 계정에 업로드된 대상에서 처리됩니다. [보내기]에서 Experience Platform의 대상 기능을 사용하여 대상자를 [!DNL Amazon Ads] 계정으로 보내는 방법에 대해 알아보려면 [Amazon 광고 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/advertising/amazon-ads) 안내서를 참조하십시오.
 
 ![Amazon Marketing Cloud을 사용하는 프로젝트의 검색 섹션.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
