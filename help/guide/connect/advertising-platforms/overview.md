@@ -20,5 +20,5 @@ Advertising 플랫폼은 광고주가 고급 도구 및 기술을 활용하여 �
 
 현재 Real-Time CDP Collaboration에서 사용할 수 있는 광고 플랫폼은 [!DNL Amazon Marketing Cloud]&#x200B;(AMC)뿐입니다. 다음 안내서에서는 [!DNL AMC] 연결 및 공동 작업에 대한 자세한 정보를 제공합니다.
 
-* [ [!DNL Amazon Marketing Cloud]과(와) 연결](/help/guide/connect/advertising-platforms/amc.md)
-* [ [!DNL Amazon Marketing Cloud]과(와) 공동 작업](/help/guide/collaborate/advertising-platforms/amc.md)
+* [&#x200B; [!DNL Amazon Marketing Cloud]과(와) 연결](/help/guide/connect/advertising-platforms/amc.md)
+* [&#x200B; [!DNL Amazon Marketing Cloud]과(와) 공동 작업](/help/guide/collaborate/advertising-platforms/amc.md)

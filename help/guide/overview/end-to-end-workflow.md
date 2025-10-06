@@ -67,7 +67,7 @@ Adobe Real-Time CDP Collaboration에서 통합 워크플로우는 선택하는 �
 
 시작하려면 [!UICONTROL Luma]에서 광고주 역할을 사용하여 [계정을 만들고](../setup/onboard-account.md)해야 합니다. 계정을 설정한 후 [!UICONTROL Luma]은(는) [데이터 연결 및 원본 대상을 만들어야](../setup/onboard-audiences.md)합니다. [!UICONTROL Luma]은(는) 마케팅 캠페인에 대한 대상을 활성화하므로 [대상을 구성](../setup/manage-destinations.md)해야 합니다.
 
-[!UICONTROL Luma]의 계정이 설정되면 플랫폼 내에서 [와(과) ](../connect/establishing-connections.md)연결을 구성[!DNL AMC]할 준비가 되었습니다. [!UICONTROL Luma]은(는) [공동 작업자 검색](../connect/discover-collaborators.md) 기능을 사용하여 [!UICONTROL Amazon Marketing Cloud] 및 [연결 요청을 시작](../connect/advertising-platforms/amc.md)합니다. [!DNL Amazon] 로그인 페이지를 통해 연결을 인증하고 인증하면 [!DNL AMC]에 연결됩니다.
+[!UICONTROL Luma]의 계정이 설정되면 플랫폼 내에서 [와(과) &#x200B;](../connect/establishing-connections.md)연결을 구성[!DNL AMC]할 준비가 되었습니다. [!UICONTROL Luma]은(는) [공동 작업자 검색](../connect/discover-collaborators.md) 기능을 사용하여 [!UICONTROL Amazon Marketing Cloud] 및 [연결 요청을 시작](../connect/advertising-platforms/amc.md)합니다. [!DNL Amazon] 로그인 페이지를 통해 연결을 인증하고 인증하면 [!DNL AMC]에 연결됩니다.
 
 연결이 설정되면 [!UICONTROL Luma] [프로젝트를 만듭니다](../collaborate/manage-projects.md). [!DNL AMC]과의 공동 작업을 시작합니다. 사용 사례를 포함한 연결 설정은 광고 플랫폼에 따라 사전 구성됩니다. [!DNL AMC]의 사용 사례는 [검색](../collaborate/advertising-platforms/amc.md#discover)입니다.
 
