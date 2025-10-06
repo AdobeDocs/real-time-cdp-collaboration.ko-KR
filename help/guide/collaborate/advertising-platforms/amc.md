@@ -67,8 +67,8 @@ ht-degree: 4%
 | 지표 | 설명 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
 | [!UICONTROL 확인된 ID] | 대상 데이터를 사용하여 ID [!DNL Amazon’s Identity Resolution]의 수를 확인할 수 있습니다. |
-| [!UICONTROL 겹치는 광고 노출 ID] | 업로드된 대상자 중 [!UICONTROL 을(를) 통해 광고에 노출된 ]확인된 ID[!DNL Amazon Ads]의 수입니다. |
-| [!UICONTROL 겹치기 %] | [!UICONTROL 을(를) 통해 광고에 노출된 ]확인된 ID[!DNL Amazon Ads]의 비율입니다. |
+| [!UICONTROL 겹치는 광고 노출 ID] | 업로드된 대상자 중 [!UICONTROL 을(를) 통해 광고에 노출된 &#x200B;]확인된 ID[!DNL Amazon Ads]의 수입니다. |
+| [!UICONTROL 겹치기 %] | [!UICONTROL 을(를) 통해 광고에 노출된 &#x200B;]확인된 ID[!DNL Amazon Ads]의 비율입니다. |
 | [!UICONTROL Amazon 광고 제품별 분류] | [!UICONTROL 스폰서 제품] 및/또는 [!UICONTROL DSP]에 의해 [!UICONTROL 겹치는 광고 노출 ID]의 분류가 도달했습니다. 각각은 총 광고 노출 ID 수에서 개별 백분율로 표시됩니다. ID는 [!UICONTROL 스폰서 제품]과(와) [!UICONTROL DSP] 모두에 속할 수 있으므로 백분율이 100%로 합산되지 않을 수 있습니다. |
 
 
@@ -79,8 +79,8 @@ ht-degree: 4%
 | 지표 | 설명 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
 | [!UICONTROL 확인된 ID] | 대상 데이터를 사용하여 ID [!DNL Amazon’s Identity Resolution]의 수를 확인할 수 있습니다. |
-| [!UICONTROL 겹치는 광고 노출 ID] | 업로드한 대상자에서 [!UICONTROL 을(를) 통해 광고에 노출된 ]확인된 ID[!DNL Amazon Ads]의 수를 나타냅니다. DSP 노출 횟수만 고려합니다. |
-| [!UICONTROL 겹치기 %] | [!UICONTROL 을(를) 통해 광고에 노출된 ]확인된 ID[!DNL Amazon Ads]의 비율입니다. |
+| [!UICONTROL 겹치는 광고 노출 ID] | 업로드한 대상자에서 [!UICONTROL 을(를) 통해 광고에 노출된 &#x200B;]확인된 ID[!DNL Amazon Ads]의 수를 나타냅니다. DSP 노출 횟수만 고려합니다. |
+| [!UICONTROL 겹치기 %] | [!UICONTROL 을(를) 통해 광고에 노출된 &#x200B;]확인된 ID[!DNL Amazon Ads]의 비율입니다. |
 | [!UICONTROL 범주] | 대상자가 속한 범주 또는 범주입니다. 대상은 여러 범주에 속할 수 있습니다. |
 
 ### [!DNL Amazon Marketing Cloud]과(와) 겹침 검색 {#discover-overlaps}
@@ -90,5 +90,5 @@ ht-degree: 4%
 | 지표 | 설명 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
 | [!UICONTROL 확인된 ID] | 대상 데이터를 사용하여 ID [!DNL Amazon’s Identity Resolution]의 수를 확인할 수 있습니다. |
-| [!UICONTROL 겹치는 광고 노출 ID] | 업로드한 대상자에서 [!UICONTROL 을(를) 통해 광고에 노출된 ]확인된 ID[!DNL Amazon Ads]의 수를 나타냅니다. DSP 노출 횟수만 고려합니다. |
-| [!UICONTROL 겹치기 %] | [!UICONTROL 을(를) 통해 광고에 노출된 ]확인된 ID[!DNL Amazon Ads]의 비율입니다. |
+| [!UICONTROL 겹치는 광고 노출 ID] | 업로드한 대상자에서 [!UICONTROL 을(를) 통해 광고에 노출된 &#x200B;]확인된 ID[!DNL Amazon Ads]의 수를 나타냅니다. DSP 노출 횟수만 고려합니다. |
+| [!UICONTROL 겹치기 %] | [!UICONTROL 을(를) 통해 광고에 노출된 &#x200B;]확인된 ID[!DNL Amazon Ads]의 비율입니다. |
