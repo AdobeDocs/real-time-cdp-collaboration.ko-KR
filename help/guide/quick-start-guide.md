@@ -157,7 +157,7 @@ Collaboration을 사용하여 대상을 소싱하는 방법에 대한 전체 연
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 측정]** 작업 영역은 연결 프로세스 **[!UICONTROL 에서]**&#x200B;측정[ 사용 사례를 사용하도록 설정한 경우 ](./connect/establishing-connections.md#connection-settings)에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./collaborate/manage-projects.md#project-use-cases) 안내서를 참조하세요.
+>**[!UICONTROL 측정]** 작업 영역은 연결 프로세스 **[!UICONTROL 에서]**&#x200B;측정[&#x200B; 사용 사례를 사용하도록 설정한 경우 &#x200B;](./connect/establishing-connections.md#connection-settings)에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./collaborate/manage-projects.md#project-use-cases) 안내서를 참조하세요.
 
 Collaboration은 캠페인 도달 범위, 빈도 및 효과를 분석하는 다양한 보고서를 제공합니다. UI에서 **[!UICONTROL 측정]** 작업 영역을 사용할 수 있지만 전체 보고 기능을 사용하려면 백 엔드를 활성화해야 할 수 있습니다.
 

@@ -32,7 +32,7 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 >title="일치 키"
 >abstract="일치 키는 다양한 소스의 데이터를 어떻게 일치시킬지 결정합니다. 아래에 표시된 일치 키는 소스 필드를 매핑한 대상 필드입니다."
 
-일치 키는 [소스 필드를 ](./onboard-audiences.md#map-fields)에 매핑한 대상 필드입니다. 데이터 연결을 위해 처음에 선택한 일치 키는 편집할 수 없습니다. 일치 키를 업데이트하려면 새 데이터 연결을 만들어야 합니다. 일치 키가 작동하는 방법에 대한 자세한 내용은 [일치 키](./onboard-account.md#set-up-match-keys) 안내서를 참조하세요.
+일치 키는 [소스 필드를 &#x200B;](./onboard-audiences.md#map-fields)에 매핑한 대상 필드입니다. 데이터 연결을 위해 처음에 선택한 일치 키는 편집할 수 없습니다. 일치 키를 업데이트하려면 새 데이터 연결을 만들어야 합니다. 일치 키가 작동하는 방법에 대한 자세한 내용은 [일치 키](./onboard-account.md#set-up-match-keys) 안내서를 참조하세요.
 
 ![일치 키 섹션이 강조 표시된 데이터 연결 작업 영역입니다.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 

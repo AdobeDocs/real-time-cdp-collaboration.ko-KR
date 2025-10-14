@@ -17,7 +17,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 활성화]** 작업 영역은 연결 프로세스 **에서**&#x200B;대상 활성화[ 사용 사례를 사용하도록 설정한 경우 ](../connect/establishing-connections.md#connection-settings)에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
+>**[!UICONTROL 활성화]** 작업 영역은 연결 프로세스 **에서**&#x200B;대상 활성화[&#x200B; 사용 사례를 사용하도록 설정한 경우 &#x200B;](../connect/establishing-connections.md#connection-settings)에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
 
 대상자 활성화를 사용하면 캠페인에서 사용할 대상자를 활성화할 수 있습니다. 연결에 구성된 대상 활성화 설정 [에 따라 공동 작업자가 활성화할 수 있습니다](/help/guide/connect/establishing-connections.md#configure-connection-settings). [캠페인에 가장 적합한 대상을 검색](./discover.md)한 후 대상을 활성화하여 사용할 수 있도록 만드십시오. 대상을 활성화하면 공동 작업자가 미리 구성한 대상(예: Adobe Experience Platform)으로 보내져 캠페인에서 사용할 수 있게 됩니다. 대상 설정에 대한 자세한 내용은 [대상 개요](../destinations/overview.md) 안내서를 참조하십시오.
 
