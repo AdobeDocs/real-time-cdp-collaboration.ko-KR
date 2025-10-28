@@ -2,9 +2,9 @@
 title: Real-Time CDP Collaboration 빠른 시작 안내서
 description: 역할 및 조직 설정, 대상 소싱, 활성화 및 측정을 포함하여 Real-Time CDP Collaboration에서 조직을 온보딩하는 방법을 알아봅니다. 이 안내서는 공동 작업자가 대상자를 안전하고 효율적으로 사용하도록 연결 설정을 구성할 수 있도록 도와줍니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 849bae30b4e617a6c49f68b2baedc0ab8a822854
+source-git-commit: 9355535e067afeedff33f5c6468bc6fcb1f58e08
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 이 비디오를 통해 Admin Console 및 Experience Platform을 사용하여 Collaboration에 대한 제품 액세스 및 권한을 할당하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452237/?learn=on&enablevpops&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 2단계: Collaboration 계정 설정 {#set-up-your-account}
 
@@ -107,8 +107,8 @@ Collaboration에서 계정의 역할을 정의하고, 브랜딩 자산을 제공
 >
 >**주요 요구 사항 일치:**
 >
->모든 일치 키는 **트리밍**, **소문자화**&#x200B;여야 합니다.
->&#x200B;>해시된 일치 키는 **SHA256-hashed**&#x200B;여야 합니다.\
+>모든 일치 키는 **트리밍**, **소문자화**여야 합니다.
+>>해시된 일치 키는 **SHA256-hashed**&#x200B;여야 합니다.\
 >대문자를 사용하는 해시된 값을 제공하면 Collaboration에서 자동으로 소문자로 변환합니다.\
 >소스에 **일반 텍스트 식별자**&#x200B;이(가) 포함된 경우 **[!UICONTROL 변환 적용]** 옵션을 사용하여 해싱을 적용하십시오. 이 옵션은 Experience Platform에서 대상을 소싱할 때만 사용할 수 있으며 클라우드 기반 소스에는 지원되지 않습니다.
 >
@@ -122,7 +122,15 @@ Collaboration을 사용하여 대상을 소싱하는 방법에 대한 전체 연
 
 ### 옵션 B: Snowflake 또는 Amazon S3의 Source
 
-클라우드 소스(예: [!DNL AWS S3] 또는 [!DNL Snowflake])를 구성하려면 다음 [대상 사양 PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf)을 사용하여 대상 데이터를 준비하십시오. 완료되면 또는 질문이 있는 경우 Adobe 계정 담당자에게 문의하여 설정을 완료합니다. 이 방법은 셀프서비스가 아니며 Adobe 지원이 필요합니다.
+클라우드 소스(예: [!DNL AWS S3] 또는 [!DNL Snowflake])를 구성하려면 다음 [대상 사양 PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1.pdf)을 사용하여 대상 데이터를 준비하십시오. 완료되면 또는 질문이 있는 경우 Adobe 계정 담당자에게 문의하여 설정을 완료합니다. 이 방법은 셀프서비스가 아니며 Adobe 지원이 필요합니다.
+
+<!-- Add in the below in final draft: 
+
+To configure a cloud source, such as [!DNL Snowflake] or [!DNL AWS S3], prepare your audience data using the [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1)
+
+[!DNL AWS S3] can now be configured as a self-service source. For setup instructions, see the [AWS S3 sourcing guide](./setup/configure-aws-s3-audience-sourcing.md)
+
+If you are using [!DNL Snowflake], or other cloud service provider, contact your Adobe account representative to finalize the setup. -->
 
 >[!IMPORTANT]
 >
@@ -157,7 +165,7 @@ Collaboration을 사용하여 대상을 소싱하는 방법에 대한 전체 연
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 측정]** 작업 영역은 연결 프로세스 **[!UICONTROL 에서]**&#x200B;측정[&#x200B; 사용 사례를 사용하도록 설정한 경우 &#x200B;](./connect/establishing-connections.md#connection-settings)에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./collaborate/manage-projects.md#project-use-cases) 안내서를 참조하세요.
+>**[!UICONTROL 측정]** 작업 영역은 연결 프로세스 **[!UICONTROL 에서]**&#x200B;측정[ 사용 사례를 사용하도록 설정한 경우 ](./connect/establishing-connections.md#connection-settings)에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./collaborate/manage-projects.md#project-use-cases) 안내서를 참조하세요.
 
 Collaboration은 캠페인 도달 범위, 빈도 및 효과를 분석하는 다양한 보고서를 제공합니다. UI에서 **[!UICONTROL 측정]** 작업 영역을 사용할 수 있지만 전체 보고 기능을 사용하려면 백 엔드를 활성화해야 할 수 있습니다.
 
