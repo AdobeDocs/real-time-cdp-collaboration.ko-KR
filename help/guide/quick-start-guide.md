@@ -107,8 +107,8 @@ Collaboration에서 계정의 역할을 정의하고, 브랜딩 자산을 제공
 >
 >**주요 요구 사항 일치:**
 >
->모든 일치 키는 **트리밍**, **소문자화**여야 합니다.
->>해시된 일치 키는 **SHA256-hashed**&#x200B;여야 합니다.\
+>모든 일치 키는 **트리밍**, **소문자화**&#x200B;여야 합니다.
+>&#x200B;>해시된 일치 키는 **SHA256-hashed**&#x200B;여야 합니다.\
 >대문자를 사용하는 해시된 값을 제공하면 Collaboration에서 자동으로 소문자로 변환합니다.\
 >소스에 **일반 텍스트 식별자**&#x200B;이(가) 포함된 경우 **[!UICONTROL 변환 적용]** 옵션을 사용하여 해싱을 적용하십시오. 이 옵션은 Experience Platform에서 대상을 소싱할 때만 사용할 수 있으며 클라우드 기반 소스에는 지원되지 않습니다.
 >
@@ -165,7 +165,7 @@ If you are using [!DNL Snowflake], or other cloud service provider, contact your
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 측정]** 작업 영역은 연결 프로세스 **[!UICONTROL 에서]**&#x200B;측정[ 사용 사례를 사용하도록 설정한 경우 ](./connect/establishing-connections.md#connection-settings)에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./collaborate/manage-projects.md#project-use-cases) 안내서를 참조하세요.
+>**[!UICONTROL 측정]** 작업 영역은 연결 프로세스 **[!UICONTROL 에서]**&#x200B;측정[&#x200B; 사용 사례를 사용하도록 설정한 경우 &#x200B;](./connect/establishing-connections.md#connection-settings)에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./collaborate/manage-projects.md#project-use-cases) 안내서를 참조하세요.
 
 Collaboration은 캠페인 도달 범위, 빈도 및 효과를 분석하는 다양한 보고서를 제공합니다. UI에서 **[!UICONTROL 측정]** 작업 영역을 사용할 수 있지만 전체 보고 기능을 사용하려면 백 엔드를 활성화해야 할 수 있습니다.
 
