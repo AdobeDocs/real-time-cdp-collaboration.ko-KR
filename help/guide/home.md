@@ -2,9 +2,9 @@
 title: 개요
 description: Adobe Real-Time Customer Data Platform(CDP) Collaboration을 사용하여 서드파티 쿠키에 의존하지 않고 고부가가치 대상을 검색, 활성화 및 측정하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
+source-git-commit: 3d003563e7eb6489e2a97b394f0ab185a63e35f2
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 1%
@@ -37,15 +37,15 @@ Adobe Real-Time CDP Collaboration을 사용하면 서드파티 쿠키에 의존�
 
 포함된 컨트롤은 거버넌스 및 개인 정보 보호 요구 사항을 충족하도록 보장하므로 워크플로우의 모든 단계에서 대상 데이터의 책임 있는 사용을 안내합니다.
 
-## 시작 {#get-started}
+## 시작하기 {#get-started}
 
 Collaboration 사용을 시작하려면 시스템 관리자는 자신, 제품 관리자 및 최종 사용자에게 액세스 권한을 부여해야 합니다. 필요한 사용자 및 액세스 수준에 따라 여러 필수 단계가 있습니다. 시작하려면 [액세스 제어 개요](/help/guide/permissions/overview.md){target="_blank"} 안내서를 참조하세요.
 
-액세스 권한이 있으면 계정을 설정하고 소싱 대상에 대한 데이터 연결을 만들 준비가 된 것입니다. 시작하려면 [전체 워크플로](/help/guide/overview/end-to-end-workflow.md)를 읽어 보세요.
+액세스 권한이 있으면 계정을 설정하고 데이터 연결을 만들어 대상자 소싱을 시작할 준비가 되었습니다. 시작하려면 [전체 워크플로](/help/guide/overview/end-to-end-workflow.md)를 읽어 보세요.
 
 ## 리소스
 
-제품에 사용되는 용어에 대한 자세한 내용은 [용어집](/help/guide/glossary.md)을 살펴보십시오. 지원이 필요하면 Adobe [고객 지원](https://experienceleague.adobe.com/home?lang=ko&support-tab=open-ticket#support){target="_blank"} 페이지에 액세스하십시오.
+제품에 사용되는 용어에 대한 자세한 내용은 [용어집](/help/guide/glossary.md)을 살펴보십시오. 지원이 필요하면 Adobe [고객 지원](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"} 페이지에 액세스하십시오.
 
 ## 연락처
 
