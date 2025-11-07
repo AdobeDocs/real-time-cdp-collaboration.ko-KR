@@ -186,7 +186,7 @@ S3 대상이 제공되면 사용 가능한 대상 목록이 표 또는 카드 �
 
 공동 작업 프로젝트에서 대상을 사용하기 전에 이 보기를 사용하여 대상 구성 및 가시성 설정을 확인하십시오.
 
-자세한 내용은 [대상자 보기 대시보드 설명서](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)를 참조하세요.
+자세한 내용은 [대상자 보기 대시보드 설명서](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)를 참조하세요.
 
 ## S3 데이터 연결 보기 {#view-s3-connection}
 
