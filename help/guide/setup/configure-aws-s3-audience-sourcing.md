@@ -1,9 +1,7 @@
 ---
 title: 대상 소싱에 대해  [!DNL Amazon S3] 구성
 description: 대상 데이터를 Real-Time CDP Collaboration에 수집하기 위해  [!DNL Amazon S3] 저장소를 셀프서비스 데이터 소스로 구성 및 연결하는 방법에 대해 알아봅니다.
-hide: true
-hidefromtoc: true
-source-git-commit: 4f223890dabb4897c9e9264655ff9217e323dc91
+source-git-commit: 05fd7ec466ba2b20264490bbbfadc9bb6d361bc8
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 0%
@@ -92,7 +90,7 @@ S3 데이터 연결을 구성하기 전에 다음을 확인하십시오.
 
 그런 다음 S3 버킷을 Collaboration에 연결하기 위해 [!DNL Amazon S3] 자격 증명을 제공합니다.
 
-**[대상 소싱에 대한 AWS 권한 구성](./configure-aws-permissions-audience-sourcing.md)**&#x200B;에 설명된 단계에 따라 사용자에게 Adobe 액세스 권한을 부여합니다.
+**[대상 소싱에 대한 AWS 권한 구성](./configure-aws-permissions-audience-sourcing.md)**에 설명된 단계에 따라 사용자에게 Adobe 액세스 권한을 부여합니다.
 저장소 [!DNL Amazon S3]개. 완료되면 다음 UI 필드에 값을 입력합니다.
 
 * IAM 역할
@@ -188,7 +186,7 @@ S3 대상이 제공되면 사용 가능한 대상 목록이 표 또는 카드 �
 
 공동 작업 프로젝트에서 대상을 사용하기 전에 이 보기를 사용하여 대상 구성 및 가시성 설정을 확인하십시오.
 
-자세한 내용은 [대상자 보기 대시보드 설명서](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)를 참조하세요.
+자세한 내용은 [대상자 보기 대시보드 설명서](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)를 참조하세요.
 
 ## S3 데이터 연결 보기 {#view-s3-connection}
 
