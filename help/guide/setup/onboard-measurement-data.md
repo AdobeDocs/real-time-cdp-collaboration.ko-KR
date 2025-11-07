@@ -2,14 +2,14 @@
 title: 측정 데이터 추가 및 관리
 description: Adobe Real-Time CDP Collaboration에 측정 데이터를 추가하는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: 65468fdc8787acc6a92f4c2368758437df47d526
+source-git-commit: 26a2f8975efcadd43431823e0f2dd90847aa83ba
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 9%
+source-wordcount: '108'
+ht-degree: 7%
 
 ---
 
@@ -29,6 +29,16 @@ ht-degree: 9%
 >id="rtcdp_collaboration_measurement_data_source_fields"
 >title="소스 필드"
 >abstract="측정 소스 필드의 자리 표시자"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_measurement_mapping_source_fields"
+>title="소스 필드 매핑"
+>abstract="소스 필드의 측정 매핑을 위한 자리 표시자"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_measurement_mapping_target_fields"
+>title="대상 필드 매핑"
+>abstract="대상 필드의 측정 매핑을 위한 자리 표시자"
 
 {{limited-availability-release-note}}
 
