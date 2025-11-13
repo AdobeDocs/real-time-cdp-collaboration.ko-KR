@@ -2,12 +2,12 @@
 title: 프로젝트 만들기 및 관리
 description: Adobe Real-Time CDP Collaboration에서 프로젝트를 만들고 관리하는 방법 알아보기
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: f12333adbe9d1fd18650d32c1b8b4e08c1410e5e
+source-git-commit: 99443e1270a8a52a44dc7d0258c5bee7e4017db6
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 8%
+source-wordcount: '396'
+ht-degree: 7%
 
 ---
 
@@ -28,6 +28,11 @@ ht-degree: 8%
 ![단일 공동 작업자가 있는 프로젝트의 필터링된 보기입니다.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## 프로젝트 만들기 {#create-project}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_create_project_advertisername_amc"
+>title="광고주 이름(Amazon Marketing Cloud)"
+>abstract="Amazon Marketing Cloud(AMC) 연결의 경우 이 필드는 Amazon Ads 로그인이 액세스할 수 있는 AMC 인스턴스를 나타냅니다. 광고주 이름을 반영하지 않습니다. 필요한 인스턴스가 나열되지 않으면 Amazon Marketing Cloud 관리자에게 문의하여 액세스 권한을 요청하십시오."
 
 프로젝트를 만들려면 먼저 공동 작업자와 [연결을 설정](/help/guide/connect/establishing-connections.md)해야 합니다. 연결이 설정되면 해당 공동 작업자와 함께 프로젝트를 만들 수 있습니다.
 
