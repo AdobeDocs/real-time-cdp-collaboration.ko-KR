@@ -1,10 +1,10 @@
 ---
 title: 대상 소싱을 위한 AWS 권한 구성
 description: AWS의 대상 소싱용  [!DNL Amazon S3] 버킷에 대한 읽기 전용 보안 액세스 권한을 Adobe에 부여하도록 Real-Time CDP Collaboration Identity and Access Management(IAM) 권한을 구성하는 방법에 대해 알아봅니다.
-source-git-commit: 4f223890dabb4897c9e9264655ff9217e323dc91
+source-git-commit: 73f11b7341cf94540dc01f8803291f6dc3cd5038
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 0%
+source-wordcount: '650'
+ht-degree: 1%
 
 ---
 
@@ -94,6 +94,7 @@ Amazon S3 관리 콘솔의 **[!DNL IAM]** 탭에서 **[!DNL Roles]** > **[!DNL C
 |---------|-------------------|
 | 북미 | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-va6-role` |
 | 오스트레일리아 | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-aus3-role` |
+| EMEA | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-deu1-role` |
 
 트러스트 정책의 예:
 
