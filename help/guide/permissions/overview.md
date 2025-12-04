@@ -2,9 +2,9 @@
 title: 액세스 제어 개요
 description: Adobe Real-Time Customer Data Platform(CDP) Collaboration에 대한 액세스 권한을 얻는 방법에 대해 알아봅니다.
 audience: admin
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 2%
@@ -28,14 +28,14 @@ Collaboration에 대한 액세스 제어를 구성하려면 **반드시**&#x200B
 이 안내서에서는 시스템 관리자, 제품 관리자 및 최종 사용자에 대한 액세스 구성에 대해 설명합니다. 역할 간의 주요 차이점을 이해하려면 아래 표를 참조하십시오.
 
 | 역할 | 설명 |
-| --- | --- | 
+| --- | --- |
 | 시스템 관리자 | 조직의 수퍼유저입니다. 관리자는 Admin Console에서 모든 관리 작업을 수행할 수 있으며 다른 사용자에게 관리 기능을 위임할 수 있는 권한이 있습니다. |
 | 제품 관리자 | 조직에 할당된 제품 및 모든 관련 관리 기능(예: 조직에 사용자 추가, 제품 프로필에서 사용자 추가 또는 제거, 제품에서 다른 제품 관리자 추가 또는 제거)을 관리합니다. |
 | 최종 사용자 | 제품을 사용하는 조직의 사용자입니다. |
 
 {style="table-layout:auto"}
 
-관리 역할에 대한 자세한 내용은 [Adobe 도움말 센터](https://helpx.adobe.com/kr/enterprise/using/admin-roles.html)를 참조하십시오.
+관리 역할에 대한 자세한 내용은 [Adobe 도움말 센터](https://helpx.adobe.com/enterprise/using/admin-roles.html)를 참조하십시오.
 
 >[!TIP]
 >
@@ -65,7 +65,7 @@ Collaboration에 대한 액세스 권한을 부여하려면 [사용 사례](#use
 > 수퍼 유저는 시스템 관리자가 얻을 수 있는 가장 높은 수준의 액세스 권한을 나타냅니다. 수퍼 사용자는 모든 관리 작업 및 사용자 기능을 수행할 수 있습니다. 시스템 관리자는 제품 기능을 즉시 사용할 수 없으며 아래 차트와 같이 자신에게 적절한 액세스 권한을 제공해야 합니다.
 
 | 사용 사례 | 필수 역할 | 시작 위치 |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 기존 Experience Platform 제품 액세스 권한이 없는 수퍼 유저. | 시스템 관리자. | [제품 관리자 액세스 구성](./manage-user-access.md#admin-access) |
 | 기존 Experience Platform 시스템 관리자 **with** Experience Platform UI 액세스 권한을 가진 수퍼 유저. | 시스템 관리자. | [Collaboration 액세스 구성](./manage-user-access.md#RTCDP-collab-access) |
 | Experience Platform UI 액세스 없이 **기존 Experience Platform 시스템 관리자의 수퍼 유저입니다.** | 시스템 관리자. | [제품 관리자 액세스 구성](./manage-user-access.md#admin-access) |
