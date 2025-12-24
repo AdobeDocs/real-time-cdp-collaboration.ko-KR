@@ -2,9 +2,9 @@
 title: 계정 구성 및 관리
 description: Real-Time CDP Collaboration에서 계정의 다양한 측면을 구성하고 관리하는 방법에 대해 알아봅니다
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
+source-git-commit: c9e2e8607dde87c4a36b131ed434195ef77730e6
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 14%
@@ -122,15 +122,15 @@ Collaboration은 자사 사용자 ID, 자사 디바이스 ID 및 파트너 ID의
 
 파트너 ID는 대상자 조정을 위해 외부 파트너가 제공하는 식별자입니다. 현재 지원되는 ID:
 
-* **[!UICONTROL Adfixus ID]**
+* **[!UICONTROL AdFixus ID]**
 
 >[!NOTE]
 >
->Adobe과 [!DNL Adfixus]의 통합은 각 계정에 대한 고유한 [!UICONTROL Adfixus ID]를 일반적인 Adobe 인코딩 형식으로 매핑합니다. 이러한 매핑은 공동 작업자 간의 중복을 식별하는 데 사용됩니다. **[!UICONTROL Adfixus ID]**&#x200B;을(를) 사용하여 대상을 활성화할 때 원래 ID가 사용됩니다. Adobe으로 인코딩된 형식은 Collaboration을 떠나지 않습니다.
+>Adobe과 [!DNL AdFixus]의 통합은 각 계정에 대한 고유한 [!UICONTROL AdFixus ID]를 일반적인 Adobe 인코딩 형식으로 매핑합니다. 이러한 매핑은 공동 작업자 간의 중복을 식별하는 데 사용됩니다. **[!UICONTROL AdFixus ID]**&#x200B;을(를) 사용하여 대상을 활성화할 때 원래 ID가 사용됩니다. Adobe으로 인코딩된 형식은 Collaboration을 떠나지 않습니다.
 
-**[!UICONTROL Adfixus ID]**&#x200B;을(를) 선택할 때 **[!UICONTROL 계정 자격 증명]** 섹션에서 외부 파트너에게 해당 ID를 제공해야 합니다. 이 옵션은 *Adfixus ID*&#x200B;에서 전환하여 **[!UICONTROL after]**&#x200B;에만 사용할 수 있습니다. **[!UICONTROL 계정 ID]** 필드에 Adfixus ID를 입력하여 값의 정확성을 다시 확인하십시오.
+**[!UICONTROL AdFixus ID]**&#x200B;을(를) 선택할 때 **[!UICONTROL 계정 자격 증명]** 섹션에서 외부 파트너에게 해당 ID를 제공해야 합니다. 이 옵션은 *AdFixus ID*&#x200B;에서 전환하여 **[!UICONTROL after]**&#x200B;에만 사용할 수 있습니다. **[!UICONTROL 계정 ID]** 필드에 AdFixus ID를 입력하여 값의 정확성을 다시 확인합니다.
 
-![Adfixus ID가 있는 키 일치 대화 상자가 켜지고 계정 자격 증명 섹션이 강조 표시됩니다.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
+![AdFixus ID가 있는 키 일치 대화 상자가 켜지고 계정 자격 증명 섹션이 강조 표시됩니다.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
 
 원하는 일치 키를 모두 선택한 후 **[!UICONTROL 완료]**&#x200B;를 선택하여 계정 설정 워크플로를 완료합니다.
 
@@ -164,11 +164,11 @@ Collaboration은 자사 사용자 ID, 자사 디바이스 ID 및 파트너 ID의
 
 ![계정의 일치 키 섹션 내에서 [편집] 옵션이 강조 표시된 설치 작업 영역입니다.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-**[!UICONTROL 키 일치]** 대화 상자가 나타납니다. 일치 키를 켜거나 끄거나 **[!UICONTROL Adfixus ID]**&#x200B;에 대한 [!UICONTROL 계정 ID]을(를) 업데이트한 다음 **[!UICONTROL 저장]**&#x200B;을(를) 선택하여 변경 내용을 확인합니다.
+**[!UICONTROL 키 일치]** 대화 상자가 나타납니다. 일치 키를 켜거나 끄거나 **[!UICONTROL AdFixus ID]**&#x200B;에 대한 [!UICONTROL 계정 ID]을(를) 업데이트한 다음 **[!UICONTROL 저장]**&#x200B;을(를) 선택하여 변경 내용을 확인합니다.
 
 >[!IMPORTANT]
 >
->[!UICONTROL Adfixus ID]을(를) 변경해도 일치 키를 사용하여 기존 데이터 연결에 대해 [데이터 스케치](../glossary.md#sketches) 새로 고침이 트리거되지 않습니다. 데이터가 스케치되면 [!UICONTROL 데이터 연결 일정] 설정에 따라 다음 대상자를 새로 고칠 때까지 [Adfixus ID](./manage-data-connection.md#scheduling)에 대한 변경 내용이 반영되지 않습니다. 다음 새로 고침 전에 변경해야 하는 경우 데이터 연결을 삭제하고 다시 만들 수 있습니다.
+>[!UICONTROL AdFixus ID]을(를) 변경해도 일치 키를 사용하여 기존 데이터 연결에 대해 [데이터 스케치](../glossary.md#sketches) 새로 고침이 트리거되지 않습니다. 데이터가 스케치되면 [!UICONTROL 데이터 연결 일정] 설정에 따라 다음 대상자가 새로 고쳐질 때까지 [AdFixus ID](./manage-data-connection.md#scheduling)에 대한 변경 내용이 반영되지 않습니다. 다음 새로 고침 전에 변경해야 하는 경우 데이터 연결을 삭제하고 다시 만들 수 있습니다.
 
 ![저장 옵션이 강조 표시된 키 일치 대화 상자입니다.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
