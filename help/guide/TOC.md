@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration은 광고주와 게시자 간의 원활하고 안전한 데이터 공유 및 공동 작업을 지원하여 실시간 대상 통찰력과 개인화된 마케팅 전략을 촉진합니다.
-source-git-commit: 05fd7ec466ba2b20264490bbbfadc9bb6d361bc8
+source-git-commit: 23025b0f4cd853f671ac8cc5ef3696cac03d20a4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 30%
+source-wordcount: '162'
+ht-degree: 28%
 
 ---
 
@@ -22,9 +22,11 @@ ht-degree: 30%
 * 설정 {#setup}
    * [설정 섹션 개요](./setup/setup-overview.md)
    * [계정 온보드 및 관리](./setup/onboard-account.md)
-   * [Source 및 대상자 관리](./setup/onboard-audiences.md)
-   * [대상 소싱을 위한 Amazon S3 구성](./setup/configure-aws-s3-audience-sourcing.md)
-   * [대상 소싱을 위한 AWS 권한 구성](./setup/configure-aws-permissions-audience-sourcing.md)
+   * Source 및 대상자 관리 {#source-audiences}
+      * [대상 소싱을 위한 AEP 구성](./setup/onboard-audiences.md)
+      * [대상 소싱을 위한 AWS 권한 구성](./setup/configure-aws-permissions-audience-sourcing.md)
+      * [대상 소싱을 위한 Amazon S3 구성](./setup/configure-aws-s3-audience-sourcing.md)
+      * [대상자 소싱에 대한 CSV 파일 업로드](./setup/upload-csv-audience-sourcing.md)
    * [데이터 연결 관리](./setup/manage-data-connection.md)
    * [대상 구성 및 관리](./setup/manage-destinations.md)
    * [신용 소비 활동 추적](/help/guide/setup/my-activity.md)
