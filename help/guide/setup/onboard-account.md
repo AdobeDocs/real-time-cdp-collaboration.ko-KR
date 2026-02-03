@@ -2,12 +2,12 @@
 title: 계정 구성 및 관리
 description: Real-Time CDP Collaboration에서 계정의 다양한 측면을 구성하고 관리하는 방법에 대해 알아봅니다
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: c9e2e8607dde87c4a36b131ed434195ef77730e6
+source-git-commit: 873af5b0ef5e4e0c937c540de4697ec314624669
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 14%
+source-wordcount: '1373'
+ht-degree: 11%
 
 ---
 
@@ -56,7 +56,7 @@ Collaboration에 처음 액세스하면 계정을 설정하라는 메시지가 �
 
 ![세부 정보 섹션이 표시되고 다음 옵션이 강조 표시된 계정 작업 영역 설정.](/help/assets/setup/manage-account/add-account-details.png){zoomable="yes"}
 
-### 일치 키 설정 {#set-up-match-keys}
+### 매칭 키 설정 {#set-up-match-keys}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
@@ -76,7 +76,7 @@ Collaboration에 처음 액세스하면 계정을 설정하라는 메시지가 �
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="자사 디바이스 ID"
->abstract="ECID나 IP 주소와 같은 자사 디바이스 ID는 여러 개인이 공유할 수 있는 디바이스에 직접 연결됩니다. IPv4는 현재 지원되는 유일한 자사 디바이스 ID입니다."
+>abstract="ECID 또는 IP 주소와 같은 자사 디바이스 ID는 여러 개인 간에 공유할 수 있는 디바이스에 직접 연결됩니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -117,6 +117,8 @@ Collaboration은 자사 사용자 ID, 자사 디바이스 ID 및 파트너 ID의
 자사 디바이스 ID는 특정 디바이스에 연결된 식별자입니다. 현재 지원되는 ID:
 
 * **[!UICONTROL 해시된 IPv4]**: 해시된 IPv4 주소
+* **[!UICONTROL IDFA]**: Apple iOS 장치에서 사용되는 IDFA(광고주용 식별자)입니다.
+* **[!UICONTROL GAID]**: Android 장치에서 사용되는 Google 광고주 ID
 
 ##### 파트너 ID
 
