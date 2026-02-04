@@ -2,7 +2,7 @@
 title: 데이터 연결 관리
 description: Real-Time CDP Collaboration의 일치 키, 예약, 사용 사례 및 대상 필터링을 포함하여 데이터 연결을 관리하는 방법을 알아봅니다
 audience: administrator, data engineer
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
@@ -32,16 +32,16 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 >title="일치 키"
 >abstract="일치 키는 다양한 소스의 데이터를 어떻게 일치시킬지 결정합니다. 아래에 표시된 일치 키는 소스 필드를 매핑한 대상 필드입니다."
 
-일치 키는 [소스 필드를 &#x200B;](./onboard-audiences.md#map-fields)에 매핑한 대상 필드입니다. 데이터 연결을 위해 처음에 선택한 일치 키는 편집할 수 없습니다. 일치 키를 업데이트하려면 새 데이터 연결을 만들어야 합니다. 일치 키가 작동하는 방법에 대한 자세한 내용은 [일치 키](./onboard-account.md#set-up-match-keys) 안내서를 참조하세요.
+일치 키는 [소스 필드를 ](./onboard-audiences.md#map-fields)에 매핑한 대상 필드입니다. 데이터 연결을 위해 처음에 선택한 일치 키는 편집할 수 없습니다. 일치 키를 업데이트하려면 새 데이터 연결을 만들어야 합니다. 일치 키가 작동하는 방법에 대한 자세한 내용은 [일치 키](./onboard-account.md#set-up-match-keys) 안내서를 참조하세요.
 
 ![일치 키 섹션이 강조 표시된 데이터 연결 작업 영역입니다.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
-### 예약 {#scheduling}
+### 일정 조정 {#scheduling}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
->title="예약"
->abstract="데이터 연결에 대한 일정 세부 정보를 보고, 필요한 경우 새로 고침 빈도를 편집합니다."
+>title="일정 조정"
+>abstract="데이터 연결에 대한 일정 조정 세부 정보를 확인하고 필요한 경우 새로 고침 빈도를 편집하십시오."
 
 데이터 연결에 대한 예약 설정을 보고 관리합니다. 예약은 대상을 새로 고치는 빈도를 결정합니다.
 
@@ -67,7 +67,7 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 
 ## 데이터 연결 삭제
 
-데이터 연결을 삭제하면 Collaboration에서 모든 기본 대상, 관련 설정 및 사용이 제거됩니다. 이 작업은 취소할 수 없습니다.
+데이터 연결을 삭제하면 Collaboration에서 모든 기본 대상, 관련 설정 및 사용이 제거됩니다. 이 작업은 실행 취소할 수 없습니다.
 
 기존 데이터 연결을 삭제하려면 개별 데이터 연결의 작업 영역에서 삭제 아이콘(![삭제 아이콘](/help/assets/common/delete.svg))을 선택하십시오.
 
