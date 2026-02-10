@@ -2,11 +2,11 @@
 title: 최신 Real-Time CDP Collaboration 릴리스 노트
 description: Real-Time CDP Collaboration의 최신 릴리스를 따르십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: aea8caa9e419388ed8eb8fda77ae307631a1d2ae
+source-git-commit: 8bda52a67f5a2bb733ecb6e28ae027e7092beba4
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1393'
 ht-degree: 2%
 
 ---
@@ -21,13 +21,14 @@ ht-degree: 2%
 
 ## 2026년 1월 {#january-2026}
 
-이제 Real-Time CDP Collaboration은 Collaboration에 대상을 소싱하기 위한 새로운 방법으로 CSV 파일 업로드를 지원합니다.
+이제 Real-Time CDP Collaboration은 향상된 대상 일치 및 측정을 위한 새 모바일 일치 키(IDFA 및 GAID)는 물론, 대상 소싱을 위한 새 방법으로 CSV 파일 업로드를 지원합니다.
 
-**새로운 기능**
+**새로운 기능 또는 업데이트된 기능**
 
 | 기능 | 설명 |
 | ------- | ----------- |
 | 대상자 소싱에 대한 CSV 업로드 | CSV 파일을 소스 대상자에 업로드하여 UI에서 바로 Collaboration으로 사용할 수 있습니다. 단기 공동 작업 프로젝트를 위한 자사 데이터에 온보딩하는 데 이상적입니다. 자세한 내용은 [대상 소싱 안내서의 CSV 파일 업로드](../setup/upload-csv-audience-sourcing.md)를 참조하십시오. |
+| 모바일 일치 키 지원 | Collaboration은 이제 대상 일치 및 측정을 위해 IDFA 및 GAID를 포함한 모바일 일치 키를 지원합니다. 이러한 일치 키는 계정 설정 중에 선택한 다음 새 연결에 대한 연결 설정을 구성할 때와 다운스트림 공동 작업 워크플로에서 사용할 수 있습니다. 자세한 내용은 [키 일치 설정 가이드](../setup/onboard-account.md#set-up-match-keys)를 참조하세요. |
 
 {style="table-layout:auto"}
 
@@ -69,7 +70,7 @@ Real-Time CDP Collaboration은 이제 브랜드 간 공동 작업을 지원합�
 
 * 이제 **호주** 및 **뉴질랜드**&#x200B;의 고객이 Real-Time CDP Collaboration을 사용할 수 있습니다. 이러한 지역의 Real-Time CDP Prime 및 Ultimate 고객이 자동으로 사용할 수 있습니다.
 * 이제 Real-Time CDP Collaboration에서 [설정](../setup/manage-destinations.md) 섹션의 **[!UICONTROL 내 대상]** 탭을 통해 **[!UICONTROL 셀프 서비스 대상]**&#x200B;을 제공합니다. 대상을 사용하면 광고 네트워크 또는 데이터 관리 플랫폼과 같은 서드파티 플랫폼에서 대상을 활성화하여 다양한 채널에서 고객에게 도달할 수 있습니다. 현재 Adobe Experience Platform 대상만 지원됩니다. 다른 대상을 구성하는 데 관심이 있는 경우 Adobe 담당자에게 문의하십시오. 대상에 대한 자세한 내용은 [대상 개요](../destinations/overview.md) 안내서를 참조하십시오.
-   * 대상에는 [Collaboration 대상 포털](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences)에서 Adobe Experience Platform 대상을 볼 수 있는 지원도 추가됩니다.
+   * 대상에는 [Collaboration 대상 포털](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences)에서 Adobe Experience Platform 대상을 볼 수 있는 지원도 추가됩니다.
 * 이제 Collaboration에서 기존 데이터 연결의 대상 새로 고침 빈도를 편집할 수 있습니다. 현재 대상자를 매일 또는 2~6일마다 새로 고치도록 선택할 수 있습니다. 대상 새로 고침 빈도를 편집하는 방법에 대한 자세한 내용은 [데이터 연결 관리](../setup/manage-data-connection.md#scheduling) 안내서를 참조하십시오.
 * 이제 연결 내에서 선택한 각 사용 사례에 대해 공동 작업자 간의 크레딧 분할이 설정됩니다. 각 사용 사례에 대해 서로 다른 크레딧 소비 규칙을 설정하여 크레딧이 사용되는 방식을 보다 효과적으로 제어할 수 있습니다. 크레딧 분할 기능에 대해 자세히 알아보려면 [연결 설정](../connect/establishing-connections.md#connection-settings) 안내서를 읽어 보십시오. 크레딧 사용 방법에 대한 자세한 내용은 [크레딧 활동 유형](../setup/my-activity.md#types-of-activities) 안내서를 참조하십시오. <br> ![크레딧 분할 기능을 표시하는 연결 설정 화면입니다.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
 * 이제 게시자는 광고주로부터 연결 설정을 수락하기 전에 광고주 이름과 ID를 설정할 수 있습니다. 게시자는 광고주의 이름 및 ID와 다를 수 있는 내부 시스템에 맞는 이름 및 ID를 설정할 수 있습니다. 광고주 이름 및 ID 추가에 대한 자세한 내용은 [연결 설정](../connect/establishing-connections.md#connection-settings.md) 안내서를 참조하십시오. <br> ![게시자 설정 광고주 이름 및 ID를 표시하는 연결 설정 화면입니다.](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
@@ -81,7 +82,7 @@ Real-Time CDP Collaboration은 이제 브랜드 간 공동 작업을 지원합�
 
 ## 2025년 3월 {#march-2025}
 
-* 이제 [대상을 Collaboration에 소싱](/help/guide/setup/onboard-audiences.md)할 때 **대상 관리 크레딧 활동**&#x200B;을 더 잘 관리하기 위해 [1일에서 6일마다](/help/guide/setup/my-activity.md#types-of-activities)의 대상 새로 고침 빈도를 설정할 수 있습니다. 자세한 내용은 [대상자 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences) 안내서를 참조하십시오. <br> ![대상자 멤버십을 업데이트하기 위한 다른 빈도 간격을 보여 주는 예약 화면입니다.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "대상자 멤버십을 업데이트하기 위한 다른 빈도 간격을 보여 주는 예약 화면"){width="250" align="center" zoomable="yes"}
+* 이제 [대상을 Collaboration에 소싱](/help/guide/setup/onboard-audiences.md)할 때 **대상 관리 크레딧 활동**&#x200B;을 더 잘 관리하기 위해 [1일에서 6일마다](/help/guide/setup/my-activity.md#types-of-activities)의 대상 새로 고침 빈도를 설정할 수 있습니다. 자세한 내용은 [대상자 관리](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences) 안내서를 참조하십시오. <br> ![대상자 멤버십을 업데이트하기 위한 다른 빈도 간격을 보여 주는 예약 화면입니다.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "대상자 멤버십을 업데이트하기 위한 다른 빈도 간격을 보여 주는 예약 화면"){width="250" align="center" zoomable="yes"}
 * 이제 공동 작업자와 연결을 설정할 때 사전 정의된 **사용 사례**&#x200B;에서 선택할 수 있습니다. 선택한 사용 사례에 따라 사용 가능한 프로젝트 섹션과 제품 기능이 결정됩니다. 자세한 내용은 [프로젝트 관리](/help/guide/collaborate/manage-projects.md#project-use-cases) 안내서를 참조하십시오.
    * *Measurement*&#x200B;에서 **Measure** 프로젝트 섹션을 사용하도록 설정합니다.
    * *대상 검색*&#x200B;에서 **검색** 프로젝트 섹션을 사용하도록 설정합니다.
