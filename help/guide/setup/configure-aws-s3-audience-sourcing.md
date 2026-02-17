@@ -1,7 +1,8 @@
 ---
 title: 대상 소싱에 대해  [!DNL Amazon S3] 구성
 description: 대상 데이터를 Real-Time CDP Collaboration에 수집하기 위해  [!DNL Amazon S3] 저장소를 셀프서비스 데이터 소스로 구성 및 연결하는 방법에 대해 알아봅니다.
-source-git-commit: 7a2bfb524d77d42690f3abe848a59aae5b16b667
+exl-id: 566ceb1b-a72a-413d-b07d-409723892616
+source-git-commit: 43134d6f334ee500834a6451bdf1a8f7372f8d10
 workflow-type: tm+mt
 source-wordcount: '1583'
 ht-degree: 1%
@@ -27,7 +28,7 @@ S3를 통해 가져온 대상자는 Adobe Experience Platform에서 가져온 �
 
 S3 데이터 연결을 구성하기 전에 다음을 확인하십시오.
 
-* **[!DNL Amazon S3]대상 소싱 사양(v1.1)**&#x200B;을 준수하는 대상 파일을 포함하는 활성 **[버킷](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)**&#x200B;에 액세스할 수 있습니다.
+* **[!DNL Amazon S3]대상 소싱 사양(v1.1)**&#x200B;을 준수하는 대상 파일을 포함하는 활성 **[버킷](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;에 액세스할 수 있습니다.
 * AWS에서 **가정된 역할** 메서드(액세스/비밀 키 아님)를 사용하여 버킷에 액세스할 수 있는 Adobe 권한을 부여하는 **IAM 역할**&#x200B;을(를) 만들었습니다. 자세한 지침은 **[대상 소싱에 대한 AWS 권한 구성](./configure-aws-permissions-audience-sourcing.md)**&#x200B;을 참조하십시오. IAM 역할에는 다음 권한이 포함되어야 합니다.
 
    * `ListBucket`
@@ -70,7 +71,7 @@ S3 데이터 연결을 구성하기 전에 다음을 확인하십시오.
 >abstract="Amazon S3 for Collaboration에서 대상 데이터를 포맷하고 구성하는 방법에 대해 알아보려면 대상 소싱 사양 안내서 를 참조하십시오."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="안내서 참조"
 
-대상자 파일을 구조화하는 방법을 설명하는 대화 상자가 나타납니다. **[[!UICONTROL 대상 소싱 사양]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)**&#x200B;에 연결된 링크를 사용하여 Collaboration에서 대상 데이터를 올바르게 읽을 수 있도록 [!DNL Amazon S3]의 대상 데이터를 포맷하고 구성하는 방법을 알아보십시오.
+대상자 파일을 구조화하는 방법을 설명하는 대화 상자가 나타납니다. **[[!UICONTROL 대상 소싱 사양]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;에 연결된 링크를 사용하여 Collaboration에서 대상 데이터를 올바르게 읽을 수 있도록 [!DNL Amazon S3]의 대상 데이터를 포맷하고 구성하는 방법을 알아보십시오.
 
 >[!IMPORTANT]
 >
@@ -101,7 +102,7 @@ S3 데이터 연결을 구성하기 전에 다음을 확인하십시오.
 
 그런 다음 S3 버킷을 Collaboration에 연결하기 위해 [!DNL Amazon S3] 자격 증명을 제공합니다.
 
-**[대상 소싱에 대한 AWS 권한 구성](./configure-aws-permissions-audience-sourcing.md)**&#x200B;에 설명된 단계에 따라 사용자에게 Adobe 액세스 권한을 부여합니다.
+**[대상 소싱에 대한 AWS 권한 구성](./configure-aws-permissions-audience-sourcing.md)**에 설명된 단계에 따라 사용자에게 Adobe 액세스 권한을 부여합니다.
 저장소 [!DNL Amazon S3]개. 완료되면 다음 UI 필드에 값을 입력합니다.
 
 * IAM 역할
@@ -197,7 +198,7 @@ S3 대상이 제공되면 사용 가능한 대상 목록이 표 또는 카드 �
 
 공동 작업 프로젝트에서 대상을 사용하기 전에 이 보기를 사용하여 대상 구성 및 가시성 설정을 확인하십시오.
 
-자세한 내용은 [대상자 보기 대시보드 설명서](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)를 참조하세요.
+자세한 내용은 [대상자 보기 대시보드 설명서](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)를 참조하세요.
 
 ## S3 데이터 연결 보기 {#view-s3-connection}
 
