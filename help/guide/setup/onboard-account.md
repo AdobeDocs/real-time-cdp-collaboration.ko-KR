@@ -2,11 +2,11 @@
 title: 계정 구성 및 관리
 description: Real-Time CDP Collaboration에서 계정의 다양한 측면을 구성하고 관리하는 방법에 대해 알아봅니다
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 873af5b0ef5e4e0c937c540de4697ec314624669
+source-git-commit: be7078b16d8126a80cced0a3a8328b465b6ec245
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1359'
 ht-degree: 11%
 
 ---
@@ -156,23 +156,25 @@ Collaboration은 자사 사용자 ID, 자사 디바이스 ID 및 파트너 ID의
 
 ### 일치 키 편집 {#edit-match-keys}
 
->[!IMPORTANT]
->
->일치 키를 편집해도 기존 연결에는 영향을 주지 않습니다. 연결이 설정되면 연결 설정 중에 선택한 일치 키가 수정됩니다. 계정 설정 중에 향후 캠페인에서 사용할 **모두** 일치 키를 선택하는 것이 중요합니다.
-
 계정을 만들 때 처음에 선택한 일치 키도 업데이트할 수 있습니다. 이러한 일치 키는 향후 연결에 사용할 수 있는 일치 키를 결정합니다.
 
 **[!UICONTROL 키 일치]** 섹션에서 **[!UICONTROL 편집]**&#x200B;을(를) 선택합니다.
 
 ![계정의 일치 키 섹션 내에서 [편집] 옵션이 강조 표시된 설치 작업 영역입니다.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-**[!UICONTROL 키 일치]** 대화 상자가 나타납니다. 일치 키를 켜거나 끄거나 **[!UICONTROL AdFixus ID]**&#x200B;에 대한 [!UICONTROL 계정 ID]을(를) 업데이트한 다음 **[!UICONTROL 저장]**&#x200B;을(를) 선택하여 변경 내용을 확인합니다.
+**[!UICONTROL 키 일치]** 대화 상자가 나타납니다. 일치 키를 켜거나 **[!UICONTROL AdFixus ID]**&#x200B;에 대한 [!UICONTROL 계정 ID]을(를) 업데이트한 다음 **[!UICONTROL 저장]**&#x200B;을(를) 선택하여 변경 내용을 확인합니다.
 
 >[!IMPORTANT]
 >
 >[!UICONTROL AdFixus ID]을(를) 변경해도 일치 키를 사용하여 기존 데이터 연결에 대해 [데이터 스케치](../glossary.md#sketches) 새로 고침이 트리거되지 않습니다. 데이터가 스케치되면 [!UICONTROL 데이터 연결 일정] 설정에 따라 다음 대상자가 새로 고쳐질 때까지 [AdFixus ID](./manage-data-connection.md#scheduling)에 대한 변경 내용이 반영되지 않습니다. 다음 새로 고침 전에 변경해야 하는 경우 데이터 연결을 삭제하고 다시 만들 수 있습니다.
+>
+>지금은 일치 키를 계정에 추가한 후에는 제거할 수 없습니다.
 
 ![저장 옵션이 강조 표시된 키 일치 대화 상자입니다.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
+
+성공 대화 상자에서 계정의 일치 키가 성공적으로 업데이트되었는지 확인합니다.
+
+![계정의 일치 키를 확인하는 성공 대화 상자가 업데이트되었습니다.](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
 
 ## 다음 단계
 
