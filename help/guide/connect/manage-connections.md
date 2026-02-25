@@ -2,7 +2,7 @@
 title: 연결 관리
 description: Real-Time CDP Collaboration에서 연결을 관리하는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
 source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
 workflow-type: tm+mt
