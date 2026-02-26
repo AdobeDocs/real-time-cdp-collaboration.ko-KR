@@ -2,8 +2,9 @@
 title: Amazon Marketing Cloud
 description: Real-Time CDP Collaboration에서 Amazon Marketing Cloud과의 공동 작업에 대해 알아봅니다.
 audience: publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 57b847c25edbf88f4708bda74be41fe6141472a7
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
+source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 4%
@@ -20,7 +21,7 @@ ht-degree: 4%
 >
 >[!DNL AMC]에서 지원되는 사용 사례는 **대상 검색** 및 **측정**&#x200B;뿐입니다. 현재 프로젝트 내에서 **[!UICONTROL 을(를) 통해]**&#x200B;검색[!DNL AMC] 섹션만 사용할 수 있습니다.
 
-## 탐색 {#discover}
+## 검색 {#discover}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_compare_audiences"
@@ -56,7 +57,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->대상 데이터는 [!DNL Amazon Ads] 계정에 업로드된 대상에서 처리됩니다. [보내기]에서 Experience Platform의 대상 기능을 사용하여 대상자를 [!DNL Amazon Ads] 계정으로 보내는 방법에 대해 알아보려면 [Amazon 광고 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/advertising/amazon-ads) 안내서를 참조하십시오.
+>대상 데이터는 [!DNL Amazon Ads] 계정에 업로드된 대상에서 처리됩니다. [보내기]에서 Experience Platform의 대상 기능을 사용하여 대상자를 [!DNL Amazon Ads] 계정으로 보내는 방법에 대해 알아보려면 [Amazon 광고 연결](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads) 안내서를 참조하십시오.
 
 ![Amazon Marketing Cloud을 사용하는 프로젝트의 검색 섹션.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
@@ -67,8 +68,8 @@ ht-degree: 4%
 | 지표 | 설명 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
 | [!UICONTROL 확인된 ID] | 대상 데이터를 사용하여 ID [!DNL Amazon’s Identity Resolution]의 수를 확인할 수 있습니다. |
-| [!UICONTROL 겹치는 광고 노출 ID] | 업로드된 대상자 중 [!UICONTROL 을(를) 통해 광고에 노출된 &#x200B;]확인된 ID[!DNL Amazon Ads]의 수입니다. |
-| [!UICONTROL 겹치기 %] | [!UICONTROL 을(를) 통해 광고에 노출된 &#x200B;]확인된 ID[!DNL Amazon Ads]의 비율입니다. |
+| [!UICONTROL 겹치는 광고 노출 ID] | 업로드된 대상자 중 [!UICONTROL 을(를) 통해 광고에 노출된 ]확인된 ID[!DNL Amazon Ads]의 수입니다. |
+| [!UICONTROL 겹치기 %] | [!UICONTROL 을(를) 통해 광고에 노출된 ]확인된 ID[!DNL Amazon Ads]의 비율입니다. |
 | [!UICONTROL Amazon 광고 제품별 분류] | [!UICONTROL 스폰서 제품] 및/또는 [!UICONTROL DSP]에 의해 [!UICONTROL 겹치는 광고 노출 ID]의 분류가 도달했습니다. 각각은 총 광고 노출 ID 수에서 개별 백분율로 표시됩니다. ID는 [!UICONTROL 스폰서 제품]과(와) [!UICONTROL DSP] 모두에 속할 수 있으므로 백분율이 100%로 합산되지 않을 수 있습니다. |
 
 
@@ -79,8 +80,8 @@ ht-degree: 4%
 | 지표 | 설명 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
 | [!UICONTROL 확인된 ID] | 대상 데이터를 사용하여 ID [!DNL Amazon’s Identity Resolution]의 수를 확인할 수 있습니다. |
-| [!UICONTROL 겹치는 광고 노출 ID] | 업로드한 대상자에서 [!UICONTROL 을(를) 통해 광고에 노출된 &#x200B;]확인된 ID[!DNL Amazon Ads]의 수를 나타냅니다. DSP 노출 횟수만 고려합니다. |
-| [!UICONTROL 겹치기 %] | [!UICONTROL 을(를) 통해 광고에 노출된 &#x200B;]확인된 ID[!DNL Amazon Ads]의 비율입니다. |
+| [!UICONTROL 겹치는 광고 노출 ID] | 업로드한 대상자에서 [!UICONTROL 을(를) 통해 광고에 노출된 ]확인된 ID[!DNL Amazon Ads]의 수를 나타냅니다. DSP 노출 횟수만 고려합니다. |
+| [!UICONTROL 겹치기 %] | [!UICONTROL 을(를) 통해 광고에 노출된 ]확인된 ID[!DNL Amazon Ads]의 비율입니다. |
 | [!UICONTROL 범주] | 대상자가 속한 범주 또는 범주입니다. 대상은 여러 범주에 속할 수 있습니다. |
 
 ### [!DNL Amazon Marketing Cloud]과(와) 겹침 검색 {#discover-overlaps}
@@ -90,5 +91,5 @@ ht-degree: 4%
 | 지표 | 설명 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
 | [!UICONTROL 확인된 ID] | 대상 데이터를 사용하여 ID [!DNL Amazon’s Identity Resolution]의 수를 확인할 수 있습니다. |
-| [!UICONTROL 겹치는 광고 노출 ID] | 업로드한 대상자에서 [!UICONTROL 을(를) 통해 광고에 노출된 &#x200B;]확인된 ID[!DNL Amazon Ads]의 수를 나타냅니다. DSP 노출 횟수만 고려합니다. |
-| [!UICONTROL 겹치기 %] | [!UICONTROL 을(를) 통해 광고에 노출된 &#x200B;]확인된 ID[!DNL Amazon Ads]의 비율입니다. |
+| [!UICONTROL 겹치는 광고 노출 ID] | 업로드한 대상자에서 [!UICONTROL 을(를) 통해 광고에 노출된 ]확인된 ID[!DNL Amazon Ads]의 수를 나타냅니다. DSP 노출 횟수만 고려합니다. |
+| [!UICONTROL 겹치기 %] | [!UICONTROL 을(를) 통해 광고에 노출된 ]확인된 ID[!DNL Amazon Ads]의 비율입니다. |
