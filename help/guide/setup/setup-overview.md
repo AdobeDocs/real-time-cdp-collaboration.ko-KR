@@ -1,13 +1,13 @@
 ---
 title: 설정 개요
-description: Adobe Real-Time CDP Collaboration의 설정 섹션에서 사용 가능한 모든 옵션 및 워크플로 이해
+description: Adobe Real-Time CDP Collaboration의 설정 섹션에서 사용 가능한 모든 옵션과 워크플로 이해
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
 source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 4%
+ht-degree: 21%
 
 ---
 
@@ -25,5 +25,5 @@ Adobe Real-Time CDP Collaboration의 설정 섹션에서는 계정의 설정 및
 * [Source 및 대상자 관리](/help/guide/setup/onboard-audiences.md)
 * [데이터 연결 관리](/help/guide/setup/manage-data-connection.md)
 * [대상 구성 및 관리](/help/guide/setup/manage-destinations.md)
-* [신용 소비 활동 추적](/help/guide/setup/my-activity.md)
+* [크레딧 사용 활동 추적](/help/guide/setup/my-activity.md)
 * [감사 로그 보기](/help/guide/setup/audit-logs.md)
