@@ -2,12 +2,12 @@
 title: 데이터 연결 관리
 description: Real-Time CDP Collaboration의 일치 키, 예약, 사용 사례 및 대상 필터링을 포함하여 데이터 연결을 관리하는 방법을 알아봅니다
 audience: administrator, data engineer
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
+source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 5%
+source-wordcount: '1149'
+ht-degree: 6%
 
 ---
 
@@ -32,7 +32,7 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 >title="일치 키"
 >abstract="일치 키는 다양한 소스의 데이터를 어떻게 일치시킬지 결정합니다. 아래에 표시된 일치 키는 소스 필드를 매핑한 대상 필드입니다."
 
-일치 키는 [소스 필드를 &#x200B;](./onboard-audiences.md#map-fields)에 매핑한 대상 필드입니다. 일치 키가 작동하는 방법에 대한 자세한 내용은 [일치 키](./onboard-account.md#set-up-match-keys) 안내서를 참조하세요.
+일치 키는 [소스 필드를 ](./onboard-audiences.md#map-fields)에 매핑한 대상 필드입니다. 일치 키가 작동하는 방법에 대한 자세한 내용은 [일치 키](./onboard-account.md#set-up-match-keys) 안내서를 참조하세요.
 
 ![일치 키 섹션이 강조 표시된 데이터 연결 작업 영역입니다.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -60,6 +60,12 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 기존 데이터 연결의 일치 키 및 예약 설정을 업데이트하는 방법에 대해 알아보려면 다음 섹션을 참조하십시오.
 
 ### 일치 키 편집 {#edit-match-keys}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
+>title="보강"
+>abstract="보강 끄기는 지원되지 않습니다. 대신 보강 조인 키를 변경할 수 있습니다."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="보강"
 
 >[!IMPORTANT]
 >
