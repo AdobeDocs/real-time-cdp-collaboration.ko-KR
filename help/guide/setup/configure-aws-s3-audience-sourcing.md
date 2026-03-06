@@ -5,7 +5,7 @@ exl-id: 566ceb1b-a72a-413d-b07d-409723892616
 source-git-commit: 43134d6f334ee500834a6451bdf1a8f7372f8d10
 workflow-type: tm+mt
 source-wordcount: '1583'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -63,12 +63,12 @@ S3 데이터 연결을 구성하기 전에 다음을 확인하십시오.
 
 ![선택 가능한 옵션으로 사용할 수 있는 [!DNL Amazon S3]의 데이터 연결 선택 화면입니다.](../../assets/setup/aws-audience-sourcing/select-s3-data-connection.png)
 
-### 대상 파일 요구 사항 검토 {#review-audience-requirements}
+### 대상자 파일 요구 사항 검토 {#review-audience-requirements}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_specifications"
 >title="온보딩을 위한 데이터 준비"
->abstract="Amazon S3 for Collaboration에서 대상 데이터를 포맷하고 구성하는 방법에 대해 알아보려면 대상 소싱 사양 안내서 를 참조하십시오."
+>abstract="Amazon S3 for Collaboration에서 대상자 데이터를 형식화하고 구조화하는 방법을 알아보려면 대상자 소싱 사양 안내서를 참조하십시오."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="안내서 참조"
 
 대상자 파일을 구조화하는 방법을 설명하는 대화 상자가 나타납니다. **[[!UICONTROL 대상 소싱 사양]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;에 연결된 링크를 사용하여 Collaboration에서 대상 데이터를 올바르게 읽을 수 있도록 [!DNL Amazon S3]의 대상 데이터를 포맷하고 구성하는 방법을 알아보십시오.
@@ -92,17 +92,17 @@ S3 데이터 연결을 구성하기 전에 다음을 확인하십시오.
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_sources_s3_folderpath"
->title="폴더 경로 형식"
->abstract="대상 파일이 저장된 [!DNL Amazon S3] 버킷 내의 폴더 경로(접두사)를 입력하십시오.<br><ul><li>슬래시(/)로 경로를 시작하지 마십시오.</li><li>경로 끝에 슬래시를 포함합니다.</li><ul><br>올바른 예: `base/path/`<br>잘못된 예: `/base/path`"
+>title="폴더 경로 포맷"
+>abstract="대상자 파일이 저장된 [!DNL Amazon S3] 버킷 내의 폴더 경로(접두사)를 입력합니다.<br><ul><li>슬래시(/)로 경로를 시작하지 마십시오.</li><li>경로 끝에 뒤쪽 슬래시를 포함하지 마십시오.</li><ul><br>올바른 예: `base/path/`<br>잘못된 예: `/base/path`"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_amazon_s3"
->title="Amazon S3에 대한 대상 추가"
->abstract="Amazon S3 스토리지를 연결하려면 Adobe의 서비스 사용자가 처리할 대상 데이터를 검색할 수 있도록 권한을 부여하십시오. Experience League에 설명된 단계에 따라 Adobe에 Amazon S3 스토리지에 대한 액세스 권한을 부여합니다."
+>title="Amazon S3에 대한 대상자 추가"
+>abstract="Amazon S3 스토리지를 연결하려면 Adobe의 서비스 사용자가 대상자 데이터를 검색하여 처리할 수 있도록 권한을 부여합니다. Experience League에 설명된 단계를 따라 Adobe에 Amazon S3 스토리지에 대한 액세스 권한을 부여합니다."
 
 그런 다음 S3 버킷을 Collaboration에 연결하기 위해 [!DNL Amazon S3] 자격 증명을 제공합니다.
 
-**[대상 소싱에 대한 AWS 권한 구성](./configure-aws-permissions-audience-sourcing.md)**&#x200B;에 설명된 단계에 따라 사용자에게 Adobe 액세스 권한을 부여합니다.
+**[대상 소싱에 대한 AWS 권한 구성](./configure-aws-permissions-audience-sourcing.md)**에 설명된 단계에 따라 사용자에게 Adobe 액세스 권한을 부여합니다.
 저장소 [!DNL Amazon S3]개. 완료되면 다음 UI 필드에 값을 입력합니다.
 
 * IAM 역할
