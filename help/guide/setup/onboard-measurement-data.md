@@ -2,7 +2,7 @@
 title: 측정 데이터 추가 및 관리
 description: Adobe Real-Time CDP Collaboration에 측정 데이터를 추가하는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
