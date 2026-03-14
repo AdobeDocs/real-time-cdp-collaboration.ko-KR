@@ -1,29 +1,29 @@
 ---
 title: Amazon Marketing Cloud 측정 보고서 만들기
-description: 실시간 CDP 공동 작업에서 Amazon Marketing Cloud 캠페인에 대한 측정 보고서를 생성하고 해석하는 방법을 알아봅니다.
+description: Real-Time CDP Collaboration에서 Amazon Marketing Cloud 캠페인에 대한 측정 보고서를 만들고 해석하는 방법을 알아봅니다.
 audience: advertiser
-keywords: AMC, Amazon Marketing Cloud, 측정 보고서, 캠페인 요약, 기여도, 실시간 CDP 협업
+keywords: AMC, Amazon Marketing Cloud, 측정 보고서, 캠페인 요약, 속성, Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
-source-git-commit: 9f1dc87ae312961244ee8f48553d367a977cc20d
+exl-id: d1b0ca65-344d-4df0-9e07-222c79f1cdb7
+source-git-commit: a1fee426f5181888fc900a354a54ed0665f111a5
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 1%
 
 ---
 
-
 # [!DNL Amazon Marketing Cloud] 측정 보고서 만들기 {#amc-measurement-reports}
 
-이 문서 섹션은 현재 개발 중입니다.
+설명서의 이 섹션은 현재 개발 중입니다.
 
-자세한 안내 및 구현 정보는 나중에 다시 확인하십시오.
+자세한 지침 및 구현 정보는 나중에 다시 확인하십시오.
 
-## 변환 이벤트(기여도만 해당) {#conversion-events}
+## 전환 이벤트(속성만 해당) {#conversion-events}
 
 >[!CONTEXTUALHELP]
 > id="rtcdp_collaboration_amc_attribution_lookback_period"
-> title="기여도 회수 기간"
-> abstract="AMC는 고정 30일 속성 창을 강제 적용합니다. 마지막 인상 후 최대 30일까지 발생하는 변환은 보고서 날짜 범위 내의 인상으로 간주할 수 있습니다. 이 값은 편집할 수 없습니다. 모든 적합한 변환이 캡처되도록 범위 종료 후 최소 30일 후에 보고서 실행 날짜를 예약하십시오."
+> title="기여도 분석 전환 기간"
+> abstract="AMC에서는 고정된 30일 속성 기간을 적용합니다. 마지막 노출 후 최대 30일까지 발생하는 전환은 보고서 날짜 범위 내의 노출로 인한 것일 수 있습니다. 이 값은 편집할 수 없습니다. 모든 적격 전환이 캡처되도록 범위 종료 후 최소 30일 후에 보고서 실행 날짜를 예약하십시오."
