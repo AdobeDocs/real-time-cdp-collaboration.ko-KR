@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration은 광고주와 게시자 간의 원활하고 안전한 데이터 공유 및 공동 작업을 지원하여 실시간 대상 통찰력과 개인화된 마케팅 전략을 촉진합니다.
-source-git-commit: 692435be1921043148c5fa70fbdf615d2af088bd
+source-git-commit: 6d2691e8024a8f4c1a91e5fa4e6d00d322dde13a
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 32%
+source-wordcount: '195'
+ht-degree: 30%
 
 ---
 
@@ -34,6 +34,10 @@ ht-degree: 32%
    * [ID 크로스워크](./setup/identity-crosswalk.md)
    * [측정 데이터 추가 및 관리](./setup/onboard-measurement-data.md)
    * [감사 로그](./setup/audit-logs.md)
+   * Real-Time CDP Collaboration 스타터 설정 {#starter-setup}
+      * [관리자 액세스 구성](./setup/starter-admin-access.md)
+      * [권한 제어 구성](./setup/starter-permission-controls.md)
+      * [신용 사용 및 소비](./setup/starter-credit-usage.md)
 * 연결 설정 중 {#connect}
    * [Overview.md](./connect/overview.md)
    * [공동 작업자 탐색](./connect/discover-collaborators.md)
