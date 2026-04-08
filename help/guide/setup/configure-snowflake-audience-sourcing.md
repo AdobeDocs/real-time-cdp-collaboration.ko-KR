@@ -2,10 +2,11 @@
 title: 대상 소싱에 대해  [!DNL Snowflake] 구성
 description: 대상 데이터를 Real-Time CDP Collaboration에 수집하기 위해  [!DNL Snowflake Secure Data Share] 을(를) 셀프서비스 데이터 소스로 구성 및 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 517a28afc83b0e1b4a9e64fa53eb90e0ad5541e9
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
+source-git-commit: 19a516b472b1ddde68990f98b57667dd302f1fbc
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1229'
 ht-degree: 21%
 
 ---
@@ -54,6 +55,12 @@ ht-degree: 21%
 ![선택 가능한 옵션으로 사용할 수 있는 [!DNL Snowflake]의 데이터 연결 선택 화면입니다.](../../assets/setup/snowflake-audience-sourcing/select-snowflake-data-connection.png)
 
 ### 대상 파일 검토 {#review-audience-file}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications_snowflake"
+>title="온보딩을 위한 데이터 준비"
+>abstract="Snowflake for Collaboration에서 대상 데이터를 포맷하고 구성하는 방법에 대해 알아보려면 대상 소싱 사양 안내서 를 참조하십시오."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="안내서 참조"
 
 소싱을 시작하기 전에 [!DNL Snowflake Share] 및 [!DNL Snowflake] 대상 파일의 요구 사항을 설명하는 대화 상자가 나타납니다. [!DNL Snowflake Share]이(가) 올바른 공유 이름, 계정 식별자, 스키마 및 보기로 만들어졌는지 확인하십시오. 대상 데이터의 형식이 Collaboration에서 사용할 수 있도록 올바르게 구성되어 있는지 확인하려면 **[[!UICONTROL 대상 소싱 사양]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** 안내서를 검토하십시오.
 
