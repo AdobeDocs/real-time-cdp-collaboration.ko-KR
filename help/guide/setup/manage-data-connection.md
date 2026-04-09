@@ -65,7 +65,7 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 >id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
 >title="보강"
 >abstract="보강 끄기는 지원되지 않습니다. 대신 보강 조인 키를 변경할 수 있습니다."
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections_kr" text="보강"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="보강"
 
 >[!IMPORTANT]
 >
