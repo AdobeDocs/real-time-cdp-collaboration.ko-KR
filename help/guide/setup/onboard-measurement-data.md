@@ -2,12 +2,12 @@
 title: 측정 데이터 추가 및 관리
 description: Adobe Real-Time CDP Collaboration에 측정 데이터를 추가하는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: 42bbd17878701cfaf2cba170a9471cf5c7285796
+source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 5%
+source-wordcount: '2720'
+ht-degree: 4%
 
 ---
 
@@ -156,7 +156,6 @@ Collaboration 캠페인 측정 보고서에 사용할 측정 데이터를 포함
 * **동의 규칙**: Collaboration으로 가져온 데이터에 적용할 동의 규칙을 선택하십시오.
 * **대상**: 대상 필터를 사용하여 동의를 위한 대상 프로필을 포함하거나 제외합니다.
 
-
 >[!NOTE]
 >
 >**[!UICONTROL 데이터 Collaboration]**&#x200B;은(는) C4, C5 및 C9 데이터 사용 레이블을 지원하며 **[!UICONTROL 데이터 과학]**&#x200B;은(는) C9만 지원합니다. Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세히 알아보십시오.
@@ -238,6 +237,100 @@ Collaboration 캠페인 측정 보고서에 사용할 측정 데이터를 포함
 * **[!UICONTROL 조건]**: 이 전환 이벤트에 적용된 조건 규칙을 표시합니다.
 
 ![전환 이벤트에 대한 세부 정보가 표시되는 개요 화면입니다.](../../assets/setup/add-manage-measurement-data/conversion-event-overview.png){zoomable="yes"}
+
+## 측정 데이터 편집 {#edit-measurement-data}
+
+측정 데이터를 소싱한 후 언제든지 전환 이벤트의 세부 사항 및 조건 규칙을 편집할 수 있습니다.
+
+**[!UICONTROL 내 측정 데이터]** 탭에서 관련 전환 이벤트 카드 내의 줄임표 옵션(![추가 아이콘](/help/assets/icons/more.png))을 선택합니다. 그런 다음 드롭다운 메뉴에서 **[!UICONTROL 전환 보기]**&#x200B;를 선택하여 해당 전환 이벤트에 대한 세부 페이지를 엽니다.
+
+![줄임표 메뉴가 열려 있고 전환 보기 옵션이 강조 표시된 내 측정 데이터 탭입니다.](/help/assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"}
+
+### 이름 및 설명 편집 {#edit-name-and-description}
+
+이벤트의 이름과 설명을 업데이트하려면 페이지의 오른쪽 상단에 있는 편집 아이콘(![편집 아이콘](/help/assets/icons/edit.png))을 선택하십시오.
+
+![오른쪽 상단의 편집 아이콘이 강조 표시된 사이트 방문 이벤트 페이지입니다.](/help/assets/setup/add-manage-measurement-data/edit-name-description.png){zoomable="yes"}
+
+**[!UICONTROL 이름 및 설명 편집]** 대화 상자에서 원하는 값으로 필드를 업데이트한 다음 **[!UICONTROL 저장]**&#x200B;을 선택하여 변경 사항을 적용합니다.
+
+![저장 옵션이 강조 표시된 이름 및 설명 편집 대화 상자.](/help/assets/setup/add-manage-measurement-data/edit-name-description-dialog.png){zoomable="yes"}
+
+세부 정보가 성공적으로 업데이트되었는지 확인하는 대화 상자가 나타납니다.
+
+### 전환 세부 정보 편집 {#edit-conversion-details}
+
+이벤트의 다음 전환 세부 사항을 업데이트할 수 있습니다.
+
+| 필드 | 설명 |
+|-------------------|-------------|
+| 전환 유형 | 사이트 방문, 구매 또는 등록과 같은 전환 이벤트의 카테고리입니다. |
+| 중복 키 | 동일한 전환 이벤트에 속하는 이벤트 데이터 세트의 행에 대한 식별자(예: 동일한 타임스탬프). 중복 수를 방지합니다. |
+| 전환 값 | 각 전환과 연계된 값. |
+
+{style="table-layout:auto"}
+
+편집을 시작하려면 **[!UICONTROL 전환 세부 정보]** 패널에서 **[!UICONTROL 편집]**&#x200B;을(를) 선택하십시오.
+
+![전환 세부 정보 패널의 편집 옵션을 강조 표시하는 사이트 방문 이벤트 페이지입니다.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details.png){zoomable="yes"}
+
+**[!UICONTROL 전환 세부 정보 편집]** 대화 상자에서 드롭다운 메뉴를 사용하여 전환 유형을 업데이트합니다. 변환에 대한 값을 입력하거나 값을 할당하지 않으려면 비워 둘 수 있습니다. 복제 키를 편집하려면 기존 키 옵션을 선택합니다.
+
+![예제 개인 ID 옵션이 강조 표시된 변환 세부 정보 편집 대화 상자.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-dialog.png){zoomable="yes"}
+
+**[!UICONTROL 복제 키]** 대화 상자에 **[!UICONTROL ID 네임스페이스]** 및 **[!UICONTROL 이벤트 스키마]**&#x200B;와 같은 옵션 아래에 그룹화된 사용 가능한 필드 목록이 표시됩니다. 원하는 키를 찾은 후 **[!UICONTROL 선택]**&#x200B;합니다.
+
+![선택한 키와 선택 옵션을 표시하는 복제 키 대화 상자입니다.](../../assets/setup/add-manage-measurement-data/edit-duplication-key-dialog.png){zoomable="yes"}
+
+완료되면 업데이트를 검토하고 **[!UICONTROL 저장]**&#x200B;을 선택하여 변경 내용을 적용합니다.
+
+![저장 옵션이 강조 표시된 변환 세부 정보 편집 대화 상자.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-save.png){zoomable="yes"}
+
+세부 정보가 성공적으로 업데이트되었는지 확인하는 대화 상자가 나타납니다.
+
+### 상태 편집 {#edit-conditions}
+
+조건 규칙은 이벤트 데이터 세트의 어떤 데이터 행이 전환으로 포함되는지 지정합니다. 필요에 따라 이러한 규칙을 업데이트하여 측정이 분석에 가장 관련성이 높은 데이터만 반영하는지 확인합니다.
+
+조건을 편집하려면 **[!UICONTROL 조건]** 패널에서 **[!UICONTROL 편집]**&#x200B;을(를) 선택하십시오.
+
+![조건 패널의 편집 옵션을 강조 표시하는 사이트 방문 이벤트 페이지입니다.](/help/assets/setup/add-manage-measurement-data/edit-conditions.png){zoomable="yes"}
+
+**[!UICONTROL 전환 규칙 편집]** 대화 상자에서 모든 조건의 현재 세부 정보를 볼 수 있습니다. 기존 조건 옵션을 선택하여 소스 필드, 논리 규칙 및 값을 포함한 세부 정보를 업데이트합니다.
+
+![기존 조건의 소스 필드, 논리 규칙 및 값을 편집할 수 있는 옵션이 강조 표시된 변환 규칙 편집 대화 상자입니다.](/help/assets/setup/add-manage-measurement-data/edit-exisiting-condition.png){zoomable="yes"}
+
+추가 전환 규칙을 포함하려면 **[!UICONTROL 조건 추가]**&#x200B;를 선택하십시오. 그런 다음 새 빈 조건 옵션을 선택합니다.
+
+![조건 추가 옵션을 선택한 후 새 빈 조건 옵션을 표시하는 변환 규칙 편집 대화 상자입니다.](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-add-condition.png){zoomable="yes"}
+
+**[!UICONTROL 소스 필드 선택]** 대화 상자에서 **[!UICONTROL ID 네임스페이스]** 및 **[!UICONTROL 이벤트 스키마]**&#x200B;와 같은 옵션 아래에 그룹화된 사용 가능한 필드를 볼 수 있습니다. 조건에 사용할 필드를 선택한 다음 **[!UICONTROL 선택]**&#x200B;을 선택합니다. **[!UICONTROL 검색]** 옵션을 사용하여 원하는 필드를 빠르게 찾을 수 있습니다.
+
+![선택한 필드와 선택 옵션을 표시하는 소스 필드 선택 대화 상자입니다.](../../assets/setup/add-manage-measurement-data/edit-condition-source-key.png){zoomable="yes"}
+
+그런 다음 드롭다운 메뉴를 사용하여 사용 가능한 목록에서 논리 연산자를 선택하고 조건에 대한 값을 입력합니다.
+
+![논리 드롭다운 메뉴를 강조 표시하는 변환 규칙 편집 대화 상자입니다.](../../assets/setup/add-manage-measurement-data/edit-condition-logic-dropdown.png){zoomable="yes"}
+
+각 변환에 대해 지정된 모든 조건이 필요한 경우 **[!UICONTROL 모든 조건 포함]**&#x200B;을 사용하거나 **[!UICONTROL 조건 포함]**&#x200B;을 사용하여 하나 이상의 조건과 일치하는 변환을 허용합니다. 업데이트를 마치면 **[!UICONTROL 저장]**&#x200B;을 검토하고 선택하여 변경 내용을 적용합니다.
+
+![저장 옵션이 강조 표시된 변환 규칙 편집 대화 상자.](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-save.png){zoomable="yes"}
+
+세부 정보가 성공적으로 업데이트되었는지 확인하는 대화 상자가 나타납니다.
+
+## 측정 데이터 삭제 {#delete-measurement-data}
+
+측정 데이터를 삭제하면 연결된 전환 이벤트와 모든 연결된 측정 세부 정보가 프로젝트에서 영구적으로 제거됩니다. 이 이벤트를 사용하는 모든 측정 보고서는 해당 전환 지표를 잃게 되며 더 이상 업데이트할 수 없습니다. 이 작업은 실행 취소할 수 없습니다.
+
+기존 전환 이벤트를 삭제하려면 **[!UICONTROL 설정]** 작업 영역에서 **[!UICONTROL 내 측정 데이터]** 탭으로 이동합니다. 격자 보기에서 관련 이벤트 카드 내에서 **[!UICONTROL 삭제]**&#x200B;를 선택합니다. 테이블 보기에서 이벤트 이름 옆에 있는 삭제 아이콘(![삭제 아이콘](/help/assets/common/delete.svg))을 선택합니다.
+
+![전환 이벤트 행에서 삭제 옵션을 강조 표시하는 내 측정 데이터 탭](/help/assets/setup/add-manage-measurement-data/delete-measurement-data.png){zoomable="yes"}
+
+**[!UICONTROL 측정 삭제]** 대화 상자가 나타나고 이벤트 삭제를 확인하는 메시지가 표시됩니다. **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
+
+![삭제 옵션이 강조 표시된 측정 삭제 대화 상자입니다.](/help/assets/setup/add-manage-measurement-data/delete-measurement-dialog.png){zoomable="yes"}
+
+전환 이벤트가 성공적으로 삭제되었는지 확인하는 대화 상자가 나타납니다.
 
 ## 다음 단계 {#next-steps}
 
