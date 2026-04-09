@@ -2,7 +2,7 @@
 title: Real-Time CDP Collaboration 빠른 시작 및 설정 안내서
 description: Real-Time CDP Collaboration 설정, 역할 및 계정 구성, 대상자 소스 생성, 데이터 활성화 및 파트너와 안전하게 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 source-git-commit: a937773267f42f254b45c14a0fd2f5f1d3b32b8b
 workflow-type: tm+mt
