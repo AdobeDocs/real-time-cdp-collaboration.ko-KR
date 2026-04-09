@@ -2,12 +2,12 @@
 title: 성능 측정
 description: 다양한 채널에서 캠페인의 성과를 측정합니다. 다양한 보고서를 사용하고 해석하는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: 0cf888e36ffc4730fc8de4d8adccae0e0fc2caa8
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 19%
+source-wordcount: '1949'
+ht-degree: 7%
 
 ---
 
@@ -17,26 +17,20 @@ ht-degree: 19%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Measure]** 작업 영역은 연결 프로세스 **동안** Measurement[&#x200B; 사용 사례를 사용하도록 설정한 경우에만 사용할 수 있습니다. &#x200B;](../connect/establishing-connections.md#connection-settings) 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
+>**[!UICONTROL Measure]** 작업 영역은 연결 프로세스 ](../connect/establishing-connections.md#connection-settings) 동안 **Measurement** 사용 사례를 사용하도록 설정한 경우에만 사용할 수 있습니다. [사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
 
 Adobe Real-Time CDP Collaboration의 사용 가능한 보고서에 대해 알아보고 다양한 채널에서 마케팅 캠페인의 성과를 측정하고 분석하는 방법을 이해합니다.
 
-## 전제 조건
+## 전제 조건 {#prerequisites}
 
 Collaboration에서 측정 보고서에 액세스하려면 먼저 다음을 수행해야 합니다.
 
-* [Measurement](/help/guide/connect/establishing-connections.md) 사용 사례를 사용하는 공동 작업자가 있는 **연결됨** 및 [프로젝트](/help/guide/collaborate/manage-projects.md)에 대한 공동 작업을 시작했습니다.
-* 캠페인을 실행하고 [업로드된 측정 데이터](/help/guide/setup/onboard-measurement-data.md)를 Collaboration으로 보내십시오.
-
-<!--
-
-## Create a report {#create-report}
-
-Hidden until functionality is live. At that point, move the contextualhelp from below into this section. 
-
-The syntax rtcdp_collaboration_measurement_create_report is currently implemented in the UI. However, a preference would be to imlement the other contextualhelp ID from below instead, since that explicitly includes campaignID in the syntax. Need to sync up with UI team. More details in CORE-116991.
-
--->
+* **Measurement** 사용 사례가 활성화된 공동 작업자와 [연결](/help/guide/connect/establishing-connections.md)
+* 공동 작업자와 하나 이상의 프로젝트에 대해 공동 작업을 수행합니다. [프로젝트를 만드는](/help/guide/collaborate/manage-projects.md#create-project) 방법을 알아봅니다.
+* 캠페인을 실행하고 [캠페인에 대해 캠페인 ID가 제공되었는지 확인](../collaborate/manage-projects.md#manage-campaign-id):
+   * 게시자인 경우 광고주의 캠페인에 연결된 캠페인 ID를 입력합니다.
+   * 광고주인 경우 공동 작업자(게시자)에게 캠페인 ID를 제공하도록 요청하십시오. [측정값 작업 영역에서 보고서를 생성](#create-measurement-report)하는 데 필요합니다.
+* [속성 보고서를 만들려면[측정 데이터를 Collaboration에 업로드](/help/guide/setup/onboard-measurement-data.md)하십시오](#create-attribution-report).
 
 ## 보고서 보기 {#view-reports}
 
@@ -104,3 +98,144 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 어떤 매체가 창의적인 인상을 가져오는지 이해합니다. 이를 통해 향후 캠페인에 광고 지출을 어디에 투자할지 결정하는 데 도움이 될 수 있습니다.
 
 배치별 ![노출 횟수.](/help/assets/collaborate/measure/impressions-by-placement.png)
+
+### 누적 전환 {#cumulative-conversions}
+
+이 보기는 측정하도록 선택한 전환 이벤트에 대한 세부 분류를 테이블 형식으로 제공합니다. 이 표에는 다음이 포함됩니다.
+
+* **전환 이벤트**: 추적 중인 각 전환 이벤트의 이름.
+* **전환 수**: 각 이벤트에 대해 발생한 총 전환 수입니다.
+* **예상 매출**: 각 전환 이벤트에 속하는 예상 값입니다.
+
+이 테이블을 검토하여 원하는 작업을 수행할 때 캠페인의 효과를 평가하십시오.
+
+![누적 전환입니다.](/help/assets/collaborate/measure/cumulative-conversions.png)
+
+### 일별 전환 {#conversions-by-day}
+
+이 차트는 속성 보고서를 만들 때 설정되는 각 이벤트에 대한 변환을 일별로 분류합니다. 이 보기를 사용하여 일별 패턴을 파악하고, 높은 전환 또는 낮은 전환 활동 기간을 식별하고, 캠페인 타임라인에서 다양한 전환 이벤트가 수행되는 방식을 비교할 수 있습니다.
+
+일별 ![전환](/help/assets/collaborate/measure/conversions-by-day.gif)
+
+## 측정 보고서 생성 {#create-measurement-report}
+
+Collaboration에서 두 가지 주요 측정 보고서 유형을 만들 수 있습니다.
+
+* **캠페인 요약**: 도달, 노출 횟수, 평균 빈도, 채널별 게재와 같은 높은 수준의 지표를 제공하여 전반적인 캠페인 성능에 대한 간략한 개요를 제공합니다.
+* **속성**: 캠페인 노출이 전환 또는 구매와 같은 다운스트림 작업을 유도하여 캠페인 효과를 파악하는 데 도움이 되는 방법을 측정합니다.
+
+캠페인 요약 보고서를 직접 실행할 수 있지만 속성 보고서에서는 두 보고서 유형을 모두 함께 선택해야 합니다.
+
+### 캠페인 요약 보고서 만들기 {#create-campaign-summary-report}
+
+게시자와 광고주 모두 **캠페인 요약** 보고서를 생성하여 캠페인 성과를 평가할 수 있습니다. 이 보고서를 사용하여 [도달](#cumulative-reach-curve), [빈도](#frequency-distribution), [노출 횟수](#impressions-by-placement)와 같은 주요 지표에 대한 통찰력을 얻고 캠페인이 전달된 방식과 전반적인 영향을 파악합니다.
+
+**캠페인 요약** 보고서를 생성하려면 **[!UICONTROL Collaborator]** 작업 영역에서 프로젝트 작업 영역으로 이동합니다. **[!UICONTROL 측정]** 탭에서 추가 아이콘(![추가 아이콘.](/help/assets/icons/plus.png))을 선택합니다. **[!UICONTROL 측정값]**&#x200B;을(를) 선택합니다.
+
+첫 번째 보고서인 경우 **[!UICONTROL 보고서 실행]** 옵션도 선택할 수 있습니다.
+
+![보고서 실행 옵션과 측정값 옵션을 강조 표시하는 측정값 탭입니다.](/help/assets/collaborate/measure/run-measure-report.png)
+
+**[!UICONTROL 측정 보고서 만들기]** 화면에 **[!UICONTROL 청구 세부 정보]**, **[!UICONTROL 캠페인 세부 정보]** 및 **[!UICONTROL 보고서 세부 정보]** 섹션에 그룹화된 정보 및 입력 필드가 표시됩니다.
+
+#### 과금 세부 정보 {#billing-details}
+
+이 섹션에서는 측정 보고서를 생성할 때 크레딧을 사용하는 방법을 설명합니다. [연결 설정](../connect/establishing-connections.md#credit-split) 중에 신용 책임이 설정됩니다. 보고서를 실행하기 전에 공동 작업자와 신용 분할 설정 및 보고 역할을 검토하고 확인해야 합니다.
+
+#### 캠페인 세부 정보 {#campaign-details}
+
+**[!UICONTROL 캠페인 세부 정보]** 섹션에서 보고서에 연결할 적절한 **광고주 ID**&#x200B;을(를) 선택하십시오. 이러한 광고주 이름 또는 ID는 [연결 설정](../connect/establishing-connections.md#advertiser-names) 중에 추가되었습니다. 이름이 하나만 구성된 경우 기본적으로 표시됩니다. 이름이 설정되지 않은 경우 **[!UICONTROL 광고주 ID(이름)]** 필드가 비활성화되고 광고주 계정 이름으로 미리 채워집니다.
+
+![광고주 ID(이름) 옵션을 표시하는 측정 보고서 만들기 화면이 비활성화되었습니다.](/help/assets/collaborate/measure/advertiser-id.png)
+
+그런 다음 **[!UICONTROL 캠페인 ID]** 드롭다운 메뉴에서 원하는 캠페인을 선택합니다. 이 메뉴에는 게시자가 프로젝트에 대해 입력한 모든 캠페인 ID가 나열됩니다. 필요한 캠페인을 사용할 수 없는 경우 보고서를 생성하기 전에 [UI에 추가](./manage-projects.md#manage-campaign-id)하십시오.
+
+![캠페인 ID 드롭다운 메뉴를 표시하는 측정 보고서 만들기 화면이 확장되었습니다.](/help/assets/collaborate/measure/campaign-id.png)
+
+그런 다음 보고서에서 다룰 기간을 지정합니다. **[!UICONTROL 보고서 날짜 범위]**&#x200B;를 선택한 다음 달력을 사용하여 시작 날짜와 종료 날짜를 선택하십시오.
+
+![보고서 날짜 범위 달력을 보여 주는 측정 보고서 만들기 화면입니다.](/help/assets/collaborate/measure/report-date-range.png)
+
+#### 보고서 세부 정보 {#report-details}
+
+**보고서 실행 날짜**
+
+**[!UICONTROL 보고서 세부 정보]** 섹션에서 보고서를 실행할 날짜를 선택합니다. **[!UICONTROL 보고서 실행 날짜]**&#x200B;를 선택하고 달력에서 원하는 날짜를 선택하십시오.
+
+* 오늘 날짜 또는 과거 날짜를 선택하면 **캠페인 요약** 보고서가 즉시 실행됩니다.
+* 미래 날짜를 선택하면 **캠페인 요약** 보고서가 해당 날짜에 실행되도록 예약됩니다.
+
+![보고서 실행 날짜 일정을 표시하는 측정 보고서 만들기 화면입니다.](/help/assets/collaborate/measure/report-run-date.png)
+
+**보고서 유형**
+
+* 광고주라면 사용 가능한 옵션에서 **[!UICONTROL 캠페인 요약]** 보고서 유형을 선택할 수 있습니다. 광고주만 속성 보고서를 생성할 수 있습니다.
+* 게시자인 경우 **[!UICONTROL 캠페인 요약]** 보고서 유형이 미리 선택되었으므로 변경할 수 없습니다. 현재 게시자는 속성 보고서를 실행할 수 없습니다.
+
+![캠페인 요약 옵션을 미리 선택된 변경할 수 없는 보고서 유형으로 표시하는 측정 보고서 만들기 화면입니다.](/help/assets/collaborate/measure/cs-report-type.png)
+
+마지막으로 설정을 검토하고 **[!UICONTROL 만들기]**&#x200B;를 선택하세요. 캠페인 요약 보고서는 실행 날짜가 오늘 또는 이전이거나 선택한 미래 날짜인 경우 즉시 생성됩니다. 실행 날짜 이전에 예약된 보고서를 편집할 수 있습니다. 단계별 지침은 [측정 보고서 편집] 섹션을 참조하십시오.
+
+사용 가능한 상태가 되면 프로젝트 작업 영역의 **[!UICONTROL 측정]** 탭에서 언제든지 보고서를 볼 수 있습니다.
+
+![정보 및 [만들기] 옵션이 강조 표시된 측정 보고서 만들기 화면입니다.](/help/assets/collaborate/measure/cs-review.png)
+
+### 속성 보고서 만들기 {#create-attribution-report}
+
+광고주로서 **속성** 보고서를 생성하여 캠페인 노출이 가입 또는 구매와 같은 주요 결과에 어떻게 기여하는지 평가할 수 있습니다. 이러한 보고서를 사용하여 캠페인과의 사용자 상호 작용을 이해하고, 가장 큰 영향을 미치는 접점을 식별하고, 보다 효과적인 마케팅 전략을 알려줍니다.
+
+>[!IMPORTANT]
+>
+> 속성 보고서를 생성하기 전에 측정 데이터를 [Collaboration에 소스](../setup/onboard-measurement-data.md#add-measurement-data)해야 합니다.
+>![측정 데이터에 대한 요구 사항과 사용하지 않는 측정 옵션이 있는 측정 탭입니다.](/help/assets/collaborate/measure/require-measurement-data.png)
+
+**속성** 보고서를 생성하려면 **[!UICONTROL Collaborator]** 작업 영역에서 프로젝트 작업 영역으로 이동합니다. **[!UICONTROL 측정]** 탭에서 추가 아이콘(![추가 아이콘.](/help/assets/icons/plus.png))을 선택합니다. **[!UICONTROL 측정값]**&#x200B;을(를) 선택합니다.
+
+첫 번째 보고서인 경우 **[!UICONTROL 보고서 실행]** 옵션도 선택할 수 있습니다.
+
+![보고서 실행 옵션과 측정값 옵션을 강조 표시하는 측정값 탭입니다.](/help/assets/collaborate/measure/run-measure-report-attribution.png)
+
+**[!UICONTROL 측정 보고서 만들기]** 화면에 **[!UICONTROL 청구 세부 정보]**, **[!UICONTROL 캠페인 세부 정보]** 및 **[!UICONTROL 보고서 세부 정보]** 섹션에 그룹화된 정보 및 입력 필드가 표시됩니다.
+
+[캠페인 요약 보고서 만들기](#create-campaign-summary-report) 섹션의 단계를 읽고 수행하여 다음 설정을 구성하십시오.
+
+* [청구 세부 정보](#billing-details)
+* [캠페인 세부 정보](#campaign-details)
+
+#### 속성 보고서에 대한 보고서 세부 사항 {#report-details-attribution}
+
+**보고서 실행 날짜**
+
+>[!IMPORTANT]
+>
+> 속성 보고서의 경우 보고서 실행 날짜는 미래 날짜여야 하며, 보고서 날짜 범위의 종료 날짜와 정의된 전환 확인 기간의 전체 기간 최소 1일 이후에 발생해야 합니다.
+> **보고서 실행 날짜 ≥ 보고서 종료 날짜 + 전환 확인 기간 + 1**
+> 
+> 예를 들어 보고서 날짜 범위가 6월 15일에 끝나고 전환 확인 기간이 14일인 경우 보고서 실행 날짜는 6월 30일 이후가 됩니다.
+
+**[!UICONTROL 보고서 세부 정보]** 섹션에서 보고서를 실행할 날짜를 선택합니다. **[!UICONTROL 보고서 실행 날짜]**&#x200B;를 선택하고 달력에서 원하는 날짜를 선택하십시오.
+
+**보고서 유형**
+
+광고주는 **[!UICONTROL 캠페인 요약]** 외에 **[!UICONTROL 속성]**&#x200B;을 보고서 유형으로 선택할 수 있습니다. 속성 보고서를 선택하면 결과에 표준 캠페인 요약 지표와 세부 속성 분석이 모두 포함되어 캠페인 성과를 종합적으로 볼 수 있습니다.
+
+![선택한 캠페인 요약 및 속성 보고서 유형을 모두 강조 표시하는 측정 보고서 만들기 화면입니다.](/help/assets/collaborate/measure/attribution-report-type.png)
+
+**[!UICONTROL 속성]**&#x200B;을 보고서 유형으로 선택하면 **[!UICONTROL 속성]** 구성 섹션이 추가 필수 설정과 함께 표시됩니다.
+
+* **전환 확인 기간(일)**: 각 전환 전에 보고서에서 캠페인 노출 횟수를 고려하는 기간을 정의합니다. 이 기간 내의 노출만 기여도 크레딧에 적용됩니다.
+* **전환 이벤트**: 측정할 전환 작업(예: 구매 또는 등록)을 지정합니다. 이러한 이벤트는 [측정 데이터를 Collaboration에 소스](../setup/onboard-measurement-data.md#add-conversion-event)할 때 미리 설정해야 합니다.
+
+먼저 **[!UICONTROL 전환 확인 기간(일 수]**) 필드에 값을 입력하거나 증가/감소 옵션으로 조정하십시오.
+
+![전환 확인 기간(일) 값을 강조 표시하는 측정 보고서 만들기 화면입니다.](/help/assets/collaborate/measure/lookback-window-in-days.png)
+
+사용 가능한 목록에서 최대 **3**&#x200B;개의 전환 이벤트를 선택합니다. 특정 이벤트에 대한 자세한 내용을 보려면 **[!UICONTROL i]** 아이콘을 선택하여 세부 정보를 확인하십시오.
+
+![선택한 전환 이벤트와 구매 이벤트의 정보를 강조 표시하는 측정 보고서 만들기 화면입니다.](/help/assets/collaborate/measure/attribution-conversion-events.png)
+
+마지막으로 설정을 검토하고 **[!UICONTROL 만들기]**&#x200B;를 선택하여 보고서를 예약하십시오. 속성 보고서는 지정된 실행 날짜에 생성됩니다. 실행 날짜 이전에 예약된 보고서를 편집할 수 있습니다. 단계별 지침은 [측정 보고서 편집] 섹션을 참조하십시오.
+
+사용 가능한 상태가 되면 프로젝트 작업 영역의 **[!UICONTROL 측정]** 탭에서 언제든지 보고서를 볼 수 있습니다.
+
+![정보 및 [만들기] 옵션이 강조 표시된 측정 보고서 만들기 화면입니다.](/help/assets/collaborate/measure/attribution-review.png)
