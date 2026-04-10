@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration은 광고주와 게시자 간의 원활하고 안전한 데이터 공유 및 공동 작업을 지원하여 실시간 대상 통찰력과 개인화된 마케팅 전략을 촉진합니다.
-source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 28%
    * [계정 역할](./overview/roles.md)
    * [Collaboration 패턴](./overview/collaboration-patterns.md)
    * [전체 워크플로](./overview/end-to-end-workflow.md)
-   * [Real-Time CDP Collaboration 스타터](./overview/starter-overview.md)
+   * {hide-from-toc}[Real-Time CDP Collaboration 스타터](./overview/starter-overview.md)
 * 설정 {#setup}
    * [설정 섹션 개요](./setup/setup-overview.md)
    * [계정 온보드 및 관리](./setup/onboard-account.md)
@@ -32,14 +32,14 @@ ht-degree: 28%
    * [데이터 연결 관리](./setup/manage-data-connection.md)
    * [대상 구성 및 관리](./setup/manage-destinations.md)
    * [크레딧 사용 활동 추적](/help/guide/setup/my-activity.md)
-   * [ID 크로스워크](./setup/identity-crosswalk.md)
+   * {hide-from-toc}[ID 횡단보도](./setup/identity-crosswalk.md)
    * [측정 데이터 추가 및 관리](./setup/onboard-measurement-data.md)
    * [측정 데이터 연결 관리](./setup/manage-measurement-data-connection.md)
    * [감사 로그](./setup/audit-logs.md)
    * Real-Time CDP Collaboration 스타터 설정 {#starter-setup}
-      * [관리자 액세스 구성](./setup/starter-admin-access.md)
-      * [권한 제어 구성](./setup/starter-permission-controls.md)
-      * [신용 사용 및 소비](./setup/starter-credit-usage.md)
+      * {hide-from-toc}[관리자 액세스 구성](./setup/starter-admin-access.md)
+      * {hide-from-toc}[권한 제어 구성](./setup/starter-permission-controls.md)
+      * {hide-from-toc}[신용 사용 및 소비](./setup/starter-credit-usage.md)
 * 연결 설정 중 {#connect}
    * [Overview.md](./connect/overview.md)
    * [공동 작업자 탐색](./connect/discover-collaborators.md)
@@ -57,7 +57,7 @@ ht-degree: 28%
       * [측정](./collaborate/measure.md)
    * Advertising 플랫폼 연결 {#ad-platform-connections}
       * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
-      * [AMC 측정 보고서 만들기](./collaborate/advertising-platforms/amc-measure.md)
+      * {hide-from-toc}[AMC 측정 보고서 만들기](./collaborate/advertising-platforms/amc-measure.md)
 * 대상 {#destinations}
    * [개요](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
@@ -67,5 +67,5 @@ ht-degree: 28%
    * [역할 관리](./permissions/manage-roles.md)
 * 참조 {#reference}
    * [일반적인 질문 및 문제 해결 팁](./faqs/common-questions.md)
-   * [용어집](./glossary.md)
+   * {hide-from-toc}[용어집](./glossary.md)
 * [최신 릴리스 정보](./release-notes/latest.md)
