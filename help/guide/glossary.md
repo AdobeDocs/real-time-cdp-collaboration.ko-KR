@@ -3,13 +3,12 @@ title: 용어집
 description: Real-Time CDP Collaboration의 주요 용어 이해
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: true
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 2%
+source-wordcount: '837'
+ht-degree: 5%
 
 ---
 
@@ -53,7 +52,7 @@ An identity crosswalk is a tool used to connect different identifiers across dat
 
 엄격한 데이터 액세스 제한 사항의 시행을 보장하면서 두 명 이상의 참가자가 상호 합의된 특정 용도로 데이터 자산을 활용할 수 있는 안전한 협업 환경입니다. 이 인프라 계층은 종종 클라우드 스토리지 제공자 및/또는 Snowflake 및 Databricks와 같은 데이터 웨어하우스에서 제공하며, SQL과 같은 기술에 능숙한 데이터 엔지니어 및 데이터 과학자와 같은 기술 사용자에게 가장 적합합니다.
 
-### Data Collaboration
+### 데이터 공동 작업
 
 데이터 공동 작업에는 대상 타겟팅, 측정 및 통찰력과 같은 다양한 목적을 위해 회사 내 또는 파트너와 함께 데이터를 결합하고 분석하는 작업이 포함됩니다. 데이터 공동 작업 플랫폼은 개인 정보 및 보안 문제를 충족하면서 데이터를 안전하게 공유할 수 있는 안전한 환경을 제공합니다.
 
