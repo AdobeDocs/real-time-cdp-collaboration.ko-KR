@@ -27,9 +27,9 @@ Adobe Experience Platform을 대상으로 구성하려면 **[!UICONTROL 설정]*
 
 ![Adobe Experience Platform 대상에 대해 [설정] 옵션이 강조 표시된 내 대상 작업 영역입니다.](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
 
-**[!UICONTROL 대상 만들기]** 워크플로우가 나타납니다.
+**[!UICONTROL 대상 만들기]** 워크플로가 나타납니다.
 
-![Adobe Experience Platform에 대한 대상 만들기 워크플로우입니다.](/help/assets/destinations/adobe-experience-platform/create-destination.png)
+![Adobe Experience Platform에 대한 대상 워크플로우를 만듭니다.](/help/assets/destinations/adobe-experience-platform/create-destination.png)
 
 ### 샌드박스 구성 {#configure-sandbox}
 
@@ -42,11 +42,11 @@ Adobe Experience Platform을 대상으로 구성하려면 **[!UICONTROL 설정]*
 
 >[!IMPORTANT]
 >
->사용자가 액세스할 수 있는 샌드박스만 선택할 수 있습니다. 기본적으로 모든 Collaboration 사용자는 **Prod** 샌드박스에 액세스할 수 있습니다. 추가 샌드박스에 대한 액세스 권한을 얻으려면 관리자가 사용자에게 할당된 역할에 추가 샌드박스를 추가해야 합니다. 역할 관리에 대한 자세한 내용은 [역할 관리](../permissions/manage-roles.md) 안내서를 참조하십시오.
+>사용자가 액세스할 수 있는 샌드박스만 선택할 수 있습니다. 기본적으로 모든 Collaboration 사용자는 **Prod** 샌드박스에 액세스할 수 있습니다. 추가 샌드박스에 대한 액세스 권한을 얻으려면 관리자가 사용자에게 할당된 역할에 추가 샌드박스를 추가해야 합니다. 역할 관리에 대한 자세한 내용은 [역할 관리](../permissions/manage-roles.md) 안내서를 참조하세요.
 
 **[!UICONTROL 샌드박스 구성]** 섹션에서 **[!UICONTROL 샌드박스]** 드롭다운을 선택하거나 샌드박스 이름을 입력합니다.
 
-![대상 만들기 워크플로에서 샌드박스 드롭다운이 강조 표시되었습니다.](/help/assets/destinations/adobe-experience-platform/select-sandbox.png)
+![대상 만들기 워크플로에서 강조 표시된 샌드박스 드롭다운입니다.](/help/assets/destinations/adobe-experience-platform/select-sandbox.png)
 
 또는 **[!UICONTROL 샌드박스 찾아보기]**&#x200B;를 선택하여 사용 가능한 모든 샌드박스와 **[!UICONTROL 유형]**, **[!UICONTROL 상태]** 및 **[!UICONTROL 지역]**&#x200B;을 볼 수 있습니다. 사용할 샌드박스를 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 

@@ -6,8 +6,8 @@ badgelimitedavailability: label="제한 공개" type="Informative" url="https://
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2812'
-ht-degree: 8%
+source-wordcount: '2881'
+ht-degree: 9%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 8%
 
 >[!TIP]
 >
->이 안내서에서는 광고주와 게시자 간 및 브랜드 간 공동 작업 패턴의 연결 프로세스를 다룹니다. 광고 플랫폼과의 연결에 대한 자세한 내용은 [연결 개요](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) 안내서의 [광고주와 광고 플랫폼 연결](/help/guide/connect/overview.md) 섹션을 참조하십시오.
+>이 안내서에서는 광고주와 게시자 간 및 브랜드 간 공동 작업 패턴의 연결 프로세스를 다룹니다. 광고 플랫폼과의 연결에 대한 자세한 내용은 [연결 개요](/help/guide/connect/overview.md) 안내서의 [광고주와 광고 플랫폼 연결](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) 섹션을 참조하십시오.
 
 ## 연결 {#connect}
 
@@ -96,7 +96,7 @@ ht-degree: 8%
 
 ![연결 코드가 강조 표시된 설치 작업 영역의 내 계정 탭입니다.](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 
-![연결 코드](/help/assets/icons/copy.png) 옆에 있는 복사 아이콘(**[!UICONTROL 복사 아이콘]**)을 선택하여 클립보드에 복사합니다. 그런 다음 이 코드를 제품 외부의 공동 작업자와 공유할 수 있습니다.
+**[!UICONTROL 연결 코드]** 옆에 있는 복사 아이콘(![복사 아이콘](/help/assets/icons/copy.png))을 선택하여 클립보드에 복사합니다. 그런 다음 이 코드를 제품 외부의 공동 작업자와 공유할 수 있습니다.
 
 ![복사 아이콘이 강조 표시된 연결 코드입니다.](/help/assets/connect/establish-connection/copy-connect-code.png){zoomable="yes"}
 
@@ -108,7 +108,7 @@ ht-degree: 8%
 >
 >초대 보류 중 **[!UICONTROL Connect 코드]**&#x200B;를 새로 고치면 초대가 수락되지 않을 수 있습니다. 코드를 새로 고치면 공동 작업자가 새 코드를 사용하여 개인 연결 초대를 다시 보내야 할 수 있습니다.
 
-**[!UICONTROL 연결 코드]**&#x200B;를 새로 고치려면 ![연결 코드](/help/assets/icons/refresh.png) 옆에 있는 새로 고침 아이콘(**[!UICONTROL 새로 고침 아이콘]**)을 선택하십시오.
+**[!UICONTROL 연결 코드]**&#x200B;를 새로 고치려면 **[!UICONTROL 연결 코드]** 옆에 있는 새로 고침 아이콘(![새로 고침 아이콘](/help/assets/icons/refresh.png))을 선택하십시오.
 
 ![새로 고침 아이콘이 강조 표시된 Connect 코드입니다.](/help/assets/connect/establish-connection/refresh-connect-code.png){zoomable="yes"}
 
@@ -227,7 +227,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->여러 일치 키가 사용되는 대상을 활성화할 때 하나(또는 그 이상) 일치 키에 겹침이 없거나 대상 수가 없거나 임계값 미만이면 전체 활성화가 실패합니다. 활성화하기 전에 대상이 충분히 겹치고 모든 일치 키에서 최소 1000 ID 임계값을 충족하는지 확인하십시오.
+>여러 일치 키가 사용되는 대상을 활성화할 때, 하나(또는 그 이상) 일치 키에 겹침이 없거나, 대상자 규모가 없거나, 임계값 미만이면 전체 활성화가 실패합니다. 활성화하기 전에 대상이 충분히 겹치고 모든 일치 키에서 최소 1000 ID 임계값을 충족하는지 확인하십시오.
 
 일치 키는 [계정을 설정](/help/guide/setup/onboard-account.md#set-up-match-keys)하는 동안 사용자와 공동 작업자가 선택한 공통 일치 키로 자동으로 채워집니다. 귀하와 공동 작업자가 선택한 **과(와)**&#x200B;에 공통으로 있는 일치하는 키만 표시됩니다.
 

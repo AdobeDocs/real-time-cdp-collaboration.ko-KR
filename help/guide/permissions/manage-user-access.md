@@ -1,81 +1,81 @@
 ---
-title: 권한을 통한 사용자 액세스 관리
-description: Real-Time CDP Collaboration UI의 다양한 구성 요소에 대한 권한 및 사용자 액세스를 관리합니다.
+title: Manage user access through Permissions
+description: Manage permissions and users access to different components of the Real-Time CDP Collaboration UI.
 audience: admin
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
 source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 0%
+source-wordcount: '1406'
+ht-degree: 3%
 
 ---
 
-# 권한을 통한 사용자 액세스 관리 {#manage-user-access}
+# Manage user access through Permissions {#manage-user-access}
 
 {{limited-availability-release-note}}
 
-Experience Cloud [권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} 인터페이스를 통해 Adobe Real-Time CDP Collaboration 내의 개별 구성 요소에 대한 권한 및 사용자 액세스를 관리합니다. 시스템 및 제품 관리자는 권한을 사용하여 [역할](./manage-roles.md)을 정의하여 특정 기능 및 리소스에 대한 사용자 액세스를 관리할 수 있습니다.
+Manage permissions and user access to individual components within Adobe Real-Time CDP Collaboration through the Experience Cloud [Permissions](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} interface. Permissions allows system and product administrators to define [roles](./manage-roles.md) to manage user access to specific features and resources.
 
-## 권한에 대한 액세스 구성 {#permissions-access}
+## Configure access to Permissions {#permissions-access}
 
-권한에 액세스하려면 Adobe Experience Platform 제품에 대한 제품 관리자 및 사용자 액세스 권한이 모두 있어야 합니다. 시스템 관리자는 제품 관리자 권한을 구성해야 하지만, 사용자 권한은 시스템 또는 제품 관리자가 구성할 수 있습니다. 관리 역할에 대한 자세한 내용은 [액세스 제어 계층 구조](./overview.md#hierarchy) 안내서를 참조하십시오.
+To access Permissions, you must have both product administrator and user access to the Adobe Experience Platform product. A system administrator is required to configure product administrator privileges, while user privileges can be configured by a system or product administrator. For more information on the administrative roles, read the [access control heirarchy](./overview.md#hierarchy) guide.
 
 >[!TIP]
 >
->이 안내서에서 **관리자**&#x200B;는 **시스템 및 제품 관리자**&#x200B;를 모두 참조합니다.
+>Throughout this guide, an **administator** will refer to **both system and product administators**.
 
-### 시스템 관리자: 제품 관리자 액세스 구성 {#admin-access}
+### System Administrators: configure product administrator access {#admin-access}
 
-다음 단계를 통해 사용자 제품 관리자에게 Experience Platform 제품 내의 관리 기능을 부여할 수 있는 액세스 권한을 부여합니다.
+Grant a user product administrator access to give them administrative capabilities within the Experience Platform product through the following steps:
 
 >[!IMPORTANT]
 >
->시스템 관리자는 Adobe Admin Console과 같은 특정 Experience Cloud 제품에 즉시 액세스할 수 있습니다. 그러나 권한을 사용하려면 제품 관리자 및 사용자에게 Experience Platform 제품에 대한 액세스 권한을 부여해야 합니다. 시스템 관리자로서 액세스 권한을 부여하려면 아래의 단계별 안내서를 따르십시오.
+>As a system administrator, you have out-of-the box access to specific Experience Cloud products, such as Adobe Admin Console. However, to use Permissions, you are required to give yourself product administrator and user access to the Experience Platform product. Follow the step-by-step guide below to give yourself access as a system administrator.
 
-자격 증명을 사용하여 [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}에 로그인합니다. 홈 보기는 **[!UICONTROL 빠른 액세스]** 섹션 내에 사용 가능한 제품 목록과 함께 표시됩니다. **[!UICONTROL Admin Console]**&#x200B;을(를) 선택합니다.
+Log in to [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} with your credentials. The home view displays with a list of your available products within the **[!UICONTROL Quick access]** section. Select **[!UICONTROL Admin Console]**.
 
-![Admin Console이 강조 표시된 Experience Cloud 홈 보기.](../../assets/permissions/experience-cloud.png){zoomable="yes"}
+![Experience Cloud&#39;s home view with Admin Console highlighted.](../../assets/permissions/experience-cloud.png){zoomable="yes"}
 
-[Adobe Admin Console](https://adminconsole.adobe.com/) 개요 대시보드가 표시됩니다. **[!UICONTROL 제품 및 서비스]**&#x200B;의 **[!UICONTROL 제품]** 목록에서 **[!UICONTROL Adobe Experience Platform]**&#x200B;을(를) 선택하십시오.
+The [Adobe Admin Console](https://adminconsole.adobe.com/) overview dashboard displays. Select **[!UICONTROL Adobe Experience Platform]** from the **[!UICONTROL Products]** list under **[!UICONTROL Products and services]**.
 
-Adobe Experience Platform 제품이 강조 표시된 ![Admin Console의 개요 대시보드.](../../assets/permissions/admin-console.png){zoomable="yes"}
+![Admin Console&#39;s overview dashboard with the Adobe Experience Platform product highlighted.](../../assets/permissions/admin-console.png){zoomable="yes"}
 
-Adobe Experience Platform 대시보드가 표시됩니다. **[!UICONTROL 관리자]** 탭을 선택한 다음 **[!UICONTROL 관리자 추가]**&#x200B;를 선택합니다.
+The Adobe Experience Platform dashboard displays. Select the **[!UICONTROL Admins]** tab and then select **[!UICONTROL Add admin]**.
 
-![관리자 탭을 선택하고 관리자 추가를 강조 표시한 Adobe Experience Platform 제품 대시보드.](../../assets/permissions/add-admin.png){zoomable="yes"}
+![Adobe Experience Platform product dashboard with the Admins tab selected and Add admin highlighted.](../../assets/permissions/add-admin.png){zoomable="yes"}
 
-**[!UICONTROL 제품 관리자 추가]** 대화 상자가 나타납니다. **[!UICONTROL 전자 메일 또는 사용자 이름]** 텍스트 필드에 사용자 전자 메일 또는 사용자 이름을 입력한 다음 드롭다운에서 올바른 계정을 선택합니다. **[!UICONTROL 저장]**&#x200B;을(를) 선택하여 사용자를 제품 관리자로 추가합니다.
+The **[!UICONTROL Add product administrators]** dialog appears. Enter the user email or username into the **[!UICONTROL Email or username]** text field and then select the correct account from the dropdown. Select **[!UICONTROL Save]** to finish adding the user as a product administrator.
 
-![사용자 정보를 입력하고 [저장] 옵션을 선택한 상태로 제품 관리자 추가 대화 상자가 표시됩니다.](../../assets/permissions/add-product-administrators.png){zoomable="yes"}
+![The Add product administrators dialog with a users information filled in and the Save option selected.](../../assets/permissions/add-product-administrators.png){zoomable="yes"}
 
-이제 사용자는 제품 관리자 권한을 가지며 Admin Console 내에서 제품에 사용자 또는 다른 관리자를 추가하는 등의 관리 기능을 수행할 수 있습니다. 그런 다음 권한 내에서 기능에 액세스하고 수행하려면 Experience Platform 제품에 대한 사용자 액세스 권한이 필요합니다.
+The user now has product administrator privileges and can perform administrative functions, such as adding users or other admins, to the product within the Admin Console. Next they&#39;ll need user access to the Experience Platform product to access and perform functions within Permissions.
 
-### 관리자: Experience Platform에 대한 사용자 액세스 권한 구성 {#user-access}
+### Administrators: configure user access to Experience Platform {#user-access}
 
-사용자 제품 관리자 액세스 권한을 부여했으므로 이제 Experience Platform 제품에 대한 사용자 액세스 권한을 제공해야 합니다. 액세스 구성의 일부로 사용자별 [제품 프로필](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)을(를) 할당합니다.
+Now that you&#39;ve granted the user product administrator access, you need to provide them user access to the Experience Platform product. As part of the access configurations, you&#39;ll assign the user specific [product profiles](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html).
 
 >[!TIP]
 >
->이전 섹션을 따르는 경우 이미 Adobe Experience Platform 제품 내에 있으며 첫 번째 단계를 건너뛸 수 있습니다.
+>If you&#39;re following along from the previous section, you&#39;ll already be within the Adobe Experience Platform product and you may skip the first step.
 
-[Admin Console](https://adminconsole.adobe.com/){target="_blank"}(으)로 이동한 다음 **[!UICONTROL 제품 및 서비스]**&#x200B;의 **[!UICONTROL 제품]** 목록에서 **[!UICONTROL Adobe Experience Platform]**&#x200B;을(를) 선택합니다.
+Navigate to the [Admin Console](https://adminconsole.adobe.com/){target="_blank"} and select **[!UICONTROL Adobe Experience Platform]** from the **[!UICONTROL Products]** list under **[!UICONTROL Products and services]**.
 
-![Admin Console이 강조 표시된 Experience Cloud 홈 보기.](../../assets/permissions/experience-cloud.png){zoomable="yes"}
+![Experience Cloud&#39;s home view with Admin Console highlighted.](../../assets/permissions/experience-cloud.png){zoomable="yes"}
 
-**[!UICONTROL 사용자]** 탭을 선택한 다음 **[!UICONTROL 사용자 추가]**&#x200B;를 선택합니다.
+Select the **[!UICONTROL Users]** tab and then select **[!UICONTROL Add users]**.
 
-![사용자 탭을 선택하고 사용자 추가 를 강조 표시한 Adobe Experience Platform 제품 대시보드.](../../assets/permissions/add-users.png){zoomable="yes"}
+![Adobe Experience Platform product dashboard with the Users tab selected and Add users highlighted.](../../assets/permissions/add-users.png){zoomable="yes"}
 
-**[!UICONTROL 이 제품에 사용자 추가]** 대화 상자가 나타납니다. **[!UICONTROL 이름, 사용자 그룹 또는 전자 메일 주소]** 텍스트 필드에 사용자 이름 또는 전자 메일을 입력한 다음 드롭다운에서 올바른 계정을 선택합니다. **[!UICONTROL 제품]** 추가 옵션을 선택합니다.
+The **[!UICONTROL Add users to this product]** dialog appears. Enter the user&#39;s name or email into the **[!UICONTROL Name, user group or email address]** text field and then select the correct account from the dropdown. Next, select the **[!UICONTROL Products]** add option.
 
-![사용자 정보를 입력하고 제품 추가 옵션을 선택한 상태로 이 제품에 사용자 추가 대화 상자가 표시됩니다.](../../assets/permissions/add-users-to-product.png){zoomable="yes"}
+![The Add users to this product dialog with a users information filled in and the Products add option selected.](../../assets/permissions/add-users-to-product.png){zoomable="yes"}
 
-**[!UICONTROL 제품 프로필 선택]** 대화 상자가 나타납니다. **[!UICONTROL AEP-Default-All-Users]** 및 **[!UICONTROL 기본 프로덕션 모든 액세스]**&#x200B;를 선택한 다음 **[!UICONTROL 적용]**&#x200B;을 선택합니다.
+The **[!UICONTROL Select product profiles]** dialog appears. Select **[!UICONTROL AEP-Default-All-Users]** and **[!UICONTROL Default Production All Access]** and then select **[!UICONTROL Apply]**.
 
-![AEP-Default-All-Users 및 Default Production All Access 옵션이 선택되어 있고 [적용]이 강조 표시된 제품 프로필 선택 대화 상자입니다.](../../assets/permissions/select-product-profiles.png){zoomable="yes"}
+![The Select product profiles dialog with the AEP-Default-All-Users and Default Production All Access options selected and Apply highlighted.](../../assets/permissions/select-product-profiles.png){zoomable="yes"}
 
-정보가 올바른지 확인한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+Confirm the information is correct and then select **[!UICONTROL Save]**.
 
 ![사용자 정보 및 제품 프로필이 표시되고 [저장]이 강조 표시된 제품에 사용자 추가 대화 상자.](../../assets/permissions/save-selections.png){zoomable="yes"}
 

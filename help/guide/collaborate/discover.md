@@ -6,7 +6,7 @@ badgelimitedavailability: label="제한 공개" type="Informative" url="https://
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2120'
 ht-degree: 17%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 17%
 >
 >업데이트되지 않았거나 새로 고침되지 않은 [데이터 스케치](/help/guide/glossary.md#sketches)는 7일 후에 삭제됩니다. 이런 경우 이 페이지의 여러 겹치기 보고서에 표시된 수치가 0으로 변경되고 만료된 이러한 대상자는 대상 공유를 사용할 수 없게 됩니다. [활성 새로 고침 일정](/help/guide/setup/onboard-audiences.md#schedule)을 사용하는 대상에 대해 데이터 스케치가 자동으로 새로 고쳐집니다.
 
-대상을 검색하고 비교하는 데 사용되는 일치 키가 연결 프로세스[에서 &#x200B;](/help/guide/connect/establishing-connections.md#connection-settings)설정됩니다. 일치 키는 대상자 간의 겹침을 계산하는 데 사용되며 켜거나 끌 수 있습니다. 일치 키를 편집하려면 **[!UICONTROL 일치 키 편집]** 옵션을 선택하십시오.
+대상을 검색하고 비교하는 데 사용되는 일치 키가 연결 프로세스[&#128279;](/help/guide/connect/establishing-connections.md#connection-settings)에서 설정됩니다. 일치 키는 대상자 간의 겹침을 계산하는 데 사용되며 켜거나 끌 수 있습니다. 일치 키를 편집하려면 **[!UICONTROL 일치 키 편집]** 옵션을 선택하십시오.
 
 ![대상 인사이트를 보여주는 Dicover 탭 작업 영역입니다.](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -38,7 +38,7 @@ ht-degree: 17%
 프로젝트 내에서 **[!UICONTROL 검색]** 탭을 사용하려면 다음 작업을 수행해야 합니다.
 
 * 계정에 대한 [소스 대상](/help/guide/setup/onboard-audiences.md)
-* [대상 검색](/help/guide/connect/establishing-connections.md) 사용 사례가 활성화된 공동 작업자가 있는 **연결됨**
+* **대상 검색** 사용 사례가 활성화된 공동 작업자가 있는 [연결됨](/help/guide/connect/establishing-connections.md)
 * [사용자와 공동 작업자 간에 프로젝트를 만들었습니다](/help/guide/collaborate/manage-projects.md)
 
 이러한 사전 요구 사항이 충족되면 공동 작업자의 대상자를 통해 중복을 조사하고 비교할 수 있습니다.
@@ -102,7 +102,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="관련 대상자"
->abstract="중복 비율을 기준으로 할 때, 이러한 대상자는 캠페인에 적합할 수 있습니다. <br><br> <b>ID 수</b>는 공동 작업자의 대상자의 크기입니다. <br><br> <b>중복 ID</b>는 추천된 대상자와 모든 대상자 간의 중복을 나타냅니다. <br><br><b>중복 비율</b>은 중복되는 ID의 수를 <i>모든</i> 대상자 크기로 나눈 값을 나타냅니다."
+>abstract="중복 비율을 기준으로 할 때, 이러한 대상자는 캠페인에 적합할 수 있습니다. <br><br> <b>ID 수</b>는 공동 작업자의 대상자 수입니다. <br><br> <b>중복 ID</b>는 추천된 대상자와 모든 대상자 간의 중복을 나타냅니다. <br><br> <b>중복 비율</b>은 중복되는 ID의 수를 <i>모든</i> 대상자 수로 나눈 값을 나타냅니다."
 
 **[!UICONTROL 검색]** 탭의 **[!UICONTROL 관련 대상]** 섹션은 공동 작업자의 대상과 모든 대상자 간의 겹침 비율을 기반으로 상위 5명의 대상자에 대해 선별된 목록을 제공합니다. 이 기능을 사용하면 겹치는 정도가 가장 높은 대상을 신속하게 식별할 수 있으므로 캠페인을 보다 효과적으로 타기팅할 수 있습니다. 섹션의 오른쪽 상단에 있는 페이지 선택기를 사용하여 관련 대상 간에 전환합니다.
 
