@@ -2,12 +2,12 @@
 title: 데이터 연결 관리
 description: Real-Time CDP Collaboration의 일치 키, 예약, 사용 사례 및 대상 필터링을 포함하여 데이터 연결을 관리하는 방법을 알아봅니다
 audience: administrator, data engineer
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
 workflow-type: tm+mt
 source-wordcount: '1168'
-ht-degree: 100%
+ht-degree: 9%
 
 ---
 
@@ -65,7 +65,7 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 >id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
 >title="보강"
 >abstract="보강 끄기는 지원되지 않습니다. 대신 보강 조인 키를 변경할 수 있습니다."
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="보강"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections_kr" text="보강"
 
 >[!IMPORTANT]
 >
