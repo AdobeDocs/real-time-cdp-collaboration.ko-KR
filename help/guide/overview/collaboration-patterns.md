@@ -2,12 +2,12 @@
 title: Adobe Real-Time CDP Collaboration의 협업 패턴.
 description: Adobe Real-Time CDP Collaboration의 두 가지 공동 작업 패턴 이해
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
-source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
+source-git-commit: 7efd33179b4f4e6751853f6c513bdded63c23ee7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 0%
+source-wordcount: '664'
+ht-degree: 2%
 
 ---
 
@@ -46,3 +46,27 @@ Adobe Real-Time CDP Collaboration의 Collaboration 패턴은 공동 작업자가
 ![광고주와 광고 사이의 플랫폼 공동 작업의 예입니다.](/help/assets/overview/advertiser-to-advertising-platform.png)
 
 광고주가 이 패턴의 광고 플랫폼과 공동 작업하는 방법에 대해 자세히 알아보려면 [전체 워크플로](/help/guide/overview/end-to-end-workflow.md) 안내서를 읽어 보십시오.
+
+## 광고주-데이터 파트너 {#advertiser-to-data-partner}
+
+광고주-데이터 파트너 패턴을 통해 브랜드는 서드파티 데이터 공급자와 직접 협력하여 고객 프로필을 강화하고, 더 정밀한 대상을 구축하고, 확보를 위해 잠재 모집단에 액세스할 수 있습니다. 이 패턴은 전통적으로 외부 데이터 워크플로를 원시 데이터 이동 없이 자사 데이터와 타사 데이터를 결합할 수 있는 하나의 개인 정보 보호 안전한 환경으로 가져옵니다.
+
+![광고주와 데이터 파트너 간 공동 작업의 예입니다.](/help/assets/overview/advertiser-to-data-partner.png)
+
+광고주와 데이터 파트너가 이러한 방식으로 공동 작업하는 방법에 대해 자세히 알아보려면 [전체 워크플로](/help/guide/overview/end-to-end-workflow.md#advertiser-to-data-partner-workflow) 안내서를 읽어 보십시오.
+
+## 에이전시-게시자 {#agency-to-publisher}
+
+에이전시에서 게시자 간 패턴을 통해 미디어 에이전시는 게시자와 직접 협업하여 공유된 대상자 인사이트를 사용하여 캠페인을 계획, 활성화 및 측정할 수 있습니다. 에이전시는 (권한이 있는) 광고주 데이터를 활용하여 게시자 파트너와 중복을 식별하고 미디어 전략을 실행하는 중개 역할을 합니다.
+
+![에이전시와 게시자 간 공동 작업의 예입니다.](/help/assets/overview/agency-to-publisher.png)
+
+에이전시와 게시자가 이 패턴에서 공동 작업하는 방법에 대해 자세히 알아보려면 [전체 워크플로](/help/guide/overview/end-to-end-workflow.md#agency-to-publisher-workflow) 안내서를 참조하십시오.
+
+## 광고주-에이전시 플랫폼 {#advertiser-to-agency-platform}
+
+광고주간 플랫폼 패턴을 통해 브랜드는 개인 정보가 안전한 환경에서 미디어 에이전시와 공동 작업을 수행할 수 있으므로 광고주는 직접 데이터 전송 없이 에이전시와 데이터를 주고받을 수 있습니다. 이 패턴은 데이터 사용에 대한 광고주 제어를 유지하면서 캠페인 계획, 대상 구축 및 활성화를 지원합니다.
+
+![광고주와 에이전시 간 플랫폼 공동 작업의 예](/help/assets/overview/advertiser-to-agency-platform.png)
+
+광고주와 에이전시 플랫폼이 이러한 방식으로 공동 작업하는 방법에 대해 자세히 알아보려면 [전체 워크플로](/help/guide/overview/end-to-end-workflow.md#advertiser-to-agency-platform-workflow) 안내서를 읽어 보십시오.

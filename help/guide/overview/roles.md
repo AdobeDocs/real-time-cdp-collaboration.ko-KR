@@ -2,11 +2,12 @@
 title: Adobe Real-Time CDP Collaboration의 공동 작업자 역할.
 description: Adobe Real-Time CDP Collaboration의 두 계정 역할 이해
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: f0b95f61-b798-400d-af52-a597d1cb66a5
+source-git-commit: 901b17c7493e76b17e780b6f7b05a69fa22303d2
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 1%
+source-wordcount: '423'
+ht-degree: 4%
 
 ---
 
@@ -23,6 +24,14 @@ Adobe Real-Time CDP Collaboration에는 계정과 연결된 두 개의 역할이
 ## 게시자 {#publisher}
 
 게시자는 사용자의 동의하에 개인 데이터가 수집되는 온라인 콘텐츠 또는 서비스를 소유하거나 운영하는 브랜드입니다. 광고주는 디지털 광고 및 대상 측정을 위해 이 데이터를 사용합니다. 게시자는 Collaboration을 사용하여 대상 데이터를 공동 작업자에게 보내어 타깃팅된 마케팅 캠페인을 활성화하고 광고 효과를 향상시킬 수 있습니다.
+
+## 에이전시 {#agency}
+
+에이전시는 하나 이상의 브랜드에 대한 마케팅 및 미디어 캠페인을 계획, 관리 및 최적화하는 조직입니다. 타사 및 타사 데이터를 모두 활용하여 채널 전반에서 대상을 구축, 활성화 및 측정합니다. 기관은 Collaboration을 사용하여 단일 관리 환경 내에서 브랜드가 허용하는 데이터에 액세스할 수 있으므로 교차 파트너 캠페인을 조정하고 대상을 활성화하며 미디어 효과를 향상시킬 수 있습니다.
+
+## 데이터 파트너 {#data-partner}
+
+데이터 파트너는 타사, 통제되는 데이터 세트 및 세그먼트를 제공하는 조직으로, 공동 작업자가 대상 타기팅, 전망 및 측정을 위해 자체 데이터를 보강하는 데 사용할 수 있습니다. 데이터 파트너는 Collaboration을 사용하여 자사 데이터를 파트너의 환경으로 전송하지 않고도 대상 및 캠페인 인사이트를 위해 공동 작업자가 이 데이터를 사용할 수 있도록 안전하게 할 수 있습니다.
 
 ## 적합한 역할 선택 {#choosing-the-right-role}
 
