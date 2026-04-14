@@ -2,11 +2,11 @@
 title: 데이터 연결 관리
 description: Real-Time CDP Collaboration의 일치 키, 예약, 사용 사례 및 대상 필터링을 포함하여 데이터 연결을 관리하는 방법을 알아봅니다
 audience: administrator, data engineer
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
+source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1179'
 ht-degree: 9%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 9%
 ## 개요
 
 Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫폼에서 대상을 소스화할 수 있습니다. 기존 데이터 연결에 대해 일치 키를 관리하고 데이터 새로 고침을 예약하는 방법에 대해 알아봅니다. 또한 다양한 속성으로 대상자를 필터링하여 보다 세부적인 통찰력을 얻을 수 있습니다.
+
+>[!NOTE]
+>
+>새 데이터 연결을 만들려면 [대상 추가 및 관리](./onboard-audiences.md)를 참조하십시오.
 
 ## 데이터 연결 보기
 
@@ -32,7 +36,7 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 >title="일치 키"
 >abstract="일치 키는 다양한 소스의 데이터를 어떻게 일치시킬지 결정합니다. 아래에 표시된 일치 키는 소스 필드를 매핑한 대상 필드입니다."
 
-일치 키는 [소스 필드를 &#x200B;](./onboard-audiences.md#map-fields)에 매핑한 대상 필드입니다. 일치 키가 작동하는 방법에 대한 자세한 내용은 [일치 키](./onboard-account.md#set-up-match-keys) 안내서를 참조하세요.
+일치 키는 [소스 필드를 ](./onboard-audiences.md#map-fields)에 매핑한 대상 필드입니다. 일치 키가 작동하는 방법에 대한 자세한 내용은 [일치 키](./onboard-account.md#set-up-match-keys) 안내서를 참조하세요.
 
 ![일치 키 섹션이 강조 표시된 데이터 연결 작업 영역입니다.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 

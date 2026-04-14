@@ -2,10 +2,10 @@
 title: 대상 소싱에 대해  [!DNL Amazon S3] 구성
 description: 대상 데이터를 Real-Time CDP Collaboration에 수집하기 위해  [!DNL Amazon S3] 저장소를 셀프서비스 데이터 소스로 구성 및 연결하는 방법에 대해 알아봅니다.
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 43134d6f334ee500834a6451bdf1a8f7372f8d10
+source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 95%
+source-wordcount: '1622'
+ht-degree: 94%
 
 ---
 
@@ -102,7 +102,7 @@ S3 데이터 연결을 구성하기 전에 다음을 확인하십시오.
 
 그런 다음 S3 버킷을 Collaboration에 연결하기 위해 [!DNL Amazon S3] 자격 증명을 제공합니다.
 
-**[대상 소싱에 대한 AWS 권한 구성](./configure-aws-permissions-audience-sourcing.md)**&#x200B;에 설명된 단계에 따라 사용자에게 Adobe 액세스 권한을 부여합니다.
+**[대상 소싱에 대한 AWS 권한 구성](./configure-aws-permissions-audience-sourcing.md)**에 설명된 단계에 따라 사용자에게 Adobe 액세스 권한을 부여합니다.
 [!DNL Amazon S3] 저장소입니다. 완료되면 다음 UI 필드에 값을 입력합니다.
 
 * IAM 역할
@@ -215,5 +215,7 @@ S3 데이터 연결에는 다른 대상 데이터 연결과 동일한 기능 및
 ## 다음 단계 {#next-steps}
 
 이제 [!DNL Amazon S3] 저장소를 Collaboration에서 데이터 소스로 구성하고 연결했습니다. 이 워크플로우를 완료함으로써 활성화 및 중복 분석을 위해 자사 대상 데이터의 보안 소싱을 활성화했습니다.
+
+대신 [!DNL Google Cloud Storage]을(를) 사용하려면 [대상 소싱에 대한 GCS 구성](./configure-gcs-audience-sourcing.md)을 참조하세요.
 
 소싱이 완료되면, 대상자가 **[!UICONTROL 내 대상자]** 작업 영역에 표시되어 공동 작업 및 활성화할 수 있습니다. 자세한 관리 옵션은 [소스 및 대상자 관리 설명서](./onboard-audiences.md)를 참조하세요.
