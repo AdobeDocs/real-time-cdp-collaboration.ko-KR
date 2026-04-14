@@ -2,10 +2,10 @@
 title: RTCDP Collaboration 스타터 개요
 description: Adobe Real-Time CDP Collaboration Starter를 사용하여 전체 Real-Time CDP 라이선스를 구입하지 않고도 라이선스가 있는 파트너와의 개인정보 보호 중심 공동 작업을 확장하고 강화하는 방법에 대해 알아봅니다.
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
+source-git-commit: bd2227e8eaac82a30566df1299f4cd3ca2cbe60b
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 6%
