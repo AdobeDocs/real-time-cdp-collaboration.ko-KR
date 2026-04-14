@@ -4,9 +4,9 @@ description: Real-Time CDP Collaboration의 대상에 대해 알아봅니다.
 audience: admin, publisher
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
+source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '360'
 ht-degree: 6%
 
 ---
@@ -44,10 +44,14 @@ Collaboration에서 구성할 수 있는 대상은 다음과 같습니다. 해�
 | 대상 | 가용성 |
 | --- | --- |
 | [Adobe Experience Platform](./experience-platform.md) | 사용 가능 |
-| Amazon S3 | 곧 출시 예정 |
-| Snowflake | 곧 출시 예정 |
-| Google 클라우드 스토리지 | 곧 출시 예정 |
-| Azure Blob 스토리지 | 곧 출시 예정 |
+| [!DNL Amazon S3] | 곧 출시 예정 |
+| [!DNL Snowflake] | 곧 출시 예정 |
+| [!DNL Google Cloud Storage] | 곧 출시 예정 |
+| [!DNL Azure Blob Storage] | 곧 출시 예정 |
+
+>[!NOTE]
+>
+>이 테이블의 **[!DNL Google Cloud Storage]**&#x200B;은(는) **대상**&#x200B;을(를) 참조합니다. 여기서 Collaboration은 활성화 중에 대상을 보냅니다. **[!UICONTROL 설정]** 작업 영역에서 GCS 버킷을 **원본 대상**&#x200B;하려면 [대상 소싱에 대한 GCS 구성](../setup/configure-gcs-audience-sourcing.md)을 참조하세요.
 
 ## 다음 단계
 

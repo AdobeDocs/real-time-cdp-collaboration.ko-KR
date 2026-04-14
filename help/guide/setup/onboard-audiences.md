@@ -4,10 +4,10 @@ description: Adobe Real-Time CDP Collaboration에서 대상자를 소스 및 관
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: c535412589a5004cde6147e6800c05f3b5f7bb27
+source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
 workflow-type: tm+mt
-source-wordcount: '3636'
-ht-degree: 19%
+source-wordcount: '3680'
+ht-degree: 18%
 
 ---
 
@@ -42,9 +42,11 @@ ht-degree: 19%
 >
 >첫 번째 데이터 연결을 설정하고 첫 번째 대상을 소싱한 후 기존 데이터 연결에서 여러 대상을 소싱할 수 있습니다. 데이터 연결이 이미 설정되었으므로 대상을 추가할 때는 [대상 선택](#select-audiences) 단계부터 시작합니다.
 
-데이터 연결은 대상을 소싱하고 있는 위치의 데이터 소스입니다. 현재 지원되는 데이터 연결은 Adobe Experience Platform 뿐입니다.
+데이터 연결은 대상을 Collaboration으로 수집하는 소스입니다. 지원되는 소스에는 각각 고유한 워크플로우가 있는 Adobe Experience Platform, CSV 파일 업로드, [!DNL Amazon S3], [!DNL Snowflake] 및 [!DNL Google Cloud Storage]이(가) 있습니다.
 
-데이터 연결에 대해 구성하는 모든 설정은 이 데이터 연결에서 가져온 모든 대상에 적용됩니다.
+아래 섹션에서는 **Adobe Experience Platform**&#x200B;을(를) 선택하고 Experience Platform 관련 단계(샌드박스, 거버넌스 및 동의)를 완료하는 방법에 대해 설명합니다. CSV, [!DNL Amazon S3], [!DNL Snowflake] 또는 [!DNL Google Cloud Storage]을(를) 선택하는 경우 해당 옵션에 대해 [데이터 원본 선택](#select-data-source)에 연결된 안내서를 사용하십시오.
+
+Experience Platform 데이터 연결에 대해 구성하는 모든 설정은 해당 연결에서 가져온 모든 대상에 적용됩니다.
 
 >[!TIP]
 >
@@ -62,7 +64,7 @@ ht-degree: 19%
 * **CSV 파일**: 빠르고 간단한 데이터 수집을 위해 대상 데이터가 포함된 CSV 파일을 업로드합니다. 시작하려면 [대상 소싱에 대한 CSV 파일 업로드](./upload-csv-audience-sourcing.md) 안내서를 참조하십시오.
 * **Amazon Web Services**: Amazon S3 저장소에 연결하여 S3 버킷에서 직접 대상 데이터를 소싱합니다. 단계별 지침은 [대상 소싱에 대한 AWS S3 구성](./configure-aws-s3-audience-sourcing.md) 안내서를 참조하십시오.
 * **Snowflake**: Snowflake 데이터 웨어하우스를 사용하여 대상 데이터를 원활하게 가져옵니다. 대상 소싱에 대한 [구성 [!DNL Snowflake] 가이드](./configure-snowflake-audience-sourcing.md)를 참조하세요.
-* **Google Cloud Platform**(향후 릴리스): Google Cloud Storage에 연결하여 GCS 버킷에서 직접 대상 데이터를 소싱합니다.
+* **Google 클라우드 저장소**: GCS 버킷에 연결하여 대상 데이터를 원본으로 사용합니다. 단계별 지침은 [대상 소싱에 대한 GCS 구성](./configure-gcs-audience-sourcing.md) 안내서를 참조하십시오.
 
 데이터 원본을 선택한 후 **[!UICONTROL 다음]**&#x200B;을(를) 선택하십시오.
 
