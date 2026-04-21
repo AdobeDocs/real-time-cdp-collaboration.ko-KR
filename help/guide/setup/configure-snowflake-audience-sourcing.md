@@ -4,10 +4,10 @@ description: 대상 데이터를 Real-Time CDP Collaboration에 수집하기 위
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 19a516b472b1ddde68990f98b57667dd302f1fbc
+source-git-commit: 72ad1e401fc595ddeace715af5befe9701402c8e
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 21%
+source-wordcount: '1550'
+ht-degree: 18%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 21%
 
 [!DNL Snowflake] 연결을 구성하기 전에 다음 전제 조건을 충족하는지 확인하십시오.
 
-* [!DNL Snowflake Share]을(를) 만들고 [!DNL Snowflake] 계정에서 [!DNL Snowflake Secure Data Share]에 대한 Adobe 액세스 권한을 부여하는 데 필요한 권한을 설정했습니다.
+* [!DNL Snowflake Share]을(를) 만들고 [!DNL Snowflake] 계정에서 [!DNL Snowflake Secure Data Share]에 대한 Adobe 액세스 권한을 부여하는 데 필요한 권한을 설정했습니다. [구성 방법 [!DNL Snowflake] 권한](#set-up-snowflake-permissions)을 알아보세요.
 * 다음 [!DNL Snowflake Share]개의 값을 준비했습니다.
 
    * **이름 공유**
@@ -36,7 +36,91 @@ ht-degree: 21%
 * [!DNL Snowflake Secure Data Share]의 대상 데이터는 [대상 소싱 사양(v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) 안내서에 요약된 형식 요구 사항을 충족해야 합니다.
 * [!DNL Snowflake] 대상 파일의 모든 일치 키도 Collaboration 계정에 대해 활성화해야 합니다. 계정에 [일치 키 사용](./onboard-account.md#set-up-match-keys) 또는 [새 일치 키 추가](./onboard-account.md#edit-match-keys)하는 방법을 알아보세요.
 
+## [!DNL Snowflake] 권한 설정 {#setup-snowflake-permissions}
+
+[!DNL Snowflake Secure Data Share]은(는) 데이터를 복사하거나 이동할 필요 없이 [!DNL Snowflake] 계정 간에 실시간 읽기 전용 데이터를 안전하게 공유할 수 있는 방법을 제공합니다. Adobe에게 [!DNL Secure Data Share]에 대한 액세스 권한을 부여하려면 [!DNL Snowflake] 계정에서 적절한 권한을 구성해야 합니다.
+
+계속하기 전에 다음 사항을 확인하십시오.
+
+* [!DNL Snowflake] 계정에 액세스할 수 있습니다.
+* [!DNL Snowflake] 계정이 비공개 목록을 구독하고 있습니다. 필요한 권한을 구성하려면 Snowflake에 대한 관리자 권한이 필요합니다.
+* [!DNL Snowflake] 계정의 클라우드 공급자와 지역을 알고 있습니다.
+
+필요한 권한에 대한 자세한 내용은 [[!DNL Snowflake] 설명서](https://docs.snowflake.com/en/collaboration/consumer-listings-access#access-a-private-listing)를 참조하십시오.
+
+### Adobe의 [!DNL Snowflake] 계정 정보 수집 {#collect-account-information}
+
+시작하려면 해당 지역과 일치하는 Adobe [!DNL Snowflake] 계정 식별자를 찾아 기록해 두십시오. 이 식별자는 이후 단계에서 Adobe 액세스 권한을 부여하기 위해 필요합니다.
+
+| 지역 | [!DNL Snowflake] 프로덕션 계정 전체 식별자 |
+| ------------- | --------------- |
+| 북미 | ADOBE.AGORA_SF_02 |
+| EMEA | ADOBE.RTCDP_COLLABORATION_DEU1_EXTERNAL |
+| 오스트레일리아 | ADOBE.RTCDP_COLLABORATION_AUS3_EXTERNAL |
+
+{style="table-layout:auto"}
+
+### [!DNL Snowflake Share] 만들기 및 액세스 권한 부여 {#create-grant-access-to-share}
+
+그런 다음 [!DNL Snowflake] 계정에 [!DNL Secure Data Share]을(를) 만들고 Adobe에 대상 데이터에 대한 읽기 전용 액세스 권한을 부여합니다.
+
+1. 소스 테이블에서 필요한 열에만 제한적으로 액세스할 수 있는 보안 보기를 만듭니다.
+
+   ```sql
+   CREATE OR REPLACE SECURE VIEW my_database.my_schema.secure_view_for_adobe AS
+   SELECT 
+       column1,
+       column2,
+       column3
+   FROM my_database.my_schema.source_table;
+   ```
+
+2. 새 [!DNL Snowflake Secure Data Share] 만들기
+
+   ```sql
+   CREATE OR REPLACE SHARE adobe_data_share;
+   ```
+
+3. [!DNL Snowflake Secure Data Share]이(가) 데이터베이스 내의 개체에 액세스할 수 있도록 데이터베이스에 대한 USAGE 권한을 부여합니다.
+
+   ```sql
+   GRANT USAGE ON DATABASE my_database TO SHARE adobe_data_share;
+   ```
+
+4. [!DNL Snowflake Secure Data Share]이(가) 스키마 내의 개체에 액세스할 수 있도록 스키마에 대한 USAGE를 부여합니다.
+
+   ```sql
+   GRANT USAGE ON SCHEMA my_database.my_schema TO SHARE adobe_data_share;
+   ```
+
+5. Adobe에서 대상 데이터를 읽을 수 있도록 보안 보기에 대한 SELECT 권한을 [!DNL Snowflake Secure Data Share]에 부여합니다.
+
+   ```sql
+   GRANT SELECT ON VIEW my_database.my_schema.secure_view_for_adobe TO SHARE adobe_data_share;
+   ```
+
+6. 지역에 대한 올바른 식별자를 사용하여 Adobe의 [!DNL Snowflake] 계정을 [!DNL Snowflake Secure Data Share]에 추가합니다. [위의 지역/계정 매핑 테이블](#collect-account-information)을 참조하세요.
+
+   ```sql
+   ALTER SHARE adobe_data_share ADD ACCOUNTS = <Account Identifier based on region from the mapping table>;
+   ```
+
+### [!DNL Snowflake Share] 세부 정보 수집 {#collect-share-details}
+
+마지막으로 아래 표에 표시된 대로 [!DNL Snowflake Share]에 대한 세부 정보를 수집합니다. [!DNL Snowflake Share]과(와) Collaboration 간의 연결을 설정하려면 이 정보가 필요합니다.
+
+| 필드 | 예 |
+| -------------------------- | --------------- |
+| 계정 식별자 | CUSTOMER_ORG.CUSTOMER_SNOWFLAKE_ACCOUNT |
+| [!DNL Share] 이름 | adobe_data_share |
+| 스키마 이름 | 고객 스키마 |
+| 이름 보기 | secure_view_for_adobe |
+
+{style="table-layout:auto"}
+
 ## [!DNL Snowflake] 연결 구성 {#configure-snowflake-connection}
+
+이제 [Snowflake 권한 구성](#set-up-snowflake-permissions)을 완료하고 [사전 요구 사항](#prerequisites)을 모두 충족하는지 확인한 후 [!DNL Snowflake Secure Data Share]을(를) Collaboration에 연결하여 대상 소싱을 시작할 수 있습니다.
 
 **[!UICONTROL 설정]** 작업 영역의 **[!UICONTROL 내 대상]** 탭에서 추가 아이콘(![추가 아이콘](/help/assets/icons/plus.png))을 선택합니다. **[!UICONTROL 대상]**&#x200B;을 선택하세요.
 
