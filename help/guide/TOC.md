@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration은 광고주와 게시자 간의 원활하고 안전한 데이터 공유 및 공동 작업을 지원하여 실시간 대상 통찰력과 개인화된 마케팅 전략을 촉진합니다.
-source-git-commit: 156135fdad5f176cedb91c05c07d9bc0e1903557
+source-git-commit: 8d3b7ac316826b6a31d4d6b2f831ea8c2adb8daf
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 27%
+source-wordcount: '270'
+ht-degree: 21%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 27%
    * [계정 역할](./overview/roles.md)
    * [Collaboration 패턴](./overview/collaboration-patterns.md)
    * [전체 워크플로](./overview/end-to-end-workflow.md)
-   * {hide-from-toc}[Real-Time CDP Collaboration 스타터](./overview/starter-overview.md)
+   * [Real-Time CDP Collaboration 스타터](./overview/starter-overview.md)
 * 설정 {#setup}
    * [설정 섹션 개요](./setup/setup-overview.md)
    * [계정 온보드 및 관리](./setup/onboard-account.md)
@@ -38,32 +38,32 @@ ht-degree: 27%
    * [측정 데이터 연결 관리](./setup/manage-measurement-data-connection.md)
    * [감사 로그](./setup/audit-logs.md)
    * Real-Time CDP Collaboration 스타터 설정 {#starter-setup}
-      * {hide-from-toc}[관리자 액세스 구성](./setup/starter-admin-access.md)
-      * {hide-from-toc}[권한 제어 구성](./setup/starter-permission-controls.md)
-      * {hide-from-toc}[신용 사용 및 소비](./setup/starter-credit-usage.md)
+      * [관리자 액세스 구성](./setup/starter-admin-access.md)
+      * [권한 제어 구성](./setup/starter-permission-controls.md)
+      * [신용 사용 및 소비](./setup/starter-credit-usage.md)
 * 연결 설정 중 {#connect}
-   * [Overview.md](./connect/overview.md)
+   * [개요](/help/guide/connect/overview.md)
    * [공동 작업자 탐색](./connect/discover-collaborators.md)
    * [협력자 연결 설정](./connect/establishing-connections.md)
    * [연결 관리](./connect/manage-connections.md)
    * Advertising 플랫폼 연결 {#ad-platform-connections}
-      * [개요](./connect/advertising-platforms/overview.md)
+      * [개요](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
       * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * 공동 작업 {#collaborate}
-   * [개요](./collaborate/overview.md)
+   * [개요](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/overview)
    * [프로젝트 관리](./collaborate/manage-projects.md)
    * 공동 작업자 연결 {#collaborator-connections}
       * [검색](./collaborate/discover.md)
       * [활성화](./collaborate/activate.md)
       * [측정](./collaborate/measure.md)
    * Advertising 플랫폼 연결 {#ad-platform-connections}
-      * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
+      * [Amazon Marketing Cloud](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
       * {hide-from-toc}[AMC 측정 보고서 만들기](./collaborate/advertising-platforms/amc-measure.md)
 * 대상 {#destinations}
-   * [개요](./destinations/overview.md)
+   * [개요](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/overview)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * 권한 {#permissions}
-   * [개요](./permissions/overview.md)
+   * [개요](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/permissions/overview)
    * [사용자 액세스 관리](./permissions/manage-user-access.md)
    * [역할 관리](./permissions/manage-roles.md)
 * 참조 {#reference}
