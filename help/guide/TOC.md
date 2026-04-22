@@ -47,23 +47,23 @@ ht-degree: 21%
    * [협력자 연결 설정](./connect/establishing-connections.md)
    * [연결 관리](./connect/manage-connections.md)
    * Advertising 플랫폼 연결 {#ad-platform-connections}
-      * [개요](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
+      * [개요](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
       * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * 공동 작업 {#collaborate}
-   * [개요](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/overview)
+   * [개요](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/collaborate/overview)
    * [프로젝트 관리](./collaborate/manage-projects.md)
    * 공동 작업자 연결 {#collaborator-connections}
       * [검색](./collaborate/discover.md)
       * [활성화](./collaborate/activate.md)
       * [측정](./collaborate/measure.md)
    * Advertising 플랫폼 연결 {#ad-platform-connections}
-      * [Amazon Marketing Cloud](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
+      * [Amazon Marketing Cloud](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
       * {hide-from-toc}[AMC 측정 보고서 만들기](./collaborate/advertising-platforms/amc-measure.md)
 * 대상 {#destinations}
-   * [개요](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/overview)
+   * [개요](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/destinations/overview)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * 권한 {#permissions}
-   * [개요](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/permissions/overview)
+   * [개요](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/permissions/overview)
    * [사용자 액세스 관리](./permissions/manage-user-access.md)
    * [역할 관리](./permissions/manage-roles.md)
 * 참조 {#reference}
