@@ -2,7 +2,7 @@
 title: Collaboration [!DNL Starter] 온보딩에 대한 관리자 액세스 구성
 description: Adobe Experience Cloud에서 Admin Console을 사용하여 Adobe Real-Time CDP Collaboration [!DNL Starter] 에 대한 관리자 액세스를 구성하는 방법에 대해 알아봅니다.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7b5aa5e2-1238-4a0b-be20-becfe6c9e0b7
 source-git-commit: db4cc34592e49254163d7db54f93238146ce72a4
 workflow-type: tm+mt
@@ -88,7 +88,7 @@ Collaboration 권한을 관리하려면 관리자 액세스 권한 외에 제품
 
 그런 다음 **[!UICONTROL 제품]**&#x200B;에서 추가 아이콘 ![추가 아이콘](../../assets/icons/plus.png)을 선택합니다.
 
-사용 가능한 [제품 프로필](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) 목록이 포함된 대화 상자가 나타납니다. **[!UICONTROL AEP-Default-All-Users]** 및 **[!UICONTROL 기본 프로덕션 모든 액세스]**&#x200B;를 선택합니다. 그런 다음 **[!UICONTROL 적용]**&#x200B;을 선택합니다.
+사용 가능한 [제품 프로필](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html) 목록이 포함된 대화 상자가 나타납니다. **[!UICONTROL AEP-Default-All-Users]** 및 **[!UICONTROL 기본 프로덕션 모든 액세스]**&#x200B;를 선택합니다. 그런 다음 **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
 ![제품 프로필 선택 대화 상자에 선택한 제품 프로필과 적용 옵션이 강조 표시됩니다.](../../assets/setup/starter/admin-access/select-product-profiles.png){zoomable="yes"}
 
