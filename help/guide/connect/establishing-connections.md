@@ -4,10 +4,10 @@ description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
+source-git-commit: 27fdbdf7e70ba83b323e1057ab614585aa7d0045
 workflow-type: tm+mt
-source-wordcount: '2881'
-ht-degree: 9%
+source-wordcount: '3349'
+ht-degree: 8%
 
 ---
 
@@ -116,39 +116,41 @@ ht-degree: 9%
 >
 >**[!UICONTROL 연결 코드]** 기능이 도입되기 전에 만들어진 모든 계정에는 생성된 연결 코드가 없으며 연결 필드는 **[!UICONTROL 사용할 수 없음]**(으)로 표시됩니다. 새로 고침 옵션을 사용하여 새 연결 코드를 생성합니다.
 
-#### 비공개 연결 초대 보내기 {#send-private-connection-invite}
+#### Send private connection invite {#send-private-connection-invite}
 
-공동 작업자의 **[!UICONTROL 연결 코드]**&#x200B;이 있으면 개인 연결 초대를 보낼 수 있습니다. 이렇게 하려면 **[!UICONTROL 연결]** 작업 영역으로 이동하여 오른쪽 상단의 더하기 아이콘(![더하기 아이콘](/help/assets/icons/plus.png))을 선택합니다.
+Once you have the **[!UICONTROL Connect code]** from your collaborator, you can send a private connection invite. To do this, navigate to the **[!UICONTROL Connect]** workspace and select the plus icon (![plus icon](/help/assets/icons/plus.png)) in the upper right corner.
 
-![Connect 작업 영역에서 강조 표시된 더하기 아이콘](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
+Then, select **[!UICONTROL Connect with invite code]**.
 
-연결할 공동 작업자의 **[!UICONTROL 연결]** 대화 상자가 나타나고 **[!UICONTROL 연결 코드]**&#x200B;을 입력하라는 메시지가 표시됩니다. 코드를 텍스트 필드에 붙여넣고 **[!UICONTROL 계속]**&#x200B;을(를) 선택하여 계속합니다.
+![The plus icon highlighted in the Connect workspace.](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
 
-![Connect 코드 필드가 채워져 있고 Continue 옵션이 강조 표시된 Connect 대화 상자.](/help/assets/connect/establish-connection/private-connection-invite-connect.png){zoomable="yes"}
+The **[!UICONTROL Connect]** dialog appears, prompting you to enter the **[!UICONTROL Connect code]** of the collaborator you want to connect with. Paste the code into the text field and select **[!UICONTROL Continue]** to proceed.
 
-그러면 **[!UICONTROL 연결]** 대화 상자에 코드가 연결된 공동 작업자가 표시되어 올바른 공동 작업자와 연결하는지 확인할 수 있습니다. 공동 작업자가 올바른 경우 **[!UICONTROL 연결]**&#x200B;을 선택하여 개인 연결 초대를 보냅니다.
+![The Connect dialog with the Connect code field filled in and the Continue option highlighted.](/help/assets/connect/establish-connection/private-connection-invite-connect.png){zoomable="yes"}
 
-![공동 작업자의 세부 정보가 표시되고 연결 옵션이 강조 표시된 연결 대화 상자입니다.](/help/assets/connect/establish-connection/private-connection-invite-connect-confirm.png){zoomable="yes"}
+The **[!UICONTROL Connect]** dialog will then display the collaborator the code is associated with, allowing you to confirm that you are connecting with the correct collaborator. If the collaborator is correct, select **[!UICONTROL Connect]** to send the private connection invite.
+
+![The Connect dialog with the collaborator details displayed and the Connect option highlighted.](/help/assets/connect/establish-connection/private-connection-invite-connect-confirm.png){zoomable="yes"}
 
 ### 초대 수락 {#accept-invite}
 
 >[!TIP]
 >
->연결 프로세스에 대해 논의할 때 **소유자**&#x200B;와(과) **수신자** 사이에 차이가 있습니다. 소유자는 초대를 전송하여 연결을 시작하는 공동 작업자이고, 수신자는 초대를 받고 검토하는 공동 작업자입니다.
+>When discussing the connection process, there will be a distinction between the **owner** and the **recipient**. The owner is the collaborator who initiates the connection by sending the invite, while the recipient is the collaborator who receives and reviews the invite.
 
-소유자가 연결 설정을 구성하려면 먼저 수신자가 연결 초대를 수락해야 합니다. 이렇게 하려면 **[!UICONTROL 연결]** 작업 영역으로 이동하여 **[!UICONTROL 작업 필요]** 섹션에서 보류 중인 연결을 찾습니다. 연결 상태가 **[!UICONTROL 초대 받음]**(으)로 표시됩니다. 초대를 수락하려면 **[!UICONTROL 수락]**&#x200B;을 선택하세요.
+Before the owner can configure the connection settings, the recipient must accept the connection invite. To do this, navigate to the **[!UICONTROL Connect]** workspace and find the pending connection in the **[!UICONTROL Action required]** section. The connection status appears as **[!UICONTROL Invite received]**. Select **[!UICONTROL Accept]** to accept the invite.
 
-![보류 중인 연결이 Accept 옵션이 강조 표시된 Connect 작업 영역의 Action Required 섹션에 표시됩니다.](/help/assets/connect/establish-connection/accept-connection.png){zoomable="yes"}
+![The pending connection is displayed Action required section of the Connect workspace with the Accept option highlighted.](/help/assets/connect/establish-connection/accept-connection.png){zoomable="yes"}
 
-초대를 수락하라는 대화 상자가 나타납니다. 계속하려면 **[!UICONTROL 초대 수락]**&#x200B;을 선택하세요.
+The dialog appears prompting you to accept the invite. Select **[!UICONTROL Accept invite]** to proceed.
 
-![초대 수락 옵션이 강조 표시된 연결 초대 수락 대화 상자입니다.](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
+![The Accept connection invite dialog with the Accept invite option highlighted.](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
 
-연결 상태가 **[!UICONTROL 보류 중]**(으)로 변경됩니다. 이제 소유자가 연결 설정을 구성할 수 있습니다.
+The status of the connection changes to **[!UICONTROL Pending]**. The owner can now configure the connection settings.
 
-### 연결 설정 구성 {#configure-connection-settings}
+### Configure connection settings {#configure-connection-settings}
 
-연결 설정은 두 공동 작업자 간의 용어를 정의합니다. 이러한 설정에는 사용 사례, 일치 키, 크레딧 분할 및 법적 계약이 포함됩니다. 광고주와 연결하는 공동 작업자는 프로젝트 생성 시 사용되는 연결 설정에 광고주 이름을 추가할 수도 있습니다.
+The connection settings define the terms between two collaborators. 이러한 설정에는 사용 사례, 일치 키, 크레딧 분할 및 법적 계약이 포함됩니다. 광고주와 연결하는 공동 작업자는 프로젝트 생성 시 사용되는 연결 설정에 광고주 이름을 추가할 수도 있습니다.
 
 수신자가 초대를 수락하면 소유자는 연결 설정을 구성할 수 있습니다. 이렇게 하려면 **[!UICONTROL 내 연결]**(으)로 이동하여 **[!UICONTROL 작업 필요]** 섹션에서 보류 중인 연결을 찾습니다. 연결 설정을 구성하려면 **[!UICONTROL 연결 설정]**&#x200B;을 선택하십시오.
 
@@ -245,7 +247,7 @@ ht-degree: 9%
 
 ##### 크레딧 분할 {#credit-split}
 
-신용 분할 섹션을 사용하여 두 협업 당사자 중 어느 쪽이 활동 비용을 부담할지 결정합니다. 신용 분할 옵션은 연결에 대해 선택한 사용 사례에 따라 결정됩니다. **[!UICONTROL Measurement]** 사용 사례에서는 한 당사자가 비용을 부담해야 하지만 **[!UICONTROL 활성화 - 일치]** 사용 사례에서는 각 당사자가 자신의 비용을 부담하도록 하는 추가 옵션을 제공합니다. 비용 분류에 대한 자세한 내용은 [신용 활동 유형](/help/guide/setup/my-activity.md#types-of-activities) 안내서를 참조하십시오.
+Use the credit split section to determine which of the two collaborating parties will cover the costs for the activities. 신용 분할 옵션은 연결에 대해 선택한 사용 사례에 따라 결정됩니다. **[!UICONTROL Measurement]** 사용 사례에서는 한 당사자가 비용을 부담해야 하지만 **[!UICONTROL 활성화 - 일치]** 사용 사례에서는 각 당사자가 자신의 비용을 부담하도록 하는 추가 옵션을 제공합니다. 비용 분류에 대한 자세한 내용은 [신용 활동 유형](/help/guide/setup/my-activity.md#types-of-activities) 안내서를 참조하십시오.
 
 >[!NOTE]
 >
@@ -302,6 +304,70 @@ ht-degree: 9%
 > 연결 설정을 수락하면 더 이상 광고주 이름을 추가하거나 편집할 수 없습니다.
 
 다음으로 **[!UICONTROL 수락]**&#x200B;을 선택하여 연결을 계속합니다. 연결 상태가 **[!UICONTROL 활성]**(으)로 변경되며 이제 프로젝트 공동 작업을 시작할 수 있습니다.
+
+## 공동 작업자 초대 {#invite-collaborator}
+
+아래 단계에 따라 파트너를 Real-Time CDP Collaboration [!DNL Starter]에 초대하십시오. Collaboration [!DNL Starter]에 대한 자세한 내용과 프로세스에 대한 단계별 개요를 보려면 [[!DNL Starter] 개요 설명서](../overview/starter-overview.md)를 참조하세요.
+
+초대 프로세스를 시작하기 전에 공동 작업자로부터 다음 정보를 수집합니다.
+
+| 필드 | 설명 |
+|-------|-------------|
+| 회사 | 공동 작업자의 회사 이름입니다. |
+| 이름 | 초대하는 사람의 전체 이름. |
+| 이메일 주소 | 공동 작업자가 Real-Time CDP Collaboration [!DNL Starter]에 액세스하는 데 사용하는 이메일 주소입니다. |
+| 제목 | 기본 연락처의 직함입니다. |
+
+{style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>다른 공동 작업자를 초대하면 해당 활동을 통해 발생한 모든 비용에 대해 귀하가 책임을 진다는 것을 알게 됩니다. Collaboration Starter의 [신용 사용 및 소비에 대해 자세히 알아보기](../setup/starter-credit-usage.md)
+
+### 초대 보내기 {#send-invitation}
+
+사용자 인터페이스를 통해 파트너 조직을 초대하여 Collaboration [!DNL Starter]에 직접 참여하십시오.
+
+시작하려면 **[!UICONTROL 연결]** 작업 영역으로 이동하여 오른쪽 상단의 더하기 아이콘(![더하기 아이콘](/help/assets/icons/plus.png))을 선택합니다. 그런 다음 **[!UICONTROL 공동 작업자 초대]**&#x200B;를 선택합니다.
+
+![더하기 아이콘과 공동 작업자 초대 옵션이 강조 표시된 작업 영역 연결.](/help/assets/connect/establish-connection/invite-collaborator/invite-collaborator.png){zoomable="yes"}
+
+**[!UICONTROL 공동 작업자 초대]** 대화 상자가 나타나고 초대된 공동 작업자의 정보를 입력하라는 메시지가 표시됩니다. [!UICONTROL 회사 이름], [!UICONTROL 이름], [!UICONTROL 성] 및 [!UICONTROL 전자 메일]의 필수 필드를 입력하십시오.
+
+>[!IMPORTANT]
+>
+>초대는 **제공된 전자 메일 주소와 연결되어 있습니다**. 초대를 수락하고 제품에 액세스하려면 초대된 사용자가 정확한 이메일을 사용해야 하므로 이메일 주소가 정확한지 확인합니다.
+
+그런 다음 드롭다운을 사용하여 파트너에게 적합한 역할을 선택합니다. Collaboration에서 사용 가능한 역할 유형에 대한 자세한 내용은 [계정 역할 설명서](../overview/roles.md)를 참조하세요.
+
+![역할 드롭다운이 강조 표시된 공동 작업자 초대 대화 상자입니다.](/help/assets/connect/establish-connection/invite-collaborator/role-dropdown.png){zoomable="yes"}
+
+완료되면 정보를 검토하고 **[!UICONTROL 초대 보내기]**&#x200B;를 선택합니다.
+
+![초대 보내기 옵션이 강조 표시된 공동 작업자 초대 대화 상자.](/help/assets/connect/establish-connection/invite-collaborator/send-invite.png){zoomable="yes"}
+
+초대 메시지가 파트너 조직에 전송되었음을 확인하는 대화 상자가 표시됩니다.
+
+![확인 대화 상자에서 초대가 성공적으로 전송되었는지 확인합니다.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
+
+### 초대를 수락하고 약관에 서명 {#accept-invitation-sign-terms}
+
+초대를 보내면 파트너 조직이 실시간 Collaboration 약관을 검토하고 동의하는 지침을 담은 이메일을 받게 됩니다. 수락하기 전에 Collaboration의 기능을 살펴볼 수도 있습니다.
+
+![Collaboration Starter에 참여하기 위한 초대 전자 메일입니다.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
+
+파트너 조직이 약관에 동의하면 Adobe에서 해당 계정에 대한 Real-Time CDP Collaboration [!DNL Starter]을(를) 프로비저닝하기 시작합니다.
+
+### 프로비저닝 확인 {#provisioning-confirmation}
+
+프로비저닝 프로세스가 완료되면 초대된 조직에 환영 전자 메일이 전송되어 Collaboration [!DNL Starter]을(를) 사용할 준비가 되었음을 확인합니다. 이 이메일은 다음 방법에 대한 지침을 제공합니다.
+
+- [관리자 및 사용자 액세스 구성](../setup/starter-admin-access.md)
+- [Collaboration에 액세스할 수 있는 권한 설정](../setup/starter-permission-controls.md)
+
+![필요한 액세스 및 권한을 설정하는 지침과 함께 초대된 조직에 전송된 시작 전자 메일입니다.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
+
+파트너가 Collaboration에 액세스하면 귀하와 초대된 조직이 [연결을 설정하고](#connect) [연결 설정을 설정하여](#configure-connection-settings)프로젝트 공동 작업을 시작할 수 있습니다.
 
 ## 다음 단계
 
