@@ -2,7 +2,7 @@
 title: 공동 작업자와의 연결 설정
 description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 프로젝트에 대한 공동 작업을 시작하는 방법에 대해 알아보십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
 workflow-type: tm+mt
@@ -330,7 +330,7 @@ ht-degree: 8%
 >id="rtcdp_collaboration_starter_invite_collaborator"
 >title="공동 작업자 초대"
 >abstract="파트너 조직을 Collaboration Starter에 초대하려면 이 양식을 작성하십시오. 초대받은 사람은 초대 이메일을 받게 되며, 등록을 완료하려면 지정된 이메일 주소를 사용해야 합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Collaboration Starter에 대해 자세히 알아보기"
+>additional-url="https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Collaboration Starter에 대해 자세히 알아보기"
 
 사용자 인터페이스를 통해 파트너 조직을 초대하여 Collaboration [!DNL Starter]에 직접 참여하십시오.
 
