@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration은 광고주와 게시자 간의 원활하고 안전한 데이터 공유 및 공동 작업을 지원하여 실시간 대상 통찰력과 개인화된 마케팅 전략을 촉진합니다.
-source-git-commit: 8d3b7ac316826b6a31d4d6b2f831ea8c2adb8daf
+source-git-commit: 60d33488987bba5f04d30cc5128a5df007887c86
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 21%
+source-wordcount: '209'
+ht-degree: 27%
 
 ---
 
@@ -47,23 +47,23 @@ ht-degree: 21%
    * [협력자 연결 설정](./connect/establishing-connections.md)
    * [연결 관리](./connect/manage-connections.md)
    * Advertising 플랫폼 연결 {#ad-platform-connections}
-      * [개요](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
+      * [개요](/help/guide/connect/advertising-platforms/overview.md)
       * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * 공동 작업 {#collaborate}
-   * [개요](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/collaborate/overview)
+   * [개요](/help/guide/collaborate/overview.md)
    * [프로젝트 관리](./collaborate/manage-projects.md)
    * 공동 작업자 연결 {#collaborator-connections}
       * [검색](./collaborate/discover.md)
       * [활성화](./collaborate/activate.md)
       * [측정](./collaborate/measure.md)
    * Advertising 플랫폼 연결 {#ad-platform-connections}
-      * [Amazon Marketing Cloud](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
+      * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
       * {hide-from-toc}[AMC 측정 보고서 만들기](./collaborate/advertising-platforms/amc-measure.md)
 * 대상 {#destinations}
-   * [개요](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/destinations/overview)
+   * [개요](/help/guide/destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * 권한 {#permissions}
-   * [개요](https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/permissions/overview)
+   * [개요](/help/guide/permissions/overview.md)
    * [사용자 액세스 관리](./permissions/manage-user-access.md)
    * [역할 관리](./permissions/manage-roles.md)
 * 참조 {#reference}
