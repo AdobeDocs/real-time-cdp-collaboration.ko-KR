@@ -2,12 +2,15 @@
 title: 연결 관리
 description: Real-Time CDP Collaboration에서 연결을 관리하는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
-source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
+TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 1%
+source-wordcount: 1092
+ht-degree: 2%
 
 ---
 
@@ -62,7 +65,7 @@ ht-degree: 1%
 >
 >**owner**&#x200B;은(는) **recipient**&#x200B;에게 초대를 보내 연결을 시작하는 공동 작업자입니다. 자세한 내용은 [공동 작업자와 연결 설정 설명서](./establishing-connections.md)를 참조하십시오.
 
-연결 설정을 편집하려면 연결 설정 작업 공간으로 이동합니다. 세 점 아이콘(![세 점 아이콘)을 선택합니다.](/help/assets/icons/more.png)) 사용 가능한 작업을 보려면 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
+연결 설정을 편집하려면 연결 설정 작업 공간으로 이동합니다. 세 점 아이콘(![세 점 아이콘](/help/assets/icons/more.png))을 선택합니다. 사용 가능한 작업을 보려면 **[!UICONTROL 편집]**&#x200B;을 선택하세요.
 
 ![편집 옵션이 강조 표시된 연결 설정 작업 영역입니다.](/help/assets/connect/manage-connections/edit-connection.png){zoomable="yes"}
 

@@ -2,11 +2,14 @@
 title: 측정 데이터 추가 및 관리
 description: Adobe Real-Time CDP Collaboration에 측정 데이터를 추가하는 방법을 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
+TQID: https://experienceleague.adobe.com/uJgTdRoA4K-Y-Me287MRvI5-jmuW2glaigB8JMAtME4
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '2720'
+source-wordcount: 2720
 ht-degree: 4%
 
 ---
@@ -197,41 +200,41 @@ Collaboration 캠페인 측정 보고서에 사용할 측정 데이터를 포함
 
 ![전환 값 옵션을 강조 표시하는 전환 이벤트 추가 화면입니다.](../../assets/setup/add-manage-measurement-data/conversion-value.png){zoomable="yes"}
 
-그런 다음 중복 키를 지정하여 이벤트 데이터 세트에서 동일한 기본 전환 이벤트에 속하는 행(예: 등록 프로세스 동안 동일한 타임스탬프)을 나타내야 합니다. 이렇게 하면 측정 보고서에서 동일한 변환을 여러 번 카운트하지 않게 됩니다. 이렇게 하려면 **[!UICONTROL 복제 키]**&#x200B;를 선택하십시오. **[!UICONTROL 복제 키]** 대화 상자에서 키를 찾아 선택한 다음 **[!UICONTROL 선택]**&#x200B;합니다.
+그런 다음 중복 키를 지정하여 이벤트 데이터 세트에서 동일한 기본 전환 이벤트에 속하는 행(예: 등록 프로세스 동안 동일한 타임스탬프)을 나타내야 합니다. This prevents counting the same conversion multiple times in measurement reports. To do this, select **[!UICONTROL Duplication key]**. In the **[!UICONTROL Duplication key]** dialog, find and choose the key, followed by **[!UICONTROL Select]**.
 
-![선택한 키와 선택 옵션을 표시하는 복제 키 대화 상자입니다.](../../assets/setup/add-manage-measurement-data/duplication-key-dialog.png){zoomable="yes"}
+![The Duplication key dialog showing the selected key and the Select option.](../../assets/setup/add-manage-measurement-data/duplication-key-dialog.png){zoomable="yes"}
 
-복제 키를 지정한 후 전환을 위해 이벤트 데이터 세트의 관련 행만 포함하도록 최대 **5** 조건을 추가할 수 있습니다. 이러한 조건 모두 또는 중 하나를 적용하도록 선택합니다.
+After specifying the duplication key, you can add up to **5** conditions to include only relevant rows from the event dataset for the conversion. Choose to apply all or any of these conditions.
 
-**[!UICONTROL 조건 추가]**&#x200B;를 선택한 다음 조건 옵션을 선택합니다.
+Select **[!UICONTROL Add condition]**, then select the condition option.
 
-![조건 추가 옵션을 선택한 후 조건 옵션을 강조 표시하는 전환 이벤트 추가 화면입니다.](../../assets/setup/add-manage-measurement-data/add-condition.png){zoomable="yes"}
+![The Add conversion event screen highlighting the condition option after selecting Add condition option.](../../assets/setup/add-manage-measurement-data/add-condition.png){zoomable="yes"}
 
-**[!UICONTROL 원본 필드 선택]** 대화 상자에서 조건 규칙의 원본 필드를 찾아 선택한 후 **[!UICONTROL 선택]**&#x200B;을 선택합니다.
+In the **[!UICONTROL Select source field]** dialog, find and choose a source field for the condition rule, followed by **[!UICONTROL Select]**.
 
-![이벤트 유형 필드와 선택 옵션을 강조 표시하는 소스 필드 선택 대화 상자](../../assets/setup/add-manage-measurement-data/select-condition-field.png){zoomable="yes"}
+![The Select source field dialog highlighting the Event Type field and the Select option.](../../assets/setup/add-manage-measurement-data/select-condition-field.png){zoomable="yes"}
 
-드롭다운 메뉴를 사용하여 논리 연산자를 선택한 다음, 구성 규칙 값을 입력합니다.
+Use the dropdown menu to select a logic operator, then enter the value for the confition rule.
 
-![논리 연산자 및 값 옵션에 대한 드롭다운을 강조 표시하는 전환 이벤트 추가 화면입니다.](../../assets/setup/add-manage-measurement-data/logic-operator-dropdown.png){zoomable="yes"}
+![The Add conversion event screen highlighting the dropdown for logic operator and the Value option.](../../assets/setup/add-manage-measurement-data/logic-operator-dropdown.png){zoomable="yes"}
 
-다른 전환 이벤트를 추가하려면 **[!UICONTROL 전환 추가]**&#x200B;를 선택하십시오. 총 **3**&#x200B;개의 전환 이벤트를 포함할 수 있습니다. 완료되면 전환 구성을 검토하고 **[!UICONTROL 다음]**&#x200B;을(를) 선택합니다.
+To add another conversion event, select **[!UICONTROL Add conversion]**. You can include up to **3** conversion events in total. Once finished, review the conversion configurations and select **[!UICONTROL Next]**.
 
-![전환 이벤트 구성과 다음 옵션을 강조 표시한 전환 이벤트 추가 화면입니다.](../../assets/setup/add-manage-measurement-data/add-conversion-event.png){zoomable="yes"}
+![The Add conversion event screen showing the conversion event configurations and the Next option highlighted.](../../assets/setup/add-manage-measurement-data/add-conversion-event.png){zoomable="yes"}
 
 ### 검토 {#review}
 
-측정 데이터 설정에 대한 요약이 포함된 **[!UICONTROL 검토]** 화면이 나타납니다. 모든 정보가 올바른지 확인하십시오. 섹션을 변경해야 하는 경우 **[!UICONTROL 편집]** 옵션을 사용하십시오.
+The **[!UICONTROL Review]** screen appears with a summary of measurement data settings. Review and ensure all the information are correct. If you need to change any section, use the **[!UICONTROL Edit]** option.
 
-마지막으로 **[!UICONTROL 완료]**&#x200B;를 선택하여 측정 데이터 추가를 완료합니다.
+Finally, select **[!UICONTROL Complete]** to finish adding your measurement data.
 
-![측정 데이터 설정 요약과 [완료] 옵션이 강조 표시된 [검토] 화면입니다.](../../assets/setup/add-manage-measurement-data/review-measurement-data.png){zoomable="yes"}
+![The Review screen showing a summary of measurement data settings and the Complete option highlighted.](../../assets/setup/add-manage-measurement-data/review-measurement-data.png){zoomable="yes"}
 
-확인 대화 상자에서 측정 데이터가 성공적으로 생성되었음을 확인합니다. **[!UICONTROL 내 측정 데이터]** 작업 영역의 측정 데이터에서 구성된 새 전환 이벤트를 볼 수 있습니다.
+A confirmation dialog confirms that your measurement data was created successfully. You can see the new conversion events configured from your measurement data in the **[!UICONTROL My measurement data]** workspace.
 
-![측정 데이터에서 구성된 전환 이벤트 목록을 표시하는 내 측정 데이터 작업 영역입니다.](../../assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"}
+![My measurement data workspace showing a list of conversion events configured from your measurement data.](../../assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"}
 
-그리드 보기 또는 테이블 보기에서 이벤트 카드 내의 행 항목 또는 **[!UICONTROL 전환 보기]** 옵션을 선택하여 특정 전환 이벤트의 개요를 확인합니다. 이벤트의 상태, 소스 및 데이터 연결 이름과 다음에 대한 세부 패널이 표시됩니다.
+When in grid view or table view, select a row item or the **[!UICONTROL View conversion]** option within an event card to see an overview of a specific conversion event. 이벤트의 상태, 소스 및 데이터 연결 이름과 다음에 대한 세부 패널이 표시됩니다.
 
 * **[!UICONTROL 전환 세부 정보]**: 해당 형식, 고유 이벤트를 식별하는 데 사용된 복제 키 및 할당된 전환 값(지정된 경우)을 포함하여 전환에 대한 키 정보를 표시합니다.
 * **[!UICONTROL 조건]**: 이 전환 이벤트에 적용된 조건 규칙을 표시합니다.

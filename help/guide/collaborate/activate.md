@@ -2,12 +2,16 @@
 title: 대상자 활성화
 description: Adobe Real-Time CDP Collaboration에서 대상을 활성화하는 방법을 알아봅니다.
 audience: admin, publisher
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
+TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 2%
+source-wordcount: 1016
+ht-degree: 3%
 
 ---
 
@@ -17,7 +21,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 활성화]** 작업 영역은 연결 프로세스 **에서**&#x200B;대상 활성화[&#x200B; 사용 사례를 사용하도록 설정한 경우 &#x200B;](../connect/establishing-connections.md#connection-settings)에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
+>**[!UICONTROL 활성화]** 작업 영역은 연결 프로세스 ](../connect/establishing-connections.md#connection-settings)에서 **대상 활성화** 사용 사례를 사용하도록 설정한 경우 [에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
 
 대상자 활성화를 사용하면 캠페인에서 사용할 대상자를 활성화할 수 있습니다. 연결에 구성된 대상 활성화 설정 [에 따라 공동 작업자가 활성화할 수 있습니다](/help/guide/connect/establishing-connections.md#configure-connection-settings). [캠페인에 가장 적합한 대상을 검색](./discover.md)한 후 대상을 활성화하여 사용할 수 있도록 만드십시오. 대상을 활성화하면 공동 작업자가 미리 구성한 대상(예: Adobe Experience Platform)으로 보내져 캠페인에서 사용할 수 있게 됩니다. 대상 설정에 대한 자세한 내용은 [대상 개요](../destinations/overview.md) 안내서를 참조하십시오.
 
@@ -31,7 +35,7 @@ ht-degree: 2%
 >
 >![Collaborator에 구성된 대상이 없는 경우 작업 영역 활성화.](/help/assets/collaborate/activate/no-destination-configured.png)
 
-추가 아이콘(![추가 아이콘)을 선택합니다.](/help/assets/icons/plus.png)) 또는 활성화를 위해 전송된 이전 대상이 없는 경우 **[!UICONTROL 대상 활성화]** 옵션을 사용할 수 있습니다.
+추가 아이콘(![추가 아이콘.](/help/assets/icons/plus.png))을 선택하거나, 활성화를 위해 이전 대상이 전송되지 않은 경우 **[!UICONTROL 대상 활성화]** 옵션을 선택합니다.
 
 ![추가된 대상이 없는 프로젝트의 작업 영역을 활성화하십시오.](/help/assets/collaborate/activate/activate-new-audiences.png)
 
@@ -45,7 +49,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->여러 일치 키가 사용되는 대상을 활성화할 때 하나(또는 그 이상) 일치 키에 겹침이 없거나 대상 수가 없거나 임계값 미만이면 전체 활성화가 실패합니다. 활성화하기 전에 대상이 충분히 겹치고 모든 일치 키에서 최소 1000 ID 임계값을 충족하는지 확인하십시오.
+>여러 일치 키가 사용되는 대상을 활성화할 때, 하나(또는 그 이상) 일치 키에 겹침이 없거나, 대상자 규모가 없거나, 임계값 미만이면 전체 활성화가 실패합니다. 활성화하기 전에 대상이 충분히 겹치고 모든 일치 키에서 최소 1000 ID 임계값을 충족하는지 확인하십시오.
 
 캠페인에서 활성화할 대상을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다. 이제 대상이 표시되고, 선택한 대상의 **[!UICONTROL ID 개수]**, **[!UICONTROL 중복 ID]** 및 **[!UICONTROL 중복 %]**&#x200B;을(를) 볼 수 있습니다.
 
@@ -115,7 +119,7 @@ ht-degree: 2%
 
 더 이상 활성화하지 않을 보낸 대상자를 삭제할 수 있습니다. 보낸 대상을 삭제하면 **[!UICONTROL 보낸 대상]** 섹션에서 제거되며 더 이상 공동 작업자의 대상으로 활성화되지 않습니다.
 
-보낸 대상자를 삭제하려면 **[!UICONTROL 삭제]** 아이콘(![삭제 아이콘)을 선택하십시오.](/help/assets/icons/delete.png)): **[!UICONTROL 대상자를]** 섹션으로 보냈습니다.
+보낸 대상자를 삭제하려면 **[!UICONTROL 삭제]** 아이콘(![삭제 아이콘](/help/assets/icons/delete.png))을 선택하세요. **[!UICONTROL 대상자를]**(으)로 전송함 섹션의 대상자 옆.
 
 ![Sent audiences to 섹션의 Delete 옵션입니다.](/help/assets/collaborate/activate/delete-sent-audiences.png)
 

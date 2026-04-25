@@ -2,12 +2,15 @@
 title: 감사 로그
 description: Real-Time CDP Collaboration에서 감사 로그 기능을 사용하여 사용자 활동 및 변경 사항을 추적하는 방법에 대해 알아봅니다.
 audience: admin
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+TQID: https://experienceleague.adobe.com/zb09-bUpxJ2VPDknETHeayMuLpNRCaQ2VTnV9QnTRgE
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 1%
+source-wordcount: 950
+ht-degree: 2%
 
 ---
 
@@ -23,7 +26,7 @@ Collaboration의 감사 로그 기능을 사용하여 플랫폼 내에서 사용
 
 ![감사 로그 기능의 높은 수준 개요 화면](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-감사 로그에 대한 자세한 내용은 [Experience Platform 감사 로그 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}를 참조하세요.
+감사 로그에 대한 자세한 내용은 [Experience Platform 감사 로그 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}를 참조하세요.
 
 ## 감사 로그 액세스
 
@@ -44,38 +47,38 @@ Collaboration의 감사 로그 기능을 사용하여 플랫폼 내에서 사용
 
 ## 감사 로그 보기 및 사용
 
-감사 로그를 보려면:
+To view the audit logs:
 
-1. Experience Platform의 **[!UICONTROL 감사]** 섹션으로 이동합니다.
-2. [필터](#filter-audit-logs)를 사용하여 조건에 따라 로그 범위를 좁힙니다.
-3. 타임스탬프, 요청 ID, 리소스 세부 정보 및 작업 상태를 포함하여 자세한 정보를 보려면 로그 항목을 선택하십시오.
+1. Navigate to the **[!UICONTROL Audits]** section in Experience Platform.
+2. Use the [filters](#filter-audit-logs) to narrow down the logs based on your criteria.
+3. Select a log entry to view detailed information, including the timestamp, request ID, resource details, and action status.
 
-![자세한 감사 로그](/help/assets/setup/audit-logs/filters-and-detailed-view.png)
+![Detailed Audit Log](/help/assets/setup/audit-logs/filters-and-detailed-view.png)
 
-### 캡처된 활동
+### Captured activities
 
-감사 로그는 다음을 포함하여 사용자 활동에 대한 자세한 정보를 캡처합니다.
+Audit logs capture detailed information about user activities, including:
 
-* **타임스탬프**: 수행한 작업의 정확한 날짜 및 시간(월/일/년 시간):minute 오전/오후 형식입니다.
-* **자산 이름**: 작업이 수행된 리소스의 이름입니다.
-* **범주**: 작업이 수행된 리소스의 유형입니다.
-* **작업**: 만들기 또는 삭제와 같이 수행된 특정 작업입니다.
-* **사용자**: 작업을 수행한 사용자의 전자 메일 주소입니다.
+* **Timestamp**: The exact date and time of the action performed in a month/day/year hour:minute AM/PM format.
+* **Asset name**: The name of the resource on which the action was performed.
+* **Category**: The type of resource the action was performed on.
+* **Action**: The specific action performed, such as create or delete.
+* **User**: The email address of the user who performed the action.
 
-이러한 로그는 Collaboration 인스턴스 내의 모든 활동에 대한 포괄적인 추적을 생성하므로 데이터 거버넌스 및 규제 준수에 유용합니다. [UI에서 감사 로그 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui)에 대해 자세히 알아보십시오.
+These logs create a comprehensive trail of all activities within your Collaboration instance, which is useful for data governance and regulatory compliance. Read more about [managing audit logs in the UI](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
 
-### 감사 로그 필터링 {#filter-audit-logs}
+### Filter audit logs {#filter-audit-logs}
 
-감사 로그 UI는 특정 로그를 검색하는 데 도움이 되는 몇 가지 필터를 제공합니다.
+The audit logs UI provides several filters to help you search for specific logs:
 
-* **범주**: Collaboration 인스턴스 또는 Collaboration 연결 초대와 같이 작업이 수행된 리소스의 유형입니다.
-* **작업**: 수행된 작업의 유형입니다. 사용 가능한 작업은 선택한 범주에 따라 다릅니다. 예를 들어 Collaboration 인스턴스에 대한 작업에는 만들기, 업데이트 및 삭제가 포함됩니다.
-* **요청 ID**: 요청의 고유 식별자입니다.
-* **사용자**: 작업을 수행한 사용자의 전자 메일 주소입니다.
-* **상태**: 허용 또는 거부와 같은 작업 상태입니다.
-* **날짜 범위**: 로그를 보려는 날짜 범위입니다.
+* **Category**: The type of resource the action was performed on, such as Collaboration Instance or Collaboration Connection Invite.
+* **Action**: The type of action performed. Available actions depend on the category selected. For example, actions for Collaboration Instance include create, update, and delete.
+* **Request ID**: A unique identifier for the request.
+* **User**: The email address of the user who performed the action.
+* **Status**: The status of the action, such as allow or deny.
+* **Date Range**: The range of dates for which you want to view logs.
 
-[감사 로그 필터링](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs)에 대해 자세히 알아보세요.
+Read more about [filtering audit logs](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ## 이점
 
@@ -97,10 +100,10 @@ Collaboration의 감사 로그 기능을 사용하여 플랫폼 내에서 사용
 | **[!UICONTROL Collaboration 연결 초대]** | 만들기, 업데이트, 삭제, 승인, 거부 | 초대 생성, 업데이트, 삭제, 승인 및 거부를 포함하여 연결 초대를 관리합니다. 자세한 내용은 [연결 설정](/help/guide/connect/establishing-connections.md) 안내서를 참조하십시오. |
 | **[!UICONTROL Collaboration 연결]** | 만들기, 업데이트, 삭제, 승인, 거부, 승인 요청 | 연결 만들기, 업데이트, 삭제, 승인, 거부 및 승인 요청을 포함하여 연결을 관리합니다. |
 | **[!UICONTROL Collaboration 데이터 연결]** | 만들기, 업데이트, 삭제 | 데이터 연결 만들기, 업데이트 및 삭제를 포함하여 대상을 소스 및 관리하는 위치의 데이터 연결을 관리합니다. 자세한 내용은 [데이터 연결 관리](/help/guide/setup/manage-data-connection.md) 안내서를 참조하십시오. |
-| **[!UICONTROL Collaboration 데이터 엔터티]** | 만들기, 업데이트, 삭제 | 데이터 엔티티 만들기, 업데이트 및 삭제를 포함하여 Collaboration의 데이터 엔티티를 관리합니다. 이 컨텍스트의 데이터 엔티티는 대상자를 참조합니다. 자세한 내용은 [대상자 소싱 및 관리](/help/guide/setup/onboard-audiences.md) 안내서를 참조하십시오. |
-| **[!UICONTROL Collaboration 프로젝트]** | 만들기, 업데이트, 삭제 | 프로젝트 만들기, 업데이트 및 삭제를 포함하여 Collaboration 내에서 프로젝트를 관리합니다. 자세한 내용은 [프로젝트 관리](/help/guide/collaborate/manage-projects.md) 안내서를 참조하십시오. |
-| **[!UICONTROL Collaboration 모듈]** | 만들기, 업데이트, 삭제 | UI에서 다양한 모듈 생성, 업데이트 및 삭제를 포함하여 프로젝트 내에서 다양한 모듈을 관리합니다. 예를 들어, [대상을 활성화](/help/guide/collaborate/activate.md)하는 기능입니다. |
+| **[!UICONTROL Collaboration 데이터 엔터티]** | 만들기, 업데이트, 삭제 | 데이터 엔티티 만들기, 업데이트 및 삭제를 포함하여 Collaboration의 데이터 엔티티를 관리합니다. Data entities in this context refers to audiences. For more information, read the [sourcing and managing audiences](/help/guide/setup/onboard-audiences.md) guide. |
+| **[!UICONTROL Collaboration Project]** | 만들기, 업데이트, 삭제 | Manage projects within Collaboration, including creating, updating, and deleting projects. For more information, read the [managing projects](/help/guide/collaborate/manage-projects.md) guide. |
+| **[!UICONTROL Collaboration Module]** | 만들기, 업데이트, 삭제 | Manage different modules within projects, including creating, updating, and deleting various modules in the UI. For example, the ability to [activate audiences](/help/guide/collaborate/activate.md). |
 
 {style="table-layout:auto"}
 
-감사 로그 기능을 활용하면 Collaboration 내의 모든 활동에 대한 명확하고 자세한 기록을 유지 관리할 수 있으므로, 투명성과 신뢰성을 보장할 수 있습니다.
+By leveraging the audit logs functionality, you can maintain a clear and detailed record of all activities within Collaboration, ensuring transparency and accountability.
