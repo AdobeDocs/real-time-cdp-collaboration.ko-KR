@@ -4,10 +4,17 @@ description: Adobe Real-Time Customer Data Platform(CDP) Collaboration에 대한
 audience: admin
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
-source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
+TQID: https://experienceleague.adobe.com/EIm85EKC4-YUePO5CTHQ4hi4KvawwhKXfiQEa7lw-P4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 2%
+source-wordcount: 980
+ht-degree: 4%
 
 ---
 
@@ -69,25 +76,25 @@ Collaboration에 대한 액세스 권한을 부여하려면 [사용 사례](#use
 | 기존 Experience Platform 제품 액세스 권한이 없는 수퍼 유저. | 시스템 관리자. | [제품 관리자 액세스 구성](./manage-user-access.md#admin-access) |
 | 기존 Experience Platform 시스템 관리자 **with** Experience Platform UI 액세스 권한을 가진 수퍼 유저. | 시스템 관리자. | [Collaboration 액세스 구성](./manage-user-access.md#RTCDP-collab-access) |
 | Experience Platform UI 액세스 없이 **기존 Experience Platform 시스템 관리자의 수퍼 유저입니다.** | 시스템 관리자. | [제품 관리자 액세스 구성](./manage-user-access.md#admin-access) |
-| 새 제품 관리자에 대한 제품 관리자 권한 및 Collaboration 액세스 권한. | 시스템 관리자. | [제품 관리자 액세스 구성](./manage-user-access.md#admin-access) |
-| 기존 Experience Platform 제품 관리자 **Experience Platform UI 액세스**&#x200B;이(가) 있는 Collaboration 액세스 | 시스템 또는 제품 관리자. | [Collaboration 액세스 구성](./manage-user-access.md#RTCDP-collab-access) |
-| Experience Platform UI 액세스 없이 기존 Experience Platform 제품 관리자 **의 Collaboration 액세스** | 시스템 또는 제품 관리자. | [사용자 액세스 구성](./manage-user-access.md#user-access) |
-| 새 최종 사용자를 위한 Collaboration 액세스 권한. | 시스템 또는 제품 관리자. | [사용자 액세스 구성](./manage-user-access.md#user-access) |
-| Experience Platform 액세스 권한이 있는 기존 사용자에 대한 Collaboration 액세스 권한. | 시스템 또는 제품 관리자. | [Collaboration 액세스 구성](./manage-user-access.md#RTCDP-collab-access) |
+| Product administrator privileges and Collaboration access for a new product administrator. | 시스템 관리자. | [제품 관리자 액세스 구성](./manage-user-access.md#admin-access) |
+| Collaboration access for an existing Experience Platform product administrator **with** Experience Platform UI access. | A system or product administrator. | [Collaboration 액세스 구성](./manage-user-access.md#RTCDP-collab-access) |
+| Collaboration access for an existing Experience Platform product administrator **without** Experience Platform UI access. | A system or product administrator. | [Configure user access](./manage-user-access.md#user-access) |
+| Collaboration access for a new end user. | A system or product administrator. | [Configure user access](./manage-user-access.md#user-access) |
+| Collaboration access for an existing user with Experience Platform access. | A system or product administrator. | [Collaboration 액세스 구성](./manage-user-access.md#RTCDP-collab-access) |
 
 {style="table-layout:auto"}
 
-## 추가 권한
+## Additional Permissions
 
-Collaboration에 대한 액세스 권한을 얻으면 특정 기능에 대해 몇 가지 추가 Experience Platform 권한이 필요할 수 있습니다.
+Once you&#39;ve gained access to Collaboration, you may need some additional Experience Platform permissions for specific functionality.
 
-### 대상자 소싱 {#audience-sourcing}
+### Audience sourcing {#audience-sourcing}
 
-공동 작업자에게 대상을 보내려면 먼저 Collaboration에 대상을 소싱해야 합니다. 현재 대상자 가져오기에 지원되는 셀프 서비스 데이터 연결은 Experience Platform뿐입니다. 먼저 대상자 온보딩을 관리하는 사용자에게 다음 **[!UICONTROL 프로필 관리]** 리소스 권한을 포함하는 역할을 할당해야 합니다.
+Before you can begin sending audiences to collaborators, you need to source audiences into Collaboration. Currently, the only self-serve data connection supported for importing audiences is Experience Platform. To begin, the user(s) managing audience onboarding will need to be assigned a role containing the following **[!UICONTROL Profile Management]** resource permissions:
 
 | 사용 권한 | 설명 |
 | ---- | ---- |
-| [!UICONTROL 세그먼트 보기] | 사용자가 샌드박스에서 사용 가능한 대상 목록을 볼 수 있습니다. |
+| [!UICONTROL View Segments] | Allows the user to see the list of available audiences in a sandbox. |
 | [!UICONTROL 프로필 보기] | 공동 작업 필드에 매핑하는 데 사용할 수 있는 필드를 사용자가 볼 수 있도록 해줍니다. |
 
 아래에서는 위의 권한이 추가된 예제 역할을 볼 수 있습니다. 역할 만들기 또는 할당에 대한 자세한 내용은 [역할 관리](./manage-roles.md) 안내서를 참조하세요.

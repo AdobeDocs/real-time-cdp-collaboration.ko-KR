@@ -1,12 +1,20 @@
 ---
 title: Amazon Marketing Cloud
-description: Learn about collaborating with Amazon Marketing Cloud in Real-Time CDP Collaboration.
+description: Real-Time CDP Collaboration에서 Amazon Marketing Cloud과의 공동 작업에 대해 알아봅니다.
 audience: publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
-source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
+TQID: https://experienceleague.adobe.com/jNTQWEaUuuvgqKboJWsUH4XoKStP49nB0GLUSze0eXw
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: 665
 ht-degree: 21%
 
 ---
@@ -15,11 +23,11 @@ ht-degree: 21%
 
 {{limited-availability-release-note}}
 
-After forming a connection with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), advertisers can [create a project](../manage-projects.md#create-project) to collaborate with [!DNL AMC] to leverage its advanced analytics capabilities. After creating a project, you can use the **[!UICONTROL Discover]** section to compare audience insights and discover relevant audiences for your campaigns.
+[!DNL Amazon Marketing Cloud]&#x200B;([!DNL AMC])과(와) 연결을 형성한 후 광고주는 [프로젝트를 만들고](../manage-projects.md#create-project) [!DNL AMC]과(와) 공동 작업하여 고급 분석 기능을 활용할 수 있습니다. 프로젝트를 만든 후 **[!UICONTROL 검색]** 섹션을 사용하여 대상 인사이트를 비교하고 캠페인에 대한 관련 대상을 검색할 수 있습니다.
 
 >[!IMPORTANT]
 >
->The only use cases supported with [!DNL AMC] are **Audience discovery** and **Measurement**. Currently, only the **[!UICONTROL Discover]** section is available within your project with [!DNL AMC].
+>[!DNL AMC]에서 지원되는 사용 사례는 **대상 검색** 및 **측정**&#x200B;뿐입니다. 현재 프로젝트 내에서 [!DNL AMC]을(를) 통해 **[!UICONTROL 검색]** 섹션만 사용할 수 있습니다.
 
 ## 검색 {#discover}
 
@@ -53,24 +61,24 @@ After forming a connection with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), adve
 >title="Amazon 광고 제품별 분류"
 >abstract="Amazon Ads 스폰서 제품 및/또는 Amazon Ads DSP에서 도달한 “중복 광고 노출 ID” 분류입니다."
 
-In the **[!UICONTROL Discover]** section, you can compare your AMC audience to all consumers reached by your Amazon Ads. You can also view Amazon targeting segments that your audience has the highest overlaps with, considering only DSP impressions (these segments can only be targeted in the DSP).
+**[!UICONTROL 검색]** 섹션에서 AMC 대상자와 Amazon 광고가 제공하는 모든 소비자를 비교할 수 있습니다. DSP 노출 횟수만을 고려하여, 대상자와 가장 겹치는 Amazon 타겟팅 세그먼트를 볼 수도 있습니다(이러한 세그먼트는 DSP에서만 타겟팅할 수 있음).
 
 >[!IMPORTANT]
 >
->Audience data is processed from the audiences uploaded to your [!DNL Amazon Ads] account. To learn how send use Experience Platform&#39;s Destinations feature to send yours audiences to your [!DNL Amazon Ads] account, read the [Amazon Ads connection](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/advertising/amazon-ads) guide.
+>대상 데이터는 [!DNL Amazon Ads] 계정에 업로드된 대상에서 처리됩니다. [보내기]에서 Experience Platform의 대상 기능을 사용하여 대상자를 [!DNL Amazon Ads] 계정으로 보내는 방법에 대해 알아보려면 [Amazon 광고 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/advertising/amazon-ads) 안내서를 참조하십시오.
 
-![The Discover section in a project with Amazon Marketing Cloud.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
+![Amazon Marketing Cloud을 사용하는 프로젝트의 검색 섹션.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
 ### 대상자 비교 {#compare-audiences}
 
-The **[!UICONTROL Compare audiences]** section provides insights into how your [!DNL AMC] audience overlaps with consumers reached by your Amazon Ads. Within the **[!UICONTROL Compare audiences]** section, you can view the following metrics:
+**[!UICONTROL 대상 비교]** 섹션에서는 [!DNL AMC] 대상이 Amazon 광고에서 도달한 소비자와 겹치는 방식에 대한 통찰력을 제공합니다. **[!UICONTROL 대상 비교]** 섹션 내에서 다음 지표를 볼 수 있습니다.
 
 | 지표 | 설명 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL Resolved IDs] | The number of IDs [!DNL Amazon’s Identity Resolution] was able to resolve using your audience data. |
-| [!UICONTROL Overlapping ad exposed IDs] | The number of [!UICONTROL Resolved IDs] from the uploaded audience that have also been exposed to an ad via [!DNL Amazon Ads]. |
-| [!UICONTROL Overlap %] | The proportion of [!UICONTROL Resolved IDs] that have been exposed to an ad via [!DNL Amazon Ads]. |
-| [!UICONTROL Breakdown by Amazon ad product] | Breakdown of [!UICONTROL Overlapping ad exposed IDs] reached by either [!UICONTROL Sponsored Product] and/or [!UICONTROL DSP]. Each is represented as an individual percentage from total number of ad exposed IDs. Since an ID can belong to both [!UICONTROL Sponsored Products] and [!UICONTROL DSP], the percentages may not sum to 100%. |
+| [!UICONTROL 확인된 ID] | 대상 데이터를 사용하여 ID [!DNL Amazon’s Identity Resolution]의 수를 확인할 수 있습니다. |
+| [!UICONTROL 겹치는 광고 노출 ID] | 업로드된 대상자 중 [!DNL Amazon Ads]을(를) 통해 광고에 노출된 [!UICONTROL 확인된 ID]의 수입니다. |
+| [!UICONTROL 겹치기 %] | [!DNL Amazon Ads]을(를) 통해 광고에 노출된 [!UICONTROL 확인된 ID]의 비율입니다. |
+| [!UICONTROL Amazon 광고 제품별 분류] | [!UICONTROL 스폰서 제품] 및/또는 [!UICONTROL DSP]에 의해 [!UICONTROL 겹치는 광고 노출 ID]의 분류가 도달했습니다. 각각은 총 광고 노출 ID 수에서 개별 백분율로 표시됩니다. ID는 [!UICONTROL 스폰서 제품]과(와) [!UICONTROL DSP] 모두에 속할 수 있으므로 백분율이 100%로 합산되지 않을 수 있습니다. |
 
 
 ### 관련 대상자 {#relevant-audiences}
