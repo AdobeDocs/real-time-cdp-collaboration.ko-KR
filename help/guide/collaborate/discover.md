@@ -5,9 +5,13 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 TQID: https://experienceleague.adobe.com/ny3FgyvKMu4caNcmNTLrPRHXjBOKa6lDvPQ3C9YG9vo
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 2120
@@ -29,7 +33,7 @@ ht-degree: 17%
 >
 >업데이트되지 않았거나 새로 고침되지 않은 [데이터 스케치](/help/guide/glossary.md#sketches)는 7일 후에 삭제됩니다. 이런 경우 이 페이지의 여러 겹치기 보고서에 표시된 수치가 0으로 변경되고 만료된 이러한 대상자는 대상 공유를 사용할 수 없게 됩니다. [활성 새로 고침 일정](/help/guide/setup/onboard-audiences.md#schedule)을 사용하는 대상에 대해 데이터 스케치가 자동으로 새로 고쳐집니다.
 
-대상을 검색하고 비교하는 데 사용되는 일치 키가 연결 프로세스](/help/guide/connect/establishing-connections.md#connection-settings)에서 [설정됩니다. 일치 키는 대상자 간의 겹침을 계산하는 데 사용되며 켜거나 끌 수 있습니다. 일치 키를 편집하려면 **[!UICONTROL 일치 키 편집]** 옵션을 선택하십시오.
+대상을 검색하고 비교하는 데 사용되는 일치 키가 연결 프로세스[&#128279;](/help/guide/connect/establishing-connections.md#connection-settings)에서 설정됩니다. 일치 키는 대상자 간의 겹침을 계산하는 데 사용되며 켜거나 끌 수 있습니다. 일치 키를 편집하려면 **[!UICONTROL 일치 키 편집]** 옵션을 선택하십시오.
 
 ![대상 인사이트를 보여주는 Dicover 탭 작업 영역입니다.](/help/assets/collaborate/discover/discover-overview.png)
 
