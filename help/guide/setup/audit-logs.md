@@ -2,7 +2,7 @@
 title: 감사 로그
 description: Real-Time CDP Collaboration에서 감사 로그 기능을 사용하여 사용자 활동 및 변경 사항을 추적하는 방법에 대해 알아봅니다.
 audience: admin
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
 TQID: https://experienceleague.adobe.com/zb09-bUpxJ2VPDknETHeayMuLpNRCaQ2VTnV9QnTRgE
 product_v2:
@@ -33,7 +33,7 @@ Collaboration의 감사 로그 기능을 사용하여 플랫폼 내에서 사용
 
 ![감사 로그 기능의 높은 수준 개요 화면](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-감사 로그에 대한 자세한 내용은 [Experience Platform 감사 로그 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}를 참조하세요.
+감사 로그에 대한 자세한 내용은 [Experience Platform 감사 로그 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}를 참조하세요.
 
 ## 감사 로그 액세스
 
@@ -72,7 +72,7 @@ Audit logs capture detailed information about user activities, including:
 * **Action**: The specific action performed, such as create or delete.
 * **User**: The email address of the user who performed the action.
 
-These logs create a comprehensive trail of all activities within your Collaboration instance, which is useful for data governance and regulatory compliance. Read more about [managing audit logs in the UI](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
+These logs create a comprehensive trail of all activities within your Collaboration instance, which is useful for data governance and regulatory compliance. Read more about [managing audit logs in the UI](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
 
 ### Filter audit logs {#filter-audit-logs}
 
@@ -85,7 +85,7 @@ The audit logs UI provides several filters to help you search for specific logs:
 * **Status**: The status of the action, such as allow or deny.
 * **Date Range**: The range of dates for which you want to view logs.
 
-Read more about [filtering audit logs](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
+Read more about [filtering audit logs](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ## 이점
 

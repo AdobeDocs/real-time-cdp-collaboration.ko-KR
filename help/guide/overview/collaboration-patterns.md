@@ -2,7 +2,7 @@
 title: Adobe Real-Time CDP Collaboration의 협업 패턴.
 description: Adobe Real-Time CDP Collaboration의 두 가지 공동 작업 패턴 이해
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
 TQID: https://experienceleague.adobe.com/Hx4-KRShMbbHjdTdfVmI9HgYHxltzMbBvXayemL5qhY
 product_v2:
