@@ -3,9 +3,9 @@ title: 대상 소싱에 대해  [!DNL Google Cloud Storage] 구성
 description: 사전 요구 사항, 인증, 필드 매핑, 예약 및 유효성 검사를 포함하여 Real-Time CDP Collaboration에서  [!DNL Google Cloud Storage] 버킷을 셀프서비스 대상 소스로 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 2f1a40f60d244bda70d6e36a653cb46885c424ac
+source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
-source-wordcount: '2855'
+source-wordcount: '2858'
 ht-degree: 7%
 
 ---
@@ -79,7 +79,7 @@ GCS 버킷을 Collaboration에 연결하여 엔지니어링 지원 없이 자사
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="온보딩을 위한 데이터 준비"
 >abstract="Collaboration용 Google Cloud Storage에서 대상 데이터를 포맷하고 구성하는 방법에 대해 알아보려면 대상 소싱 사양 안내서 를 참조하십시오."
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="안내서 참조"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Audience Sourcing Specification 안내서 를 참조하십시오"
 
 데이터 소스 선택 화면에는 사용 가능한 모든 연결 유형이 나열됩니다. **[!UICONTROL Google 클라우드 저장소]**&#x200B;를 선택한 후 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
