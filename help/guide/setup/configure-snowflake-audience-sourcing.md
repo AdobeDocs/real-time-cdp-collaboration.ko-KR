@@ -7,7 +7,7 @@ exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 source-git-commit: 72ad1e401fc595ddeace715af5befe9701402c8e
 workflow-type: tm+mt
 source-wordcount: '1550'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -138,12 +138,12 @@ ht-degree: 18%
 
 ![선택 가능한 옵션으로 사용할 수 있는 [!DNL Snowflake]의 데이터 연결 선택 화면입니다.](../../assets/setup/snowflake-audience-sourcing/select-snowflake-data-connection.png)
 
-### 대상 파일 검토 {#review-audience-file}
+### 대상자 파일 검토 {#review-audience-file}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_specifications_snowflake"
 >title="온보딩을 위한 데이터 준비"
->abstract="Snowflake for Collaboration에서 대상 데이터를 포맷하고 구성하는 방법에 대해 알아보려면 대상 소싱 사양 안내서 를 참조하십시오."
+>abstract="Snowflake for Collaboration에서 대상자 데이터를 형식화하고 구조화하는 방법을 알아보려면 대상자 소싱 사양 안내서를 참조하십시오."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="안내서 참조"
 
 소싱을 시작하기 전에 [!DNL Snowflake Share] 및 [!DNL Snowflake] 대상 파일의 요구 사항을 설명하는 대화 상자가 나타납니다. [!DNL Snowflake Share]이(가) 올바른 공유 이름, 계정 식별자, 스키마 및 보기로 만들어졌는지 확인하십시오. 대상 데이터의 형식이 Collaboration에서 사용할 수 있도록 올바르게 구성되어 있는지 확인하려면 **[[!UICONTROL 대상 소싱 사양]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** 안내서를 검토하십시오.

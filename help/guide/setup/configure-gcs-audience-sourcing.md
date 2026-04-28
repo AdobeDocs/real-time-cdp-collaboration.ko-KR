@@ -6,7 +6,7 @@ badgelimitedavailability: label="제한 공개" type="Informative" url="https://
 source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
 source-wordcount: '2858'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -73,12 +73,12 @@ GCS 버킷을 Collaboration에 연결하여 엔지니어링 지원 없이 자사
 
 ![새 데이터 연결 추가 옵션이 강조 표시된 대상자 추가 작업 영역입니다.](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-### [!DNL Google Cloud Storage]을(를) 데이터 소스로 선택 {#select-gcs}
+### 데이터 소스로 [!DNL Google Cloud Storage] 선택 {#select-gcs}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="온보딩을 위한 데이터 준비"
->abstract="Collaboration용 Google Cloud Storage에서 대상 데이터를 포맷하고 구성하는 방법에 대해 알아보려면 대상 소싱 사양 안내서 를 참조하십시오."
+>abstract="Google Cloud Storage for Collaboration에서 대상자 데이터를 형식화하고 구조화하는 방법을 알아보려면 대상자 소싱 사양 안내서를 참조하십시오."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Audience Sourcing Specification 안내서 를 참조하십시오"
 
 데이터 소스 선택 화면에는 사용 가능한 모든 연결 유형이 나열됩니다. **[!UICONTROL Google 클라우드 저장소]**&#x200B;를 선택한 후 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
