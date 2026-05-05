@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1179
-ht-degree: 9%
+source-wordcount: 1253
+ht-degree: 8%
 
 ---
 
@@ -116,6 +116,14 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 
 ![드롭다운 메뉴에 사용 가능한 모든 대상 필드가 표시되어 새 원본 필드와 매핑됩니다.](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
 
+##### [!DNL Demdex ID (ECID)] 추가 {#add-demdex-id-ecid}
+
+[!DNL Demdex ID (ECID)]을(를) 일치 키로 추가하려면 먼저 계정 설정에서 [사용하도록 설정되어 있는지 확인](../setup/onboard-account.md#set-up-match-keys)하세요. [!DNL Demdex ID (ECID)]에 대한 자세한 내용은 [지원되는 일치 키](../setup/onboard-account.md#supported-match-keys)를 참조하십시오.
+
+**[!UICONTROL 키 일치]** 대화 상자에서 새 매핑 필드 행을 추가합니다. 그런 다음 소스 필드로 **[!UICONTROL ECID]**&#x200B;을(를) 선택하고 드롭다운 목록에서 대상 필드로 **[!UICONTROL ECID(Demdex ID)]**&#x200B;을(를) 선택합니다.
+
+![ECID(Demdex ID) 일치 키의 매핑 필드가 강조 표시된 일치 키 대화 상자입니다.](/help/assets/setup/manage-data-connection/demdex-id-ecid-match-key.png){zoomable="yes"}
+
 필드 매핑을 완료한 후 업데이트를 검토하고 **[!UICONTROL 확인]**&#x200B;을 선택하여 변경 내용을 적용합니다.
 
 ![확인 옵션이 강조 표시된 업데이트된 필드 매핑을 표시하는 키 일치 대화 상자입니다.](/help/assets/setup/manage-data-connection/review-and-confirm.png){zoomable="yes"}
@@ -160,10 +168,10 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 
 ## 대상자 관리 {#manage-audiences}
 
-데이터 연결에 첨부된 대상자 목록이 작업 영역 하단에 표시됩니다. 목록에는 상태, 소스 및 연결 액세스를 포함하여 각 대상에 대한 간략한 개요가 표시됩니다. 대상자의 카테고리, 연결 액세스 또는 메타데이터 가시성을 편집하려면 대상자의 이름을 선택합니다. For a complete guide on managing an audience, refer to the [view individual audiences](./onboard-audiences.md#view-individual-audiences) guide.
+데이터 연결에 첨부된 대상자 목록이 작업 영역 하단에 표시됩니다. 목록에는 상태, 소스 및 연결 액세스를 포함하여 각 대상에 대한 간략한 개요가 표시됩니다. 대상자의 카테고리, 연결 액세스 또는 메타데이터 가시성을 편집하려면 대상자의 이름을 선택합니다. 대상자 관리에 대한 전체 안내서는 [개별 대상자 보기](./onboard-audiences.md#view-individual-audiences) 안내서를 참조하십시오.
 
-![A data connections workspace with the audiences highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
+![대상이 강조 표시된 데이터 연결 작업 영역입니다.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
 ## 다음 단계
 
-After managing your data connections, you can [discover overlaps](/help/guide/collaborate/discover.md) between your audiences and the audiences that your collaborator has made discoverable.
+데이터 연결을 관리한 후 대상자와 공동 작업자가 검색할 수 있도록 만든 대상 간의 [겹침 검색](/help/guide/collaborate/discover.md)을 수행할 수 있습니다.

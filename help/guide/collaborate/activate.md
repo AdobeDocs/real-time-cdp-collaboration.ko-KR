@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1016
+source-wordcount: 997
 ht-degree: 3%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->일치 키를 하나 이상 선택해야 합니다. 현재 릴리스에서는 사용 가능한 일치 키만 **[!UICONTROL 해시된 이메일]**&#x200B;이므로 이 일치 키를 제거할 수 없습니다.
+>일치 키를 하나 이상 선택해야 합니다.
 
 ![Audience 활성화 워크플로의 일치 키 편집 대화 상자입니다.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 
