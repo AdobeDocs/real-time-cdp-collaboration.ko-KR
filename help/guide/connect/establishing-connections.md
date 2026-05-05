@@ -2,21 +2,16 @@
 title: 공동 작업자와의 연결 설정
 description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 프로젝트에 대한 공동 작업을 시작하는 방법에 대해 알아보십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
 source-wordcount: 3398
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -282,7 +277,7 @@ ht-degree: 8%
 
 완료되면 **[!UICONTROL 저장]**&#x200B;을 선택하여 변경 내용을 저장합니다.
 
-프로젝트를 만들 때 연결 중에 설정된 다음 설정을 기반으로 광고주 이름이 미리 채워집니다    :
+프로젝트를 만들 때 연결 중에 설정된 다음 설정을 기반으로 광고주 이름이 미리 채워집니다.
 
 1. **광고주 이름이 설정되지 않음**: 광고주 이름이 추가되지 않으면 Collaboration에서 광고주 이름으로 광고주 이름을 사용하는 것으로 기본 설정됩니다.
 2. **광고주 이름 집합 하나**: 단일 광고주 이름이 추가되면 Collaboration은 자동으로 해당 이름을 프로젝트의 광고주 이름으로 사용합니다.
@@ -338,8 +333,8 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_starter_invite_collaborator"
 >title="공동 작업자 초대"
->abstract="파트너 조직을 Collaboration Starter에 초대하려면 이 양식을 작성하십시오. 초대받은 사람은 초대 이메일을 받게 되며, 등록을 완료하려면 지정된 이메일 주소를 사용해야 합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Collaboration Starter에 대해 자세히 알아보기"
+>abstract="파트너 조직을 공동 작업 스타터에 초대하려면 이 양식을 작성하십시오. 초대를 받은 사람은 초대 이메일을 수신하게 되며, 등록을 완료하려면 지정된 이메일 주소를 사용해야 합니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="공동 작업 스타터에 대해 자세히 알아보기"
 
 사용자 인터페이스를 통해 파트너 조직을 초대하여 Collaboration [!DNL Starter]에 직접 참여하십시오.
 
