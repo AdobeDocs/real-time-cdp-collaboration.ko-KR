@@ -79,7 +79,7 @@ GCS 버킷을 Collaboration에 연결하여 엔지니어링 지원 없이 자사
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="온보딩을 위한 데이터 준비"
 >abstract="Google Cloud Storage for Collaboration에서 대상자 데이터를 형식화하고 구조화하는 방법을 알아보려면 대상자 소싱 사양 안내서를 참조하십시오."
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Audience Sourcing Specification 안내서 를 참조하십시오"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="대상자 소싱 사양 안내서 보기"
 
 데이터 소스 선택 화면에는 사용 가능한 모든 연결 유형이 나열됩니다. **[!UICONTROL Google 클라우드 저장소]**&#x200B;를 선택한 후 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
