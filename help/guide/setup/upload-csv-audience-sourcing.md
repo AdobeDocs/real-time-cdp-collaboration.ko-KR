@@ -1,43 +1,40 @@
 ---
-title: Upload CSV file for Audience Sourcing
-description: Learn how to upload your CSV file as a self-service data source to ingest audience data into Real-Time CDP Collaboration.
+title: 대상자 소싱에 대한 CSV 파일 업로드
+description: CSV 파일을 셀프서비스 데이터 소스로 업로드하여 대상 데이터를 Real-Time CDP Collaboration에 수집하는 방법을 알아봅니다.
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
 TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: 1100
+source-wordcount: 1121
 ht-degree: 16%
 
 ---
 
 # 대상자 소싱에 대한 CSV 파일 업로드
 
-This guide provides steps to upload a CSV file in the Adobe Real-Time CDP Collaboration UI to source your audience data for use in collaboration projects.
+이 안내서에서는 Adobe Real-Time CDP Collaboration UI에서 CSV 파일을 업로드하여 대상 데이터를 소스 데이터로 만들어 공동 작업 프로젝트에서 사용하도록 하는 단계를 제공합니다.
 
 ## 개요 {#overview}
 
-CSV file upload is one method to source first-party audience data for collaboration projects. This is an alternative to [connecting your AWS S3 bucket](./configure-aws-s3-audience-sourcing.md), [connecting Google Cloud Storage](./configure-gcs-audience-sourcing.md), or [sourcing audiences from Experience Platform](./onboard-audiences.md).
+CSV 파일 업로드는 공동 작업 프로젝트에 대한 자사 대상 데이터를 소스화하는 한 가지 방법입니다. 이는 [AWS S3 버킷에 연결](./configure-aws-s3-audience-sourcing.md), [Google Cloud Storage 연결](./configure-gcs-audience-sourcing.md) 또는 [Experience Platform에서 대상 소싱](./onboard-audiences.md)에 대한 대안입니다.
 
-Follow this workflow to upload a CSV file containing your audience data to source and manage first-party audiences within Collaboration. You can map identity fields for activation and overlap analysis. Once your file is uploaded and processed, the sourced audience becomes available in the **[!UICONTROL My audiences]** workspace, where you can review, activate, and manage for your collaboration projects.
+대상 데이터가 포함된 CSV 파일을 업로드하고 Collaboration 내에서 자사 대상을 소스 및 관리하려면 이 워크플로우를 따르십시오. 활성화 및 중복 분석을 위해 ID 필드를 매핑할 수 있습니다. 파일이 업로드되고 처리되면 공동 작업 프로젝트를 검토, 활성화 및 관리할 수 있는 **[!UICONTROL 내 대상]** 작업 영역에서 소스 대상을 사용할 수 있게 됩니다.
 
 >[!IMPORTANT]
 >
->* Audiences sourced through CSV upload are available for **7 days**. After this period, the audience expires and must be re-uploaded for use in your collaboration projects.
+>* CSV 업로드를 통해 가져온 대상은 **7일** 동안 사용할 수 있습니다. 이 기간이 지나면 대상자가 만료되며 공동 작업 프로젝트에서 사용하기 위해 다시 업로드해야 합니다.
 >
->* You can upload one CSV file per session at this time. To add additional audiences, complete the upload workflow again for each file you wish to source.
+>* 이때 세션당 하나의 CSV 파일을 업로드할 수 있습니다. 대상을 추가하려면 소스화하려는 각 파일에 대해 업로드 워크플로우를 다시 완료하십시오.
 
 ## 전제 조건 {#prerequisites}
 
-Before you can upload CSV files for audience sourcing, ensure you have:
+대상 소싱을 위해 CSV 파일을 업로드하려면 먼저 다음을 확인하십시오.
 
-* Completed account onboarding in Real-Time CDP Collaboration. See [Onboard your account](./onboard-account.md) for step-by-step instructions.
-* The necessary permissions to add audiences in your organization.
-* A CSV file containing your audience data with identity fields such as email or phone.
+* Real-Time CDP Collaboration에서 계정 온보딩을 완료했습니다. 단계별 지침은 [계정 온보딩](./onboard-account.md)을 참조하십시오.
+* 조직에 대상을 추가하는 데 필요한 권한입니다.
+* 이메일이나 전화와 같은 ID 필드가 있는 대상자 데이터가 포함된 CSV 파일.
 
 ## CSV 파일 업로드 {#upload-csv-file}
 
@@ -51,19 +48,24 @@ Before you can upload CSV files for audience sourcing, ensure you have:
 
 ![새 데이터 연결 추가 옵션이 강조 표시된 대상자 추가 작업 영역입니다.](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-### Select CSV File as the data connection {#select-csv-file}
+### CSV 파일을 데이터 연결로 선택 {#select-csv-file}
 
-Select **[!UICONTROL CSV File]** as a data connection, followed by **[!UICONTROL Next]**.
+**[!UICONTROL CSV 파일]**&#x200B;을(를) 데이터 연결로 선택한 후 **[!UICONTROL 다음]**&#x200B;을(를) 선택하십시오.
 
-![The data connection selection screen with CSV File available as a selectable option.](../../assets/setup/csv-audience-sourcing/select-csv-data-connection.png)
+![CSV 파일이 있는 데이터 연결 선택 화면을 선택 가능한 옵션으로 사용할 수 있습니다.](../../assets/setup/csv-audience-sourcing/select-csv-data-connection.png)
 
-### Select file {#select-file}
+### 파일 선택 {#select-file}
 
-Choose **[!UICONTROL Select from computer]** to upload a CSV file from your local system. Alternatively, you can drag and drop the CSV file you want to upload into the [!UICONTROL Drag and drop a CSV file] panel.
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_csv"
+>title="CSV 파일에서 대상 추가"
+>abstract="컴퓨터에서 CSV 파일을 업로드하여 대상자를 Real-Time CDP Collaboration에 소스 로 지정합니다."
+
+로컬 시스템에서 CSV 파일을 업로드하려면 **[!UICONTROL 컴퓨터에서 선택]**&#x200B;을 선택하십시오. 또는 업로드할 CSV 파일을 [!UICONTROL CSV 파일 드래그 앤 드롭] 패널로 드래그 앤 드롭할 수 있습니다.
 
 >[!IMPORTANT]
 >
->Only CSV files are supported. 최대 파일 크기는 **2GB**&#x200B;입니다.
+>CSV 파일만 지원됩니다. 최대 파일 크기는 **2GB**&#x200B;입니다.
 
 ![로컬 시스템의 대상 데이터가 포함된 CSV 파일을 선택하십시오.](../../assets/setup/csv-audience-sourcing/select-file.png)
 
