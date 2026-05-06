@@ -2,7 +2,7 @@
 title: 대상 소싱에 대해  [!DNL Snowflake] 구성
 description: 대상 데이터를 Real-Time CDP Collaboration에 수집하기 위해  [!DNL Snowflake Secure Data Share] 을(를) 셀프서비스 데이터 소스로 구성 및 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
