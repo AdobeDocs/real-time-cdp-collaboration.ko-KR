@@ -3,9 +3,9 @@ title: 대상 소싱에 대해  [!DNL Google Cloud Storage] 구성
 description: 사전 요구 사항, 인증, 필드 매핑, 예약 및 유효성 검사를 포함하여 Real-Time CDP Collaboration에서  [!DNL Google Cloud Storage] 버킷을 셀프서비스 대상 소스로 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2898'
 ht-degree: 8%
 
 ---
@@ -90,6 +90,11 @@ GCS 버킷을 Collaboration에 연결하여 엔지니어링 지원 없이 자사
 ![취소 및 &quot;온보딩 시작&quot; 옵션을 사용하여 GCS 버킷 만들기, Adobe에 대한 IAM 액세스 구성, 대상 소싱 사양 준수 등 필수 구성 요소를 나열하는 &quot;온보딩을 위한 GCS 버킷 준비&quot; 모달입니다.](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
 ### [!DNL Google Cloud Storage] 연결 세부 정보 입력 {#authenticate-gcs-connection}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_gcs"
+>title="Google Cloud Storage에서 대상 추가"
+>abstract="Google Cloud Storage를 연결하려면 Adobe의 서비스 사용자가 처리할 대상 데이터를 검색할 수 있도록 권한을 부여하십시오. Experience League에 설명된 단계에 따라 Adobe에 Google 클라우드 스토리지에 대한 액세스 권한을 부여합니다."
 
 Collaboration에서 [!DNL Google Cloud Storage] 버킷에 액세스할 수 있도록 허용하는 데 필요한 세부 정보를 제공합니다. 필요한 정보를 입력한 후 **[!UICONTROL 다음]**&#x200B;을(를) 선택합니다.
 

@@ -4,10 +4,10 @@ description: 대상 데이터를 Real-Time CDP Collaboration에 수집하기 위
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 72ad1e401fc595ddeace715af5befe9701402c8e
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 19%
+source-wordcount: '1586'
+ht-degree: 18%
 
 ---
 
@@ -153,6 +153,11 @@ ht-degree: 19%
 ![대상 소싱 사양에 대한 링크가 있는 온보딩 대화 상자를 위해 [!DNL Snowflake Share]을(를) 준비합니다.](../../assets/setup/snowflake-audience-sourcing/prepare-snowflake-share-onboarding-dialog.png)
 
 ### [!DNL Snowflake Share] 연결 인증 {#authenticate-snowflake-share-connection}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sharing_snowflake"
+>title="Snowflake에서 대상 추가"
+>abstract="Snowflake 공유를 연결하려면 Adobe의 서비스 사용자가 처리할 대상 데이터를 검색할 수 있도록 승인하십시오. Experience League에 설명된 단계에 따라 Adobe에 Snowflake 공유에 대한 액세스 권한을 부여합니다."
 
 이 단계에서는 [!DNL Snowflake Share]을(를) Collaboration에 연결하는 데 필요한 [!DNL Snowflake Share] 자격 증명을 제공해야 합니다.
 
