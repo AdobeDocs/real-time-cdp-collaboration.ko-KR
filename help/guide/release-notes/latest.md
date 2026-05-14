@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 7affd3abf7a10019503825cb20d9be1ad4000603
 workflow-type: tm+mt
-source-wordcount: 1461
+source-wordcount: 1903
 ht-degree: 3%
 
 ---
@@ -26,9 +26,48 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-**마지막 업데이트**: 2026년 1월.
+**마지막 업데이트**: 2026년 4월.
 
 이러한 릴리스 노트는 Adobe Real-Time CDP Collaboration에 릴리스된 기능을 다룹니다. Collaboration 릴리스는 연속 게재 모델에서 작동하므로 대략적인 월별 릴리스 케이던스를 사용할 수 있습니다. 이러한 릴리스 노트는 자주 업데이트되므로 정기적으로 확인하십시오.
+
+## 2026년 4월 {#april-2026}
+
+이제 Real-Time CDP Collaboration에서 새로운 기능을 사용할 수 있습니다. 여기에는 파트너 초대를 위한 Collaboration [!DNL Starter], 대상 소싱 범위를 [!DNL Snowflake] 및 [!DNL Google Cloud Storage]에서 확대하고, 일치 키로 [!DNL Demdex ID (ECID)]에 대한 지원과, 에이전시와 데이터 파트너의 두 가지 새로운 공동 작업자 역할이 포함됩니다.
+
+**새로운 기능 또는 업데이트된 기능**
+
+| 기능 | 설명 |
+| ------- | ----------- |
+| Real-Time CDP Collaboration [!DNL Starter] | 이제 Collaboration 라이선스가 없는 파트너를 Collaboration [!DNL Starter]을(를) 통해 귀하와 공동 작업하도록 초대할 수 있습니다. 초대된 파트너는 공유 연결 내에서 대상을 소싱하고, 중복을 발견하고, 대상을 활성화할 수 있습니다. 시작하려면 [Collaboration [!DNL Starter] 개요](../overview/starter-overview.md)를 참조하세요. |
+| [!DNL Snowflake] 및 [!DNL Google Cloud Storage]의 셀프서비스 대상 소싱 | 이제 [!DNL Snowflake Secure Data Share] 또는 [!DNL Google Cloud Storage] 버킷에서 직접 자사 대상자를 Collaboration에 소싱할 수 있습니다. 설치 지침은 다음 안내서를 참조하십시오. <ul><li>대상 소싱에 대해 [구성 [!DNL Snowflake] 구성](../setup/configure-snowflake-audience-sourcing.md) </li><li> 대상 소싱에 대해 [구성 [!DNL Google Cloud Storage] 구성](../setup/configure-gcs-audience-sourcing.md) </li></ul> |
+| [!DNL Demdex ID] 일치 키 | [!DNL Demdex ID]&#x200B;(ECID)은(는) 이제 여러 플랫폼에서 익명 쿠키 기반 ID를 일치시키기 위한 일치 키로 지원됩니다. 인증된 사용자 데이터에 의존하지 않고 대상 겹침 정확도를 향상시킵니다. 자세한 내용은 [지원되는 일치 키](../setup/onboard-account.md#supported-match-keys)를 참조하십시오. |
+| 새 공동 작업자 역할 | 이제 Collaboration에서 **Agency** 및 **Data partner**&#x200B;를 비롯한 두 개의 추가 공동 작업자 역할을 지원합니다. 이러한 역할은 다양한 조직이 플랫폼 내에서 참여하고 함께 작업할 수 있는 방법을 확장합니다. 자세히 알아보기: <ul><li>[공동 작업자 계정 역할](../overview/roles.md)</li><li>[Collaboration 패턴](../overview/collaboration-patterns.md)</li><li>[전체 워크플로](../overview/end-to-end-workflow.md)</li></ul> |
+
+{style="table-layout:auto"}
+
+## 2026년 3월 {#march-2026}
+
+이제 Real-Time CDP Collaboration에서 캠페인 측정 보고서를 생성하고 측정 데이터를 관리할 수 있습니다.
+
+**새로운 기능 또는 업데이트된 기능**
+
+| 기능 | 설명 |
+| ------- | ----------- |
+| 측정 일반 가용성 | 이제 Collaboration에서 측정 보고를 일반적으로 사용할 수 있습니다. 이제 마케팅 캠페인과 연결된 캠페인 ID를 게시자로, 소스 전환 데이터를 광고주로 입력하고, 두 가지 유형의 보고서를 생성할 수 있습니다. 전체 캠페인 결과의 경우 **캠페인 요약**, 캠페인 효과 통찰력의 경우 **속성**. 시작하려면 다음 안내서를 참조하십시오. <ul><li>[캠페인 ID 입력](../collaborate/manage-projects.md#manage-campaign-id)</li><li>[Source 전환 데이터](../setup/onboard-measurement-data.md)</li><li>[측정 보고서 만들기 및 보기](../collaborate/measure.md)</li></ul> |
+| 측정 수명 주기 관리 | Collaboration은 또한 측정 관리를 지원합니다.<ul><li> 이제 광고주는 정확한 최신 캠페인 분석을 위해 측정 데이터 연결 및 관련 전환 이벤트를 모두 편집하거나 삭제할 수 있습니다. 자세한 내용은 [측정 데이터 연결 관리](../setup/manage-measurement-data-connection.md) 및 [전환 이벤트 관리](../setup/onboard-measurement-data.md#edit-measurement-data)를 참조하십시오.</li><li>공동 작업 프로젝트의 **[!UICONTROL 측정]** 탭에서 예약된 측정 보고서를 직접 편집하거나 삭제할 수도 있습니다. 모든 사용자가 사용할 수 있습니다. 자세한 내용은 [측정 보고서 관리 가이드](../collaborate/measure.md)를 참조하세요.</li></ul> |
+
+{style="table-layout:auto"}
+
+## 2026년 2월 {#february-2026}
+
+Real-Time CDP Collaboration은 이제 인터페이스에서 직접 기존 연결 및 데이터 연결 설정을 편집할 수 있습니다.
+
+**새 기능 또는 업데이트된 기능**
+
+| 기능 | 설명 |
+| ------- | ----------- |
+| 연결 설정 편집 | 이제 연결 소유자는 연결이 설정된 후 사용 사례, 일치 키, 활성화 권한 및 크레딧 분할을 업데이트할 수 있습니다. 단계별 지침은 [연결 편집](../connect/manage-connections.md#edit-connection)을 참조하십시오. |
+| 데이터 연결 편집 | Collaboration 내에서 직접 기존 데이터 연결에 대한 일치 키 및 예약 구성을 업데이트합니다. 단계별 지침은 [데이터 연결 편집](../setup/manage-data-connection.md#edit-data-connection)을 참조하십시오. |
 
 ## 2026년 1월 {#january-2026}
 
