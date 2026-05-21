@@ -16,7 +16,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5f2ab62d1e7be17c2fe98e263d7de630bf96f14a
+source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: 1417
 ht-degree: 3%
@@ -134,7 +134,7 @@ Collaboration을 사용하여 대상을 소싱하는 방법에 대한 전체 연
 
 ### 옵션 B: Snowflake, Amazon S3 또는 Google Cloud Storage의 Source
 
-[!DNL Snowflake], [!DNL Amazon S3] 또는 [!DNL Google Cloud Storage]과(와) 같은 클라우드 소스를 구성하려면 [대상 사양 PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)를 사용하여 대상 데이터를 준비하십시오.
+[!DNL Snowflake], [!DNL Amazon S3] 또는 [!DNL Google Cloud Storage]과(와) 같은 클라우드 소스를 구성하려면 [대상 사양 PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)을 사용하여 대상 데이터를 준비하십시오.
 
 [!DNL Amazon S3], [!DNL Google Cloud Storage] 또는 [!DNL Snowflake]을(를) 셀프 서비스 데이터 소스로 구성할 수 있습니다. 설치 지침은 [Amazon S3 소싱 가이드](./setup/configure-aws-s3-audience-sourcing.md), [GCS 소싱 가이드](./setup/configure-gcs-audience-sourcing.md) 또는 [Snowflake 소싱 가이드](./setup/configure-snowflake-audience-sourcing.md)를 참조하십시오.
 
