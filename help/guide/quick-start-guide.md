@@ -2,21 +2,13 @@
 title: Real-Time CDP Collaboration 빠른 시작 및 설정 안내서
 description: Real-Time CDP Collaboration 설정, 역할 및 계정 구성, 대상자 소스 생성, 데이터 활성화 및 파트너와 안전하게 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 TQID: https://experienceleague.adobe.com/rhIArZZm0Thkj3E-qiHtVHO6qxpr1vd-Qs4hWt4tf1U
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5f2ab62d1e7be17c2fe98e263d7de630bf96f14a
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: 1417
 ht-degree: 3%
@@ -53,7 +45,7 @@ ht-degree: 3%
 
 이 비디오를 통해 Admin Console 및 Experience Platform을 사용하여 Collaboration에 대한 제품 액세스 및 권한을 할당하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452237/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 2단계: Collaboration 계정 설정 {#set-up-your-account}
 
@@ -134,7 +126,7 @@ Collaboration을 사용하여 대상을 소싱하는 방법에 대한 전체 연
 
 ### 옵션 B: Snowflake, Amazon S3 또는 Google Cloud Storage의 Source
 
-[!DNL Snowflake], [!DNL Amazon S3] 또는 [!DNL Google Cloud Storage]과(와) 같은 클라우드 소스를 구성하려면 [대상 사양 PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)를 사용하여 대상 데이터를 준비하십시오.
+[!DNL Snowflake], [!DNL Amazon S3] 또는 [!DNL Google Cloud Storage]과(와) 같은 클라우드 소스를 구성하려면 [대상 사양 PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)을 사용하여 대상 데이터를 준비하십시오.
 
 [!DNL Amazon S3], [!DNL Google Cloud Storage] 또는 [!DNL Snowflake]을(를) 셀프 서비스 데이터 소스로 구성할 수 있습니다. 설치 지침은 [Amazon S3 소싱 가이드](./setup/configure-aws-s3-audience-sourcing.md), [GCS 소싱 가이드](./setup/configure-gcs-audience-sourcing.md) 또는 [Snowflake 소싱 가이드](./setup/configure-snowflake-audience-sourcing.md)를 참조하십시오.
 
@@ -169,7 +161,7 @@ Collaboration을 사용하여 대상을 소싱하는 방법에 대한 전체 연
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 측정]** 작업 영역은 연결 프로세스 [&#128279;](./connect/establishing-connections.md#connection-settings)에서 **[!UICONTROL 측정]** 사용 사례를 사용하도록 설정한 경우 에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./collaborate/manage-projects.md#project-use-cases) 안내서를 참조하세요.
+>**[!UICONTROL 측정]** 작업 영역은 연결 프로세스 ](./connect/establishing-connections.md#connection-settings)에서 **[!UICONTROL 측정]** 사용 사례를 사용하도록 설정한 경우 [에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./collaborate/manage-projects.md#project-use-cases) 안내서를 참조하세요.
 
 Collaboration은 캠페인 도달 범위, 빈도 및 효과를 분석하는 다양한 보고서를 제공합니다. UI에서 **[!UICONTROL 측정]** 작업 영역을 사용할 수 있지만 전체 보고 기능을 사용하려면 백 엔드를 활성화해야 할 수 있습니다.
 

@@ -2,9 +2,9 @@
 title: 대상 소싱에 대해  [!DNL Snowflake] 구성
 description: 대상 데이터를 Real-Time CDP Collaboration에 수집하기 위해  [!DNL Snowflake Secure Data Share] 을(를) 셀프서비스 데이터 소스로 구성 및 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 3e8c39de61dc9560b038b994d178e4cc486cf6c7
+source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 21%
@@ -33,7 +33,7 @@ ht-degree: 21%
    * **스키마**
    * **보기**
 
-* [!DNL Snowflake Secure Data Share]의 대상 데이터는 [대상 소싱 사양(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf) 안내서에 요약된 형식 요구 사항을 충족해야 합니다.
+* [!DNL Snowflake Secure Data Share]의 대상 데이터는 [대상 소싱 사양(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf) 안내서에 요약된 형식 요구 사항을 충족해야 합니다.
 * [!DNL Snowflake] 대상 파일의 모든 일치 키도 Collaboration 계정에 대해 활성화해야 합니다. 계정에 [일치 키 사용](./onboard-account.md#set-up-match-keys) 또는 [새 일치 키 추가](./onboard-account.md#edit-match-keys)하는 방법을 알아보세요.
 
 ## [!DNL Snowflake] 권한 설정 {#setup-snowflake-permissions}
@@ -146,7 +146,7 @@ ht-degree: 21%
 >abstract="Snowflake for Collaboration에서 대상자 데이터를 형식화하고 구조화하는 방법을 알아보려면 대상자 소싱 사양 안내서를 참조하십시오."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="안내서 참조"
 
-소싱을 시작하기 전에 [!DNL Snowflake Share] 및 [!DNL Snowflake] 대상 파일의 요구 사항을 설명하는 대화 상자가 나타납니다. [!DNL Snowflake Share]이(가) 올바른 공유 이름, 계정 식별자, 스키마 및 보기로 만들어졌는지 확인하십시오. 대상 데이터의 형식이 Collaboration에서 사용할 수 있도록 올바르게 구성되어 있는지 확인하려면 **[[!UICONTROL 대상 소싱 사양]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)** 안내서를 검토하십시오.
+소싱을 시작하기 전에 [!DNL Snowflake Share] 및 [!DNL Snowflake] 대상 파일의 요구 사항을 설명하는 대화 상자가 나타납니다. [!DNL Snowflake Share]이(가) 올바른 공유 이름, 계정 식별자, 스키마 및 보기로 만들어졌는지 확인하십시오. 대상 데이터의 형식이 Collaboration에서 사용할 수 있도록 올바르게 구성되어 있는지 확인하려면 **[[!UICONTROL 대상 소싱 사양]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)** 안내서를 검토하십시오.
 
 완료되면 **[!UICONTROL 온보딩 시작]**&#x200B;을 선택하세요.
 
@@ -186,7 +186,7 @@ ht-degree: 21%
 
 ### 필드 매핑 {#map-fields}
 
-**[!UICONTROL 매핑]** 화면은 현재 읽기 전용입니다. 변형을 추가, 삭제 또는 적용할 수 없습니다. Collaboration은 **[대상 소싱 사양(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**&#x200B;을 기반으로 [!DNL Snowflake Share] 데이터의 소스 ID 필드를 대상 필드에 자동으로 매핑합니다.
+**[!UICONTROL 매핑]** 화면은 현재 읽기 전용입니다. 변형을 추가, 삭제 또는 적용할 수 없습니다. Collaboration은 **[대상 소싱 사양(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**&#x200B;을 기반으로 [!DNL Snowflake Share] 데이터의 소스 ID 필드를 대상 필드에 자동으로 매핑합니다.
 
 매핑된 필드를 시각적으로 확인하고 계속하려면 **[!UICONTROL 다음]**&#x200B;을(를) 선택하십시오. **[!UICONTROL 원본 데이터 미리 보기]** 옵션을 사용하여 [!DNL Snowflake Share]에서 샘플 데이터를 미리 볼 수도 있습니다.
 
