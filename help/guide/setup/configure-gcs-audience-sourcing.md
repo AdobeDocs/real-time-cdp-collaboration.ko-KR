@@ -3,9 +3,9 @@ title: 대상 소싱에 대해  [!DNL Google Cloud Storage] 구성
 description: 사전 요구 사항, 인증, 필드 매핑, 예약 및 유효성 검사를 포함하여 Real-Time CDP Collaboration에서  [!DNL Google Cloud Storage] 버킷을 셀프서비스 대상 소스로 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2910'
 ht-degree: 9%
 
 ---
@@ -21,9 +21,9 @@ GCS 버킷을 Collaboration에 연결하여 엔지니어링 지원 없이 자사
 
 [!DNL Google Cloud Storage]에서 가져온 대상자는 Adobe Experience Platform에서 가져온 대상자와 동일한 거버넌스 및 데이터 처리 규칙을 따릅니다.
 
-사용 가능한 다른 소싱 방법에는 [Experience Platform](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md) 및 [CSV 파일 업로드](./upload-csv-audience-sourcing.md)가 있습니다.
+사용 가능한 다른 소싱 방법에는 [Experience Platform](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md) 및 [CSV 파일 업로드](./upload-csv-audience-sourcing.md)가 있습니다. Collaboration에서 사용 가능한 모든 소스에 대한 자세한 내용은 [소스 개요](./source-overview.md)를 참조하세요.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 구성 워크플로를 시작하기 전에 이 섹션의 모든 항목을 완료하십시오. 불완전한 전제 조건은 설정이 실패하거나 소싱 후 대상이 나타나지 않는 가장 일반적인 이유입니다. 이 안내서를 따르려면 먼저 [계정 온보딩 및 설정](./onboard-account.md)을 완료해야 합니다.
 

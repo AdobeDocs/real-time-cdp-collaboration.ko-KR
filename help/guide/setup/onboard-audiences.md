@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
 workflow-type: tm+mt
-source-wordcount: 3753
+source-wordcount: 3741
 ht-degree: 18%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 18%
 >
 >첫 번째 데이터 연결을 설정하고 첫 번째 대상을 소싱한 후 기존 데이터 연결에서 여러 대상을 소싱할 수 있습니다. 데이터 연결이 이미 설정되었으므로 대상을 추가할 때는 [대상 선택](#select-audiences) 단계부터 시작합니다.
 
-데이터 연결은 대상을 Collaboration으로 수집하는 소스입니다. 지원되는 소스에는 각각 고유한 워크플로우가 있는 Adobe Experience Platform, CSV 파일 업로드, [!DNL Amazon S3], [!DNL Snowflake] 및 [!DNL Google Cloud Storage]이(가) 있습니다. Adobe Audience Manager은 곧 사용할 수 있습니다.
+데이터 연결은 대상을 Collaboration으로 수집하는 소스입니다. 사용 가능한 모든 소스에 대한 자세한 내용은 [소스 개요](./source-overview.md)를 참조하세요.
 
 아래 섹션에서는 **Adobe Experience Platform**&#x200B;을(를) 선택하고 Experience Platform 관련 단계(샌드박스, 거버넌스 및 동의)를 완료하는 방법에 대해 설명합니다. CSV, [!DNL Amazon S3], [!DNL Snowflake] 또는 [!DNL Google Cloud Storage]을(를) 선택하는 경우 해당 옵션에 대해 [데이터 원본 선택](#select-data-source)에 연결된 안내서를 사용하십시오.
 
