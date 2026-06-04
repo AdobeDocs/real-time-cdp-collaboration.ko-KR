@@ -3,15 +3,12 @@ title: 대상자 소싱에 대한 CSV 파일 업로드
 description: CSV 파일을 셀프서비스 데이터 소스로 업로드하여 대상 데이터를 Real-Time CDP Collaboration에 수집하는 방법을 알아봅니다.
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
 TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
 workflow-type: tm+mt
-source-wordcount: 1121
-ht-degree: 18%
+source-wordcount: 1070
+ht-degree: 19%
 
 ---
 
@@ -131,8 +128,8 @@ CSV 파일을 업로드한 후 Collaboration은 파일에서 대상을 소싱하
 
 **[!UICONTROL ID]**: 데이터를 사용할 수 있게 되면 총 ID 수 및 분류를 표시합니다.
 **[!UICONTROL 범주]**: 대상을 구성하거나 필터링하는 데 사용되는 모든 태그를 표시합니다.
-**[!UICONTROL 연결 액세스]**: 대상자가 개인, 공개 또는 특정 공동 작업자와 공유되는지 여부를 표시합니다.
-**[!UICONTROL 메타데이터 가시성]**: 공동 작업자가 볼 수 있는 대상 정보(ID 수, 겹침 비율, 색인 등)를 표시합니다.
+**[!UICONTROL 연결 액세스]**: 대상이 개인, 공개 또는 특정 공동 작업자와 공유되는지 여부를 표시합니다.
+**[!UICONTROL 메타데이터 가시성]**: 공동 작업자가 볼 수 있는 대상 정보(ID 수, 오버랩 비율 및 색인 등)를 표시합니다.
 
 공동 작업 프로젝트에서 대상을 사용하기 전에 이 보기를 사용하여 대상 구성 및 가시성 설정을 확인하십시오. 자세한 내용은 [개별 대상자를 보는 방법](./onboard-audiences.md#view-individual-audiences)을 참조하세요.
 
@@ -145,4 +142,4 @@ CSV 파일을 업로드한 후 Collaboration은 파일에서 대상을 소싱하
 * 대상자 겹침 및 통찰력을 검토합니다. [캠페인 성과 측정](../../guide/collaborate/measure.md)을 참조하세요.
 * 대상자 설정 및 가시성을 관리합니다. [Source 및 대상자 관리](./onboard-audiences.md)를 참조하세요.
 
-다른 대상 소싱 방법에 대한 자세한 내용은 [대상 소싱을 위한 AWS S3 구성](./configure-aws-s3-audience-sourcing.md) 또는 [Experience Platform의 Source 대상 구성](./onboard-audiences.md)을 참조하십시오.
+Collaboration에서 사용 가능한 모든 소스에 대한 자세한 내용은 [소스 개요](./source-overview.md)를 참조하세요.

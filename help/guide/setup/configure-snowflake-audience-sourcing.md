@@ -2,11 +2,11 @@
 title: 대상 소싱에 대해  [!DNL Snowflake] 구성
 description: 대상 데이터를 Real-Time CDP Collaboration에 수집하기 위해  [!DNL Snowflake Secure Data Share] 을(를) 셀프서비스 데이터 소스로 구성 및 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1598'
 ht-degree: 21%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 21%
 
 ## 개요 {#overview}
 
-[!DNL Snowflake]은(는) 자사 대상 데이터를 Collaboration에 소싱하기 위해 지원되는 옵션 중 하나입니다. 사용 가능한 다른 방법에는 [Experience Platform](./onboard-audiences.md)에서 대상을 소싱, [[!DNL AWS S3] 버킷](./configure-aws-s3-audience-sourcing.md)에 연결 또는 [CSV 파일](./upload-csv-audience-sourcing.md)을 업로드하는 방법이 있습니다.
+[!DNL Snowflake]은(는) 자사 대상 데이터를 Collaboration에 소싱하기 위해 지원되는 옵션 중 하나입니다. 사용 가능한 다른 방법에는 [Experience Platform](./onboard-audiences.md)에서 대상을 소싱, [[!DNL AWS S3] 버킷](./configure-aws-s3-audience-sourcing.md)에 연결 또는 [CSV 파일](./upload-csv-audience-sourcing.md)을 업로드하는 방법이 있습니다. Collaboration에서 사용 가능한 모든 소스에 대한 자세한 내용은 [소스 개요](./source-overview.md)를 참조하세요.
 
 [!DNL Snowflake Secure Data Share]을(를) 연결하고 대상 데이터를 Collaboration에 소싱하려면 아래 단계를 따르십시오. 설정이 완료되면 공동 작업 프로젝트에 대한 소스 대상을 검토, 활성화 및 관리할 수 있습니다.
 
