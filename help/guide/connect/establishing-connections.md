@@ -2,20 +2,15 @@
 title: 공동 작업자와의 연결 설정
 description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 프로젝트에 대한 공동 작업을 시작하는 방법에 대해 알아보십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 06d4477f3254e9811f410340c934ec5682a92cb0
 workflow-type: tm+mt
-source-wordcount: 3398
+source-wordcount: 3420
 ht-degree: 10%
 
 ---
@@ -25,6 +20,13 @@ ht-degree: 10%
 {{limited-availability-release-note}}
 
 공동 작업자가 캠페인에 대해 함께 작업하려면 먼저 연결을 설정해야 합니다. 이 연결을 통해 대상자를 활성화하고, 프로젝트를 만들고, 캠페인 성과에 대한 보고서를 실행할 수 있습니다.
+
+Collaboration은 다음과 같은 초대 메서드를 지원합니다.
+
+- [공개 연결 초대](#discover-collaborators): **[!UICONTROL 공동 작업자 검색]** 작업 영역을 통해 라이선스가 있는 다른 고객과 연결합니다.
+- [개인 연결 초대](#private-connection-invite): 연결 코드를 사용하여 사용 허가된 다른 고객과 직접 연결합니다.
+- [시작 초대](#invite-non-licensed-collaborator): 라이선스가 없는 조직에 연결합니다.
+- [인증](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection): 지원되는 타사 광고 플랫폼과 연결합니다.
 
 연결은 선택한 공동 작업 패턴을 기반으로 설정됩니다. Collaboration은 광고주와 게시자, 브랜드와 같은 두 가지 주요 공동 작업 패턴을 지원합니다. 이러한 패턴에 대한 자세한 내용은 [사용 사례](/help/guide/overview/use-cases.md) 안내서를 참조하십시오.
 
@@ -55,9 +57,6 @@ ht-degree: 10%
 
 ![브랜드 간 연결 프로세스의 높은 수준 다이어그램입니다.](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
 
->[!TIP]
->
->이 안내서에서는 광고주와 게시자 간 및 브랜드 간 공동 작업 패턴의 연결 프로세스를 다룹니다. 광고 플랫폼과의 연결에 대한 자세한 내용은 [연결 개요](/help/guide/connect/overview.md) 안내서의 [광고주와 광고 플랫폼 연결](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) 섹션을 참조하십시오.
 
 ## 연결 {#connect}
 
@@ -314,9 +313,9 @@ ht-degree: 10%
 
 다음으로 **[!UICONTROL 수락]**&#x200B;을 선택하여 연결을 계속합니다. 연결 상태가 **[!UICONTROL 활성]**(으)로 변경되며 이제 프로젝트 공동 작업을 시작할 수 있습니다.
 
-## 공동 작업자 초대 {#invite-collaborator}
+## 라이선스가 없는 공동 작업자 초대(스타터) {#invite-non-licensed-collaborator}
 
-아래 단계에 따라 파트너를 Real-Time CDP Collaboration [!DNL Starter]에 초대하십시오. Collaboration [!DNL Starter]에 대한 자세한 내용과 프로세스에 대한 단계별 개요를 보려면 [[!DNL Starter] 개요 설명서](../overview/starter-overview.md)를 참조하세요.
+라이선스가 없는 파트너를 Real-Time CDP Collaboration [!DNL Starter]에 초대하려면 아래 단계를 따르십시오. Collaboration [!DNL Starter]에 대한 자세한 내용과 프로세스에 대한 단계별 개요를 보려면 [[!DNL Starter] 개요 설명서](../overview/starter-overview.md)를 참조하세요.
 
 초대 프로세스를 시작하기 전에 공동 작업자로부터 다음 정보를 수집합니다.
 
