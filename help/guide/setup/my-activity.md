@@ -2,7 +2,7 @@
 title: 크레딧 사용 활동 추적
 description: 조직의 Credit Wallet을 보고 Real-Time CDP Collaboration에서 신용 소비 활동을 추적하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 TQID: https://experienceleague.adobe.com/hDvkKFUCBYvsX8wntcYFrL6qZTxOo5CZOWAbxNwk7mw
 product_v2:
@@ -88,6 +88,6 @@ ht-degree: 4%
 
 신용 소비를 효과적으로 관리하려면
 
-1. 각 활동과 관련된 신용 소비를 **이해**&#x200B;합니다. 활동당 사용되는 크레딧 표에 대해서는 [Collaboration 제품 설명](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}을 확인하세요.
+1. 각 활동과 관련된 신용 소비를 **이해**&#x200B;합니다. 활동당 사용되는 크레딧 표에 대해서는 [Collaboration 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}을 확인하세요.
 2. **정기적으로 사용 모니터링**: 사용 가능한 크레딧과 활동 테이블을 검토하여 대상 관리, 대상 액세스, 대상 이그레스 및 측정 활동 전반의 사용 패턴을 이해합니다.
 3. **연결별 추적**: 연결 이름을 사용하여 크레딧을 가장 많이 사용하는 연결을 식별하십시오.
