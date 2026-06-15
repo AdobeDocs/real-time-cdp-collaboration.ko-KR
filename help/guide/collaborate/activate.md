@@ -2,19 +2,15 @@
 title: 대상자 활성화
 description: Adobe Real-Time CDP Collaboration에서 대상을 활성화하는 방법을 알아봅니다.
 audience: admin, publisher
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5c0fd0c7a7914f5c7828b76150b266d4625b6266
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1063
 ht-degree: 3%
 
 ---
@@ -25,7 +21,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 활성화]** 작업 영역은 연결 프로세스 [&#128279;](../connect/establishing-connections.md#connection-settings)에서 **대상 활성화** 사용 사례를 사용하도록 설정한 경우 에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
+>**[!UICONTROL 활성화]** 작업 영역은 연결 프로세스 ](../connect/establishing-connections.md#connection-settings)에서 **대상 활성화** 사용 사례를 사용하도록 설정한 경우 [에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
 
 대상자 활성화를 사용하면 캠페인에서 사용할 대상자를 활성화할 수 있습니다. 연결에 구성된 대상 활성화 설정 [에 따라 공동 작업자가 활성화할 수 있습니다](/help/guide/connect/establishing-connections.md#configure-connection-settings). [캠페인에 가장 적합한 대상을 검색](./discover.md)한 후 대상을 활성화하여 사용할 수 있도록 만드십시오. 대상을 활성화하면 공동 작업자가 미리 구성한 대상(예: Adobe Experience Platform)으로 보내져 캠페인에서 사용할 수 있게 됩니다. 대상 설정에 대한 자세한 내용은 [대상 개요](../destinations/overview.md) 안내서를 참조하십시오.
 
@@ -75,9 +71,11 @@ ht-degree: 3%
 
 ### 대상 새로 고침 빈도 설정 {#set-audience-refresh-frequency}
 
-마지막으로 새로 고침할 대상에 대해 원하는 빈도 및 날짜 범위를 설정합니다. 현재 릴리스에서 지원되는 빈도 옵션은 **[!UICONTROL 한 번]**&#x200B;뿐입니다. **[!UICONTROL Once]** 빈도는 대상이 한 번 활성화되고 새로 고쳐지지 않음을 의미합니다. **[!UICONTROL 날짜]** 옵션이 현재 날짜로 자동 채워집니다.
+마지막으로, 대상 활성화에 대해 원하는 빈도 및 날짜 범위를 설정합니다. **[!UICONTROL 빈도]** 드롭다운을 사용하여 대상이 한 번 활성화되었는지 또는 되풀이되는 일정에서 새로 고쳐졌는지 여부를 선택합니다. **[!UICONTROL 한 번]**&#x200B;을 선택하여 대상자를 한 번 활성화하거나 **[!UICONTROL 매일]**, **[!UICONTROL 2일마다]**, **[!UICONTROL 3일마다]**, **[!UICONTROL 4일마다]**, **[!UICONTROL 5일마다]**, **[!UICONTROL 6일마다]**, **[!UICONTROL 2주마다]**, **[!UICONTROL 3주마다]** 또는 **[!UICONTROL 월별]**&#x200B;과 같은 반복 빈도를 선택하십시오.
 
-![빈도 섹션이 강조 표시된 대상자 활성화 워크플로우입니다.](/help/assets/collaborate/activate/audience-frequency.png)
+![대상 활성화 워크플로의 빈도 드롭다운에 사용 가능한 옵션이 표시됩니다(예: 한 번, 매일, 2~6일마다, 2~3주마다, 매월).](/help/assets/collaborate/activate/activation-frequency.png)
+
+**[!UICONTROL 날짜 범위]** 필드를 사용하여 활성화 일정이 시작되고 끝나는 시기를 정의합니다.
 
 선택 항목이 만족스러우면 **[!UICONTROL 활성화]**&#x200B;를 선택하여 워크플로우를 완료합니다.
 
@@ -100,7 +98,7 @@ ht-degree: 3%
 | **[!UICONTROL ID 개수]** | 대상자의 ID 수입니다. |
 | **[!UICONTROL 중복 ID]** | 이 대상자와 공동 작업자 인벤토리에서 프로필의 총 인구 간에 겹치는 ID 수입니다. |
 | **[!UICONTROL 생성일]** | 대상이 처음 전송된 날짜입니다. |
-| **[!UICONTROL 마지막으로 보냄]** | 대상자를 마지막으로 공동 작업자에게 보낸 날짜입니다. |
+| **[!UICONTROL 마지막으로 보냄]** | 일회성 활성화 또는 반복 일정에서 활성화 워크플로를 통해 공동 작업자가 대상을 마지막으로 사용할 수 있게 된 날짜입니다. |
 | **[!UICONTROL 키 일치]** | 대상에 사용되는 일치 키를 나타냅니다. |
 
 ## 활성화된 대상자 보기 {#view-activated-audiences}
@@ -115,7 +113,7 @@ ht-degree: 3%
 | **[!UICONTROL 상태]** | 활성화된 대상자의 상태입니다. |
 | **[!UICONTROL ID 개수]** | 공동 작업자가 대상자를 보낼 때 겹치는 ID를 기반으로 활성화된 ID의 수입니다. |
 | **[!UICONTROL 생성일]** | 대상이 활성화된 날짜입니다. |
-| **[!UICONTROL 마지막으로 새로 고침]** | 활성화 중에 선택한 새로 고침 일정에 따라 대상을 마지막으로 새로 고친 날짜입니다. |
+| **[!UICONTROL 마지막으로 새로 고침]** | 활성화 중에 선택한 빈도를 기반으로 대상을 마지막으로 새로 고친 날짜입니다. |
 | **[!UICONTROL 대상]** | 대상자가 활성화된 대상입니다. |
 | **[!UICONTROL 키 일치]** | 대상에 사용되는 일치 키를 나타냅니다. |
 
