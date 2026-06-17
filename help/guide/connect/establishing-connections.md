@@ -2,21 +2,16 @@
 title: 공동 작업자와의 연결 설정
 description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 프로젝트에 대한 공동 작업을 시작하는 방법에 대해 알아보십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: fb824ee8d84cb8dc125da82a4afd6f50e3ce80cf
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5e722bc0077495561181519121bab9bb267dc7e1
 workflow-type: tm+mt
-source-wordcount: 3420
-ht-degree: 10%
+source-wordcount: 3459
+ht-degree: 9%
 
 ---
 
@@ -320,7 +315,7 @@ Collaboration은 다음과 같은 초대 메서드를 지원합니다.
 
 ## 라이선스가 없는 공동 작업자 초대(스타터) {#invite-non-licensed-collaborator}
 
-라이선스가 없는 파트너를 Real-Time CDP Collaboration [!DNL Starter]에 초대하려면 아래 단계를 따르십시오. Collaboration [!DNL Starter]에 대한 자세한 내용과 프로세스에 대한 단계별 개요를 보려면 [[!DNL Starter] 개요 설명서](../overview/starter-overview.md)를 참조하세요.
+라이선스가 없는 파트너를 Real-Time CDP Collaboration [!DNL Starter]에 초대하려면 아래 단계를 따르십시오. 초대는 공동 작업자의 이메일 주소로 직접 전송되며 연결을 설정하려면 먼저 수락해야 합니다. Collaboration [!DNL Starter]에 대한 자세한 내용과 프로세스에 대한 단계별 개요를 보려면 [[!DNL Starter] 개요 설명서](../overview/starter-overview.md)를 참조하세요.
 
 초대 프로세스를 시작하기 전에 공동 작업자로부터 다음 정보를 수집합니다.
 
@@ -369,9 +364,14 @@ Collaboration은 다음과 같은 초대 메서드를 지원합니다.
 
 ![확인 대화 상자에서 초대가 성공적으로 전송되었는지 확인합니다.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
 
+초대장을 보내면 파트너 조직이 실시간 Collaboration 약관을 검토하고 서명하는 지침을 담은 이메일을 받게 됩니다.
+
 ### 초대를 수락하고 약관에 서명 {#accept-invitation-sign-terms}
 
-초대를 보내면 파트너 조직이 실시간 Collaboration 약관을 검토하고 동의하는 지침을 담은 이메일을 받게 됩니다. 수락하기 전에 Collaboration의 기능을 살펴볼 수도 있습니다.
+계속하려면 초대받은 파트너 조직이
+
+- 초대 이메일을 엽니다.
+- 링크를 따라 Real-Time CDP Collaboration 약관을 검토하고 서명합니다.
 
 ![Collaboration Starter에 참여하기 위한 초대 전자 메일입니다.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
 
@@ -379,10 +379,11 @@ Collaboration은 다음과 같은 초대 메서드를 지원합니다.
 
 ### 프로비저닝 확인 {#provisioning-confirmation}
 
-프로비저닝 프로세스가 완료되면 초대된 조직에 환영 전자 메일이 전송되어 Collaboration [!DNL Starter]을(를) 사용할 준비가 되었음을 확인합니다. 이 이메일은 다음 방법에 대한 지침을 제공합니다.
+프로비저닝 프로세스가 완료되면 초대된 조직에 두 번째 이메일이 전송되어 Collaboration [!DNL Starter]을(를) 사용할 준비가 되었음을 확인합니다. 이 시작 이메일은 다음 방법에 대한 지침을 제공합니다.
 
 - [관리자 및 사용자 액세스 구성](../setup/starter-admin-access.md)
 - [Collaboration에 액세스할 수 있는 권한 설정](../setup/starter-permission-controls.md)
+- [초대 공동 작업자와 연결 설정](#connect)
 
 ![필요한 액세스 및 권한을 설정하는 지침과 함께 초대된 조직에 전송된 시작 전자 메일입니다.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
 
@@ -390,4 +391,4 @@ Collaboration은 다음과 같은 초대 메서드를 지원합니다.
 
 ## 다음 단계
 
-이제 공동 작업자와 연결을 설정한 후 귀하와 공동 작업자는 [프로젝트를 만들](/help/guide/collaborate/manage-projects.md#create-project)수 있습니다.
+연결을 설정한 후 공동 작업자와 [프로젝트를 만들기](/help/guide/collaborate/manage-projects.md#create-project)할 수 있습니다.
