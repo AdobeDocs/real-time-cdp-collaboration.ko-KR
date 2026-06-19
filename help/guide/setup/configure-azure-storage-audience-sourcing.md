@@ -101,7 +101,7 @@ ADLS Gen2 연결의 경우 Collaboration의 **[!UICONTROL Container]** 필드는
 4. 파일 시스템 또는 디렉터리 범위에서 Adobe의 주체에 **[!DNL Storage Blob Data Reader]** 역할을 할당합니다.
 5. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-소스 유형에 대한 권한 설정을 완료한 후 [연결 구성 [!DNL Azure] 2}을 진행합니다.](#configure-your-azure-connection)
+소스 유형에 대한 권한 설정을 완료한 후 [연결 구성 [!DNL Azure] 2&rbrace;을 진행합니다.](#configure-your-azure-connection)
 
 ## [!DNL Azure] 연결 구성 {#configure-your-azure-connection}
 
