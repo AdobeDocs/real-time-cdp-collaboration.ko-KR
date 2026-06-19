@@ -2,7 +2,7 @@
 title: Real-Time CDP Collaboration의  [!DNL Azure] 저장소에서 Source 대상
 description: Source Blob Storage 또는 Azure Data Lake Storage Gen2의 Azure 자사 대상 데이터를 Real-Time CDP Collaboration으로 가져옵니다.
 keywords: Real-Time CDP Collaboration; 대상 소싱; [!DNL Azure Blob Storage]; [!DNL Azure Data Lake Storage] Gen2
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 3b62837cecf6cf7c288ce1633d43312ff6a92664
 workflow-type: tm+mt
 source-wordcount: '2050'
