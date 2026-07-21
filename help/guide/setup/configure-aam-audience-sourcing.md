@@ -104,7 +104,7 @@ Collaboration으로 가져온 모든 AAM 세그먼트는 동의 후 필터링되
 
 매핑을 검토할 수 있지만 이 단계에서는 수정할 수 없습니다. 계속하려면 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
-![대상 ID 필드에 매핑된 원본 필드를 표시하는 &quot;필드 매핑&quot; 단계에서 대상 워크플로우를 추가하십시오. ](../../assets/setup/aam-audience-sourcing/audience-manager-map-fields.png)
+![대상 ID 필드에 매핑된 원본 필드를 표시하는 &quot;필드 매핑&quot; 단계에서 대상 워크플로우를 추가하십시오. &#x200B;](../../assets/setup/aam-audience-sourcing/audience-manager-map-fields.png)
 
 ### 데이터 새로 고침 예약 {#schedule-data-refresh}
 
