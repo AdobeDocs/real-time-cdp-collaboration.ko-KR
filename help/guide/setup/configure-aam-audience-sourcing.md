@@ -2,7 +2,7 @@
 title: 대상 소싱을 위한 Adobe Audience Manager 구성
 description: 적격한 자사 대상을 Real-Time CDP Collaboration에 소싱할 수 있도록 Adobe Audience Manager을 데이터 소스로 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: be12b4c3b1d3d40fa9ceb43b319f55254b05e4df
 workflow-type: tm+mt
 source-wordcount: '1901'
