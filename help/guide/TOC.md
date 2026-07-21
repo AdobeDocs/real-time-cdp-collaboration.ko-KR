@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration은 광고주와 게시자 간 원활하고 안전한 데이터 공유 및 협업을 지원하여 실시간 대상자 인사이트 확보와 개인화된 마케팅 전략 수립을 지원해 줍니다.
-source-git-commit: 87518fe97611cffe65c9081418029d88bb29abc1
+source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 40%
+source-wordcount: '231'
+ht-degree: 39%
 
 ---
 
@@ -15,61 +15,62 @@ ht-degree: 40%
 * [Real-Time CDP Collaboration 홈](./home.md)
 * [빠른 시작 안내서](./quick-start-guide.md)
 * 개요 {#overview}
-   * [사용 사례](./overview/use-cases.md)
-   * [계정 역할](./overview/roles.md)
-   * [Collaboration 패턴](./overview/collaboration-patterns.md)
-   * [전체 워크플로](./overview/end-to-end-workflow.md)
-   * [Real-Time CDP Collaboration 스타터](./overview/starter-overview.md)
+  * [사용 사례](./overview/use-cases.md)
+  * [계정 역할](./overview/roles.md)
+  * [Collaboration 패턴](./overview/collaboration-patterns.md)
+  * [전체 워크플로](./overview/end-to-end-workflow.md)
+  * [Real-Time CDP Collaboration 스타터](./overview/starter-overview.md)
 * 설정 {#setup}
-   * [설정 섹션 개요](./setup/setup-overview.md)
-   * [계정 온보드 및 관리](./setup/onboard-account.md)
-   * Source 및 대상자 관리 {#source-audiences}
-      * [소스 개요](./setup/source-overview.md)
-      * [대상 소싱을 위한 AEP 구성](./setup/onboard-audiences.md)
-      * [대상 소싱을 위한 AWS 권한 구성](./setup/configure-aws-permissions-audience-sourcing.md)
-      * [대상 소싱을 위한 Azure 스토리지 구성](./setup/configure-azure-storage-audience-sourcing.md)
-      * [대상 소싱을 위한 Amazon S3 구성](./setup/configure-aws-s3-audience-sourcing.md)
-      * [대상 소싱을 위한 GCS 구성](./setup/configure-gcs-audience-sourcing.md)
-      * [대상자 소싱에 대한 CSV 파일 업로드](./setup/upload-csv-audience-sourcing.md)
-      * [대상 소싱을 위한 Snowflake 구성](./setup/configure-snowflake-audience-sourcing.md)
-      * [대상 소싱을 위한 데이터베이스 델타 공유 구성](./setup/configure-databricks-audience-sourcing.md)
-   * [데이터 연결 관리](./setup/manage-data-connection.md)
-   * [대상 구성 및 관리](./setup/manage-destinations.md)
-   * [크레딧 사용 활동 추적](/help/guide/setup/my-activity.md)
-   * {hide-from-toc}[ID 횡단보도](./setup/identity-crosswalk.md)
-   * [측정 데이터 추가 및 관리](./setup/onboard-measurement-data.md)
-   * [측정 데이터 연결 관리](./setup/manage-measurement-data-connection.md)
-   * [감사 로그](./setup/audit-logs.md)
-   * Real-Time CDP Collaboration 스타터 설정 {#starter-setup}
-      * [관리자 액세스 구성](./setup/starter-admin-access.md)
-      * [권한 제어 구성](./setup/starter-permission-controls.md)
-      * [신용 사용 및 소비](./setup/starter-credit-usage.md)
+  * [설정 섹션 개요](./setup/setup-overview.md)
+  * [계정 온보드 및 관리](./setup/onboard-account.md)
+  * Source 및 대상자 관리 {#source-audiences}
+    * [소스 개요](./setup/source-overview.md)
+    * [대상 소싱을 위한 AEP 구성](./setup/onboard-audiences.md)
+    * [대상 소싱을 위한 AWS 권한 구성](./setup/configure-aws-permissions-audience-sourcing.md)
+    * [대상 소싱을 위한 Azure 스토리지 구성](./setup/configure-azure-storage-audience-sourcing.md)
+    * [대상 소싱을 위한 Amazon S3 구성](./setup/configure-aws-s3-audience-sourcing.md)
+    * [대상 소싱을 위한 GCS 구성](./setup/configure-gcs-audience-sourcing.md)
+    * [대상자 소싱에 대한 CSV 파일 업로드](./setup/upload-csv-audience-sourcing.md)
+    * [대상 소싱을 위한 Snowflake 구성](./setup/configure-snowflake-audience-sourcing.md)
+    * [대상 소싱을 위한 데이터베이스 델타 공유 구성](./setup/configure-databricks-audience-sourcing.md)
+    * [대상 소싱을 위한 Adobe Audience Manager 구성](./setup/configure-aam-audience-sourcing.md)
+  * [데이터 연결 관리](./setup/manage-data-connection.md)
+  * [대상 구성 및 관리](./setup/manage-destinations.md)
+  * [크레딧 사용 활동 추적](/help/guide/setup/my-activity.md)
+  * {hide-from-toc}[ID 횡단보도](./setup/identity-crosswalk.md)
+  * [측정 데이터 추가 및 관리](./setup/onboard-measurement-data.md)
+  * [측정 데이터 연결 관리](./setup/manage-measurement-data-connection.md)
+  * [감사 로그](./setup/audit-logs.md)
+  * Real-Time CDP Collaboration 스타터 설정 {#starter-setup}
+    * [관리자 액세스 구성](./setup/starter-admin-access.md)
+    * [권한 제어 구성](./setup/starter-permission-controls.md)
+    * [신용 사용 및 소비](./setup/starter-credit-usage.md)
 * 연결 설정 중 {#connect}
-   * [개요](/help/guide/connect/overview.md)
-   * [공동 작업자 탐색](./connect/discover-collaborators.md)
-   * [협력자 연결 설정](./connect/establishing-connections.md)
-   * [연결 관리](./connect/manage-connections.md)
-   * Advertising 플랫폼 연결 {#ad-platform-connections}
-      * [개요](/help/guide/connect/advertising-platforms/overview.md)
-      * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
+  * [개요](/help/guide/connect/overview.md)
+  * [공동 작업자 탐색](./connect/discover-collaborators.md)
+  * [협력자 연결 설정](./connect/establishing-connections.md)
+  * [연결 관리](./connect/manage-connections.md)
+  * Advertising 플랫폼 연결 {#ad-platform-connections}
+    * [개요](/help/guide/connect/advertising-platforms/overview.md)
+    * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * 공동 작업 {#collaborate}
-   * [개요](/help/guide/collaborate/overview.md)
-   * [프로젝트 관리](./collaborate/manage-projects.md)
-   * 공동 작업자 연결 {#collaborator-connections}
-      * [검색](./collaborate/discover.md)
-      * [활성화](./collaborate/activate.md)
-      * [측정](./collaborate/measure.md)
-   * Advertising 플랫폼 연결 {#ad-platform-connections}
-      * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
-      * {hide-from-toc}[AMC 측정 보고서 만들기](./collaborate/advertising-platforms/amc-measure.md)
+  * [개요](/help/guide/collaborate/overview.md)
+  * [프로젝트 관리](./collaborate/manage-projects.md)
+  * 공동 작업자 연결 {#collaborator-connections}
+    * [검색](./collaborate/discover.md)
+    * [활성화](./collaborate/activate.md)
+    * [측정](./collaborate/measure.md)
+  * Advertising 플랫폼 연결 {#ad-platform-connections}
+    * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
+    * {hide-from-toc}[AMC 측정 보고서 만들기](./collaborate/advertising-platforms/amc-measure.md)
 * 대상 {#destinations}
-   * [개요](/help/guide/destinations/overview.md)
-   * [Adobe Experience Platform](./destinations/experience-platform.md)
+  * [개요](/help/guide/destinations/overview.md)
+  * [Adobe Experience Platform](./destinations/experience-platform.md)
 * 권한 {#permissions}
-   * [개요](/help/guide/permissions/overview.md)
-   * [사용자 액세스 관리](./permissions/manage-user-access.md)
-   * [역할 관리](./permissions/manage-roles.md)
+  * [개요](/help/guide/permissions/overview.md)
+  * [사용자 액세스 관리](./permissions/manage-user-access.md)
+  * [역할 관리](./permissions/manage-roles.md)
 * 참조 {#reference}
-   * [일반적인 질문 및 문제 해결 팁](./faqs/common-questions.md)
-   * {hide-from-toc}[용어집](./glossary.md)
+  * [일반적인 질문 및 문제 해결 팁](./faqs/common-questions.md)
+  * {hide-from-toc}[용어집](./glossary.md)
 * [최신 릴리스 정보](./release-notes/latest.md)
