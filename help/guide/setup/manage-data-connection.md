@@ -12,7 +12,7 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
 workflow-type: tm+mt
 source-wordcount: 1253
 ht-degree: 8%
@@ -154,7 +154,7 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 
 ![업데이트 및 저장 옵션을 강조 표시하는 예약 대화 상자](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
-## 데이터 연결 삭제
+## 데이터 연결 삭제 {#delete-data-connection}
 
 데이터 연결을 삭제하면 Collaboration에서 모든 기본 대상, 관련 설정 및 사용이 제거됩니다. 이 작업은 실행 취소할 수 없습니다.
 

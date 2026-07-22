@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
+source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
 workflow-type: tm+mt
-source-wordcount: 3741
+source-wordcount: 3773
 ht-degree: 18%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 18%
 
 데이터 연결은 대상을 Collaboration으로 수집하는 소스입니다. 사용 가능한 모든 소스에 대한 자세한 내용은 [소스 개요](./source-overview.md)를 참조하세요.
 
-아래 섹션에서는 **Adobe Experience Platform**&#x200B;을(를) 선택하고 Experience Platform 관련 단계(샌드박스, 거버넌스 및 동의)를 완료하는 방법에 대해 설명합니다. CSV, [!DNL Amazon S3], [!DNL Snowflake] 또는 [!DNL Google Cloud Storage]을(를) 선택하는 경우 해당 옵션에 대해 [데이터 원본 선택](#select-data-source)에 연결된 안내서를 사용하십시오.
+아래 섹션에서는 **Adobe Experience Platform**&#x200B;을(를) 선택하고 Experience Platform 관련 단계(샌드박스, 거버넌스 및 동의)를 완료하는 방법에 대해 설명합니다. CSV, [!DNL Amazon S3], [!DNL Snowflake], [!DNL Google Cloud Storage], Adobe Audience Manager 또는 [!DNL Databricks Delta Share]을(를) 선택하는 경우 해당 옵션에 대해 [데이터 소스 선택](#select-data-source)에 연결된 안내서를 사용하십시오.
 
 Experience Platform 데이터 연결에 대해 구성하는 모든 설정은 해당 연결에서 가져온 모든 대상에 적용됩니다.
 
@@ -72,7 +72,8 @@ Experience Platform 데이터 연결에 대해 구성하는 모든 설정은 해
 * **Amazon Web Services**: Amazon S3 저장소에 연결하여 S3 버킷에서 직접 대상 데이터를 소싱합니다. 단계별 지침은 [대상 소싱에 대한 AWS S3 구성](./configure-aws-s3-audience-sourcing.md) 안내서를 참조하십시오.
 * **Snowflake**: Snowflake 데이터 웨어하우스를 사용하여 대상 데이터를 원활하게 가져옵니다. 대상 소싱에 대한 [구성 [!DNL Snowflake] 가이드](./configure-snowflake-audience-sourcing.md)를 참조하세요.
 * **Google 클라우드 저장소**: GCS 버킷에 연결하여 대상 데이터를 원본으로 사용합니다. 단계별 지침은 [대상 소싱에 대한 GCS 구성](./configure-gcs-audience-sourcing.md) 안내서를 참조하십시오.
-* **Adobe Audience Manager**(_준비 중_): Adobe Audience Manager의 대상 세그먼트를 Source합니다.
+* **[!DNL Databricks Delta Share]**: [!DNL Databricks Delta Share]에 연결하여 [!DNL Databricks] 환경에서 자사 대상 데이터를 소싱합니다. 대상 소싱에 대한 [구성 [!DNL Databricks Delta Share] 가이드](./configure-databricks-audience-sourcing.md)를 참조하세요.
+* **Adobe Audience Manager**: Adobe Audience Manager의 대상 세그먼트를 Source합니다. 시작하려면 [대상 소싱을 위한 Adobe Audience Manager 구성](./configure-aam-audience-sourcing.md) 안내서를 참조하십시오.
 
 데이터 원본을 선택한 후 **[!UICONTROL 다음]**&#x200B;을(를) 선택하십시오.
 
