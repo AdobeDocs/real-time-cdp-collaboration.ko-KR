@@ -2,7 +2,7 @@
 title: 대상 소싱에 대해  [!DNL Databricks Delta Share] 구성
 description: Real-Time CDP Collaboration에서 대상 소싱을 위해  [!DNL Databricks Delta Share] 을(를) 구성하고 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 876b7d2996d3027f81159252f714c2305d6d23b4
 workflow-type: tm+mt
 source-wordcount: '2771'
