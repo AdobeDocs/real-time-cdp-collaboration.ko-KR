@@ -2,19 +2,16 @@
 title: 프로젝트 만들기 및 관리
 description: Adobe Real-Time CDP Collaboration에서 프로젝트를 만들고 관리하는 방법 알아보기
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 TQID: https://experienceleague.adobe.com/IZIkK4lv29vqrah48fsJsnMOFtyh7rOo1IT2yLOW9Ec
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: 680
-ht-degree: 13%
+source-wordcount: 702
+ht-degree: 12%
 
 ---
 
@@ -23,6 +20,8 @@ ht-degree: 13%
 {{limited-availability-release-note}}
 
 프로젝트는 Adobe Real-Time CDP Collaboration 워크플로의 중심입니다. 공동 작업자와 연결한 후 프로젝트를 만들어 대상 중복 계산을 실행하고 캠페인에 대한 관련 대상을 검색합니다.
+
+대상을 Collaboration으로 가져와 검색, 활성화 및 측정을 위한 프로젝트에 사용하는 방법에 대한 개요는 [대상 개요](../setup/audiences-overview.md)를 참조하십시오.
 
 >[!TIP]
 >
