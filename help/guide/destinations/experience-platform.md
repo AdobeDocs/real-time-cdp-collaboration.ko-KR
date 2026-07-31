@@ -2,28 +2,23 @@
 title: Adobe Experience Platform을 대상으로 구성
 description: Real-Time CDP Collaboration에서 대상으로 Adobe Experience Platform을 구성하고 관리하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 TQID: https://experienceleague.adobe.com/vOAlNzIaEKC6cZC-zMxShPTn77kmV3WbUuvZU8Svzh4
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: c84582bb81289ce761c664af7db177535ff00a00
 workflow-type: tm+mt
-source-wordcount: 1534
-ht-degree: 14%
+source-wordcount: 1548
+ht-degree: 15%
 
 ---
 
 # Adobe Experience Platform을 대상으로 구성
 
-{{limited-availability-release-note}}
-
 프로젝트에서 Adobe Experience Platform으로 대상을 활성화하도록 이 대상을 구성합니다. 대상을 Adobe Experience Platform으로 활성화하면 다양한 마케팅 채널에서 대상 세분화, 분석 및 활성화를 위해 플랫폼의 기능을 활용할 수 있습니다. Adobe Experience Platform에 대한 자세한 내용은 [Experience Platform 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/home){target="_blank"}를 참조하세요.
+
+Adobe Experience Platform에서는 [클라우드 저장소 대상 구성 및 관리](./manage-destinations.md)에 설명된 클라우드 저장소 대상 워크플로와 다른 대상별 구성 워크플로를 사용합니다.
 
 >[!WARNING]
 >
@@ -31,13 +26,11 @@ ht-degree: 14%
 
 ## 대상 구성 {#configure-destination}
 
-Adobe Experience Platform을 대상으로 구성하려면 **[!UICONTROL 설정]**(으)로 이동한 다음 **[!UICONTROL 내 대상]** 탭을 선택합니다. Adobe Experience Platform에 대해 **[!UICONTROL 설정]**&#x200B;을 선택합니다.
+Adobe Experience Platform을 대상으로 구성하려면 **[!UICONTROL 활성화]** 작업 영역으로 이동하여 **[!UICONTROL 카탈로그]** 탭을 선택한 다음 Adobe Experience Platform에 대해 **[!UICONTROL 설정]**&#x200B;을 선택하십시오.
 
-![Adobe Experience Platform 대상에 대해 [설정] 옵션이 강조 표시된 내 대상 작업 영역입니다.](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
+![카탈로그 탭에 Adobe Experience Platform 카드가 강조 표시된 대상 공급자 카드가 표시됩니다.](../../assets/destinations/adobe-experience-platform/setup-experience-platform.png)
 
 **[!UICONTROL 대상 만들기]** 워크플로가 나타납니다.
-
-![Adobe Experience Platform에 대한 대상 워크플로우를 만듭니다.](/help/assets/destinations/adobe-experience-platform/create-destination.png)
 
 ### 샌드박스 구성 {#configure-sandbox}
 
@@ -144,9 +137,9 @@ Experience Platform을 대상으로 구성하면 프로젝트를 통해 플랫�
 
 >[!IMPORTANT]
 >
->**해야** Experience Platform을 대상으로 *이전*(으)로 구성해야 합니다. 대상이 구성되지 않은 경우 대상자가 사용자에게 전송되고 프로젝트 내의 **[!UICONTROL 활성화]** 탭에 표시되지만 Experience Platform에는 활성화되지 않습니다.
+>**해야** Experience Platform을 대상으로 *이전*(으)로 구성해야 합니다. 대상이 구성되지 않은 경우 대상자가 사용자에게 전송되고 프로젝트 수준 **[!UICONTROL 활성화]** 탭에 표시되지만 Experience Platform에는 활성화되지 않습니다.
 
-대상자가 활성화되면 Real-Time CDP Collaboration을 원본으로 하는 Experience Platform의 [대상자 포털](#audience-portal)에서 사용할 수 있습니다.  그런 다음 이러한 대상을 캠페인 및 고객 참여에 사용할 수 있습니다.
+대상자가 활성화되면 Real-Time CDP Collaboration을 원본으로 하는 Experience Platform의 [대상자 포털](#audience-portal)에서 사용할 수 있습니다. 그런 다음 이러한 대상을 캠페인 및 고객 참여에 사용할 수 있습니다.
 
 ### 대상자 포털 {#audience-portal}
 
@@ -158,4 +151,4 @@ Adobe Experience Platform을 대상으로 구성했으므로 이제 대상자 �
 
 ![필터 옵션에서 Real-Time CDP Collaboration을 원본으로 사용하는 대상 포털입니다.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Audience Portal에 대한 자세한 내용은 [Audience Portal 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} 안내서를 참조하십시오.
+Audience Portal에 대한 자세한 내용은 [Audience Portal 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} 안내서를 참조하십시오.

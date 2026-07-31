@@ -2,26 +2,17 @@
 title: 용어집
 description: Real-Time CDP Collaboration의 주요 용어 이해
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
 TQID: https://experienceleague.adobe.com/aamkkPQbkaATqzByHmnTU2QGiUXLOn1yhz1jPA8LgGc
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
 workflow-type: tm+mt
-source-wordcount: 837
-ht-degree: 5%
+source-wordcount: 934
+ht-degree: 4%
 
 ---
 
@@ -32,6 +23,14 @@ ht-degree: 5%
 이 용어집에서는 Adobe Real-Time CDP Collaboration 제품 및 설명서에서 식별된 주요 용어에 대한 정의를 제공합니다. 이러한 용어를 이해하면 제품과 해당 기능을 보다 효과적으로 활용하는 데 도움이 됩니다.
 
 ## A
+
+### 활성화(공동 작업자에게)
+
+공유 프로젝트 내의 다른 공동 작업자에게 대상자를 보내는 작업을 나타냅니다. 공동 작업자에게 대상을 활성화하면 해당 공동 작업자의 사전 구성된 대상으로 보내지고 여기서 캠페인에서 사용할 수 있습니다. 지침은 [대상자 활성화](/help/guide/collaborate/activate.md)를 참조하십시오. **대상에 대한 활성화**&#x200B;와 혼동하지 마십시오.
+
+### 활성화(대상에)
+
+활성화된 대상이 들어오는 대상(예: 클라우드 스토리지 플랫폼 또는 Adobe Experience Platform)과 대상을 구성, 검색 및 모니터링하는 작업 영역을 나타냅니다. 대상자가 프로젝트 내에서 [대상자 활성화](/help/guide/collaborate/activate.md) 작업을 통해 대상에 계속 도달합니다. 이 작업 영역은 사용 가능한 대상과 설정 방법을 제어합니다. 지침은 [대상 개요](/help/guide/destinations/overview.md)를 참조하십시오. **Activate(공동 작업자에게)**&#x200B;과(와) 혼동하지 마십시오.
 
 ### 광고주
 
