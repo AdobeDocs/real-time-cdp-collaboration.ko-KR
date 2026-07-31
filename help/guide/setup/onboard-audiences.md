@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: 3773
+source-wordcount: 3758
 ht-degree: 18%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 18%
 {{limited-availability-release-note}}
 
 대상자는 다양한 속성에 따라 세그먼트화된 사용자 또는 고객의 특정 그룹입니다. 이를 통해 공동 작업자는 보다 효과적인 광고 캠페인을 위해 타기팅된 마케팅 및 개인화된 경험에 대해 공동 작업을 수행할 수 있습니다. 이 안내서에서는 대상을 Real-Time CDP Collaboration에 소스, 대상 대시보드 보기 및 개별 대상을 관리하는 방법을 다룹니다.
+
+Collaboration의 대상에 대한 개념적인 설명은 [대상 개요](../setup/audiences-overview.md)를 참조하십시오.
 
 ## Source 대상자를 Collaboration으로 {#source-audiences}
 
@@ -239,7 +241,7 @@ Source 필드는 Collaboration에 정의된 대상 필드에 매핑됩니다.
 | **[!UICONTROL 이름]** | 대상자의 이름입니다. |
 | **[!UICONTROL ID]** | 이 대상에 있는 ID의 수를 나타냅니다. 동일한 프로필에 두 개 이상의 ID가 있고 이러한 ID가 프로젝트에서 일치 키로 사용되는 경우 프로필이 카운트에 두 번 표시됩니다. |
 | **[!UICONTROL 상태]** | 대상이 활성 상태이고 프로젝트에서 사용할 수 있는지 여부를 나타냅니다. **[!UICONTROL 보류 중]** 상태는 대상이 최근에 소싱되었으며 ID가 아직 채워지지 않았음을 나타냅니다. 소스 대상은 초기 새로 고침 후 프로필로 채워집니다. 이 프로필은 일반적으로 데이터 연결이 설정된 후 24시간 이내에 발생합니다. |
-| **[!UICONTROL Source]** | 대상자를 가져온 위치를 나타냅니다. 현재 Collaboration 릴리스에서는 Experience Platform이 유일한 지원 소스입니다. |
+| **[!UICONTROL Source]** | 대상자를 가져온 위치를 나타냅니다. |
 | **[!UICONTROL 데이터 연결]** | 대상자에 대한 데이터 연결은 출처입니다. 데이터 연결을 보기 위한 이름을 선택할 수 있습니다. |
 | **[!UICONTROL 연결 액세스]** | 대상자가 비공개인지 아니면 공용인지 정의합니다. 공개 대상은 중복 보고서에서 검색할 수 있으며 프로젝트 내에서 활성화할 수 있습니다. |
 | **[!UICONTROL 생성일]** | 대상이 처음에 Collaboration으로 소싱되었을 때를 나타냅니다. |
@@ -265,7 +267,7 @@ Source 필드는 Collaboration에 정의된 대상 필드에 매핑됩니다.
 | 항목 | 설명 |
 |----------|---------|
 | **[!UICONTROL 상태]** | 대상이 활성 상태이고 프로젝트에서 사용할 수 있는지 여부를 나타냅니다. |
-| **[!UICONTROL Source]** | 대상자를 가져온 위치를 나타냅니다. 현재 Collaboration 릴리스에서는 Experience Platform이 유일한 지원 소스입니다. |
+| **[!UICONTROL Source]** | 대상자를 가져온 위치를 나타냅니다. |
 | **[!UICONTROL 데이터 연결]** | 대상자에 대한 데이터 연결은 출처입니다. |
 | **[!UICONTROL 마지막으로 업데이트됨]** | Collaboration에서 대상이 마지막으로 업데이트된 날짜 및 시간을 나타냅니다. 이는 대상을 마지막으로 새로 고친 때가 아니라 대상의 구성 또는 메타데이터가 마지막으로 변경된 때를 나타냅니다 |
 | **[!UICONTROL 마지막으로 업데이트한 사람]** | 대상자를 마지막으로 업데이트한 사용자를 나타냅니다. |

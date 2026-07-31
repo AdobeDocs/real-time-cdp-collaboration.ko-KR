@@ -9,10 +9,10 @@ product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
 workflow-type: tm+mt
-source-wordcount: 126
-ht-degree: 30%
+source-wordcount: 119
+ht-degree: 32%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 30%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time CDP Collaboration의 설정 섹션에서는 계정의 설정 및 구성을 관리하기 위한 중앙 집중식 작업 영역을 제공합니다. 계정 구성, 소스 대상, 데이터 연결 관리, 대상 설정 및 신용 소비 활동 추적 방법을 알아보려면 아래 안내서를 사용하십시오.
+Adobe Real-Time CDP Collaboration의 설정 섹션에서는 계정의 설정 및 구성을 관리하기 위한 중앙 집중식 작업 영역을 제공합니다. 아래 안내서를 사용하여 계정을 구성하고, 소스 대상을 관리하고, 데이터 연결을 관리하고, 신용 소비 활동을 추적하는 방법을 알아보십시오.
 
 ![현재 설정에 대한 개요를 제공하는 계정의 설정 작업 영역입니다.](/help/assets/setup/overview.png){zoomable="yes"}
 
@@ -29,6 +29,5 @@ Adobe Real-Time CDP Collaboration의 설정 섹션에서는 계정의 설정 및
 * [계정 구성 및 관리](/help/guide/setup/onboard-account.md)
 * [Source 및 대상자 관리](/help/guide/setup/onboard-audiences.md)
 * [데이터 연결 관리](/help/guide/setup/manage-data-connection.md)
-* [대상 구성 및 관리](/help/guide/setup/manage-destinations.md)
 * [크레딧 사용 활동 추적](/help/guide/setup/my-activity.md)
 * [감사 로그 보기](/help/guide/setup/audit-logs.md)

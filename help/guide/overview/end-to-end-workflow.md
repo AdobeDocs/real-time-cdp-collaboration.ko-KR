@@ -11,7 +11,7 @@ feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 4dba099a1bf484d9e2dfa71d5ad21a1ac076d794
 workflow-type: tm+mt
 source-wordcount: 1738
 ht-degree: 0%
@@ -29,11 +29,11 @@ Adobe Real-Time CDP Collaboration에서 통합 워크플로우는 선택하는 �
 시작하기 전에 다음 주요 개념을 확실히 이해해야 합니다.
 
 - **Collaboration 패턴**: 이러한 패턴은 공동 작업자가 함께 작업하는 방법을 정의합니다. 다음과 같은 5가지 패턴이 있습니다.
-   - [advertiser-to-publisher](./collaboration-patterns.md#advertiser-to-publisher)
-   - [브랜드 대 브랜드](./collaboration-patterns.md#brand-to-brand)
-   - [advertiser-to-data 파트너](./collaboration-patterns.md#advertiser-to-data-partner)
-   - [에이전시 투 퍼블리셔](./collaboration-patterns.md#agency-to-publisher)
-   - [광고주-에이전시 플랫폼](./collaboration-patterns.md#advertiser-to-agency-platform)
+  - [advertiser-to-publisher](./collaboration-patterns.md#advertiser-to-publisher)
+  - [브랜드 대 브랜드](./collaboration-patterns.md#brand-to-brand)
+  - [advertiser-to-data 파트너](./collaboration-patterns.md#advertiser-to-data-partner)
+  - [에이전시 투 퍼블리셔](./collaboration-patterns.md#agency-to-publisher)
+  - [광고주-에이전시 플랫폼](./collaboration-patterns.md#advertiser-to-agency-platform)
 - **계정 역할**: 계정 역할이 플랫폼 내의 기능을 결정합니다. 조직의 목표, 브랜드 및 목표에 부합해야 합니다. 네 가지 계정 역할이 있습니다. [광고주](./roles.md#advertiser), [게시자](./roles.md#publisher), [에이전시](./roles.md#agency) 및 [데이터 파트너](./roles.md#data-partner).
 - **사용 사례**: 사용 사례는 Collaboration을 활용하여 마케팅 목표를 달성할 수 있는 방법을 정의합니다. 세 가지 공동 작업 사용 사례가 있습니다. [검색](./use-cases.md#discover), [활성화](./use-cases.md#activate) 및 [측정](./use-cases.md#measure).
 
@@ -52,7 +52,7 @@ Adobe Real-Time CDP Collaboration에서 통합 워크플로우는 선택하는 �
 
 먼저 [!UICONTROL Luma]은(는) 광고주 역할로 [계정을 만들어야](../setup/onboard-account.md)하지만 [!UICONTROL TV Tube]은(는) 게시자 역할로 계정을 만듭니다.
 
-계정을 설정한 후에는 [!UICONTROL Luma] 및 [!UICONTROL TV Tube]에서 모두 [데이터 연결 및 소스 대상을 만들기](../setup/onboard-audiences.md)해야 합니다. [!UICONTROL TV Tube]만 마케팅 캠페인에 대한 대상을 활성화하므로 [대상을 구성](../setup/manage-destinations.md)해야 합니다.
+계정을 설정한 후에는 [!UICONTROL Luma] 및 [!UICONTROL TV Tube]에서 모두 [데이터 연결 및 소스 대상을 만들기](../setup/onboard-audiences.md)해야 합니다. [!UICONTROL TV Tube]만 마케팅 캠페인에 대한 대상을 활성화하므로 [대상을 구성](../destinations/manage-destinations.md)해야 합니다.
 
 두 공동 작업자가 계정을 설정한 후에는 플랫폼 내에서 [연결을 형성](../connect/establishing-connections.md)할 준비가 되었습니다. [!UICONTROL Luma]은(는) [공동 작업자 검색](../connect/discover-collaborators.md) 기능을 사용하여 [!UICONTROL TV Tube]를 찾아 연결 요청을 시작합니다. [!UICONTROL TV Tube]에서 연결 요청을 수락하면 [!UICONTROL Luma]은(는) 공동 작업 방법을 정의하기 위해 연결 설정을 구성합니다. [!UICONTROL TV Tube]에서 두 브랜드 간의 보안 연결을 설정하기 위해 연결 요청을 수락합니다.
 
@@ -66,7 +66,7 @@ Adobe Real-Time CDP Collaboration에서 통합 워크플로우는 선택하는 �
 
 스포츠 의류 브랜드인 [!UICONTROL Fit Apparel]은(는) 다른 스포츠 의류 브랜드인 [!UICONTROL Luma]과(와) 협력하여 향상된 마케팅 노력을 위한 대상 데이터 및 통찰력을 공유하려고 합니다.
 
-계정을 설정한 후 [!UICONTROL Fit Apparel]과(와) [!UICONTROL Luma]을(를) 모두 [데이터 연결 및 소스 대상을 만들기](../setup/onboard-audiences.md)해야 합니다. [!UICONTROL 의류 맞춤]과(와) [!UICONTROL Luma] 모두 마케팅 캠페인에 대해 대상을 활성화하므로 둘 다 [대상을 구성](../setup/manage-destinations.md)해야 합니다.
+계정을 설정한 후 [!UICONTROL Fit Apparel]과(와) [!UICONTROL Luma]을(를) 모두 [데이터 연결 및 소스 대상을 만들기](../setup/onboard-audiences.md)해야 합니다. [!UICONTROL 의류 맞춤]과(와) [!UICONTROL Luma] 모두 마케팅 캠페인에 대해 대상을 활성화하므로 둘 다 [대상을 구성](../destinations/manage-destinations.md)해야 합니다.
 
 대상을 소싱한 후 [!UICONTROL Apparel] 및 [!UICONTROL Luma] [연결을 형성하여](../connect/establishing-connections.md) 플랫폼 내에서 대상 데이터를 안전하게 공유합니다. 이렇게 하려면 [개인 연결 초대](../connect/establishing-connections.md#private-connection-invite) 기능을 사용해야 합니다. [!UICONTROL Luma]은(는) 연결 코드를 [!UICONTROL Fit Apparel]과(와) 공유하며, 사용자는 이를 사용하여 연결 요청을 시작합니다. [!UICONTROL Luma]이(가) 연결 요청을 수락하면 [!UICONTROL Fit Apparel]은(는) 공동 작업 방법을 정의하는 연결 설정을 구성합니다. 구성에서 [!UICONTROL 의류 맞춤]은 두 공동 작업자가 모두 마케팅 캠페인에 대한 대상을 활성화할 수 있도록 지정합니다. 연결을 완료하려면 [!UICONTROL Luma]이(가) 두 브랜드 간의 보안 링크 설정 요청을 수락합니다.
 
@@ -80,7 +80,7 @@ Adobe Real-Time CDP Collaboration에서 통합 워크플로우는 선택하는 �
 
 운동 소매 회사인 [!UICONTROL Luma]이(가) [!DNL AMC]의 ID 확인 및 타깃팅 도구를 활용하여 마케팅 기능을 개선하기 위해 [!DNL Amazon Marketing Cloud]&#x200B;([!DNL AMC])과(와) 연결하려고 합니다. Luma에 이미 활성 [!DNL Amazon Advertising] 계정이 있으며 [!DNL AMC]을(를) 사용하도록 승인되었습니다.
 
-시작하려면 [!UICONTROL Luma]에서 광고주 역할을 사용하여 [계정을 만들고](../setup/onboard-account.md)해야 합니다. 계정을 설정한 후 [!UICONTROL Luma]은(는) [데이터 연결 및 원본 대상을 만들어야](../setup/onboard-audiences.md)합니다. [!UICONTROL Luma]은(는) 마케팅 캠페인에 대한 대상을 활성화하므로 [대상을 구성](../setup/manage-destinations.md)해야 합니다.
+시작하려면 [!UICONTROL Luma]에서 광고주 역할을 사용하여 [계정을 만들고](../setup/onboard-account.md)해야 합니다. 계정을 설정한 후 [!UICONTROL Luma]은(는) [데이터 연결 및 원본 대상을 만들어야](../setup/onboard-audiences.md)합니다. [!UICONTROL Luma]은(는) 마케팅 캠페인에 대한 대상을 활성화하므로 [대상을 구성](../destinations/manage-destinations.md)해야 합니다.
 
 [!UICONTROL Luma]의 계정이 설정되면 플랫폼 내에서 [!DNL AMC]와(과) [연결을 구성](../connect/establishing-connections.md)할 준비가 되었습니다. [!UICONTROL Luma]은(는) [공동 작업자 검색](../connect/discover-collaborators.md) 기능을 사용하여 [!UICONTROL Amazon Marketing Cloud] 및 [연결 요청을 시작](../connect/advertising-platforms/amc.md)합니다. [!DNL Amazon] 로그인 페이지를 통해 연결을 인증하고 인증하면 [!DNL AMC]에 연결됩니다.
 
@@ -94,7 +94,7 @@ Adobe Real-Time CDP Collaboration에서 통합 워크플로우는 선택하는 �
 
 먼저 [!UICONTROL Luma]은(는) 광고주 역할로 [계정을 만들어야](../setup/onboard-account.md)하지만 [!UICONTROL DataM8]은(는) 데이터 파트너 역할로 계정을 만듭니다.
 
-계정을 설정한 후 [!UICONTROL Luma]와(과) [!UICONTROL DataM8]을(를) 모두 [데이터 연결 및 소스 대상을 만듭니다](../setup/onboard-audiences.md). 두 공동 작업자는 마케팅 캠페인에 대해 대상을 활성화할 수 있으므로 각각 [대상을 구성](../setup/manage-destinations.md)해야 합니다.
+계정을 설정한 후 [!UICONTROL Luma]와(과) [!UICONTROL DataM8]을(를) 모두 [데이터 연결 및 소스 대상을 만듭니다](../setup/onboard-audiences.md). 두 공동 작업자는 마케팅 캠페인에 대해 대상을 활성화할 수 있으므로 각각 [대상을 구성](../destinations/manage-destinations.md)해야 합니다.
 
 두 공동 작업자가 계정을 설정한 후에는 플랫폼 내에서 [연결을 형성](../connect/establishing-connections.md)할 준비가 되었습니다. [!UICONTROL Luma]은(는) [공동 작업자 검색](../collaborate/discover.md) 기능을 사용하여 [!UICONTROL DataM8]을(를) 찾고 연결 요청을 시작합니다. [!UICONTROL DataM8]이(가) 연결 요청을 수락하면 [!UICONTROL Luma]은(는) 공동 작업 방법을 정의하기 위해 연결 설정을 구성합니다. [!UICONTROL DataM8]은(는) 두 공동 작업자 간의 보안 링크를 설정하기 위해 연결 요청을 수락합니다.
 
@@ -110,7 +110,7 @@ Adobe Real-Time CDP Collaboration에서 통합 워크플로우는 선택하는 �
 
 먼저 [!UICONTROL Agency9]은(는) 에이전시 역할로 [계정을 만들어야](../setup/onboard-account.md)하지만, [!UICONTROL TV Tube]은(는) 게시자 역할로 계정을 만듭니다.
 
-계정을 설정한 후 [!UICONTROL Agency9]와(과) [!UICONTROL TV Tube]를 모두 [데이터 연결 및 소스 대상을 만들기](../setup/onboard-audiences.md)해야 합니다. [!UICONTROL Agency99]은(는) 작업 영역에서 클라이언트 하위 계정 및 소스 클라이언트 데이터를 설정합니다. [!UICONTROL TV Tube]만 마케팅 캠페인에 대한 대상을 활성화하므로 [대상을 구성](../setup/manage-destinations.md)해야 합니다.
+계정을 설정한 후 [!UICONTROL Agency9]와(과) [!UICONTROL TV Tube]를 모두 [데이터 연결 및 소스 대상을 만들기](../setup/onboard-audiences.md)해야 합니다. [!UICONTROL Agency99]은(는) 작업 영역에서 클라이언트 하위 계정 및 소스 클라이언트 데이터를 설정합니다. [!UICONTROL TV Tube]만 마케팅 캠페인에 대한 대상을 활성화하므로 [대상을 구성](../destinations/manage-destinations.md)해야 합니다.
 
 두 공동 작업자가 계정을 설정한 후에는 플랫폼 내에서 [연결을 형성](../connect/establishing-connections.md)할 준비가 되었습니다. [!UICONTROL Agency99]은(는) [공동 작업자 검색](../collaborate/discover.md) 기능을 사용하여 [!UICONTROL TV Tube]를 찾아 연결 요청을 시작합니다. [!UICONTROL Agency99]에서 [!UICONTROL TV Tube]와(과) 공동 작업하려는 하나 이상의 클라이언트를 위해 이 작업을 수행합니다. [!UICONTROL TV Tube]에서 연결 요청을 수락하면 [!UICONTROL Agency99]에서 각 공동 작업 방법을 정의하는 연결 설정을 구성합니다. [!UICONTROL TV Tube]에서 두 브랜드 간의 보안 연결을 설정하기 위한 연결 요청을 수락합니다.
 
@@ -126,7 +126,7 @@ Adobe Real-Time CDP Collaboration에서 통합 워크플로우는 선택하는 �
 
 먼저 [!UICONTROL Luma]은(는) 광고주 역할로 [계정을 만들어야](../setup/onboard-account.md)하지만 [!UICONTROL Holdco]은(는) 에이전시 역할로 계정을 만듭니다. 
 
-계정을 설정한 후에는 [!UICONTROL Luma]와 [!UICONTROL Holdco]이(가) 모두 [데이터 연결을 만들고 소스 대상을 만들기](../setup/onboard-audiences.md)해야 합니다. 두 공동 작업자는 마케팅 캠페인에 대해 대상을 활성화할 수 있으므로 각각 [대상을 구성](../setup/manage-destinations.md)해야 합니다. 
+계정을 설정한 후에는 [!UICONTROL Luma]와 [!UICONTROL Holdco]이(가) 모두 [데이터 연결을 만들고 소스 대상을 만들기](../setup/onboard-audiences.md)해야 합니다. 두 공동 작업자는 마케팅 캠페인에 대해 대상을 활성화할 수 있으므로 각각 [대상을 구성](../destinations/manage-destinations.md)해야 합니다. 
 
 두 공동 작업자가 계정을 설정한 후에는 플랫폼 내에서 [연결을 형성](../connect/establishing-connections.md)할 준비가 되었습니다. [!UICONTROL Luma]은(는) [공동 작업자 검색](../collaborate/discover.md) 기능을 사용하여 [!UICONTROL Holdco]을(를) 찾고 연결 요청을 시작합니다. [!UICONTROL Holdco]이(가) 연결 요청을 수락하면 [!UICONTROL Luma]이(가) 연결 설정을 구성하여 공동 작업 방법을 정의합니다.
 

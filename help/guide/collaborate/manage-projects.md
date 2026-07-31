@@ -11,10 +11,10 @@ feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: 680
-ht-degree: 13%
+source-wordcount: 702
+ht-degree: 12%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 13%
 {{limited-availability-release-note}}
 
 프로젝트는 Adobe Real-Time CDP Collaboration 워크플로의 중심입니다. 공동 작업자와 연결한 후 프로젝트를 만들어 대상 중복 계산을 실행하고 캠페인에 대한 관련 대상을 검색합니다.
+
+대상을 Collaboration으로 가져와 검색, 활성화 및 측정을 위한 프로젝트에 사용하는 방법에 대한 개요는 [대상 개요](../setup/audiences-overview.md)를 참조하십시오.
 
 >[!TIP]
 >
