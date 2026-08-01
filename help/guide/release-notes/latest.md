@@ -15,10 +15,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ec15512bc5c6579ade907fc238cfe5394862dc7e
+source-git-commit: c74300c6d38a33dfdc7c7d50306b26ef61a7494b
 workflow-type: tm+mt
-source-wordcount: 1968
-ht-degree: 4%
+source-wordcount: 2054
+ht-degree: 3%
 
 ---
 
@@ -32,13 +32,15 @@ ht-degree: 4%
 
 ## 2026년 7월 {#july-2026}
 
-이제 Real-Time CDP Collaboration에서 추가적인 셀프서비스 대상 소싱 옵션을 지원합니다.
+이제 Real-Time CDP Collaboration에서 보다 쉬운 활성화 및 대상 설정 워크플로우와 함께 추가 셀프서비스 대상 소싱 옵션을 지원합니다.
 
 **새로운 기능 또는 업데이트된 기능**
 
 | 기능 | 설명 |
 | ------- | ----------- |
 | [!DNL Databricks Delta Share] 및 Adobe Audience Manager의 셀프서비스 대상 소싱 | 이제 [!DNL Databricks Delta Share]에서 직접 자사 대상을 소싱하거나 적격한 Adobe Audience Manager 세그먼트를 Collaboration으로 가져올 수 있습니다. 설치 지침은 다음 안내서를 참조하십시오. <ul><li>대상 소싱에 대해 [구성 [!DNL Databricks Delta Share] 구성](../setup/configure-databricks-audience-sourcing.md)</li><li>[대상 소싱에 대한 Adobe Audience Manager 구성](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+| 수신한 대상자의 수동 활성화 | 이제 공동 작업자로부터 받은 대상을 구성된 대상에 수동으로 활성화하고 활성화 실행 시기를 선택할 수 있습니다. 이렇게 하면 수신자가 대상자 게재를 보다 세밀하게 제어할 수 있습니다. 단계별 지침은 [대상자 활성화](../collaborate/activate.md)를 참조하십시오. |
+| 셀프서비스 클라우드 스토리지 대상 | 이제 활성화 작업 영역에서 직접 지원되는 클라우드 스토리지 대상을 구성 및 관리하고 이를 사용하여 수신한 대상을 활성화할 수 있습니다. 설치 지침은 [클라우드 저장소 대상 구성 및 관리](../destinations/manage-destinations.md)를 참조하십시오. |
 
 {style="table-layout:auto"}
 
