@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d12a5004a6854392c130fd6b93a841fb22cf6ab
+source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
 workflow-type: tm+mt
-source-wordcount: 1565
+source-wordcount: 1589
 ht-degree: 2%
 
 ---
@@ -58,6 +58,10 @@ ht-degree: 2%
 ![대상자가 전송되지 않았을 때의 프로젝트 수준 활성화 탭입니다. 빈 표시 메시지는 대상자를 보내지 않았음을 설명하고 대상자 보내기 단추를 표시합니다.](/help/assets/collaborate/activate/activate-new-audiences.png)
 
 **[!UICONTROL 대상자 보내기]** 워크플로우가 열립니다. 대상 선택기를 사용하여 대상을 찾거나 **[!UICONTROL 대상 찾아보기]**&#x200B;를 선택하여 사용 가능한 대상을 비교합니다.
+
+>[!IMPORTANT]
+>
+>겹치는 ID가 1000개가 넘는 대상자만 활성화할 수 있습니다. 대상 겹침이 1000 ID 임계값 근처에 있는 경우 활성화가 실패할 수 있습니다.
 
 ![대상자 선택기와 대상자 찾아보기 단추를 사용하여 대상자 보내기 워크플로우입니다. 이 워크플로우를 통해 보낸 사람이 일치 키 및 액세스 설정을 구성하기 전에 대상을 선택할 수 있습니다.](/help/assets/collaborate/activate/audience-activation.png)
 

@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: dc86508b6327694a612625d427e3165a5e34e800
 workflow-type: tm+mt
-source-wordcount: 2120
+source-wordcount: 2132
 ht-degree: 17%
 
 ---
@@ -51,6 +51,10 @@ ht-degree: 17%
 
 이러한 사전 요구 사항이 충족되면 공동 작업자의 대상자를 통해 중복을 조사하고 비교할 수 있습니다.
 
+>[!IMPORTANT]
+>
+>겹치는 ID가 1,000개 미만인 대상 비교는 결과를 반환하지 않습니다.
+
 >[!NOTE]
 >
 >이 **[!UICONTROL Discover]** 작업 영역은 광고 플랫폼과의 협업과 관련이 없습니다. 현재 Amazon Marketing Cloud은 Real-Time CDP Collaboration에서 사용 가능한 유일한 광고 플랫폼입니다. [!DNL AMC] **[!UICONTROL 검색]** 작업 영역에 대한 자세한 내용은 [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md) 안내서를 참조하십시오.
@@ -85,6 +89,8 @@ ht-degree: 17%
 대상 비교 섹션을 사용하여 와 공동 작업자 대상 간의 겹침에 대한 다양한 정보를 얻을 수 있습니다. 대상 선택을 변경하려면 **[!UICONTROL 대상 비교]** 섹션 맨 위에 있는 드롭다운 선택기를 사용하십시오. 한 명 또는 모든 대상과 한 명 또는 모든 공동 작업자 대상을 선택하여 서로 비교할 수 있습니다.
 
 ![대상 비교 섹션에서 대상 선택기가 강조 표시된 검색 작업 영역입니다.](/help/assets/collaborate/discover/compare-audiences-selector.png)
+
+
 
 대상 비교 섹션에서 사용자와 공동 작업자가 프로젝트에 대해 동의한 일치 키를 기반으로 하는 다음 지표를 볼 수 있습니다.
 
