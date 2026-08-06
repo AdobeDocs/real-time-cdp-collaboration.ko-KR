@@ -2,16 +2,11 @@
 title: Adobe Experience Platform을 대상으로 구성
 description: Real-Time CDP Collaboration에서 대상으로 Adobe Experience Platform을 구성하고 관리하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 TQID: https://experienceleague.adobe.com/vOAlNzIaEKC6cZC-zMxShPTn77kmV3WbUuvZU8Svzh4
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: c84582bb81289ce761c664af7db177535ff00a00
 workflow-type: tm+mt
 source-wordcount: 1548
@@ -156,4 +151,4 @@ Adobe Experience Platform을 대상으로 구성했으므로 이제 대상자 �
 
 ![필터 옵션에서 Real-Time CDP Collaboration을 원본으로 사용하는 대상 포털입니다.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Audience Portal에 대한 자세한 내용은 [Audience Portal 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} 안내서를 참조하십시오.
+Audience Portal에 대한 자세한 내용은 [Audience Portal 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} 안내서를 참조하십시오.
