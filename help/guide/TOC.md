@@ -2,7 +2,7 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration은 광고주와 게시자 간 원활하고 안전한 데이터 공유 및 협업을 지원하여 실시간 대상자 인사이트 확보와 개인화된 마케팅 전략 수립을 지원해 줍니다.
-source-git-commit: 3e31c6bc68a516698ee9b4e24ab4773afae5551b
+source-git-commit: eea9230a7aef5a700f2d0b823896b0a9efbc00eb
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 36%
@@ -62,7 +62,7 @@ ht-degree: 36%
     * [측정](./collaborate/measure.md)
   * Advertising 플랫폼 연결 {#ad-platform-connections}
     * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
-    * {hide-from-toc}[AMC 측정 보고서 만들기](./collaborate/advertising-platforms/amc-measure.md)
+    * [AMC 측정 보고서 만들기](./collaborate/advertising-platforms/amc-measure.md)
 * 대상 {#destinations}
   * [개요](/help/guide/destinations/overview.md)
   * [클라우드 스토리지 대상 구성 및 관리](./destinations/manage-destinations.md)
