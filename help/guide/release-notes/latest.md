@@ -15,10 +15,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: c74300c6d38a33dfdc7c7d50306b26ef61a7494b
+source-git-commit: 21f15134c9319aacf332a9f430b51d84f69498b0
 workflow-type: tm+mt
-source-wordcount: 2054
-ht-degree: 3%
+source-wordcount: 2131
+ht-degree: 4%
 
 ---
 
@@ -26,9 +26,21 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-**마지막 업데이트**: 2026년 7월.
+**마지막 업데이트**: 2026년 8월.
 
 이러한 릴리스 노트는 Adobe Real-Time CDP Collaboration에 릴리스된 기능을 다룹니다. Collaboration 릴리스는 연속 게재 모델에서 작동하므로 대략적인 월별 릴리스 케이던스를 사용할 수 있습니다. 이러한 릴리스 노트는 자주 업데이트되므로 정기적으로 확인하십시오.
+
+## 2026년 8월 {#august-2026}
+
+이제 Real-Time CDP Collaboration에서 [!DNL Amazon Marketing Cloud]&#x200B;(AMC) 측정 보고를 지원하므로 [!DNL AMC] 프로젝트 내에서 Amazon Ads 캠페인 성과를 측정할 수 있습니다.
+
+**새로운 기능 또는 업데이트된 기능**
+
+| 기능 | 설명 |
+| ------- | ----------- |
+| [!DNL AMC] 측정 보고 | Collaboration에서 직접 [!DNL AMC] 데이터를 사용하여 Amazon 광고 캠페인의 성과를 측정합니다. [!DNL AMC] 프로젝트의 [!UICONTROL 측정] 탭에서 **캠페인 요약** 및 **속성** 보고서를 만들어 캠페인 성과를 평가하고 전환 속성을 이해할 수 있습니다. 자세한 내용은 [Amazon Marketing Cloud 측정 보고서 만들기](../collaborate/advertising-platforms/amc-measure.md)를 참조하십시오. |
+
+{style="table-layout:auto"}
 
 ## 2026년 7월 {#july-2026}
 
