@@ -2,19 +2,15 @@
 title: 데이터 연결 관리
 description: Real-Time CDP Collaboration의 일치 키, 예약, 사용 사례 및 대상 필터링을 포함하여 데이터 연결을 관리하는 방법을 알아봅니다
 audience: administrator, data engineer
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 TQID: https://experienceleague.adobe.com/QvkEpR1fJMZ5BXrucAzEtxFNSfSMS-2hIZvMSg63ySE
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 07471fb3690c3ff57d21231da3d126cf9545677a
 workflow-type: tm+mt
-source-wordcount: 1253
+source-wordcount: 1299
 ht-degree: 8%
 
 ---
@@ -44,7 +40,7 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 >title="일치 키"
 >abstract="일치 키는 다양한 소스의 데이터를 어떻게 일치시킬지 결정합니다. 아래에 표시된 일치 키는 소스 필드를 매핑한 대상 필드입니다."
 
-일치 키는 [소스 필드를 &#x200B;](./onboard-audiences.md#map-fields)에 매핑한 대상 필드입니다. 일치 키가 작동하는 방법에 대한 자세한 내용은 [일치 키](./onboard-account.md#set-up-match-keys) 안내서를 참조하세요.
+일치 키는 [소스 필드를 ](./onboard-audiences.md#map-fields)에 매핑한 대상 필드입니다. 일치 키가 작동하는 방법에 대한 자세한 내용은 [일치 키](./onboard-account.md#set-up-match-keys) 안내서를 참조하세요.
 
 ![일치 키 섹션이 강조 표시된 데이터 연결 작업 영역입니다.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -109,6 +105,8 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 원하는 소스 필드를 선택한 후 **[!UICONTROL 선택]**&#x200B;을(를) 선택하십시오.
 
 ![GAID 옵션이 선택된 소스 필드 선택 대화 상자입니다.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+
+**[!UICONTROL 프로필 특성]** 옵션에서 일부 원본 필드는 개체 배열인 목록 내에서 모델링됩니다. 이러한 목록 필드를 확장하고 해당 필드 내에 중첩된 필드를 선택하여 일치 키에 매핑할 수 있습니다. 자세한 내용은 [필드 매핑](./onboard-audiences.md#map-fields) 안내서를 참조하십시오.
 
 **[!UICONTROL 키 일치]** 대화 상자에서 드롭다운 메뉴를 사용하여 새 소스 필드를 대상 필드에 매핑합니다. 사용 가능한 모든 대상 필드는 Collaborator 계정에 대해 구성된 일치 키입니다. 필요한 대상 필드가 없으면 [계정의 일치 키를 편집](./onboard-account.md#edit-match-keys)하여 추가하십시오.
 
