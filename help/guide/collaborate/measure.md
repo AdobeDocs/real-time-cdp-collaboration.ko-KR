@@ -5,9 +5,13 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 TQID: https://experienceleague.adobe.com/pr-qF4sd-NHd55kxh1dCstHRnVCUEhIvtv-47-ljiu4
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ab26b139fe8ea3d22e38b234b55862c4d83b5c54
 workflow-type: tm+mt
 source-wordcount: 2776
@@ -21,7 +25,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Measure]** 작업 영역은 연결 프로세스 ](../connect/establishing-connections.md#connection-settings) 동안 **Measurement** 사용 사례를 사용하도록 설정한 경우에만 사용할 수 있습니다. [사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
+>**[!UICONTROL Measure]** 작업 영역은 연결 프로세스 [&#128279;](../connect/establishing-connections.md#connection-settings) 동안 **Measurement** 사용 사례를 사용하도록 설정한 경우에만 사용할 수 있습니다. 사용 사례에 대한 자세한 내용은 [프로젝트 관리](./manage-projects.md#project-use-cases) 안내서를 참조하세요.
 
 Adobe Real-Time CDP Collaboration의 사용 가능한 보고서에 대해 알아보고 다양한 채널에서 마케팅 캠페인의 성과를 측정하고 분석하는 방법을 이해합니다.
 
@@ -34,7 +38,7 @@ Collaboration에서 측정 보고서에 액세스하려면 먼저 다음을 수�
 * 캠페인을 실행하고 [캠페인에 대해 캠페인 ID가 제공되었는지 확인](../collaborate/manage-projects.md#manage-campaign-id):
   * 게시자인 경우 광고주의 캠페인에 연결된 캠페인 ID를 입력합니다.
   * 광고주인 경우 공동 작업자(게시자)에게 캠페인 ID를 제공하도록 요청하십시오. [측정값 작업 영역에서 보고서를 생성](#create-measurement-report)하는 데 필요합니다.
-* [속성 보고서를 만들려면[측정 데이터를 Collaboration에 업로드](/help/guide/setup/onboard-measurement-data.md)하십시오](#create-attribution-report).
+* [&#128279;](#create-attribution-report)속성 보고서를 만들려면[측정 데이터를 Collaboration에 업로드](/help/guide/setup/onboard-measurement-data.md)하십시오.
 
 ## 보고서 보기 {#view-reports}
 
