@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+source-git-commit: 07471fb3690c3ff57d21231da3d126cf9545677a
 workflow-type: tm+mt
-source-wordcount: 1253
+source-wordcount: 1299
 ht-degree: 8%
 
 ---
@@ -109,6 +109,8 @@ Real-Time CDP Collaboration의 데이터 연결을 사용하여 다양한 플랫
 원하는 소스 필드를 선택한 후 **[!UICONTROL 선택]**&#x200B;을(를) 선택하십시오.
 
 ![GAID 옵션이 선택된 소스 필드 선택 대화 상자입니다.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+
+**[!UICONTROL 프로필 특성]** 옵션에서 일부 원본 필드는 개체 배열인 목록 내에서 모델링됩니다. 이러한 목록 필드를 확장하고 해당 필드 내에 중첩된 필드를 선택하여 일치 키에 매핑할 수 있습니다. 자세한 내용은 [필드 매핑](./onboard-audiences.md#map-fields) 안내서를 참조하십시오.
 
 **[!UICONTROL 키 일치]** 대화 상자에서 드롭다운 메뉴를 사용하여 새 소스 필드를 대상 필드에 매핑합니다. 사용 가능한 모든 대상 필드는 Collaborator 계정에 대해 구성된 일치 키입니다. 필요한 대상 필드가 없으면 [계정의 일치 키를 편집](./onboard-account.md#edit-match-keys)하여 추가하십시오.
 
