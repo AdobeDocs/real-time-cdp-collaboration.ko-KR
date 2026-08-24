@@ -11,10 +11,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c524b54ce4ff9f5a37c2c064ad5304e011c61652
+source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
 workflow-type: tm+mt
-source-wordcount: 3958
-ht-degree: 17%
+source-wordcount: 3970
+ht-degree: 16%
 
 ---
 
@@ -43,7 +43,7 @@ Collaboration의 대상에 대한 개념적인 설명은 [대상 개요](../setu
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="마케팅 액션"
->abstract="<p>마케팅 액션을 사용하여 Experience Platform에서 Real-Time CDP Collaboration으로 가져올 대상자 고객 데이터를 제어합니다. <strong>데이터 협업</strong> 마케팅 액션은 C4, C5, C9 데이터 사용 레이블을 지원합니다. <strong>데이터 과학</strong> 마케팅 액션은 C9 데이터 사용 레이블을 지원합니다.</p> <p> <ul><li> 확인란이 <em>표시</em>되어 있는 경우, Experience Platform에서 위에 언급된 레이블로 표시된 모든 데이터는 제외되며 Real-Time CDP Collaboration으로 이동되지 <strong>않습니다</strong>.</li><li> 확인란이 <em>비활성화된 </em> 경우, Experience Platform에서 Real-Time CDP Collaboration으로 가져올 수 있는 데이터에 제한이 없습니다.</li></ul></p>"
+>abstract="<p>마케팅 액션을 사용하여 Experience Platform에서 Real-Time CDP Collaboration으로 가져올 대상자 고객 데이터를 제어합니다. <strong>데이터 Collaboration</strong> 마케팅 액션은 C4, C5, C9, S1, S2, PSPD 및 RHD 데이터 사용 레이블을 지원합니다. <strong>데이터 과학</strong> 마케팅 액션은 C9 데이터 사용 레이블을 지원합니다.</p> <p> <ul><li> 확인란이 <em>표시</em>되어 있는 경우, Experience Platform에서 위에 언급된 레이블로 표시된 모든 데이터는 제외되며 Real-Time CDP Collaboration으로 이동되지 <strong>않습니다</strong>.</li><li> 확인란이 <em>비활성화된 </em> 경우, Experience Platform에서 Real-Time CDP Collaboration으로 가져올 수 있는 데이터에 제한이 없습니다.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ko" text="데이터 사용 레이블 개요"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ko" text="데이터 사용 레이블 용어"
 
@@ -91,9 +91,9 @@ Experience Platform 데이터 연결에 대해 구성하는 모든 설정은 해
 
 그런 다음 소스 데이터에 올바른 마케팅 작업이 설정되어 있는지 확인해야 합니다. 또한 Experience Platform에서 가져온 데이터가 데이터 공동 작업에 사용될 수 있도록 동의해야 합니다.
 
-마케팅 작업을 사용하여 Experience Platform에서 Collaboration으로 가져올 대상 데이터를 제어합니다. **[!UICONTROL 데이터 협업]** 마케팅 액션은 C4, C5, C9 데이터 사용 레이블을 지원합니다. **[!UICONTROL 데이터 과학]** 마케팅 액션은 C9 데이터 사용 레이블을 지원합니다.
+마케팅 작업을 사용하여 Experience Platform에서 Collaboration으로 가져올 대상 데이터를 제어합니다. **[!UICONTROL 데이터 Collaboration]** 마케팅 액션은 C4, C5, C9, S1, S2, PSPD 및 RHD 데이터 사용 레이블을 지원합니다. **[!UICONTROL 데이터 과학]** 마케팅 액션은 C9 데이터 사용 레이블을 지원합니다.
 
-[C4, C5 및 C9 데이터 사용 레이블](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}에 대해 자세히 알아보십시오.
+[C4, C5, C9, S1, S2, PSPD 및 RHD 데이터 사용 레이블](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}에 대해 자세히 알아보세요.
 
 * 확인란이 ***enabled***&#x200B;이면 위에서 설명한 대로 Experience Platform에서 레이블이 지정된 데이터는 제외되며 **not**&#x200B;이(가) Collaboration으로 전송됩니다.
 * 확인란 ***비활성화됨***&#x200B;을 사용하면 Experience Platform에서 가져온 데이터에 제한이 없습니다.
