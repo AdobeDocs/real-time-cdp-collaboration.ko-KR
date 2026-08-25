@@ -4,11 +4,11 @@ description: Real-Time CDP Collaboration에서 Amazon Marketing Cloud 캠페인�
 audience: advertiser
 keywords: AMC, Amazon Marketing Cloud, 측정 보고서, 캠페인 요약, 속성, Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
@@ -43,12 +43,12 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_date_range"
 >title="날짜 범위"
->abstract="보고서에 포함할 캠페인 데이터의 시작 및 종료 날짜를 설정합니다. 날짜 범위는 최대 90일의 범위로 365일 전환 확인 기간으로 제한됩니다. 지난 캠페인에 대해서만 보고할 수 있습니다."
+>abstract="보고서에 포함할 캠페인 데이터의 시작 날짜와 종료 날짜를 설정하십시오. 날짜 범위는 365일 전환 확인 기간으로 제한되며 최대 범위는 90일입니다. 지난 캠페인에 대해서만 보고할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_run_date"
 >title="실행 날짜"
->abstract="보고서가 실행되는 날짜입니다. 보고서 종료 날짜 후 최소 1일 이상이어야 하며 향후 최대 46일이 될 수 있습니다."
+>abstract="보고서 실행 날짜입니다. 보고서 종료 날짜를 기준으로 1일 이상이어야 하며 최대 46일까지 설정할 수 있습니다."
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_conversion_events"
 >title="전환 이벤트"
->abstract="속성 보고서에 포함할 전환 이벤트를 최대 3개까지 선택하십시오. 사용 가능한 이벤트는 [!DNL AMC] 인스턴스에서 자동으로 검색됩니다. 이벤트가 나타나지 않으면 [!DNL AMC] 인스턴스에 기록된 전환 이벤트가 없을 수 있으며 속성을 사용할 수 없습니다."
+>abstract="속성 보고서에 포함할 전환 이벤트를 최대 3개까지 선택하십시오. 사용 가능한 이벤트는 [!DNL AMC] 인스턴스에서 자동으로 검색됩니다. 이벤트가 나타나지 않으면 [!DNL AMC] 인스턴스에 기록된 전환 이벤트가 없기 때문일 수 있으며 속성을 사용할 수 없습니다."
 
 >[!NOTE]
 >

@@ -2,20 +2,16 @@
 title: Amazon Marketing Cloud
 description: Real-Time CDP Collaboration에서 Amazon Marketing Cloud과의 공동 작업에 대해 알아봅니다.
 audience: publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 TQID: https://experienceleague.adobe.com/jNTQWEaUuuvgqKboJWsUH4XoKStP49nB0GLUSze0eXw
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: b29c92fa411198ec4e9a0a493c91ee302a327697
 workflow-type: tm+mt
 source-wordcount: 699
-ht-degree: 11%
+ht-degree: 21%
 
 ---
 
@@ -40,28 +36,28 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
 >title="해결된 ID"
->abstract="대상 데이터를 사용하여 Amazon의 ID 확인을 확인할 수 있는 ID 수입니다."
+>abstract="대상자 데이터를 사용하여 Amazon의 ID 확인을 해결할 수 있는 ID 수입니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
 >title="중복 광고 노출 ID"
->abstract="업로드된 대상자 중 Amazon Ads를 통해 광고에도 노출된 &#39;해결된 ID&#39; 수를 나타냅니다."
+>abstract="이는 업로드된 대상자 중 Amazon Ads를 통해 광고에 노출된 &#39;해결된 ID&#39;의 수를 나타냅니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
 >title="중복 %"
->abstract="Amazon 광고를 통해 광고에 노출된 &#39;해결된 ID&#39;의 비율입니다."
+>abstract="Amazon Ads를 통해 광고에 노출된 &#39;해결된 ID&#39;의 비율입니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
 >title="Amazon 광고 제품별 분류"
->abstract="Amazon 광고 후원 제품 및/또는 Amazon 광고 DSP에 의해 발생한 &#39;겹치는 광고 노출 ID&#39; 분류입니다."
+>abstract="Amazon Ads 스폰서 제품 및/또는 Amazon Ads DSP에서 도달한 &#39;중복 광고 노출 ID&#39; 분류입니다."
 
 **[!UICONTROL 검색]** 섹션에서 AMC 대상자와 Amazon 광고가 제공하는 모든 소비자를 비교할 수 있습니다. DSP 노출 횟수만을 고려하여, 대상자와 가장 겹치는 Amazon 타겟팅 세그먼트를 볼 수도 있습니다(이러한 세그먼트는 DSP에서만 타겟팅할 수 있음).
 
 >[!IMPORTANT]
 >
->대상 데이터는 [!DNL Amazon Ads] 계정에 업로드된 대상에서 처리됩니다. [보내기]에서 Experience Platform의 대상 기능을 사용하여 대상자를 [!DNL Amazon Ads] 계정으로 보내는 방법에 대해 알아보려면 [Amazon 광고 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/advertising/amazon-ads) 안내서를 참조하십시오.
+>대상 데이터는 [!DNL Amazon Ads] 계정에 업로드된 대상에서 처리됩니다. [보내기]에서 Experience Platform의 대상 기능을 사용하여 대상자를 [!DNL Amazon Ads] 계정으로 보내는 방법에 대해 알아보려면 [Amazon 광고 연결](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads) 안내서를 참조하십시오.
 
 ![Amazon Marketing Cloud을 사용하는 프로젝트의 검색 섹션.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
