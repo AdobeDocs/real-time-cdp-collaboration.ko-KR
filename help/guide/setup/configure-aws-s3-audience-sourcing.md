@@ -4,8 +4,8 @@ description: 대상 데이터를 Real-Time CDP Collaboration에 수집하기 위
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
 source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 96%
+source-wordcount: '1624'
+ht-degree: 93%
 
 ---
 
@@ -24,22 +24,22 @@ ht-degree: 96%
 
 S3를 통해 가져온 대상자는 Adobe Experience Platform에서 가져온 대상과 동일한 거버넌스 및 데이터 처리 규칙을 따릅니다.
 
-## 사전 요구 사항 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 S3 데이터 연결을 구성하기 전에 다음을 확인하십시오.
 
 * **[대상 소싱 사양(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**&#x200B;을 준수하는 대상 파일을 포함하는 활성 **[!DNL Amazon S3]버킷**&#x200B;에 액세스할 수 있습니다.
 * AWS에서 **가정된 역할** 메서드(액세스/비밀 키 아님)를 사용하여 버킷에 액세스할 수 있는 Adobe 권한을 부여하는 **IAM 역할**&#x200B;을(를) 만들었습니다. 자세한 지침은 **[대상 소싱에 대한 AWS 권한 구성](./configure-aws-permissions-audience-sourcing.md)**&#x200B;을 참조하십시오. IAM 역할에는 다음 권한이 포함되어야 합니다.
 
-   * `ListBucket`
-   * `GetBucketLocation`
-   * `GetObject`
+  * `ListBucket`
+  * `GetBucketLocation`
+  * `GetObject`
 
 * 다음 값이 준비되었습니다.
 
-   * **IAM 역할 Amazon 리소스 이름(ARN)**
-   * **S3 버킷 이름**
-   * **폴더 경로**(대상 파일이 포함된 디렉터리 접두사)
+  * **IAM 역할 Amazon 리소스 이름(ARN)**
+  * **S3 버킷 이름**
+  * **폴더 경로**(대상 파일이 포함된 디렉터리 접두사)
 
 >[!NOTE]
 >

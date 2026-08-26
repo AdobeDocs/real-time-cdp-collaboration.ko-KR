@@ -15,7 +15,7 @@ topic_v2:
 source-git-commit: b29c92fa411198ec4e9a0a493c91ee302a327697
 workflow-type: tm+mt
 source-wordcount: 699
-ht-degree: 11%
+ht-degree: 21%
 
 ---
 
@@ -40,22 +40,22 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
 >title="해결된 ID"
->abstract="대상 데이터를 사용하여 Amazon의 ID 확인을 확인할 수 있는 ID 수입니다."
+>abstract="대상자 데이터를 사용하여 Amazon의 ID 확인을 해결할 수 있는 ID 수입니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
 >title="중복 광고 노출 ID"
->abstract="업로드된 대상자 중 Amazon Ads를 통해 광고에도 노출된 &#39;해결된 ID&#39; 수를 나타냅니다."
+>abstract="이는 업로드된 대상자 중 Amazon Ads를 통해 광고에 노출된 &#39;해결된 ID&#39;의 수를 나타냅니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
 >title="중복 %"
->abstract="Amazon 광고를 통해 광고에 노출된 &#39;해결된 ID&#39;의 비율입니다."
+>abstract="Amazon Ads를 통해 광고에 노출된 &#39;해결된 ID&#39;의 비율입니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
 >title="Amazon 광고 제품별 분류"
->abstract="Amazon 광고 후원 제품 및/또는 Amazon 광고 DSP에 의해 발생한 &#39;겹치는 광고 노출 ID&#39; 분류입니다."
+>abstract="Amazon Ads 스폰서 제품 및/또는 Amazon Ads DSP에서 도달한 &#39;중복 광고 노출 ID&#39; 분류입니다."
 
 **[!UICONTROL 검색]** 섹션에서 AMC 대상자와 Amazon 광고가 제공하는 모든 소비자를 비교할 수 있습니다. DSP 노출 횟수만을 고려하여, 대상자와 가장 겹치는 Amazon 타겟팅 세그먼트를 볼 수도 있습니다(이러한 세그먼트는 DSP에서만 타겟팅할 수 있음).
 
