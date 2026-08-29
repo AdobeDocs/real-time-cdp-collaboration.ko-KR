@@ -2,7 +2,7 @@
 title: Source 및 대상자 관리
 description: Adobe Real-Time CDP Collaboration에서 대상자를 소스 및 관리하는 방법 알아보기
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
 product_v2:
@@ -45,7 +45,7 @@ Collaboration의 대상에 대한 개념적인 설명은 [대상 개요](../setu
 >title="마케팅 액션"
 >abstract="<p>마케팅 액션을 사용하여 Experience Platform에서 Real-Time CDP Collaboration으로 가져올 대상자 고객 데이터를 제어합니다. <strong>데이터 협업</strong> 마케팅 액션은 C4, C5, C9, S1, S2, PSPD 및 RHD 데이터 사용 레이블을 지원합니다. <strong>데이터 과학</strong> 마케팅 액션은 C9 데이터 사용 레이블을 지원합니다.</p> <p> <ul><li> 확인란이 <em>표시</em>되어 있는 경우, Experience Platform에서 위에 언급된 레이블로 표시된 모든 데이터는 제외되며 Real-Time CDP Collaboration으로 이동되지 <strong>않습니다</strong>.</li><li> 확인란이 <em>비활성화된 </em> 경우, Experience Platform에서 Real-Time CDP Collaboration으로 가져올 수 있는 데이터에 제한이 없습니다.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ko" text="데이터 사용 레이블 개요"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="데이터 사용 레이블 용어"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ko" text="데이터 사용 레이블 용어"
 
 >[!IMPORTANT]
 >
@@ -93,7 +93,7 @@ Experience Platform 데이터 연결에 대해 구성하는 모든 설정은 해
 
 마케팅 작업을 사용하여 Experience Platform에서 Collaboration으로 가져올 대상 데이터를 제어합니다. **[!UICONTROL 데이터 협업]** 마케팅 액션은 C4, C5, C9, S1, S2, PSPD 및 RHD 데이터 사용 레이블을 지원합니다. **[!UICONTROL 데이터 과학]** 마케팅 액션은 C9 데이터 사용 레이블을 지원합니다.
 
-[C4, C5, C9, S1, S2, PSPD 및 RHD 데이터 사용 레이블](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}에 대해 자세히 알아보세요.
+[C4, C5, C9, S1, S2, PSPD 및 RHD 데이터 사용 레이블](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}에 대해 자세히 알아보세요.
 
 * 확인란이 ***enabled***&#x200B;이면 위에서 설명한 대로 Experience Platform에서 레이블이 지정된 데이터는 제외되며 **not**&#x200B;이(가) Collaboration으로 전송됩니다.
 * 확인란 ***비활성화됨***&#x200B;을 사용하면 Experience Platform에서 가져온 데이터에 제한이 없습니다.
@@ -138,17 +138,17 @@ Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세�
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="ID 네임스페이스"
 >abstract="Experience Platform 조직에서 사용할 수 있는 표준 및 사용자 정의 ID 네임스페이스에서 ID 네임스페이스를 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform의 표준 및 ID 네임스페이스"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ko#standard" text="Experience Platform의 표준 및 ID 네임스페이스"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="프로필 속성"
 >abstract="Experience Platform의 프로필 클래스에 대한 공용 구조체 스키마에서 속성을 선택합니다. 이 보기는 공용 구조체 스키마에 존재하고 XDM 개별 프로필 클래스에 속하는 속성을 표시합니다."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform의 공용 구조체 스키마"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ko" text="Experience Platform의 공용 구조체 스키마"
 
 다음으로 Collaboration의 대상 필드에 매핑할 소스 필드를 선택합니다. 사용 가능한 대상 필드는 [계정 설정](./onboard-account.md#set-up-match-keys) 중에 선택한 일치 키를 기반으로 합니다.
 
-계정 설정 중에 일치 키로 [!DNL Demdex ID (ECID)]을(를) 선택한 경우 [!DNL Demdex ID]이(가) 자동으로 추출되고 ECID에서 매핑되므로 별도의 작업을 수행할 필요가 없습니다. [!DNL Demdex IDs]에 대한 자세한 내용은 [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support) 안내서를 참조하세요.
+계정 설정 중에 일치 키로 [!DNL Demdex ID (ECID)]을(를) 선택한 경우 [!DNL Demdex ID]이(가) 자동으로 추출되고 ECID에서 매핑되므로 별도의 작업을 수행할 필요가 없습니다. [!DNL Demdex IDs]에 대한 자세한 내용은 [[!DNL Demdex ID]](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/identity/unified-identity-support) 안내서를 참조하세요.
 
 ![대상 필드에 소스 필드를 매핑하는 옵션이 있는 대상 추가 작업 영역입니다.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -158,7 +158,7 @@ Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세�
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source 필드]**&#x200B;은(는) Experience Platform의 ID 네임스페이스 및 특성입니다. 여기에는 [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard){target="_blank"} 및 [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"} ID 네임스페이스가 모두 포함됩니다. 또한 [유니온 스키마](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html){target="_blank"}에 있고 XDM 개별 프로필 클래스에 속하는 프로필 특성도 포함됩니다.
+**[!UICONTROL Source 필드]**&#x200B;은(는) Experience Platform의 ID 네임스페이스 및 특성입니다. 여기에는 [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ko#standard){target="_blank"} 및 [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ko#create-namespaces){target="_blank"} ID 네임스페이스가 모두 포함됩니다. 또한 [유니온 스키마](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ko){target="_blank"}에 있고 XDM 개별 프로필 클래스에 속하는 프로필 특성도 포함됩니다.
 
 Source 필드는 Collaboration에 정의된 대상 필드에 매핑됩니다.
 
