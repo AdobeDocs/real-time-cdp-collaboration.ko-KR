@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 21f15134c9319aacf332a9f430b51d84f69498b0
+source-git-commit: 0e46c6f1bc2a0ce5752c7c08700429c97a8b0d45
 workflow-type: tm+mt
-source-wordcount: 2131
+source-wordcount: 2255
 ht-degree: 4%
 
 ---
@@ -38,7 +38,9 @@ ht-degree: 4%
 
 | 기능 | 설명 |
 | ------- | ----------- |
-| [!DNL AMC] 측정 보고 | Collaboration에서 직접 [!DNL AMC] 데이터를 사용하여 Amazon 광고 캠페인의 성과를 측정합니다. [!DNL AMC] 프로젝트의 [!UICONTROL 측정] 탭에서 **캠페인 요약** 및 **속성** 보고서를 만들어 캠페인 성과를 평가하고 전환 속성을 이해할 수 있습니다. 자세한 내용은 [Amazon Marketing Cloud 측정 보고서 만들기](../collaborate/advertising-platforms/amc-measure.md)를 참조하십시오. |
+| [!DNL AMC] 측정 보고 | Collaboration에서 직접 [!DNL AMC] 데이터를 사용하여 Amazon 광고 캠페인의 성과를 측정합니다. [!DNL AMC] 프로젝트의 **[!UICONTROL 측정]** 탭에서 **캠페인 요약** 및 **속성** 보고서를 만들어 캠페인 성과를 평가하고 전환 속성을 이해할 수 있습니다. 자세한 내용은 [Amazon Marketing Cloud 측정 보고서 만들기](../collaborate/advertising-platforms/amc-measure.md)를 참조하십시오. |
+| 중첩된 프로필 속성에 대해 키 매핑 일치 | 이제 데이터를 병합하거나 미리 재구성하지 않고도 목록 기반 프로필 필드 내에 중첩된 필드(예: `devices` 배열 내의 장치 ID)에 일치 키를 매핑할 수 있습니다. Collaboration은 중첩 필드의 각 값을 개별적으로 일치시키고 계산합니다. 중첩된 필드는 현재 프로필 속성이 아닌 일치 키에 대해서만 지원됩니다. 자세한 내용은 [필드 매핑](../setup/onboard-audiences.md#map-fields)을 참조하세요. |
+| 배치 수준 전환 보고 | 이제 속성 보고서에는 Campaign ID 내의 각 배치 ID에 대한 전환 수 및 전환 값을 보여 주는 **배치별 전환** 테이블이 포함됩니다. 이렇게 하면 여러 배치가 있는 캠페인에 대해 별도의 결과를 얻을 수 있습니다. 명확성을 위해 이전 **[!UICONTROL 예상 매출]** 지표 레이블을 **[!UICONTROL 전환 값]**(으)로 업데이트했습니다. 자세한 내용은 [배치별 전환](../collaborate/measure.md#conversions-by-placement)을 참조하십시오. |
 
 {style="table-layout:auto"}
 
