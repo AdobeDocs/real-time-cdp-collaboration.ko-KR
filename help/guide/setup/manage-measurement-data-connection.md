@@ -2,14 +2,13 @@
 title: 측정 데이터 연결 관리
 description: Real-Time CDP Collaboration의 세부 정보 및 일치 키를 포함하여 측정 데이터 연결을 관리하는 방법을 알아봅니다
 audience: administrator, data engineer
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 494277f421606eda62b74c254f1fdd29b22e3473
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: dfe72315-6fcc-4ad7-b100-fc992ba9abbc
+source-git-commit: 874005b191d002e14aa134264f6678ec38a0d6a7
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 4%
-
 ---
-
 # 측정 데이터 연결 관리
 
 {{limited-availability-release-note}}

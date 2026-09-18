@@ -1,18 +1,17 @@
 ---
 title: 대상 소싱을 위한 AWS 권한 구성
-description: AWS의 대상 소싱용  [!DNL Amazon S3] 버킷에 대한 읽기 전용 보안 액세스 권한을 Adobe에 부여하도록 Real-Time CDP Collaboration Identity and Access Management(IAM) 권한을 구성하는 방법에 대해 알아봅니다.
-source-git-commit: 73f11b7341cf94540dc01f8803291f6dc3cd5038
+description: AWS의 대상 소싱을 위해 Adobe에 [!DNL Amazon S3] 버킷에 대한 읽기 전용 보안 액세스 권한을 부여하도록 Real-Time CDP Collaboration Identity and Access Management(IAM) 권한을 구성하는 방법에 대해 알아봅니다.
+exl-id: a48b800f-4bb3-4be6-af8e-b42a65a25c5b
+source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '659'
 ht-degree: 1%
-
 ---
-
 # 대상 소싱을 위한 AWS 권한 구성
 
 이 안내서를 사용하여 AWS S3 버킷에 대한 읽기 전용 보안 액세스 권한을 Adobe에 부여하는 IAM(Amazon Identity and Access Management) 정책 및 역할을 구성합니다. 이 액세스 권한을 사용하면 Real-Time CDP Collaboration이 S3 버킷에서 대상을 소싱할 수 있습니다.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 계속하기 전에 다음 요구 사항을 충족하고 필요한 정보에 액세스할 수 있는지 확인하십시오.
 
@@ -86,7 +85,7 @@ AWS 정책 만들기 작업 영역에서 **JSON** 탭을 선택하고 다음 예
 
 Amazon S3 관리 콘솔의 **[!DNL IAM]** 탭에서 **[!DNL Roles]** > **[!DNL Create role]**(으)로 이동합니다.
 
-[!DNL Step 1] 워크플로의 [!DNL Create role] 아래 **[!DNL Trusted entity type]** 섹션에서 **[!DNL Custom trust policy]**&#x200B;을(를) 선택합니다. 그런 다음 **[!DNL Custom trust policy]** 편집기에서 다음 예제를 붙여 넣고 `<Adobe IAM Role ARN>`을(를) 해당 지역의 값으로 바꿉니다.
+[!DNL Create role] 워크플로의 [!DNL Step 1] 아래 **[!DNL Trusted entity type]** 섹션에서 **[!DNL Custom trust policy]**&#x200B;을(를) 선택합니다. 그런 다음 **[!DNL Custom trust policy]** 편집기에서 다음 예제를 붙여 넣고 `<Adobe IAM Role ARN>`을(를) 해당 지역의 값으로 바꿉니다.
 
 * 해당 지역에 적합한 Adobe IAM 역할 ARN:
 
@@ -116,7 +115,7 @@ Amazon S3 관리 콘솔의 **[!DNL IAM]** 탭에서 **[!DNL Roles]** > **[!DNL C
 
 정책을 검토하고 계속하려면 **다음**&#x200B;을(를) 선택하십시오.
 
-[!DNL Step 2] 워크플로의 **[!DNL Add permissions]** [!DNL Create role] 섹션에서 [이전](#create-policy)에 만든 IAM 정책을 검색하고 연결합니다. **[!DNL Next]**&#x200B;을(를) 계속하려면 정책 다음에 [!DNL Step 3]을(를) 선택하십시오.
+[!DNL Create role] 워크플로의 [!DNL Step 2] **[!DNL Add permissions]** 섹션에서 [이전](#create-policy)에 만든 IAM 정책을 검색하고 연결합니다. [!DNL Step 3]을(를) 계속하려면 정책 다음에 **[!DNL Next]**&#x200B;을(를) 선택하십시오.
 
 [!DNL Step 3] **[!DNL Name review, and create - Role details]** 섹션에서 역할 이름(예: `s3-iam-role`) 및 선택적 설명을 제공합니다.
 
@@ -126,7 +125,7 @@ Amazon S3 관리 콘솔의 **[!DNL IAM]** 탭에서 **[!DNL Roles]** > **[!DNL C
 
 >[!IMPORTANT]
 >
->역할을 만든 후 Amazon 리소스 이름(ARN)을 기록해야 합니다. **대상 소싱에 대한 AWS S3 구성** 워크플로우의 [S3 연결 인증](./configure-aws-s3-audience-sourcing.md) 단계에서 IAM 역할 ARN을 제공해야 합니다.
+>역할을 만든 후 Amazon 리소스 이름(ARN)을 기록해야 합니다. [대상 소싱에 대한 AWS S3 구성](./configure-aws-s3-audience-sourcing.md) 워크플로우의 **S3 연결 인증** 단계에서 IAM 역할 ARN을 제공해야 합니다.
 
 ## 다음 단계 {#next-steps}
 
