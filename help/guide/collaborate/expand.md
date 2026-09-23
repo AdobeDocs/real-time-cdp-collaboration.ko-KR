@@ -1,12 +1,12 @@
 ---
 title: 확장에서 확장 대상 만들기
 description: Adobe Real-Time CDP Collaboration에서 공동 작업자의 대상 모집단을 사용하여 시드 대상에서 확장 대상을 만드는 방법을 알아봅니다.
-source-git-commit: 88cd685742a4d85850cbf732ef93ab215287c22a
+source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 1%
 ---
-# 확장에서 확장 대상 만들기
+# (Beta) 확장에서 확장 대상 만들기
 
 프로젝트 내의 **[!UICONTROL 확장]** 탭을 사용하여 대상자 중 하나에서 확장 대상자를 만듭니다. Collaboration은 공동 작업자의 대상 모집단을 사용하여 시드 대상과 유사한 프로필을 찾으므로 공동 작업자의 기본 대상 데이터를 노출하지 않고 새 잠재 고객에게 도달할 수 있습니다. 결과 확장 대상자는 활성화를 위해 공동 작업자에게 전송됩니다.
 
