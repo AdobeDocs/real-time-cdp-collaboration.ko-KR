@@ -2,24 +2,27 @@
 title: 공동 작업자와의 연결 설정
 description: 잠재적 공동 작업자를 발견한 후 연결을 설정하고 프로젝트에 대한 공동 작업을 시작하는 방법에 대해 알아보십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5e722bc0077495561181519121bab9bb267dc7e1
+    internal-label: Insights
+source-git-commit: a2fb1c4e32556881f4300989c9890ae7dbefad8b
 workflow-type: tm+mt
-source-wordcount: 3459
+source-wordcount: '3459'
 ht-degree: 9%
-
 ---
-
 # 공동 작업자와의 연결 설정 {#establishing-connections}
 
 {{limited-availability-release-note}}
@@ -199,7 +202,7 @@ Collaboration은 다음과 같은 초대 메서드를 지원합니다.
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="측정"
->abstract="캠페인 성능 보고서와 인사이트를 생성하기 위한 활동을 실행합니다. 모든 캠페인의 보고서 행 수와 보고 빈도(매일, 3일마다, 매주)를 기준으로 크레딧이 소모됩니다."
+>abstract="캠페인 성과 보고서와 인사이트를 생성하기 위한 활동을 실행합니다. 모든 캠페인의 보고서 행 수와 보고 빈도(매일, 3일마다, 매주)를 기준으로 크레딧이 소모됩니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
