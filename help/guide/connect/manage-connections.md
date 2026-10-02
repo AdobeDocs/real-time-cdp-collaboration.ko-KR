@@ -1,21 +1,21 @@
 ---
 title: 연결 관리
-description: Real-Time CDP Collaboration에서 연결을 관리하는 방법을 알아봅니다.
+description: Real-Time CDP Collaboration에서 연결을 관리하고 자동 활성화를 구성하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
 TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+    internal-label: Insights
+source-git-commit: 991ea79aa90841bee833a04a304a52a407d377c7
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: '1297'
 ht-degree: 2%
-
 ---
-
 # 연결 관리 {#manage-connections}
 
 {{limited-availability-release-note}}
@@ -35,6 +35,22 @@ ht-degree: 2%
 사용자와 공동 작업자 간의 연결 세부 정보가 표시되는 연결 설정 작업 영역이 나타납니다. 여기에서 연결 프로세스 중에 선택한 모든 설정, 연결의 현재 상태, 연결 소유자 및 공동 작업자의 연락처 정보를 볼 수 있습니다. 특정 연결 설정에 대한 자세한 내용은 [연결 설정](/help/guide/connect/establishing-connections.md#connection-settings) 안내서를 참조하십시오.
 
 ![연결 설정 작업 영역에 연결 세부 정보가 표시됩니다.](/help/assets/connect/manage-connections/connection-settings.png){zoomable="yes"}
+
+### 자동 활성화 대상 구성 {#configure-auto-activation-destination}
+
+수신 공동 작업자는 Collaboration이 연결을 통해 사용자에게 전송된 대상을 자동으로 활성화하는 데 사용하는 대상을 선택할 수 있습니다. 시작하기 전에 활성 대상을 하나 이상 소유하고 있는지 확인하십시오. 대상 구성에 대한 지침은 [대상 개요](../destinations/overview.md)를 참조하십시오.
+
+연결 설정 작업 영역에서 **[!UICONTROL 활성화 컨트롤]**(으)로 이동하여 **[!UICONTROL 편집]**&#x200B;을 선택합니다. 그런 다음 드롭다운에서 **[!UICONTROL 자동 활성화 대상]**&#x200B;을 선택하고 **[!UICONTROL 저장]**&#x200B;을 선택하여 확인합니다.
+
+>[!NOTE]
+>
+>자동 활성화는 모든 대상에 사용할 수 있습니다.
+
+![자동 활성화 대상으로 선택한 Northstar Audience Exports가 포함된 활성화 제어 대화 상자와 강조 표시된 저장 단추.](/help/assets/connect/manage-connections/configure-auto-activation-destination.png){zoomable="yes"}
+
+대상을 저장하면 대상자를 보낸 공동 작업자가 활성화 일정을 선택합니다. 대상은 전송 워크플로우에서 읽기 전용 선택으로 표시됩니다. 대상자가 수신되면 Collaboration이 해당 일정에 따라 활성화를 만듭니다. 즉, 수신자가 대상을 선택하고, 발신자가 일정을 선택하며, Collaboration이 활성화를 만듭니다.
+
+자동 활성화 대상에 대한 변경 사항은 변경 후에 공유되는 대상에만 적용됩니다. 자동 생성된 기존 활성화는 원래 대상을 계속 사용합니다. 이후 공유에 대한 자동 활성화를 끄려면 자동 활성화 대상을 지우고 변경 내용을 저장합니다.
 
 ## 연결 삭제 {#delete-connection}
 
