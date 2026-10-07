@@ -2,7 +2,7 @@
 title: Collaboration [!DNL Starter] 온보딩에 대한 권한 제어 구성
 description: Adobe Experience Cloud의 권한을 사용하여 Adobe Real-Time CDP Collaboration [!DNL Starter]에 대한 권한을 구성하는 방법에 대해 알아봅니다.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 4e50b6cc-58f7-4a0c-8b6d-f5aa4f092e9f
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
@@ -59,7 +59,7 @@ Collaboration에 필요한 권한을 설정하려면 아래 단계를 따르십�
 
 {style="table-layout:auto"}
 
-특정 역할 및 해당 권한에 대한 자세한 개요는 [역할에 대한 권한 관리](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) 안내서를 참조하십시오.
+특정 역할 및 해당 권한에 대한 자세한 개요는 [역할에 대한 권한 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions) 안내서를 참조하십시오.
 
 정보를 검토하고 계정에 할당할 역할을 선택합니다. 완료되면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 

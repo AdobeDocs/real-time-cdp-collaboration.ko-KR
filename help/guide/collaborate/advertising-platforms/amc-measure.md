@@ -4,7 +4,7 @@ description: Real-Time CDP Collaboration에서 Amazon Marketing Cloud 캠페인�
 audience: advertiser
 keywords: AMC, Amazon Marketing Cloud, 측정 보고서, 캠페인 요약, 속성, Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 product_v2:
   - id: fb6a47ca-2fb2-4cbc-8224-2e6b6cd3238f
     internal-label: Real-Time Customer Data Platform Collaboration

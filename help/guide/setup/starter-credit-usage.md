@@ -2,7 +2,7 @@
 title: Real-Time CDP Collaboration [!DNL Starter]의 신용 사용 및 소비
 description: Adobe Real-Time CDP Collaboration [!DNL Starter]에서 신용 사용 및 소비가 작동하는 방식을 이해합니다.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d1c15141-56c4-48aa-aba8-8d6f77024f63
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
