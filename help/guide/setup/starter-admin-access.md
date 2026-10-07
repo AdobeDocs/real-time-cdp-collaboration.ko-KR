@@ -1,16 +1,17 @@
 ---
 title: Collaboration [!DNL Starter] 온보딩에 대한 관리자 액세스 구성
-description: Adobe Experience Cloud에서 Admin Console을 사용하여 Adobe Real-Time CDP Collaboration [!DNL Starter] 에 대한 관리자 액세스를 구성하는 방법에 대해 알아봅니다.
+description: Adobe Experience Cloud에서 Admin Console을 사용하여 Adobe Real-Time CDP Collaboration [!DNL Starter]에 대한 관리자 액세스를 구성하는 방법에 대해 알아봅니다.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7b5aa5e2-1238-4a0b-be20-becfe6c9e0b7
-source-git-commit: db4cc34592e49254163d7db54f93238146ce72a4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '830'
 ht-degree: 3%
-
 ---
-
 # Collaboration [!DNL Starter] 온보딩에 대한 관리자 액세스 구성
 
 Collaboration [!DNL Starter]을(를) 통해 Adobe Experience Platform에 액세스하는 조직의 첫 번째 사용자는 팀에 대한 액세스 설정 및 관리를 담당합니다. Real-Time CDP Collaboration에서 작업을 시작하려면 자신에게 필요한 관리자 및 사용자 권한을 부여해야 합니다. 권한 인터페이스에서 공동 작업에 대한 권한을 관리할 수 있도록 Admin Console에서 필요한 액세스를 구성하는 방법에 대해 알아보려면 이 안내서를 참조하십시오.
@@ -29,7 +30,7 @@ Collaboration [!DNL Starter]을(를) 통해 Adobe Experience Platform에 액세�
 
 Admin Console을 사용하여 Experience Platform에 대한 **제품 관리자 액세스 권한**&#x200B;과 Experience Platform 제품에 대한 **사용자 액세스 권한**&#x200B;을 모두 부여하면 **[!UICONTROL 권한]**&#x200B;을 얻을 수 있습니다.
 
-Experience Cloud의 역할 및 제품에 대해 자세히 알아보려면 [액세스 제어 개요](../permissions/overview.md) 설명서를 읽어 보십시오.
+Experience Cloud의 역할 및 제품에 대한 자세한 내용은 [액세스 제어 개요](../permissions/overview.md) 설명서를 참조하십시오.
 
 >[!TIP]
 >
@@ -73,7 +74,7 @@ Collaboration 권한을 관리하려면 관리자 액세스 권한 외에 제품
 
 사용자 액세스 구성을 시작하려면 다음 단계를 완료하십시오.
 
-1. [Adobe Experience Cloud 홈페이지에서 Admin Console에 액세스](#access-admin-console).
+1. [Adobe Experience Cloud 홈 페이지에서 Admin Console에 액세스](#access-admin-console).
 2. [Adobe Experience Platform 제품 대시보드로 이동](#access-adobe-experience-platform).
 
 #### 제품에 사용자 추가 {#add-user}
@@ -88,7 +89,7 @@ Collaboration 권한을 관리하려면 관리자 액세스 권한 외에 제품
 
 그런 다음 **[!UICONTROL 제품]**&#x200B;에서 추가 아이콘 ![추가 아이콘](../../assets/icons/plus.png)을 선택합니다.
 
-사용 가능한 [제품 프로필](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html) 목록이 포함된 대화 상자가 나타납니다. **[!UICONTROL AEP-Default-All-Users]** 및 **[!UICONTROL 기본 프로덕션 모든 액세스]**&#x200B;를 선택합니다. 그런 다음 **[!UICONTROL 적용]**&#x200B;을 선택합니다.
+사용 가능한 [제품 프로필](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) 목록이 포함된 대화 상자가 나타납니다. **[!UICONTROL AEP-Default-All-Users]** 및 **[!UICONTROL 기본 프로덕션 모든 액세스]**&#x200B;를 선택합니다. 그런 다음 **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
 ![제품 프로필 선택 대화 상자에 선택한 제품 프로필과 적용 옵션이 강조 표시됩니다.](../../assets/setup/starter/admin-access/select-product-profiles.png){zoomable="yes"}
 

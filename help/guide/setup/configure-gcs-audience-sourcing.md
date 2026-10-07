@@ -1,15 +1,16 @@
 ---
-title: 대상 소싱에 대해  [!DNL Google Cloud Storage] 구성
-description: 사전 요구 사항, 인증, 필드 매핑, 예약 및 유효성 검사를 포함하여 Real-Time CDP Collaboration에서  [!DNL Google Cloud Storage] 버킷을 셀프서비스 대상 소스로 연결하는 방법에 대해 알아봅니다.
+title: 대상 소싱에 대해 [!DNL Google Cloud Storage] 구성
+description: 사전 요구 사항, 인증, 필드 매핑, 예약 및 유효성 검사를 포함하여 [!DNL Google Cloud Storage] 버킷을 Real-Time CDP Collaboration에서 셀프서비스 대상 소스로 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '2910'
+source-wordcount: '2912'
 ht-degree: 9%
-
 ---
-
 
 # 대상 소싱에 대해 [!DNL Google Cloud Storage] 구성
 
@@ -280,7 +281,7 @@ Collaboration에서 대상 데이터를 검색하는 동안 **[!UICONTROL 내 �
 
 #### Adobe에 IAM 역할 할당 {#assign-role}
 
-그런 다음 [!DNL Google Cloud Console]에서 [**[!DNL Buckets]**&#x200B;페이지](https://console.cloud.google.com/storage/browser)을(를) 열고 대상 데이터가 포함된 버킷을 선택합니다.
+그런 다음 [!DNL Google Cloud Console]에서 [**[!DNL Buckets]**페이지](https://console.cloud.google.com/storage/browser)을(를) 열고 대상 데이터가 포함된 버킷을 선택합니다.
 
 **[!DNL Permissions]** 탭으로 이동하여 **[!DNL View by principals]**&#x200B;을(를) 선택한 다음 **[!DNL Grant access]**&#x200B;을(를) 선택합니다.
 

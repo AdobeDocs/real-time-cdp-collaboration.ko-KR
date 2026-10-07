@@ -1,16 +1,17 @@
 ---
-title: 대상 소싱에 대해  [!DNL Snowflake] 구성
-description: 대상 데이터를 Real-Time CDP Collaboration에 수집하기 위해  [!DNL Snowflake Secure Data Share] 을(를) 셀프서비스 데이터 소스로 구성 및 연결하는 방법에 대해 알아봅니다.
+title: 대상 소싱에 대해 [!DNL Snowflake] 구성
+description: 대상 데이터를 Real-Time CDP Collaboration에 수집하기 위해 [!DNL Snowflake Secure Data Share]을(를) 셀프서비스 데이터 소스로 구성하고 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1600'
 ht-degree: 21%
-
 ---
-
 # 대상 소싱에 대해 [!DNL Snowflake] 구성
 
 활성화 및 중복 분석을 위해 Adobe Real-Time CDP Collaboration UI에서 [!DNL Snowflake Secure Data Share]을(를) 구성하고 대상 데이터를 소스에 연결하는 방법에 대해 알아봅니다.
@@ -28,10 +29,10 @@ ht-degree: 21%
 * [!DNL Snowflake Share]을(를) 만들고 [!DNL Snowflake] 계정에서 [!DNL Snowflake Secure Data Share]에 대한 Adobe 액세스 권한을 부여하는 데 필요한 권한을 설정했습니다. [구성 방법 [!DNL Snowflake] 권한](#set-up-snowflake-permissions)을 알아보세요.
 * 다음 [!DNL Snowflake Share]개의 값을 준비했습니다.
 
-   * **이름 공유**
-   * **계정 식별자**
-   * **스키마**
-   * **보기**
+  * **이름 공유**
+  * **계정 식별자**
+  * **스키마**
+  * **보기**
 
 * [!DNL Snowflake Secure Data Share]의 대상 데이터는 [대상 소싱 사양(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf) 안내서에 요약된 형식 요구 사항을 충족해야 합니다.
 * [!DNL Snowflake] 대상 파일의 모든 일치 키도 Collaboration 계정에 대해 활성화해야 합니다. 계정에 [일치 키 사용](./onboard-account.md#set-up-match-keys) 또는 [새 일치 키 추가](./onboard-account.md#edit-match-keys)하는 방법을 알아보세요.
@@ -242,7 +243,7 @@ ht-degree: 21%
 
 표 보기 또는 표 보기에서 행 항목을 선택하거나 **[!UICONTROL 대상자 보기]**&#x200B;를 선택하여 특정 대상자에 대한 개요를 봅니다. 대상자의 상태, 소스 및 데이터 연결 이름과 **[!UICONTROL ID]**, **[!UICONTROL 범주]**, **[!UICONTROL 연결 액세스]** 및 **[!UICONTROL 메타데이터 가시성]**&#x200B;에 대한 세부 패널이 표시됩니다. 자세한 내용은 [개별 대상자를 보는 방법](./onboard-audiences.md#view-individual-audiences)을 참조하세요.
 
-공동 작업 프로젝트에서 대상을 사용하기 전에 이 보기를 사용하여 대상 구성 및 가시성 설정을 확인하십시오.
+공동 작업 프로젝트에서 대상자를 사용하기 전에 이 보기를 사용하여 대상자 구성 및 가시성 설정을 확인하십시오.
 
 ## [!DNL Snowflake] 데이터 연결 보기 {#view-snowflake-connection}
 
