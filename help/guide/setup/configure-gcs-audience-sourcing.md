@@ -281,7 +281,7 @@ Collaboration에서 대상 데이터를 검색하는 동안 **[!UICONTROL 내 �
 
 #### Adobe에 IAM 역할 할당 {#assign-role}
 
-그런 다음 [!DNL Google Cloud Console]에서 [**[!DNL Buckets]**페이지](https://console.cloud.google.com/storage/browser)을(를) 열고 대상 데이터가 포함된 버킷을 선택합니다.
+그런 다음 [!DNL Google Cloud Console]에서 [**[!DNL Buckets]**&#x200B;페이지](https://console.cloud.google.com/storage/browser)을(를) 열고 대상 데이터가 포함된 버킷을 선택합니다.
 
 **[!DNL Permissions]** 탭으로 이동하여 **[!DNL View by principals]**&#x200B;을(를) 선택한 다음 **[!DNL Grant access]**&#x200B;을(를) 선택합니다.
 
