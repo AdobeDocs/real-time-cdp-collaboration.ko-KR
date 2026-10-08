@@ -2,7 +2,10 @@
 title: 대상 소싱을 위한 AWS 권한 구성
 description: AWS의 대상 소싱을 위해 Adobe에 [!DNL Amazon S3] 버킷에 대한 읽기 전용 보안 액세스 권한을 부여하도록 Real-Time CDP Collaboration Identity and Access Management(IAM) 권한을 구성하는 방법에 대해 알아봅니다.
 exl-id: a48b800f-4bb3-4be6-af8e-b42a65a25c5b
-source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 1%
@@ -11,7 +14,7 @@ ht-degree: 1%
 
 이 안내서를 사용하여 AWS S3 버킷에 대한 읽기 전용 보안 액세스 권한을 Adobe에 부여하는 IAM(Amazon Identity and Access Management) 정책 및 역할을 구성합니다. 이 액세스 권한을 사용하면 Real-Time CDP Collaboration이 S3 버킷에서 대상을 소싱할 수 있습니다.
 
-## 사전 요구 사항 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 계속하기 전에 다음 요구 사항을 충족하고 필요한 정보에 액세스할 수 있는지 확인하십시오.
 

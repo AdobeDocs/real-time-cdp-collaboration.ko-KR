@@ -3,13 +3,14 @@ title: 대상 소싱을 위한 Adobe Audience Manager 구성
 description: 적격한 자사 대상을 Real-Time CDP Collaboration에 소싱할 수 있도록 Adobe Audience Manager을 데이터 소스로 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: be12b4c3b1d3d40fa9ceb43b319f55254b05e4df
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 8%
-
 ---
-
 
 # 대상 소싱을 위한 Adobe Audience Manager 구성
 
@@ -175,7 +176,7 @@ Collaboration이 AAM 세그먼트 데이터를 검색하는 동안 **[!UICONTROL
 
 ![개별 대상 세부 사항 보기에는 상태: 활성, 소스 시스템 및 데이터 연결 이름이 맨 위에 있으며 아래에 네 개의 패널이 있습니다. ID는 ID 수 및 분류를, 범주는 적용된 태그를, 연결 액세스는 대상 유형 및 가시성을, 메타데이터 가시성은 ID 수, 겹침 비율 및 대상 인덱스에 대한 설정을 보여 줍니다.](../../assets/setup/aam-audience-sourcing/audience-manager-sourced-audience-details.png)
 
-공동 작업 프로젝트에서 대상을 사용하기 전에 이 보기를 사용하여 대상 구성 및 가시성 설정을 확인하십시오. 범주, 연결 액세스 또는 메타데이터 가시성을 업데이트하려면 [개별 대상자 보기 및 관리](./onboard-audiences.md#view-individual-audiences)를 참조하십시오.
+공동 작업 프로젝트에서 대상자를 사용하기 전에 이 보기를 사용하여 대상자 구성 및 가시성 설정을 확인하십시오. 범주, 연결 액세스 또는 메타데이터 가시성을 업데이트하려면 [개별 대상자 보기 및 관리](./onboard-audiences.md#view-individual-audiences)를 참조하십시오.
 
 ## 알려진 제한 사항
 

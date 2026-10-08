@@ -4,13 +4,14 @@ description: Adobe Real-Time CDP Collaboration Starter를 사용하여 전체 Re
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 4%
-
 ---
-
 # Adobe Real-Time CDP Collaboration [!DNL Starter] 개요
 
 Adobe Real-Time CDP Collaboration [!DNL Starter]을(를) 사용하여 라이선스가 있는 파트너와 개인 정보 중심 데이터 프로젝트에 대해 공동 작업하십시오. 참여하기 위해 자체 Collaboration 라이선스가 필요하지 않습니다.
@@ -24,7 +25,7 @@ Adobe Real-Time CDP Collaboration [!DNL Starter]을(를) 사용하여 라이선�
 * 효과적인 타기팅 및 캠페인 측정을 지원하기 위해 대상자와 파트너가 겹친다는 점에 대한 통찰력을 얻으십시오.
 * 대상을 활성화하고 이를 파트너와 공유하여 공동 캠페인 활성화 및 참여를 유도하십시오.
 
-## 사전 요구 사항 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 Collaboration [!DNL Starter]을(를) 시작하려면 조직과 라이선스 파트너가 모두 동일한 지역에 있는지 확인하십시오. Real-Time CDP Prime, Ultimate 또는 Collaboration 라이선스를 보유하고 있는 파트너의 초대를 받아야 합니다.
 
@@ -91,6 +92,6 @@ Collaboration [!DNL Starter]을(를) 시작하려면 조직과 라이선스 파�
 
 * [Source 및 대상자 관리](../setup/onboard-audiences.md)
 * [프로젝트 사용 사례](../collaborate/overview.md#project-use-cases):
-   * [중복 검색 및 대상 비교](../collaborate/discover.md)
-   * [대상자 활성화](../collaborate/activate.md)
-   * [캠페인 성과 측정](../collaborate/measure.md)
+  * [중복 검색 및 대상 비교](../collaborate/discover.md)
+  * [대상자 활성화](../collaborate/activate.md)
+  * [캠페인 성과 측정](../collaborate/measure.md)

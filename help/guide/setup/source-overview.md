@@ -2,13 +2,14 @@
 title: 소스 개요
 description: Adobe Real-Time CDP Collaboration의 소스 커넥터에 대해 알아보기
 audience: admin, publisher, advertiser
-source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 9%
-
 ---
-
 # 소스 개요
 
 Adobe Real-Time CDP Collaboration에서 소스(또는 데이터 연결)는 대상 데이터의 출처입니다. Adobe 응용 프로그램, 클라우드 기반 저장소 또는 로컬 시스템의 파일과 같은 다양한 소스 유형에 연결하여 Collaboration 프로젝트의 [대상을 소스 및 관리](./onboard-audiences.md)할 수 있습니다. 대상자 소싱 워크플로우 동안 조직의 필요에 따라 선호하는 출처를 선택하고 설정할 수 있습니다.

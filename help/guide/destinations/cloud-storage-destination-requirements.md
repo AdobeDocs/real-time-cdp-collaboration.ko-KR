@@ -2,13 +2,14 @@
 title: 대상 연결 요구 사항
 description: Real-Time CDP Collaboration에서 지원되는 대상을 구성하는 데 필요한 연결 정보를 검토하십시오.
 audience: admin, publisher
-source-git-commit: c84582bb81289ce761c664af7db177535ff00a00
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 1%
-
 ---
-
 # 대상 연결 요구 사항
 
 Real-Time CDP Collaboration에서 대상을 구성하기 전에 대상 공급자가 요구하는 자격 증명과 연결 정보를 얻습니다.

@@ -5,13 +5,14 @@ audience: advertiser
 keywords: AMC, Amazon Marketing Cloud, 측정 보고서, 캠페인 요약, 속성, Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
+product_v2:
+  - id: fb6a47ca-2fb2-4cbc-8224-2e6b6cd3238f
+    internal-label: Real-Time Customer Data Platform Collaboration
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 13%
-
 ---
-
 
 # [!DNL Amazon Marketing Cloud] 측정 보고서 만들기 {#amc-measurement-reports}
 
@@ -71,11 +72,11 @@ ht-degree: 13%
 | **[!UICONTROL 캠페인 요약]** | 선택한 캠페인에 대한 도달, 빈도 및 노출 지표를 제공합니다. 항상 포함됨. |
 | **[!UICONTROL 특성]** | 전환 데이터를 보고서에 추가합니다. 전환 이벤트가 [!DNL AMC] 인스턴스에 있는 경우에만 사용할 수 있습니다. [전환 이벤트](#conversion-events)를 참조하세요. |
 
-#### 전환 이벤트(속성만) {#conversion-events}
+#### 전환 이벤트(기여도만) {#conversion-events}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_attribution_lookback_period"
->title="속성 전환 확인 기간"
+>title="기여도 룩백 기간"
 >abstract="AMC는 고정된 30일 속성 기간 적용: 마지막 노출 후 최대 30일까지 발생하는 전환은 보고서 날짜 범위 내의 노출에 속하는 것일 수 있습니다. 이 값은 편집할 수 없습니다. 모든 적격 전환이 캡처되도록 범위 종료 후 최소 30일 후에 보고서 실행 날짜를 예약하십시오."
 
 >[!CONTEXTUALHELP]

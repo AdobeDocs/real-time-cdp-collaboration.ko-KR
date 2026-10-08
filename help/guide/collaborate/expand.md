@@ -1,7 +1,10 @@
 ---
 title: 확장에서 확장 대상 만들기
 description: Adobe Real-Time CDP Collaboration에서 공동 작업자의 대상 모집단을 사용하여 시드 대상에서 확장 대상을 만드는 방법을 알아봅니다.
-source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 1%

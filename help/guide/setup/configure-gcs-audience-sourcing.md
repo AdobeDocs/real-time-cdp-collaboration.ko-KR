@@ -1,15 +1,16 @@
 ---
-title: 대상 소싱에 대해  [!DNL Google Cloud Storage] 구성
-description: 사전 요구 사항, 인증, 필드 매핑, 예약 및 유효성 검사를 포함하여 Real-Time CDP Collaboration에서  [!DNL Google Cloud Storage] 버킷을 셀프서비스 대상 소스로 연결하는 방법에 대해 알아봅니다.
+title: 대상 소싱에 대해 [!DNL Google Cloud Storage] 구성
+description: 사전 요구 사항, 인증, 필드 매핑, 예약 및 유효성 검사를 포함하여 [!DNL Google Cloud Storage] 버킷을 Real-Time CDP Collaboration에서 셀프서비스 대상 소스로 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '2910'
+source-wordcount: '2912'
 ht-degree: 9%
-
 ---
-
 
 # 대상 소싱에 대해 [!DNL Google Cloud Storage] 구성
 

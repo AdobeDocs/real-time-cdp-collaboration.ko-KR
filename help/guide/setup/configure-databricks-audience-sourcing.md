@@ -1,15 +1,16 @@
 ---
-title: 대상 소싱에 대해  [!DNL Databricks Delta Share] 구성
-description: Real-Time CDP Collaboration에서 대상 소싱을 위해  [!DNL Databricks Delta Share] 을(를) 구성하고 연결하는 방법에 대해 알아봅니다.
+title: 대상 소싱에 대해 [!DNL Databricks Delta Share] 구성
+description: Real-Time CDP Collaboration에서 대상 소싱을 위해 [!DNL Databricks Delta Share]을(를) 구성하고 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 876b7d2996d3027f81159252f714c2305d6d23b4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '2771'
-ht-degree: 9%
-
+source-wordcount: '2818'
+ht-degree: 8%
 ---
-
 
 # 대상 소싱에 대해 [!DNL Databricks Delta Share] 구성
 
@@ -95,7 +96,7 @@ Collaboration에서 대상을 검색하고 ID를 올바르게 매핑할 수 있�
 >title="Experience League"
 >abstract="대상자 소싱을 위해 공유를 구성하는 방법에 대한 지침은 [!DNL Databricks Delta Share] 소싱 안내서를 참조하십시오."
 
-Collaboration에서 [!DNL Delta Share]에 액세스할 수 있도록 허용하는 데 필요한 세부 정보를 제공합니다. [!DNL Databricks Delta Share]에서 공급자, 공유, 스키마 및 테이블 세부 정보를 입력합니다. 공유 스키마에서 필수 멤버십 테이블을 사용할 수 있어야 합니다. 메타데이터 테이블을 사용하는 경우 동일한 공유 스키마에서도 사용할 수 있어야 합니다.
+Collaboration에서 [!DNL Delta Share]에 액세스할 수 있도록 허용하는 데 필요한 세부 정보를 제공합니다. [!DNL Databricks Delta Share]에서 공급자, 공유, 스키마 및 테이블 세부 정보를 입력하십시오. 공유 스키마에서 필수 멤버십 테이블을 사용할 수 있어야 합니다. 메타데이터 테이블을 사용하는 경우 동일한 공유 스키마에서도 사용할 수 있어야 합니다.
 필요한 정보를 입력한 후 **[!UICONTROL 연결]**&#x200B;을 선택합니다.
 
 Collaboration은 공유의 유효성을 검사하고 Adobe 작업 영역에 탑재합니다. 이 단계는 최대 1분이 소요될 수 있습니다. 연결이 설정되는 동안 진행률 표시기가 나타납니다.
