@@ -2,7 +2,7 @@
 title: 연결 관리
 description: Real-Time CDP Collaboration에서 연결을 관리하고 자동 활성화를 구성하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
 TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
 product_v2:
@@ -11,9 +11,9 @@ product_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 991ea79aa90841bee833a04a304a52a407d377c7
+source-git-commit: 3c781fcb761c0d74241d66a7e75e3206fc1bc1da
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1311'
 ht-degree: 2%
 ---
 # 연결 관리 {#manage-connections}
@@ -38,7 +38,9 @@ ht-degree: 2%
 
 ### 자동 활성화 대상 구성 {#configure-auto-activation-destination}
 
-수신 공동 작업자는 Collaboration이 연결을 통해 사용자에게 전송된 대상을 자동으로 활성화하는 데 사용하는 대상을 선택할 수 있습니다. 시작하기 전에 활성 대상을 하나 이상 소유하고 있는지 확인하십시오. 대상 구성에 대한 지침은 [대상 개요](../destinations/overview.md)를 참조하십시오.
+수신 공동 작업자는 Collaboration이 연결을 통해 사용자에게 전송된 대상을 자동으로 활성화하는 데 사용하는 대상을 선택할 수 있습니다. 자동 활성화 대상을 구성하지 않으면 수신된 대상을 수동으로 활성화해야 합니다.
+
+시작하기 전에 활성 대상을 하나 이상 소유하고 있는지 확인하십시오. 대상 구성에 대한 지침은 [대상 개요](../destinations/overview.md)를 참조하십시오.
 
 연결 설정 작업 영역에서 **[!UICONTROL 활성화 컨트롤]**(으)로 이동하여 **[!UICONTROL 편집]**&#x200B;을 선택합니다. 그런 다음 드롭다운에서 **[!UICONTROL 자동 활성화 대상]**&#x200B;을 선택하고 **[!UICONTROL 저장]**&#x200B;을 선택하여 확인합니다.
 
