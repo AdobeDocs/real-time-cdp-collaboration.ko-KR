@@ -2,7 +2,7 @@
 title: 광고 노출 소싱을 위한 [!DNL Azure] 저장소 구성
 description: 개인 정보 보호 중심 측정을 위해 Source Data Lake Storage 또는 Blob Storage의 Azure 광고 노출(광고 로그) 데이터를 Real-Time CDP Collaboration으로 보냅니다.
 keywords: Real-Time CDP Collaboration; 광고 로그 소싱; [!DNL Azure Data Lake Storage]; [!DNL Azure Blob Storage]
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 02f344c9fcfff20c84c2e92b5aa4647829dd5d2f
 workflow-type: tm+mt
 source-wordcount: '1779'

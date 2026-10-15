@@ -2,7 +2,7 @@
 title: 광고 노출 소싱을 위한 [!DNL Google Cloud Storage] 구성
 description: Real-Time CDP Collaboration 측정에서 광고 노출을 위한 셀프서비스 광고 로그 원본으로 [!DNL Google Cloud Storage] 버킷을 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 02f344c9fcfff20c84c2e92b5aa4647829dd5d2f
 workflow-type: tm+mt
 source-wordcount: '1712'
