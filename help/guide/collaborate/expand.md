@@ -4,9 +4,9 @@ description: Adobe Real-Time CDP Collaboration에서 공동 작업자의 대상 
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 3fa87a65d9f231fe717df3dd5f63f1e6720c90e9
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '892'
 ht-degree: 1%
 ---
 # (Beta) 확장에서 확장 대상 만들기
@@ -15,12 +15,14 @@ ht-degree: 1%
 
 ## 사전 요구 사항 {#prerequisites}
 
-**[!UICONTROL 확장]** 탭을 사용하려면 먼저 다음을 수행해야 합니다.
+**[!UICONTROL 확장]** 탭을 사용하기 전에 다음 필수 구성 요소를 완료하십시오.
 
-* 시드 대상자로 사용할 하나 이상의 대상자를 [소스](/help/guide/setup/onboard-audiences.md)
-* 공동 작업자가 있는 [연결됨](/help/guide/connect/establishing-connections.md)
-* 해당 공동 작업자로 [프로젝트를 만듦](/help/guide/collaborate/manage-projects.md)
-* 확장 대상을 받는 경우 활성화된 대상을 받도록 구성된 [대상](/help/guide/destinations/overview.md)입니다.
+* 시드 대상자로 사용할 [Source 대상자가 하나 이상](/help/guide/setup/onboard-audiences.md)입니다.
+* [공동 작업자와 연결](/help/guide/connect/establishing-connections.md).
+* 해당 공동 작업자를 사용하여 [프로젝트를 만듭니다](/help/guide/collaborate/manage-projects.md).
+* 확장 대상을 받으면 연결을 위해 [자동 활성화 대상을 구성](/help/guide/connect/manage-connections.md#configure-auto-activation-destination)합니다. 자동 활성화를 구성하기 전에 활성 대상을 소유해야 합니다.
+
+대상자를 보내고 받은 대상자를 활성화하는 방법에 대한 자세한 내용은 [대상자 활성화](/help/guide/collaborate/activate.md)를 참조하십시오.
 
 ## 개요 확장 {#expand-overview}
 
