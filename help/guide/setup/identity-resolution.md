@@ -2,7 +2,7 @@
 title: ID 확인 설정 및 관리
 description: Real-Time CDP Collaboration에서 ID 확인을 구성하고 관리하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser, agency
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
