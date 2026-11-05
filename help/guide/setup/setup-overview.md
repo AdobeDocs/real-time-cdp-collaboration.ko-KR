@@ -2,7 +2,7 @@
 title: 설정 개요
 description: Adobe Real-Time CDP Collaboration의 설정 섹션에서 사용 가능한 모든 옵션과 워크플로 이해
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
 TQID: https://experienceleague.adobe.com/A01vUw6jGKigHNQHQc9nYfC5V9f6xB4mKeLqnPBfl2o
 product_v2:
@@ -11,13 +11,11 @@ product_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
+source-git-commit: 6a7fb27f1b657e9053025207cf571b918509a4f8
 workflow-type: tm+mt
-source-wordcount: 119
-ht-degree: 32%
-
+source-wordcount: '125'
+ht-degree: 31%
 ---
-
 # 설정 섹션의 개요
 
 {{limited-availability-release-note}}
@@ -31,5 +29,6 @@ Adobe Real-Time CDP Collaboration의 설정 섹션에서는 계정의 설정 및
 * [계정 구성 및 관리](/help/guide/setup/onboard-account.md)
 * [Source 및 대상자 관리](/help/guide/setup/onboard-audiences.md)
 * [데이터 연결 관리](/help/guide/setup/manage-data-connection.md)
+* [ID 확인 설정 및 관리](/help/guide/setup/identity-resolution.md)
 * [크레딧 사용 활동 추적](/help/guide/setup/my-activity.md)
 * [감사 로그 보기](/help/guide/setup/audit-logs.md)
