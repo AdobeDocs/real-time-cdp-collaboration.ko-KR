@@ -2,13 +2,13 @@
 title: ID 확인 설정 및 관리
 description: Real-Time CDP Collaboration에서 ID 확인을 구성하고 관리하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser, agency
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: ff233017fb78a63b2e911dc0dc94d67f2b18af04
+source-git-commit: 7554535fc7e29879d982b928e1b78d8ebb9c61f7
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1095'
 ht-degree: 2%
 ---
 # ID 확인 설정 및 관리
@@ -19,11 +19,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 안내서의 단계 및 스크린샷은 [!DNL Epsilon Core ID]을(를) 예로 사용합니다. 요구 사항 및 사용 가능한 옵션은 ID 공급자에 따라 다를 수 있습니다.
-
->[!AVAILABILITY]
->
->시작 시 구성에 [!DNL Epsilon Core ID]만 사용할 수 있습니다. Epsilon Core ID ID 확인은 미국에서 프로비저닝된 Real-Time CDP Collaboration 계정에만 사용할 수 있습니다.
+>현재 Epsilon Core ID만 구성에 사용할 수 있으며, 미국에서 프로비저닝된 Real-Time CDP Collaboration 계정에만 사용할 수 있습니다. 이 안내서의 단계 및 스크린샷은 Epsilon Core ID를 사용합니다.
 
 ## 사전 요구 사항 {#prerequisites}
 
