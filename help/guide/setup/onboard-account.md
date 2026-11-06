@@ -15,13 +15,11 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: b40ca0030b48f01a4f27716fbf39e587d858e3f4
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: '1432'
 ht-degree: 14%
-
 ---
-
 # 계정 구성 및 관리
 
 {{limited-availability-release-note}}
@@ -43,7 +41,7 @@ Collaboration에 처음 액세스하면 계정을 설정하라는 메시지가 �
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
 >title="연락처 이메일"
->abstract="팀 또는 역할 기반의 이메일(예: **collaboration@yourcompany.com**)을 입력해 주십시오. 개인 또는 개별 이메일 주소는 사용할 수 없습니다."
+>abstract="팀 또는 역할 기반의 이메일(예: **collaboration@yourcompany.com**)을 입력해 주십시오. 개인 또는 개별 이메일 주소는 사용해서는 안 됩니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_connect_code"
@@ -59,7 +57,7 @@ Collaboration에 처음 액세스하면 계정을 설정하라는 메시지가 �
 * **[!UICONTROL Region]**&#x200B;은(는) Adobe Experience Cloud 계정을 기반으로 자동으로 설정됩니다. 이는 언제든지 변경할 수 없습니다.
 * 계정에 대해 **[!UICONTROL 연락처 전자 메일]**&#x200B;을(를) 추가합니다. 팀 또는 역할 기반 이메일 주소여야 합니다. 개인 이메일 주소를 제공해서는 안 됩니다.
 * 계정에 대한 **[!UICONTROL 로고]**&#x200B;를 업로드하십시오. 현재 SVG 유형의 이미지가 지원됩니다. 이는 선택 사항이지만 로고를 업로드하면 Collaboration 인터페이스에서 브랜드를 시각적으로 나타낼 수 있습니다
-* 계정 헤더 사진에 대한 이미지를 선택합니다.
+* 계정 헤더 사진용 이미지를 선택하십시오.
 
 >[!NOTE]
 >
@@ -105,6 +103,10 @@ Collaboration에 처음 액세스하면 계정을 설정하라는 메시지가 �
 
 {style="table-layout:auto"}
 
+>[!NOTE]
+>
+>[!DNL Epsilon Core ID] ID 확인에 사용되는 이름 및 우편 주소 필드가 계정 수준 일치 키로 구성되어 있지 않습니다. 대상 데이터 연결을 설정할 때 이러한 필드를 매핑합니다. 자세한 내용은 [필드 매핑](./onboard-audiences.md#map-fields)을 참조하세요.
+
 >[!IMPORTANT]
 >
 >계정 설정 중에 선택하는 일치 키에 따라 연결 내에서 사용할 수 있는 일치 키가 결정됩니다. 연결 설정 중에 [원치 않는 일치 키를 제거](../connect/establishing-connections.md#connection-settings)할 수 있지만 연결이 설정된 후에는 일치 키를 추가할 수 없습니다. 계정 설정 중에 향후 캠페인에서 사용할 **모두** 일치 키를 선택하는 것이 중요합니다.
@@ -130,7 +132,6 @@ Collaboration은 사람 ID, 장치 ID 및 파트너 ID의 세 가지 일치 키 
 * **[!UICONTROL 해시된 휴대폰]**
 * **[!UICONTROL CRM ID]**
 * **[!UICONTROL 충성도 ID]**
-<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
 ##### 디바이스 ID
 
@@ -151,13 +152,9 @@ Collaboration은 사람 ID, 장치 ID 및 파트너 ID의 세 가지 일치 키 
 >
 >Adobe과 [!DNL AdFixus]의 통합은 각 계정에 대한 고유한 [!UICONTROL AdFixus ID]를 일반적인 Adobe 인코딩 형식으로 매핑합니다. 이러한 매핑은 공동 작업자 간의 중복을 식별하는 데 사용됩니다. **[!UICONTROL AdFixus ID]**&#x200B;을(를) 사용하여 대상을 활성화할 때 원래 ID가 사용됩니다. Adobe으로 인코딩된 형식은 Collaboration을 떠나지 않습니다.
 
-**[!UICONTROL AdFixus ID]**&#x200B;을(를) 선택할 때 **[!UICONTROL 계정 자격 증명]** 섹션에서 외부 파트너에게 해당 ID를 제공해야 합니다. 이 옵션은 **[!UICONTROL AdFixus ID]**&#x200B;에서 전환하여 *after*&#x200B;에만 사용할 수 있습니다. **[!UICONTROL 계정 ID]** 필드에 AdFixus ID를 입력하여 값의 정확성을 다시 확인합니다.
+**[!UICONTROL AdFixus ID]**&#x200B;을(를) 선택할 때 **[!UICONTROL 계정 자격 증명]** 섹션에서 외부 파트너에게 해당 ID를 제공해야 합니다. 이 옵션은 **[!UICONTROL AdFixus ID]**&#x200B;에서 전환하여 *after*&#x200B;에만 사용할 수 있습니다. **[!UICONTROL 계정 ID]** 필드에 AdFixus ID를 입력하여 값의 정확성을 다시 확인합니다. 원하는 일치 키를 모두 선택한 후 **[!UICONTROL 완료]**&#x200B;를 선택하여 계정 설정 워크플로를 완료합니다.
 
 ![AdFixus ID가 있는 키 일치 대화 상자가 켜지고 계정 자격 증명 섹션이 강조 표시됩니다.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
-
-원하는 일치 키를 모두 선택한 후 **[!UICONTROL 완료]**&#x200B;를 선택하여 계정 설정 워크플로를 완료합니다.
-
-![일치 키 섹션이 표시된 계정 작업 영역 설정.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## 계정 편집 {#edit-account}
 
@@ -165,7 +162,7 @@ Collaboration은 사람 ID, 장치 ID 및 파트너 ID의 세 가지 일치 키 
 
 ### 세부 정보 편집 {#edit-details}
 
-**[!UICONTROL 역할]**&#x200B;을(를) 제외하고 언제든지 계정의 세부 정보를 편집할 수 있습니다. 지역은 Adobe Experience Cloud 계정을 기반으로 자동으로 설정되며 변경할 수 없습니다.
+**[!UICONTROL 역할]**&#x200B;을(를) 제외하고 언제든지 계정의 세부 정보를 편집할 수 있습니다. 영역은 Adobe Experience Cloud 계정을 기반으로 자동으로 설정되며 변경할 수 없습니다.
 
 계정을 편집하려면 **[!UICONTROL 설정]** 작업 영역의 **[!UICONTROL 내 계정]** 섹션에서 **[!UICONTROL 편집]**&#x200B;을(를) 선택하십시오.
 
