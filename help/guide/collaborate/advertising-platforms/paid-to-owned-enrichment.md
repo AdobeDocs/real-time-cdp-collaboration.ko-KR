@@ -1,5 +1,5 @@
 ---
-title: '[!DNL The Trade Desk](Alpha)의 유료 미디어 신호로 프로필 보강'
+title: '[!DNL The Trade Desk] (Alpha)의 유료 미디어 신호로 프로필 보강'
 description: 유료 미디어 강화 속성을 내보내고, 전달된 CSV를 수집하며, 대상 구축 및 개인화를 위해 자사 프로필을 업데이트하는 방법을 알아봅니다.
 audience: advertiser
 hide: true
@@ -51,9 +51,9 @@ CSV 파일이 [!DNL Amazon S3] 내보내기 대상에 도착한 후 [!DNL Adobe 
 1. **[!UICONTROL 연결]**&#x200B;에서 **[!UICONTROL 공동 작업자 검색]**&#x200B;을 엽니다.
 1. [!DNL The Trade Desk] 검색
    ![Collaborator 카탈로그에 [!DNL The Trade Desk] 및 해당 [!UICONTROL 연결] 옵션이 나열됩니다.](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
-1. [!DNL The Trade Desk]에 대해 **[!UICONTROL 연결]**을 선택하고 연결 대화 상자의 지침을 따릅니다.
+1. [!DNL The Trade Desk]에 대해 **[!UICONTROL 연결]**&#x200B;을 선택하고 연결 대화 상자의 지침을 따릅니다.
    ![연결 대화 상자에서 [!DNL The Trade Desk]에 대한 REDS 인증 및 파트너 ID 설정을 설명합니다.](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}
-1. 연결이 활성 상태가 되면 **[!UICONTROL 연결 설정]**&#x200B;을 여십시오. **[!UICONTROL 광고주 정보]**&#x200B;에서 **[!UICONTROL 편집]**&#x200B;을 선택하여 기존 정보를 업데이트하거나 **[!UICONTROL 추가]**를 선택하여 새 정보를 입력하십시오.
+1. 연결이 활성 상태가 되면 **[!UICONTROL 연결 설정]**&#x200B;을 여십시오. **[!UICONTROL 광고주 정보]**&#x200B;에서 **[!UICONTROL 편집]**&#x200B;을 선택하여 기존 정보를 업데이트하거나 **[!UICONTROL 추가]**&#x200B;를 선택하여 새 정보를 입력하십시오.
    ![활성 연결 설정에 [!UICONTROL 광고주 정보] 및 [!UICONTROL 편집] 컨트롤이 표시됩니다.](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
 1. **[!UICONTROL 파트너 ID]** 및 **[!UICONTROL 파트너 이름]**&#x200B;에 파트너 ID와 파트너 이름을 입력한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다. **[!UICONTROL 시트 식별자]**&#x200B;의 [!DNL The Trade Desk] 계정에서 파트너 ID를 찾으십시오.
    ![광고주 정보 대화 상자에 필요한 파트너 ID 및 파트너 이름 필드와 [!UICONTROL 저장] 컨트롤이 있습니다.](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
