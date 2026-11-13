@@ -178,6 +178,6 @@ Do not treat example formats or supported input match keys as confirmed output r
 
 ## 다음 단계 {#next-steps}
 
-특성을 수집 및 확인한 후 데이터 보강 신호를 자사 데이터와 결합하여 [!DNL Adobe Real-Time CDP]에 대상을 빌드합니다. 자세한 내용은 [대상 빌더 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}를 참조하십시오.
+특성을 수집 및 확인한 후 데이터 보강 신호를 자사 데이터와 결합하여 [!DNL Adobe Real-Time CDP]에 대상을 빌드합니다. 자세한 내용은 [대상 빌더 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}를 참조하십시오.
 
-대상, 개인화 또는 고객 여정에 대해 대상을 활성화하려면 [대상 활성화 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}를 참조하십시오.
+대상, 개인화 또는 고객 여정에 대해 대상을 활성화하려면 [대상 활성화 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}를 참조하십시오.
