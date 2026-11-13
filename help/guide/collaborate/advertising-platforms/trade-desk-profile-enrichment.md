@@ -1,5 +1,5 @@
 ---
-title: '[!DNL The Trade Desk](Alpha)의 유료 미디어 신호로 프로필 보강'
+title: '[!DNL The Trade Desk] (Alpha)의 유료 미디어 신호로 프로필 보강'
 description: 유료 미디어 강화 속성을 내보내고, 전달된 CSV를 수집하며, 대상 구축 및 개인화를 위해 자사 프로필을 업데이트하는 방법을 알아봅니다.
 audience: advertiser
 hide: true
