@@ -4,9 +4,9 @@ description: 유료 미디어 강화 속성을 내보내고, 전달된 CSV를 �
 audience: advertiser
 hide: true
 badge: Alpha
-source-git-commit: d090aff6ea091f60c9b3bbaf2ca72fcf8017d7d1
+source-git-commit: 303d7185169962ad7398adfffcc732bf86336a74
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1512'
 ht-degree: 0%
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [!DNL The Trade Desk]의 REDS(원시 이벤트 데이터 스트림) 노출 로그 데이터 피드를 사용하여 데이터 보강 특성 및 유료 미디어 컨텍스트를 자사 프로필로 내보냅니다.
 
-CSV 파일이 [!DNL Amazon S3] 내보내기 대상에 도착한 후 [!DNL Adobe Real-Time CDP]&#x200B;(으)로 수집하십시오. 이 릴리스에서 파일을 내보내도 프로필이 자동으로 업데이트되거나 경험이 활성화되지 않습니다. [!DNL Adobe Real-Time CDP]에 대한 자동 프로필 보강은 후속 릴리스의 기능입니다.
+CSV 파일이 [!DNL Amazon S3] 내보내기 대상에 도착한 후 [!DNL Adobe Real-Time CDP]&#x200B;(으)로 수집하십시오. 이 릴리스에서 파일을 내보내도 프로필이 자동으로 업데이트되거나 경험이 활성화되지 않습니다. [!DNL Adobe Real-Time CDP]의 자동 프로필 보강은 후속 릴리스에 적용됩니다.
 
 광고 노출은 고객 프로필에 컨텍스트를 추가합니다. 참여, 구매 의도 또는 장기 관심사를 확인하지 않습니다.
 
@@ -30,7 +30,7 @@ CSV 파일이 [!DNL Amazon S3] 내보내기 대상에 도착한 후 [!DNL Adobe 
 
 ### 소스 피드 승인 {#authorize-source-feed}
 
-[!DNL The Trade Desk]이(가) 제공한 액세스 편지를 완료하여 [!DNL The Trade Desk]이(가) REDS 로그를 Adobe으로 직접 보내도록 승인합니다.
+Adobe에 직접 REDS 로그 전달을 승인하려면 [!DNL The Trade Desk]에서 제공한 액세스 문자를 완료하십시오.
 
 [!DNL The Trade Desk]에서 원본 피드를 프로비저닝하고 Adobe에서 액세스 및 수집을 구성합니다. 프로젝트를 만들기 전에 연결이 활성 상태이고 피드가 준비되었는지 확인하십시오.
 
@@ -46,49 +46,53 @@ CSV 파일이 [!DNL Amazon S3] 내보내기 대상에 도착한 후 [!DNL Adobe 
 
 ### 파트너와 연결 {#connect-partner}
 
-[!DNL The Trade Desk]에 연결하고 광고주 정보를 추가하십시오.
+[!DNL The Trade Desk]과(와) 연결하려면 **[!UICONTROL 연결]**&#x200B;에서 **[!UICONTROL 공동 작업자 검색]**&#x200B;을(를) 열고 파트너를 검색하십시오.
 
-1. **[!UICONTROL 연결]**&#x200B;에서 **[!UICONTROL 공동 작업자 검색]**&#x200B;을 엽니다.
-1. [!DNL The Trade Desk] 검색
-   ![Collaborator 카탈로그에 [!DNL The Trade Desk] 및 해당 [!UICONTROL 연결] 옵션이 나열됩니다.](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
-1. [!DNL The Trade Desk]에 대해 **[!UICONTROL 연결]**&#x200B;을 선택하고 연결 대화 상자의 지침을 따릅니다.
-   ![연결 대화 상자에서 [!DNL The Trade Desk]에 대한 REDS 인증 및 파트너 ID 설정을 설명합니다.](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}
-1. 연결이 활성 상태가 되면 **[!UICONTROL 연결 설정]**&#x200B;을 여십시오. **[!UICONTROL 광고주 정보]**&#x200B;에서 **[!UICONTROL 편집]**&#x200B;을 선택하여 기존 정보를 업데이트하거나 **[!UICONTROL 추가]**&#x200B;를 선택하여 새 정보를 입력하십시오.
-   ![활성 연결 설정에 [!UICONTROL 광고주 정보] 및 [!UICONTROL 편집] 컨트롤이 표시됩니다.](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
-1. **[!UICONTROL 파트너 ID]** 및 **[!UICONTROL 파트너 이름]**&#x200B;에 파트너 ID와 파트너 이름을 입력한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다. **[!UICONTROL 시트 식별자]**&#x200B;의 [!DNL The Trade Desk] 계정에서 파트너 ID를 찾으십시오.
-   ![광고주 정보 대화 상자에 필요한 파트너 ID 및 파트너 이름 필드와 [!UICONTROL 저장] 컨트롤이 있습니다.](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
+![Collaborator 카탈로그에 [!DNL The Trade Desk] 및 해당 [!UICONTROL 연결] 옵션이 나열됩니다.](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
 
-연결이 활성화되고 광고주 정보를 저장한 후 Adobe이 REDS 로그를 수신했는지 확인할 때까지 기다립니다. 그런 다음 프로젝트를 만듭니다.
+[!DNL The Trade Desk]에 대해 **[!UICONTROL 연결]**&#x200B;을 선택하고 연결 대화 상자의 지침을 따릅니다.
+
+![연결 대화 상자에서 [!DNL The Trade Desk]에 대한 REDS 인증 및 파트너 ID 설정을 설명합니다.](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}
+
+연결이 활성 상태가 되면 **[!UICONTROL 연결 설정]**&#x200B;을 열고 **[!UICONTROL 광고주 정보]**(으)로 이동합니다. 기존 정보를 업데이트하려면 **[!UICONTROL 편집]**&#x200B;을 선택하세요. 새 정보를 입력하려면 **[!UICONTROL 추가]**&#x200B;를 선택하십시오.
+
+![활성 연결 설정에 [!UICONTROL 광고주 정보] 및 [!UICONTROL 편집] 컨트롤이 표시됩니다.](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
+
+광고주 정보를 저장하려면 **[!UICONTROL 파트너 ID]** 및 **[!UICONTROL 파트너 이름]**&#x200B;에 ID와 파트너 이름을 입력한 다음 **[!UICONTROL 저장]**&#x200B;을 선택하십시오. 파트너 ID는 [!DNL The Trade Desk] 계정의 **[!UICONTROL 시트 식별자]** 아래에 표시됩니다.
+
+![광고주 정보 대화 상자에 필요한 파트너 ID 및 파트너 이름 필드와 [!UICONTROL 저장] 컨트롤이 있습니다.](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
+
+광고주 정보를 저장한 후 프로젝트를 생성하기 전에 Adobe이 REDS 로그 수신을 확인할 때까지 기다립니다.
 
 ### 프로젝트 만들기 {#create-project}
 
-연결을 위한 프로젝트 만들기:
+프로젝트를 만들려면 **[!UICONTROL 공동 작업]**(으)로 이동하여 **[!UICONTROL 내 프로젝트]**, **[!UICONTROL 프로젝트 만들기]** 또는 추가 아이콘(![프로젝트 추가.](/help/assets/icons/plus.png))을 선택하십시오.
 
-1. **[!UICONTROL 공동 작업]**&#x200B;에서 **[!UICONTROL 내 프로젝트]**&#x200B;를 선택하세요.
-1. **[!UICONTROL 프로젝트 만들기]** 또는 추가 아이콘(![프로젝트 추가.](/help/assets/icons/plus.png))을 선택하십시오.
-1. **[!UICONTROL 프로젝트 만들기]**&#x200B;에서 **[!UICONTROL 공동 작업자]**&#x200B;에서 [!DNL The Trade Desk]을(를) 선택하십시오.
-   ![[!UICONTROL 프로젝트 만들기] 양식에서 [!DNL The Trade Desk]을(를) 나열하고 프로젝트 이름, 설명 및 이미지 필드를 포함합니다.](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
-1. **[!UICONTROL 프로젝트 이름]** 및 **[!UICONTROL 설명]**&#x200B;을 입력한 다음 프로젝트를 식별할 이미지를 선택하십시오.
-1. **[!UICONTROL 만들기]**&#x200B;를 선택합니다.
+**[!UICONTROL 프로젝트 만들기]**&#x200B;에서 **[!UICONTROL 공동 작업자]**&#x200B;에서 [!DNL The Trade Desk]을(를) 선택하십시오.
+
+![[!UICONTROL 프로젝트 만들기] 양식에서 [!DNL The Trade Desk]을(를) 나열하고 프로젝트 이름, 설명 및 이미지 필드를 포함합니다.](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
+
+프로젝트를 식별하려면 **[!UICONTROL 프로젝트 이름]** 및 **[!UICONTROL 설명]**&#x200B;을 입력한 다음 이미지를 선택하십시오. 프로젝트 세부 정보가 완료되면 **[!UICONTROL 만들기]**&#x200B;를 선택하세요.
 
 일반적인 프로젝트 관리에 대해서는 [프로젝트 만들기 및 관리 가이드](/help/guide/collaborate/manage-projects.md)를 참조하십시오.
 
 ## 속성 선택 및 내보내기 {#select-export-attributes}
 
-프로젝트에서 데이터 보강 속성 내보내기:
+내보낼 데이터 보강 특성을 선택하려면 프로젝트를 열고 **[!UICONTROL 데이터 보강]**&#x200B;을 선택합니다. 신호 가용성을 이해하려면 사용할 속성을 선택하기 전에 각 속성에 대한 적용 범위 값을 검토하십시오.
+
+![[!UICONTROL 강화] 페이지는 선택 가능한 신호를 범주별로 그룹화하고 범위 값을 표시합니다.](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
 
 <!-- TODO: Replace the destination screenshot with one showing the [!UICONTROL Export Attributes] action. -->
 
-1. 프로젝트를 열고 **[!UICONTROL 강화]**&#x200B;를 선택합니다.
-1. 각 속성에 대한 적용 범위 값을 검토하여 신호 가용성을 파악합니다.
-1. 데이터 보강에 사용할 속성을 선택합니다.
-   ![[!UICONTROL 강화] 페이지는 선택 가능한 신호를 범주별로 그룹화하고 범위 값을 표시합니다.](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
-1. 데이터 보강 출력에 대해 구성된 [!DNL Amazon S3] 내보내기 대상을 선택하십시오. 대상을 구성하려면 [클라우드 저장소 대상 구성 및 관리](/help/guide/destinations/manage-destinations.md)를 참조하십시오.
-   <!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
-1. 선택한 특성과 대상을 검토한 다음 **[!UICONTROL 특성 내보내기]**&#x200B;를 선택하십시오.
-   <!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
+데이터 보강 출력에 대해 구성된 [!DNL Amazon S3] 내보내기 대상을 선택하십시오. 대상을 구성해야 하는 경우 [클라우드 저장소 대상 구성 및 관리](/help/guide/destinations/manage-destinations.md)를 참조하세요.
 
-대상이 올바르게 구성된 경우 내보내기 제출이 게재를 시작합니다. [!DNL Adobe Real-Time CDP Collaboration] 외부에서 파일을 성공적으로 배달했는지 확인하십시오.
+<!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
+
+선택한 특성과 대상을 검토한 다음 **[!UICONTROL 특성 내보내기]**&#x200B;를 선택하십시오.
+
+<!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
+
+대상이 올바르게 구성된 경우 내보내기 제출이 게재를 시작합니다. 내보내기를 제출한 후 [!DNL Adobe Real-Time CDP Collaboration] 외부에서 파일을 성공적으로 배달했는지 확인하십시오.
 
 Adobe은 사용자가 프로젝트를 만든 다음 매주 데이터 보강 속성을 처리합니다. 각 실행은 사용 가능한 [!DNL The Trade Desk]개의 최근 90일 데이터를 사용합니다. 각 내보내기에는 가장 최근에 완료된 실행에서 선택한 속성이 포함됩니다. 새로 고친 속성을 내보내려면 나중에 실행이 완료된 후 다른 내보내기를 요청합니다.
 
@@ -121,13 +125,13 @@ Adobe은 사용자가 프로젝트를 만든 다음 매주 데이터 보강 속�
 
 ### 속성 범위 {#attribute-coverage}
 
-적용 범위에서는 처리된 레코드에 속성 값이 포함된 빈도를 설명합니다. 예/아니요 신호(예: **[!UICONTROL CTV 노출됨]**)의 경우 적용 범위는 true 값이 있는 레코드를 계산합니다. 적용 범위에는 ID 일치율 또는 속성을 받을 자사 프로필의 비율이 표시되지 않습니다.
+적용 범위에서는 처리된 레코드에 속성 값이 포함된 빈도를 설명합니다. 예/아니요 신호(예: **[!UICONTROL CTV 노출됨]**)의 경우 적용 범위는 true 값이 있는 레코드를 계산합니다. 적용 범위는 ID 일치율 또는 속성을 받는 자사 프로필의 비율을 나타내지는 않습니다.
 
 ID 일치, 소스-신호 가용성 및 수집은 프로필 업데이트에 영향을 줍니다. 적용 범위에서 내보내기 완료 또는 프로필 업데이트를 확인하지 않습니다.
 
 ### 워크플로 범위 {#workflow-scope}
 
-조정된 카탈로그를 사용하여 [!DNL The Trade Desk]에서 데이터를 보강합니다. 원시 로그를 내보내거나 사용자 지정 속성 표현식을 만들 수 없습니다. 다른 수요측 플랫폼(DSP) 및 공급측 플랫폼(SSP) 통합은 지원되지 않습니다.
+[!DNL The Trade Desk]에서 데이터를 보강하려면 큐레이트된 카탈로그를 사용하십시오. 원시 로그를 내보내거나 사용자 지정 속성 표현식을 만들 수 없습니다. 다른 수요측 플랫폼(DSP) 및 공급측 플랫폼(SSP) 통합은 지원되지 않습니다.
 
 이 워크플로우는 데이터 보강 기회 검색, 대상 중복 분석 또는 속성 및 증분 측정을 지원하지 않습니다.
 
@@ -154,11 +158,11 @@ Do not treat example formats or supported input match keys as confirmed output r
 1. 대상 샌드박스 및 데이터 세트에 대해 확인된 ID 및 스키마 매핑을 사용하여 파일을 수집합니다.
 1. 수집 결과를 검토하고 예상 프로필 샘플에 데이터 보강 속성이 포함되어 있는지 확인합니다.
 
-파일을 내보내도 수집이 업데이트된 프로필을 확인하지 않습니다. 나중에 내보낼 각각을 개별적으로 수집하여 프로필을 업데이트합니다.
+파일을 내보내도 수집이 업데이트된 프로필을 확인하지 않습니다. 프로필을 업데이트하려면 나중에 각각 내보내기를 개별적으로 수집하십시오.
 
 ## 데이터 보강 문제 해결 {#troubleshoot-enrichment}
 
-다음 검사를 사용하여 소스 데이터, 내보내기 및 수집 문제를 해결할 수 있습니다.
+소스 데이터, 내보내기 및 수집 문제를 해결하려면 다음 검사를 사용합니다.
 
 | 문제 | 확인할 사항 |
 | --- | --- |
