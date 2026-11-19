@@ -1,15 +1,15 @@
 ---
 title: 대상 소싱에 대해 [!DNL Databricks Delta Share] 구성
-description: Real-Time CDP Collaboration에서 대상 소싱을 위해 [!DNL Databricks Delta Share]을(를) 구성하고 연결하는 방법에 대해 알아봅니다.
+description: 내역 공유를 포함하여 Real-Time CDP Collaboration에서 대상 소싱을 위해 [!DNL Databricks Delta Share]을(를) 구성하고 연결하는 방법에 대해 알아봅니다.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한된 가용성" type="정보" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html" newtab=true
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 2c6b8967566bcb1ea1851763a13d965bddfb9236
 workflow-type: tm+mt
-source-wordcount: '2818'
-ht-degree: 8%
+source-wordcount: '3294'
+ht-degree: 7%
 ---
 
 # 대상 소싱에 대해 [!DNL Databricks Delta Share] 구성
@@ -18,7 +18,7 @@ ht-degree: 8%
 
 [!DNL Databricks Delta Share]에 연결하면 Collaboration이 Unity 카탈로그 공유에서 직접 대상 데이터를 읽습니다. 소싱이 완료되면 공동 작업 프로젝트에서 활성화 및 중복 분석에 대상을 사용할 수 있습니다.
 
-이 안내서에서는 사전 요구 사항을 준비하고, [!DNL Delta Share]을(를) 연결하고, 원본 테이블을 지정하고, ID 필드를 매핑하고, 대상 소싱이 성공적으로 시작되는지 확인하는 방법을 설명합니다.
+이 안내서에서는 사전 요구 사항을 완료하고, [!DNL Delta Share]을(를) 연결하고, 원본 테이블을 지정하고, ID 필드를 매핑하고, 대상 소싱이 성공적으로 시작되는지 확인하는 방법을 설명합니다.
 
 [!DNL Databricks]에서 가져온 대상자는 Adobe Experience Platform 및 기타 지원되는 클라우드 소스에서 가져온 대상자와 동일한 거버넌스 및 데이터 처리 규칙을 따릅니다.
 
@@ -44,22 +44,23 @@ Adobe에 공유를 게시하는 방법에 대한 단계별 지침은 이 안내�
 
 Collaboration에서 대상을 검색하고 ID를 올바르게 매핑할 수 있도록 대상 테이블을 구조화합니다.
 
-* **멤버십 테이블(필수):** 프로필-대상 쌍당 하나의 행이 포함된 공유 스키마 내의 테이블입니다. 이 테이블에는 `AUDIENCE_ID`에 매핑할 수 있는 열과 지원되는 일치 키 열이 하나 이상 포함되어야 합니다. Collaboration은 소스 데이터 미리보기 및 필드 매핑에 이 테이블을 사용합니다.
+* **멤버십 테이블(필수):** 프로필-대상 쌍당 하나의 행이 포함된 공유 스키마 내의 테이블입니다. 이 테이블은 `AUDIENCE_ID` 열과 지원되는 일치 키 열을 하나 이상 포함해야 합니다. Collaboration은 소스 데이터 미리보기 및 필드 매핑에 이 테이블을 사용합니다.
 * **메타데이터 테이블(선택 사항):** 별도의 대상 카탈로그(대상 ID, 이름, 개수 또는 유사한 메타데이터가 있는 대상당 하나의 행)를 유지 관리하는 경우 Collaboration에서 멤버 자격 테이블에서만 고유한 대상 ID를 추론하는 대신 대상 정의를 읽을 수 있도록 이 테이블을 제공할 수 있습니다.
 * **지원되는 일치 키:** `HASHED_EMAIL_SHA_256`, `HASHED_PHONE_SHA_256`, `HASHED_IPV4_SHA_256`, `CRM_ID`, `LOYALTY_ID`, `ADFIXUS_ID` 및 Collaboration 계정에 대해 활성화된 기타 일치 키.
 * **요구 사항 해시:** 모든 일치 키 값은 [!DNL Databricks]에 저장되기 전에 트리밍되고, 소문자화되고, SHA256-해시되어야 합니다. Collaboration은 수집 전에 데이터를 해시하거나 정규화하지 않습니다.
 * **열 일관성:** 멤버십 테이블은 Collaboration이 활성화된 일치 키에 매핑할 수 있는 안정적인 열 이름을 표시해야 합니다.
+* **내역 공유(권장):** 소싱 성능을 향상시키려면 특히 큰 테이블의 경우 대상 테이블을 공유할 때 내역 공유를 사용하도록 설정하십시오. 내역 공유를 사용하면 Collaboration에서 일관된 테이블 버전을 사용하여 데이터를 동시에 읽을 수 있습니다. 내역 공유 없이 느린 단일 쿼리 프로세스를 사용하여 대상 소싱이 완료됩니다. 자세한 내용은 [내역 공유 사용](#enable-history-sharing)을 참조하세요.
 
 멤버십 테이블에 있는 모든 일치 키도 Collaboration 계정에 대해 활성화해야 합니다. 일치 키를 추가하거나 사용하려면 [일치 키 설정](./onboard-account.md#set-up-match-keys)을 참조하십시오.
 
 ### 시작하기 전에 필요한 값 {#required-values}
 
-구성 마법사를 시작하기 전에 다음 값을 준비하십시오.
+구성 워크플로를 시작하기 전에 다음 값을 준비하십시오.
 
 
 | 값 | 설명 |
 | ----- | ----------- |
-| 공급자 이름 | Unity 카탈로그에서 Adobe이 [!DNL Delta Share]에 액세스하는 데 사용하는 공급자 식별자입니다. [!DNL Databricks] 관리자 또는 Adobe 온보딩 담당자가 이 값을 제공할 수 있습니다. 이 값은 [!DNL Databricks] 작업 영역 URL과 다릅니다. |
+| 제공업체 이름 | Unity 카탈로그에서 Adobe이 [!DNL Delta Share]에 액세스하는 데 사용하는 공급자 식별자입니다. [!DNL Databricks] 관리자 또는 Adobe 온보딩 담당자가 이 값을 제공할 수 있습니다. 이 값은 [!DNL Databricks] 작업 영역 URL과 다릅니다. |
 | 공유 이름 | Adobe에 게시된 [!DNL Delta Share]의 이름입니다. |
 | 스키마 | 대상 테이블을 포함하는 공유 내의 스키마. |
 | 멤버십 테이블 | 대상 멤버십 행(대상의 프로필당 한 행)을 포함하는 스키마 내의 테이블 이름입니다. |
@@ -69,7 +70,7 @@ Collaboration에서 대상을 검색하고 ID를 올바르게 매핑할 수 있�
 
 ## [!DNL Databricks] 연결 구성 {#configure-databricks-connection}
 
-구성 워크플로는 **[!UICONTROL 설치]** 작업 영역 내의 여러 단계 마법사입니다. 각 단계를 순서대로 완료합니다.
+구성 워크플로에는 **[!UICONTROL 설정]** 작업 영역의 여러 단계가 포함됩니다. 각 단계를 순서대로 완료합니다.
 
 ### 새 데이터 연결 추가 {#add-data-connection}
 
@@ -106,11 +107,11 @@ Collaboration은 공유의 유효성을 검사하고 Adobe 작업 영역에 탑�
 | **[!UICONTROL 공급자 이름]** | Adobe이 공유를 사용하기 위해 사용하는 Unity 카탈로그 공급자 이름입니다. [시작하기 전에 필요한 값](#required-values)을 참조하세요. |
 | **[!UICONTROL 이름 공유]** | Adobe에 게시된 [!DNL Delta Share]의 이름입니다. |
 | **[!UICONTROL 스키마]** | 대상 테이블을 포함하는 공유 내의 스키마. |
-| **[!UICONTROL 데이터 테이블]** | 대상 멤버십 행(대상의 프로필당 한 행)을 포함하는 스키마 내의 테이블 이름입니다. |
+| **[!UICONTROL 멤버십 테이블]** | 대상 멤버십 행(대상의 프로필당 한 행)을 포함하는 스키마 내의 테이블 이름입니다. |
 | **[!UICONTROL 메타데이터 테이블]** | 대상자를 나열하는 표(대상자당 하나의 행). |
 
 
-![공급자 이름, 공유 이름, 스키마, 데이터 테이블 및 메타데이터 테이블 필드가 있는 데이터 블록 연결 공유 양식과 다음 단추를 표시하는 대상 추가 워크플로우입니다.](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
+![공급자 이름, 공유 이름, 스키마, 멤버십 테이블 및 메타데이터 테이블 필드가 있는 Databricks 연결 공유 양식을 표시하는 대상 추가 워크플로와 다음 단추를 사용할 수 있습니다.](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
 
 공유를 찾을 수 없거나 스키마가 아직 표시되지 않으면 오류 메시지가 표시됩니다. [!DNL Databricks] 관리자에게 값을 확인하고 다시 시도하십시오.
 
@@ -171,7 +172,7 @@ Collaboration에서 데이터 연결을 만들고 대상 소싱이 진행 중임
 
 ## 소스 대상자 검토 {#review-sourced-audiences}
 
-구성 마법사를 완료하면 Collaboration에서 [!DNL Databricks] 테이블의 대상 소싱을 비동기적으로 시작합니다. 진행 상황을 모니터링하려면 **[!UICONTROL 설정] > [!UICONTROL 내 대상]**(으)로 이동하세요. 소싱이 즉시 완료되지 않습니다. 필요한 시간은 데이터 크기에 따라 다릅니다.
+구성 워크플로우를 완료한 후 Collaboration은 [!DNL Databricks] 테이블에서 비동기적으로 대상을 소싱하기 시작합니다. 진행 상황을 모니터링하려면 **[!UICONTROL 설정] > [!UICONTROL 내 대상]**(으)로 이동하세요. 소싱이 즉시 완료되지 않습니다. 필요한 시간은 데이터 크기에 따라 다릅니다.
 
 ### 대상자 소싱 진행 상황 모니터링 {#monitor-sourcing-progress}
 
@@ -181,7 +182,9 @@ Collaboration에서 대상 데이터를 검색하는 동안 **[!UICONTROL 내 �
 
 >[!TIP]
 >
->대상 소싱 시간은 멤버십 테이블의 크기와 대상 검색을 위해 메타데이터 테이블을 사용하는지 여부에 따라 다릅니다. 더 큰 데이터 세트가 **[!UICONTROL 내 대상]** 작업 영역에 표시되는 데 더 오래 걸릴 수 있습니다.
+>특히 큰 테이블의 대상자 소싱 성능을 향상시키려면 내역 공유를 활성화합니다. 이를 통해 Collaboration은 일관된 테이블 버전에서 데이터를 동시에 읽을 수 있습니다. 그러나 클라우드 간 공유는 기록 공유가 활성화된 경우에도 단일 쿼리 프로세스를 사용합니다.
+>
+>또한 대상 소싱 시간은 멤버십 테이블 크기 및 메타데이터 기반 대상 검색과 같은 요소에 따라 다릅니다. 더 큰 데이터 세트가 **[!UICONTROL 내 대상]**&#x200B;에 표시되는 데 더 오래 걸릴 수 있습니다. 자세한 내용은 [내역 공유 사용](#enable-history-sharing)을 참조하세요.
 
 ### 소스 대상자 세부 정보 보기 {#view-audience-details}
 
@@ -216,11 +219,13 @@ Collaboration에서 대상 데이터를 검색하는 동안 **[!UICONTROL 내 �
 
 [!DNL Databricks Delta Share] 대상 소싱을 구성하고 사용할 때 다음 제약 조건에 유의하십시오.
 
-* **네이티브 공유만:** UI는 네이티브 데이터 블록 간 [!DNL Delta Sharing]만 지원합니다. 구성 마법사에서는 전달자 토큰 및 OIDC 인증 흐름을 사용할 수 없습니다.
-* **마법사 내 테이블 브라우저 없음:** 테이블 이름을 수동으로 입력해야 합니다. Collaboration은 테이블을 미리 볼 때 테이블 이름의 유효성을 검사하지만 공유에 있는 모든 테이블을 자동으로 나열하지는 않습니다.
+* **네이티브 공유만:** UI는 네이티브 데이터 블록 간 [!DNL Delta Sharing]만 지원합니다. 구성 워크플로에서는 전달자 토큰 및 OIDC 인증 흐름을 사용할 수 없습니다.
+* **수동 테이블 이름 항목:** 테이블 이름을 수동으로 입력해야 합니다. Collaboration은 테이블을 미리 볼 때 테이블 이름의 유효성을 검사하지만 공유에 있는 모든 테이블을 자동으로 나열하지는 않습니다.
 * **메타데이터 테이블 행 제한:** 대상 검색에 메타데이터 테이블을 사용하는 경우 Collaboration은 해당 테이블에서 최대 100,000개의 대상 행을 가져옵니다. 카탈로그가 이 제한을 초과하는 경우 Adobe 지원 센터에 문의하십시오.
 * **일치 키 제약 조건:** 일치 키를 데이터 연결에 사용하도록 설정한 후에는 제거할 수 없습니다. 기존 연결에 일치 키를 추가할 수 있지만 비활성화하거나 삭제할 수는 없습니다. 활성 일치 키를 변경하려면 [데이터 연결을 삭제](./manage-data-connection.md#delete-data-connection)하고 새 연결을 만들어야 합니다.
 * **멤버 자격 테이블 필요:** 대상 검색에 메타데이터 테이블을 사용하는 경우에도 멤버 자격 테이블을 지정해야 합니다. Collaboration은 수집 중에 멤버십 테이블에서 id 행을 읽습니다.
+* **큰 테이블에 대한 기록 공유 권장:** 큰 테이블에 대한 소싱 성능을 향상시키려면 기록 공유를 사용하도록 설정하십시오. 이렇게 하면 Collaboration에서 데이터를 동시에 읽을 수 있습니다. 내역을 공유하지 않으면 소싱이 더 느린 단일 쿼리 프로세스를 사용합니다. 자세한 내용은 [내역 공유 사용](#enable-history-sharing)을 참조하세요.
+* **클라우드 간 공유:** [!DNL Databricks] 공급자와 Adobe 작업 영역이 서로 다른 클라우드 환경을 사용하는 경우, 소싱은 기록 공유 사용 여부에 관계없이 단일 쿼리 프로세스를 사용합니다. 예를 들어 공급자가 [!DNL Azure]을(를) 사용하고 Adobe 작업 영역이 AWS을 사용하는 경우에 적용됩니다. 추가 구성은 필요하지 않습니다.
 
 ## 문제 해결 {#troubleshooting}
 
@@ -240,16 +245,32 @@ Collaboration에서 대상 데이터를 검색하는 동안 **[!UICONTROL 내 �
 
 **필드 매핑 유효성 검사가 진행률을 차단함**
 
-* 멤버십 테이블에 **`AUDIENCE_ID`**&#x200B;에 매핑할 수 있는 열이 포함되어 있는지 확인합니다.
-* 두 개 이상의 ID 필드가 완전히 매핑되었는지 확인합니다(소스 및 타겟).
+* 멤버십 테이블에 `AUDIENCE_ID` 열과 지원되는 일치 키 열이 하나 이상 포함되어 있는지 확인하십시오.
+* 지원되는 일치 키 중 하나 이상에 소스 필드와 대상 필드가 모두 매핑되어 있는지 확인합니다.
 * **[!UICONTROL 원본 데이터 미리 보기]**&#x200B;를 사용하여 열 이름이 활성화된 일치 키와 일치하는지 확인하십시오.
 
 **대상이 나타나지 않거나 소싱이 예상보다 오래 걸립니다**
 
+* 테이블이 히스토리와 공유되는지 확인합니다. `SHOW ALL IN SHARE <share_name>;`을(를) 실행하고 `history_sharing`이(가) `ENABLED`인지 확인하십시오. 기록 공유를 사용하지 않도록 설정한 경우 `WITH HISTORY`(으)로 테이블을 다시 추가하십시오. 자세한 내용은 [내역 공유 사용](#enable-history-sharing)을 참조하세요.
 * 데이터 볼륨에 따라 소싱 시간이 확장됩니다. 대형 멤버십 테이블에 대해 처리 시간이 길어질 수 있습니다.
 * 대상이 24시간 이내에 나타나지 않으면 **[!UICONTROL 내 데이터 연결]** 탭에서 연결에 대한 오류 지표를 확인하십시오.
 * 멤버십 테이블 구조 및 필드 매핑이 [대상 데이터 준비](#prepare-audience-data)의 요구 사항과 일치하는지 확인하십시오.
 * 문제가 지속되면 Adobe 고객 지원 센터에 문의하여 데이터 연결 이름 및 테이블 세부 정보를 제공하십시오.
+
+**내역 공유 사용 실패**
+
+작업 영역에서 `ALTER TABLE` 명령을 거부하는 경우 공유에서 테이블을 제거하고 기록이 있는 테이블을 추가합니다. `<share_name>`, `<catalog>`, `<schema>` 및 `<table>`을(를) 공유 이름 및 테이블 식별자로 바꿉니다.
+
+>[!IMPORTANT]
+>
+> Adobe 소싱 실행이 진행되는 동안 테이블을 제거하고 다시 추가하지 마십시오.
+
+```sql
+ALTER SHARE <share_name> REMOVE TABLE <catalog>.<schema>.<table>;
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+테이블을 다시 추가한 후 [기록 공유가 활성화되어 있는지 확인](#enable-history-sharing)합니다.
 
 **처음에 성공한 후 데이터 연결에 실패한 상태가 표시됩니다**
 
@@ -273,28 +294,62 @@ Adobe 계정 담당자 또는 온보딩 담당자와 협력하여 다음을 확�
 * Collaboration에서 읽을 스키마와 테이블이 포함된 [!DNL Delta Share]입니다.
 * 프로필-대상 쌍당 하나의 행과 **`AUDIENCE_ID`** 및 일치 키에 대한 열이 있는 멤버십 테이블입니다.
 * 메타데이터 기반 대상 검색을 사용하려는 경우 선택적 메타데이터 테이블입니다.
+* 공유의 각 테이블에 대해 기록 공유가 활성화되었습니다(권장).
 
 ### 공유 게시 {#publish}
 
 조직의 [!DNL Databricks Delta Sharing] 절차에 따라 Adobe의 소비자 계정에 공유에 대한 액세스 권한을 부여합니다. 정확한 단계는 [!DNL Databricks] 배포 및 거버넌스 모델에 따라 다릅니다. 일반적으로
 
 1. Unity 카탈로그에서 대상 스키마 및 테이블을 포함하는 공유를 만들거나 식별합니다.
-2. 스키마(또는 개별 테이블)를 공유에 추가합니다.
+2. 데이터 블록 공유에 스키마 또는 개별 테이블을 추가합니다. Adobe에서는 각 테이블에 대해 기록 공유를 활성화할 것을 권장합니다. 자세한 내용은 [내역 공유 사용](#enable-history-sharing)을 참조하세요.
 3. 기본 Databricks에서 Databricks로의 공유를 사용하여 Adobe의 [!DNL Databricks] 소비자 계정에 공유를 부여합니다.
-4. 공유가 소비자 측에 표시되는지 Adobe 담당자에게 확인하고 Collaboration 구성 마법사의 공급자 이름과 공유 이름을 확인합니다.
-5. [!DNL Delta Sharing]의 [!DNL Databricks] 제품 설명서는 [Databricks 델타 공유 설명서](https://docs.databricks.com/aws/en/delta-sharing)를 참조하십시오.
+4. 공유가 소비자 측에 표시되는지 Adobe 담당자에게 확인하고 Collaboration 구성 워크플로의 공급자 이름 및 공유 이름을 확인합니다.
+
+>[!NOTE]
+>
+> 제품 지침은 [Databricks Delta Sharing 설명서](https://docs.databricks.com/aws/en/delta-sharing){target="_blank"}를 참조하세요.
+
+### 기록 공유 활성화 {#enable-history-sharing}
+
+대형 테이블의 소싱 성능을 향상시키려면 각 대상 테이블에 대해 기록 공유를 활성화합니다. 이렇게 하면 Collaboration에서 일관된 테이블 버전을 사용하여 데이터를 동시에 읽을 수 있습니다. 내역을 공유하지 않으면 Collaboration에서 더 느린 단일 쿼리 프로세스를 사용합니다.
+
+클라우드 간 공유는 기록이 활성화된 단일 쿼리 읽기를 사용합니다. 자세한 내용은 [알려진 제한 사항](#known-limitations)을 참조하십시오.
+
+기록 공유를 사용하면 Adobe에서 공유하는 테이블의 이전 버전에 액세스할 수 있지만 다른 테이블에는 액세스할 수 없습니다. 이미 Adobe과 공유한 테이블에 대해 내역 공유를 활성화하면 추가 액세스 권한을 부여할 필요가 없습니다.
+
+[!DNL Databricks] 작업 영역에서 다음 SQL 명령을 사용합니다. `<share_name>`, `<catalog>`, `<schema>` 및 `<table>`을(를) 공유 이름 및 테이블 식별자로 바꿉니다.
+
+기록이 있는 테이블을 추가하려면 다음을 실행합니다.
+
+```sql
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+공유에 이미 있는 테이블에 대해 기록 공유를 활성화하려면 다음을 실행합니다.
+
+```sql
+ALTER SHARE <share_name> ALTER TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+기록 공유를 확인하려면 다음을 실행합니다.
+
+```sql
+SHOW ALL IN SHARE <share_name>;
+```
+
+메타데이터 테이블을 사용하는 경우 메타데이터 테이블을 포함하여 각 대상 테이블에 대해 `history_sharing`이(가) `ENABLED`인지 확인합니다. 내역 공유는 다음 소싱 실행에 적용됩니다.
 
 ### Collaboration에 대한 [!DNL Databricks] 세부 정보 수집 {#collect-databricks-details}
 
 공유를 게시한 후에는 Collaboration 구성 워크플로에 사용할 수 있는 공급자 이름, 공유 이름, 스키마 및 테이블 이름이 있는지 확인하십시오.
 
-Collaboration 구성 마법사를 시작하기 전에 아래의 세부 정보를 수집합니다.
+Collaboration 구성 워크플로우를 시작하기 전에 아래의 세부 정보를 수집합니다.
 
 | 필드 | 설명 | 예 |
-| ------| ----------- | ------- |
-| 공급자 이름 | Adobe의 Unity 카탈로그 메타스토어(Adobe 온보딩에서)의 공급자 식별자 | `your_org_provider` |
+| ------ | ----------- | ------- |
+| 제공업체 이름 | Adobe의 Unity 카탈로그 메타스토어(Adobe 온보딩에서)의 공급자 식별자 | `your_org_provider` |
 | 공유 이름 | 게시된 [!DNL Delta Share]의 이름 | `audience_share_prod` |
-| 스키마 | 스키마 | `collaboration_audiences` |
+| 스키마 | 대상 테이블을 포함하는 공유 내의 스키마. | `collaboration_audiences` |
 | 멤버십 테이블 | 프로필-대상자 멤버십 행이 있는 표 | `audience_members` |
 | 메타데이터 테이블(선택 사항) | 대상을 나열하는 표(대상당 하나의 행) | `audience_catalog` |
 
