@@ -2,7 +2,7 @@
 title: 최신 Real-Time CDP Collaboration 릴리스 노트
 description: Real-Time CDP Collaboration의 최신 릴리스를 따르십시오.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="제한 공개" type="Informative" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="제한된 가용성" type="정보" url="https://helpx.adobe.com/kr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html" newtab=true
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 TQID: https://experienceleague.adobe.com/re4oFblCLiZpspWIS7D4EEYNh36EDhULEOd2-ccXH28
 product_v2:
@@ -22,20 +22,41 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 0e46c6f1bc2a0ce5752c7c08700429c97a8b0d45
+source-git-commit: c5031db11e6dd8d965439f0f5860a0710d2a56d1
 workflow-type: tm+mt
-source-wordcount: 2255
-ht-degree: 4%
-
+source-wordcount: '2587'
+ht-degree: 3%
 ---
-
 # 최신 Real-Time CDP Collaboration 릴리스 노트
 
 {{limited-availability-release-note}}
 
-**마지막 업데이트**: 2026년 8월.
+**마지막 업데이트**: 2026년 11월.
 
 이러한 릴리스 노트는 Adobe Real-Time CDP Collaboration에 릴리스된 기능을 다룹니다. Collaboration 릴리스는 연속 게재 모델에서 작동하므로 대략적인 월별 릴리스 케이던스를 사용할 수 있습니다. 이러한 릴리스 노트는 자주 업데이트되므로 정기적으로 확인하십시오.
+
+## 2026년 11월 {#november-2026}
+
+이제 [!DNL The Trade Desk]의 유료 미디어 컨텍스트를 자사 프로필에 추가하고 대규모 [!DNL Databricks]개 대상 테이블의 소싱 성능을 향상시킬 수 있습니다.
+
+| 기능 | 설명 |
+| ------- | ----------- |
+| [!BADGE Alpha]{type=Informative} [!DNL The Trade Desk] 프로필 보강 | 이제 대상자 작성 및 개인화를 위해 [!DNL The Trade Desk]에서 자사 프로필에 유료 미디어 컨텍스트를 추가할 수 있습니다. 자세한 내용은 [Trade Desk 프로필 보강](../collaborate/advertising-platforms/trade-desk-profile-enrichment.md)을 참조하세요. |
+| [!DNL Databricks] 대상 소싱에 대한 기록 공유 | 이제 기록 공유를 활성화하여 큰 [!DNL Databricks] 테이블의 대상 소싱 성능을 향상시킬 수 있습니다. 이러한 성능 향상은 클라우드 간 공유에는 적용되지 않습니다. 자세한 내용은 [내역 공유 사용](../setup/configure-databricks-audience-sourcing.md#enable-history-sharing)을 참조하세요. |
+
+{style="table-layout:auto"}
+
+## 2026년 10월 {#october-2026}
+
+이제 Real-Time CDP Collaboration에서 ID 확인을 관리하고, 확장 대상을 만들고, 셀프서비스 광고 로그 소싱을 사용할 수 있습니다.
+
+| 기능 | 설명 |
+| ------- | ----------- |
+| Epsilon 코어 ID ID 확인 | 이제 조직에서 서로 다른 식별자를 사용하는 경우에도 공동 작업자와 공통된 사람을 식별할 수 있습니다. Epsilon Core ID를 사용하면 각 파트너에 대한 사용자 지정 통합을 구축하지 않고도 적격한 대상 데이터 연결에서 ID를 확인할 수 있습니다. 이 기능은 미국에서 프로비저닝된 Collaboration 계정에만 사용할 수 있습니다. 자세한 내용은 [ID 확인 설정 및 관리](../setup/identity-resolution.md)를 참조하십시오. |
+| 셀프서비스 광고 로그 소싱 | 이제 [!DNL Google Cloud Storage], [!DNL Azure Blob Storage] 또는 [!DNL Azure Data Lake Storage Gen2]에서 직접 광고 노출(광고 로그) 데이터를 소싱하여 캠페인 성과를 측정할 수 있습니다. 이렇게 하면 Adobe Experience Platform을 통해 광고 로그를 먼저 소스 처리해야 할 필요가 없어집니다. 자세한 내용은 [Google 클라우드 저장소 설정](../setup/configure-gcs-adlog-sourcing.md) 및 [Azure 저장소 설정](../setup/configure-azure-adlog-sourcing.md)을 참조하세요. |
+| [!BADGE Beta]{type=Informative} 대상 확장 | 이제 공동 작업자 모집단 내에서 기본 대상 데이터를 노출하지 않고도 소스 대상과 유사한 프로필을 찾을 수 있습니다. 이러한 프로필을 사용하여 새 잠재 고객을 위한 확장 대상을 만듭니다. 자세한 내용은 [확장 대상 만들기](../collaborate/expand.md)를 참조하십시오. |
+
+{style="table-layout:auto"}
 
 ## 2026년 8월 {#august-2026}
 
@@ -45,6 +66,7 @@ ht-degree: 4%
 
 | 기능 | 설명 |
 | ------- | ----------- |
+| [!UICONTROL 데이터 Collaboration]에 대한 추가 데이터 사용 레이블 | 이제 대상 소싱 중에 데이터 사용 제한을 적용하여 레이블이 지정된 민감하고 규제된 상태 데이터가 Collaboration으로 소싱되지 않도록 할 수 있습니다. 이제 [!UICONTROL 데이터 Collaboration] 마케팅 작업에서 S1, S2, PSPD 및 RHD 데이터 사용 레이블을 지원합니다. 기존 C4, C5 및 C9 레이블 지원은 변경되지 않습니다. 자세한 내용은 [대상 소싱 거버넌스](../setup/onboard-audiences.md#governance-policy-and-enforcement-actions)를 참조하십시오. |
 | [!DNL AMC] 측정 보고 | Collaboration에서 직접 [!DNL AMC] 데이터를 사용하여 Amazon 광고 캠페인의 성과를 측정합니다. [!DNL AMC] 프로젝트의 **[!UICONTROL 측정]** 탭에서 **캠페인 요약** 및 **속성** 보고서를 만들어 캠페인 성과를 평가하고 전환 속성을 이해할 수 있습니다. 자세한 내용은 [Amazon Marketing Cloud 측정 보고서 만들기](../collaborate/advertising-platforms/amc-measure.md)를 참조하십시오. |
 | 중첩된 프로필 속성에 대해 키 매핑 일치 | 이제 데이터를 병합하거나 미리 재구성하지 않고도 목록 기반 프로필 필드 내에 중첩된 필드(예: `devices` 배열 내의 장치 ID)에 일치 키를 매핑할 수 있습니다. Collaboration은 중첩 필드의 각 값을 개별적으로 일치시키고 계산합니다. 중첩된 필드는 현재 프로필 속성이 아닌 일치 키에 대해서만 지원됩니다. 자세한 내용은 [필드 매핑](../setup/onboard-audiences.md#map-fields)을 참조하세요. |
 | 배치 수준 전환 보고 | 이제 속성 보고서에는 Campaign ID 내의 각 배치 ID에 대한 전환 수 및 전환 값을 보여 주는 **배치별 전환** 테이블이 포함됩니다. 이렇게 하면 여러 배치가 있는 캠페인에 대해 별도의 결과를 얻을 수 있습니다. 명확성을 위해 이전 **[!UICONTROL 예상 매출]** 지표 레이블을 **[!UICONTROL 전환 값]**(으)로 업데이트했습니다. 자세한 내용은 [배치별 전환](../collaborate/measure.md#conversions-by-placement)을 참조하십시오. |
@@ -138,7 +160,7 @@ Real-Time CDP Collaboration은 이제 인터페이스에서 직접 기존 연결
 >
 >여러 일치 키가 사용되는 대상을 활성화할 때, 하나(또는 그 이상) 일치 키에 겹침이 없거나, 대상자 규모가 없거나, 임계값 미만이면 전체 활성화가 실패합니다. 활성화하기 전에 대상이 충분히 겹치고 모든 일치 키에서 최소 1000 ID 임계값을 충족하는지 확인하십시오.
 
-* 이제 Adobe Experience Platform 대상이 여러 일치 키로 대상 활성화를 지원합니다. 또한 이제 활성화 중에 전송되는 일치 키를 지정하기 위해 대상의 매핑을 구성할 때 연결된 키를 사용할 수 있습니다. 자세한 내용은 [Experience Platform 대상](../destinations/experience-platform.md#linked-keys) 안내서를 참조하십시오.
+* 이제 Adobe Experience Platform 대상이 여러 일치 키로 대상 활성화를 지원합니다. 또한 이제 대상의 매핑을 구성할 때 연결된 키를 사용하여 활성화 중에 전송되는 일치 키를 지정할 수 있습니다. 자세한 내용은 [Experience Platform 대상](../destinations/experience-platform.md#linked-keys) 안내서를 참조하십시오.
 * 이제 공동 작업자가 여러 대상을 한 번에 편집할 수 있습니다. 이제 일괄 편집 도구를 사용하여 여러 대상에 대한 대상 메타데이터, 연결 액세스, 이름, 설명 및 범주를 편집할 수 있습니다. 대상자 편집에 대한 자세한 내용은 [대상자 관리](../setup/onboard-audiences.md#edit-audiences) 안내서를 참조하십시오.
 
 ## 2025년 7월 {#july-2025}
