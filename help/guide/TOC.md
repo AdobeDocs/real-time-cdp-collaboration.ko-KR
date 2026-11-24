@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration은 광고주와 게시자 간 원활하고 안전한 데이터 공유 및 협업을 지원하여 실시간 대상자 인사이트 확보와 개인화된 마케팅 전략 수립을 지원해 줍니다.
-source-git-commit: 7d357938bfa89b8ce9a8633c6d09589c0c5762e5
+source-git-commit: 5ad6bc22bc2070de9adc9ce6256113aaeeac8fce
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 32%
+source-wordcount: '283'
+ht-degree: 33%
 ---
 
 # Real-Time CDP Collaboration {#using}
@@ -33,6 +33,7 @@ ht-degree: 32%
     * [대상 소싱을 위한 Snowflake 구성](./setup/configure-snowflake-audience-sourcing.md)
     * [대상 소싱을 위한 데이터베이스 델타 공유 구성](./setup/configure-databricks-audience-sourcing.md)
     * [대상 소싱을 위한 Adobe Audience Manager 구성](./setup/configure-aam-audience-sourcing.md)
+  * {hide-from-toc}[대상자 액세스 및 부여](./setup/virtual-audience-access.md)
   * [데이터 연결 관리](./setup/manage-data-connection.md)
   * [ID 확인 설정 및 관리](./setup/identity-resolution.md)
   * [크레딧 사용 활동 추적](/help/guide/setup/my-activity.md)
@@ -72,6 +73,7 @@ ht-degree: 32%
   * [클라우드 스토리지 대상 구성 및 관리](./destinations/manage-destinations.md)
   * [클라우드 스토리지 대상 요구 사항](./destinations/cloud-storage-destination-requirements.md)
   * [Adobe Experience Platform을 대상으로 구성](./destinations/experience-platform.md)
+  * {hide-from-toc}[직접 대상자 활성화(1P)](./destinations/direct-audience-activation.md)
 * 권한 {#permissions}
   * [개요](/help/guide/permissions/overview.md)
   * [사용자 액세스 관리](./permissions/manage-user-access.md)
