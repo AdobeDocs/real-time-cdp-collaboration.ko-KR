@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
 source-wordcount: '4152'
-ht-degree: 16%
+ht-degree: 17%
 ---
 # Source 및 대상자 관리
 
@@ -129,7 +129,7 @@ Experience Platform 설명서에서 데이터 사용 레이블에 대해 자세�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="대상 필드"
->abstract="대상 필드는 매핑된 소스 데이터가 Collaboration에서 사용되는 방식을 식별합니다. 계정 수준 일치 키는 기본적으로 사용할 수 있습니다. ID 확인에 사용되는 이름 및 우편 주소 필드는 데이터 연결 설정 중에 사용할 수 있으며 계정 수준 활성화가 필요하지 않습니다."
+>abstract="대상 필드는 매핑된 소스 데이터가 Collaboration에서 사용되는 방식을 나타냅니다. 계정 수준 일치 키는 기본적으로 사용할 수 있습니다. ID 확인에 사용되는 이름 및 우편 주소 필드는 데이터 연결 설정 중에 사용할 수 있으며 계정 수준 활성화가 필요하지 않습니다."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"

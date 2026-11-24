@@ -94,7 +94,7 @@ S3 데이터 연결을 구성하기 전에 다음을 확인하십시오.
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_sources_s3_folderpath"
 >title="폴더 경로 포맷"
->abstract="대상자 파일이 저장된 [!DNL Amazon S3] 버킷 내의 폴더 경로(접두사)를 입력합니다.<br><ul><li>슬래시(/)로 경로를 시작하지 마십시오.</li><li>경로 끝에 후행 슬래시를 포함하십시오.</li><ul><br>올바른 예: `base/path/`<br>잘못된 예: `/base/path`"
+>abstract="대상자 파일이 저장된 [!DNL Amazon S3] 버킷 내의 폴더 경로(접두사)를 입력합니다.<br><ul><li>슬래시(/)로 경로를 시작하지 마세요.</li><li>경로 끝에 후행 슬래시를 포함하십시오.</li><ul><br>올바른 예: `base/path/`<br>잘못된 예: `/base/path`"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_amazon_s3"
