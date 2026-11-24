@@ -94,7 +94,7 @@ S3 데이터 연결을 구성하기 전에 다음을 확인하십시오.
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_sources_s3_folderpath"
 >title="폴더 경로 포맷"
->abstract="대상자 파일이 저장된 [!DNL Amazon S3] 버킷 내의 폴더 경로(접두사)를 입력합니다.<br><ul><li>슬래시(/)로 경로를 시작하지 마십시오.</li><li>경로 끝에 후행 슬래시를 포함하십시오.</li><ul><br>올바른 예: `base/path/`<br>잘못된 예: `/base/path`"
+>abstract="대상자 파일이 저장된 [!DNL Amazon S3] 버킷 내의 폴더 경로(접두사)를 입력합니다.<br><ul><li>슬래시(/)로 경로를 시작하지 마세요.</li><li>경로 끝에 후행 슬래시를 포함하십시오.</li><ul><br>올바른 예: `base/path/`<br>잘못된 예: `/base/path`"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_amazon_s3"
@@ -103,7 +103,7 @@ S3 데이터 연결을 구성하기 전에 다음을 확인하십시오.
 
 그런 다음 S3 버킷을 Collaboration에 연결하기 위해 [!DNL Amazon S3] 자격 증명을 제공합니다.
 
-**[대상 소싱에 대한 AWS 권한 구성](./configure-aws-permissions-audience-sourcing.md)**&#x200B;에 설명된 단계에 따라 사용자에게 Adobe 액세스 권한을 부여합니다.
+**[대상 소싱에 대한 AWS 권한 구성](./configure-aws-permissions-audience-sourcing.md)**에 설명된 단계에 따라 사용자에게 Adobe 액세스 권한을 부여합니다.
 [!DNL Amazon S3] 저장소입니다. 완료되면 다음 UI 필드에 값을 입력합니다.
 
 * IAM 역할
